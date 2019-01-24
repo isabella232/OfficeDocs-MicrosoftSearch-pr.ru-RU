@@ -14,18 +14,20 @@ search.appverid:
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
 description: Узнайте, почему Microsoft Search intelligent корпоративного поиска для современных рабочее место.
-ms.openlocfilehash: 79a2974d036ea71b7b2d17bc8598f6070209c8b5
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: c75670a14f2d5382aa7dccbf38d65584a291d93f
+ms.sourcegitcommit: 4e04137c6ca05b64157561bd14ead89485bafe1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379164"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442299"
 ---
 # <a name="why-microsoft-search"></a>Причины для поиска Microsoft
 
 Преобразование сотрудников в вашей организации поиск информации с помощью Microsoft Search. 
   
 Поиск в корпоративной среде работать увеличения производительности и сохраняет времени, обеспечивая более точные результаты поиска о рабочем месте. Microsoft Search безопасно извлекает сведения из вашей компании, школа или организации —, таких как файлы, данные компании, сведения о людей и сайты — и результаты общедоступной сети и отображает их в себе.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2EWQN?autoplay=false]
   
 ## <a name="save-time-with-intelligent-search"></a>Экономия времени с помощью интеллектуального поиска
 

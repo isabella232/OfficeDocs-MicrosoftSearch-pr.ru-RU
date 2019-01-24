@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: 195160e7208366f761fa1dc17b28d0e5b100b090
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379143"
----
-# [Microsoft Search](microsoft-search.md)
+# Microsoft Search
 # [Обзор](why-microsoft-search.md)
 ## [Возможности](features.md)
 ## [Безопасность](security.md)
@@ -26,7 +18,7 @@ ms.locfileid: "29379143"
 ## [Набор по умолчанию браузера](set-default-browser.md)
 ## [Добавить поле поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
 ## [Планирование контента](plan-your-content.md)
-# [закладки;](create-and-manage-bookmarks.md)
+# закладки;
 ## [Создание закладки](create-bookmarks.md)
 ## [Управление закладками](manage-bookmarks.md)
 ## [Публикация закладки по умолчанию](publish-default-bookmarks.md)
@@ -37,17 +29,17 @@ ms.locfileid: "29379143"
 ## [Создание Q&As](create-qas.md)
 ## [Управление Q&As](manage-qas.md)
 ## [Массовое создание Q&As](bulk-create-qas.md)
-# [Расположения](locations.md)
+# Расположения
 ## [Добавление расположения](add-a-location.md)
 ## [Управление расположениями](manage-locations.md)
 ## [Массовое создание расположения](bulk-create-locations.md)
 # [Руководство пользователя внедрения](user-adoption-guide.md)
 # [Получите полезные сведения о](get-insights.md)
-# [Вопросы и ответы](faqs.md)
-# [Получение поддержки](get-support.md)
+# Вопросы и ответы
+# [Обратитесь в службу поддержки.](get-support.md))
 # [Применение](use/about-microsoft-search.md)
 ## [Как Microsoft Search отслеживает укажите сведения безопасности](use/how-microsoft-search-keeps-your-info-secure.md)
-## [Вход](use/sign-in.md)
+## Вход
 ## [Почему у меня автоматический вход?](use/why-am-i-automatically-signed-in.md)
 ## [Предлагаемые операций поиска](use/suggested-searches.md)
 ## [Поиск людей и групп](use/find-people-and-groups.md)
@@ -56,4 +48,4 @@ ms.locfileid: "29379143"
 ## [Поиск файлов](use/find-files.md)
 ## [Поиск бесед](use/find-conversations.md)
 ## [Поиск расположения](use/find-locations.md)
-## [Отправить отзыв](use/send-feedback.md)
+## Отправить отзыв

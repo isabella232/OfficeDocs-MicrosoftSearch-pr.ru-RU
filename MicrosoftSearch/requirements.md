@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
 description: Требования к Office 365 и подписки, которые необходимы для включения поиска Microsoft
-ms.openlocfilehash: 1e1ebd167ed91767d849187979cfe673273d9715
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 1cab7b7617eb965e1130f6b56c3a0169259f5b8e
+ms.sourcegitcommit: 4e04137c6ca05b64157561bd14ead89485bafe1e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379127"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442283"
 ---
 # <a name="requirements-for-microsoft-search"></a>Требования к Microsoft Search
 
@@ -68,7 +68,25 @@ ms.locfileid: "29379127"
 - Франция
     
 - Германия
+  
+- Испания
     
+- Мексика
+    
+- Италия
+    
+- Бразилия
+    
+- Нидерланды
+    
+- Россия
+    
+- Япония
+
+- Китай
+ 
+На данный момент Microsoft Search оптимизирован для английского языка. Полная поддержка других языков в ближайшее время.
+
 После включения продукт не является расположение обязательным для Microsoft Search Администраторы или пользователи. См [быстрого поиска Майкрософт](quick-set-up.md) для получения дополнительных сведений о включении его. 
 
   
