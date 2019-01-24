@@ -1,4 +1,4 @@
-# [Microsoft Search](microsoft-search.md)
+# Microsoft Search
 # [Обзор](why-microsoft-search.md)
 ## [Возможности](features.md)
 ## [Безопасность](security.md)
@@ -18,7 +18,7 @@
 ## [Набор по умолчанию браузера](set-default-browser.md)
 ## [Добавить поле поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
 ## [Планирование контента](plan-your-content.md)
-# [закладки;](create-and-manage-bookmarks.md)
+# закладки;
 ## [Создание закладки](create-bookmarks.md)
 ## [Управление закладками](manage-bookmarks.md)
 ## [Публикация закладки по умолчанию](publish-default-bookmarks.md)
@@ -29,17 +29,17 @@
 ## [Создание Q&As](create-qas.md)
 ## [Управление Q&As](manage-qas.md)
 ## [Массовое создание Q&As](bulk-create-qas.md)
-# [Расположения](locations.md)
+# Расположения
 ## [Добавление расположения](add-a-location.md)
 ## [Управление расположениями](manage-locations.md)
 ## [Массовое создание расположения](bulk-create-locations.md)
 # [Руководство пользователя внедрения](user-adoption-guide.md)
 # [Получите полезные сведения о](get-insights.md)
-# [Вопросы и ответы](faqs.md)
-# [Получение поддержки](get-support.md)
+# Вопросы и ответы
+# [Обратитесь в службу поддержки.](get-support.md))
 # [Применение](use/about-microsoft-search.md)
 ## [Как Microsoft Search отслеживает укажите сведения безопасности](use/how-microsoft-search-keeps-your-info-secure.md)
-## [Вход](use/sign-in.md)
+## Вход
 ## [Почему у меня автоматический вход?](use/why-am-i-automatically-signed-in.md)
 ## [Предлагаемые операций поиска](use/suggested-searches.md)
 ## [Поиск людей и групп](use/find-people-and-groups.md)
@@ -48,4 +48,4 @@
 ## [Поиск файлов](use/find-files.md)
 ## [Поиск бесед](use/find-conversations.md)
 ## [Поиск расположения](use/find-locations.md)
-## [Отправить отзыв](use/send-feedback.md)
+## Отправить отзыв
