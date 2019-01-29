@@ -1,5 +1,5 @@
 ---
-title: Задать домашнюю страницу по умолчанию
+title: Установка домашней страницы по умолчанию
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -7,21 +7,21 @@ ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Узнайте, как установить Bing в качестве главной страницы по умолчанию для поиска Microsoft для вашей организации.
-ms.openlocfilehash: 9190e607f5e17a0b898ab131886de12cb300a74c
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: db0611ebd7f4a8344664825bbb42025f3bb36486
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379120"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612492"
 ---
-# <a name="set-default-homepage"></a>Задать домашнюю страницу по умолчанию
+# <a name="set-default-homepage"></a>Установка домашней страницы по умолчанию
 
 Настройка браузера по умолчанию, поисковую систему по умолчанию и главной страницы по умолчанию поможет пользователям обнаружения возможностей поиска Microsoft, рекомендуем Дополнительные об использовании и предоставление облегчению интерфейса.
   

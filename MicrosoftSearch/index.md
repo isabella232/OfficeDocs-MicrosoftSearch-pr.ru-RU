@@ -8,13 +8,19 @@ ms.audience: Admin
 ms.topic: landing-page
 layout: LandingPage
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
-  - BFB160
-  - MET150
-  - MOE150
+- BFB160
+- MET150
+- MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: 'Поиск Microsoft — это обеспечения взаимодействия корпоративного поиска, который позволяет повысить производительность труда и сохраняет времени, обеспечивая более качественных результатов поиска для вашей организации'
+description: Поиск Microsoft — это обеспечения взаимодействия корпоративного поиска, который позволяет повысить производительность труда и сохраняет времени, обеспечивая более качественных результатов поиска для вашей организации
+ms.openlocfilehash: 1a50ff7a0ae3c2b86f3051ad4eeecb38a8a602a9
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612360"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -148,7 +154,7 @@ description: 'Поиск Microsoft — это обеспечения взаим�
                     <div class="cardText">
                         <p><a href="security.md">Безопасность</a></p>
                         <p><a href="requirements.md">Требования</a></p>  
-                        <p><a href="about-the-admin-portal.md">О портале администрирования</a></p>
+                        <p><a href="about-the-admin-portal.md">Сведения о Центре администрирования</a></p>
                     </div>
                 </div>
             </div>
@@ -160,7 +166,7 @@ description: 'Поиск Microsoft — это обеспечения взаим�
                 <div class="card">
                     <div class="cardText">
                         <p><a href="quick-set-up.md">Быстрая настройка</a></p>
-                        <p><a href="connected-services.md">Подключенных служб</a></p>
+                        <p><a href="connected-services.md">Подключенные службы</a></p>
                         <p><a href="set-up-microsoft-search.md">Настройка поиска Microsoft</a></p>
                     </div>
                 </div>
@@ -172,8 +178,8 @@ description: 'Поиск Microsoft — это обеспечения взаим�
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><a href="create-bookmarks.md">Создание закладки</a></p>
-                        <p><a href="create-qas.md">Создание Q&As</a></p>
+                        <p><a href="create-bookmarks.md">Создание закладок</a></p>
+                        <p><a href="create-qas.md">Создание вопросов и ответов</a></p>
                         <p><a href="add-users.md">Добавление пользователей</a></p>
                     </div>
                 </div>

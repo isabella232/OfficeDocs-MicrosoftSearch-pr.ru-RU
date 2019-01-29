@@ -1,5 +1,5 @@
 ---
-title: Планирование контента
+title: Планирование содержимого
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -7,21 +7,21 @@ ms.date: 12/18/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Предоставлять контент качества без необходимости дополнительных ресурсов при использовании Microsoft Search
-ms.openlocfilehash: dd7426e66b0143f1137a3f708515e931bfaae459
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 898ba99ebf4751c47da96b23d6cb9bac058f6ffd
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379163"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612484"
 ---
-# <a name="plan-your-content"></a>Планирование контента
+# <a name="plan-your-content"></a>Планирование содержимого
 
 Перед планированием контента, общие сведения о можно добавить к Microsoft Search будут полезны для:
   

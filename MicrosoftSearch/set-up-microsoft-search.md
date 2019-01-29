@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
 description: Все сведения, необходимые для развертывания Microsoft Search для вашей организации
-ms.openlocfilehash: 0a9a37577d4c5cda98c51499994dc402e9ac8953
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 7e58d6df8d2ae35aab7d24c05b487f626b5f5c1c
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379137"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612404"
 ---
 # <a name="set-up-microsoft-search"></a>Настройка поиска Microsoft
 
@@ -29,7 +29,7 @@ ms.locfileid: "29379137"
     
     Выполнить четыре действия, чтобы быстро включить Microsoft Search
 
-- [Параметры контента](content-settings.md)
+- [Параметры содержимого](content-settings.md)
     
     Элемент управления внешний вид и функции результатов поиска Microsoft
     
@@ -37,7 +37,7 @@ ms.locfileid: "29379137"
     
     Управление доступ к порталу для администраторов и редакторов и предоставить или ограничить доступ к Microsoft Search вашей организации
     
-- [Администрирование портала](admin-portal-tools.md)
+- [Средства портала администрирования](admin-portal-tools.md)
     
     Использование расширения обозревателя и других средств для создания и импорта контента, сократить количество раз, когда пользователям предлагается выполнять вход и рабочих результаты поиска в Bing
     
