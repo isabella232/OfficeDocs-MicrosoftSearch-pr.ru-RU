@@ -1,5 +1,5 @@
 ---
-title: О Microsoft Search
+title: О Поиске (Майкрософт)
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,57 +12,57 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: b453e6f0-10cf-4384-9914-241f425cd5f9
-description: Обзор всех данных, которые можно найти при использовании Microsoft Search
+description: Получите общие сведения обо всей информации, которую можно найти при использовании Поиска (Майкрософт)
 ms.openlocfilehash: f5a9656144efad8c6e146f6654ebc9f69f1b1843
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612380"
 ---
-# <a name="about-microsoft-search"></a><span data-ttu-id="686d3-103">О Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="686d3-103">About Microsoft Search</span></span>
+# <a name="about-microsoft-search"></a><span data-ttu-id="56b90-103">О Поиске (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="56b90-103">About Microsoft Search</span></span>
 
-<span data-ttu-id="686d3-p101">Microsoft Search минимальных затратах усилий сводит поиск работы и веб-сайта в один интерфейс. Используйте Microsoft Search для простой, fast, эффективным и более безопасным способом для получения необходимой информации в нужное время в любой браузер и на любом устройстве.</span><span class="sxs-lookup"><span data-stu-id="686d3-p101">Microsoft Search effortlessly brings searching work and the web together in one experience. Use Microsoft Search for a simple, fast, powerful, and safer way to get the right information at the right time in any browser and on any device.</span></span>
+<span data-ttu-id="56b90-p101">Поиск (Майкрософт) легко объединяет поиск в Интернете и рабочем пространстве в одном интерфейсе. Поиск (Майкрософт) обеспечивает простой, быстрый, эффективный и надежный способ получения нужных сведений в нужное время в любом браузере и на любом устройстве.</span><span class="sxs-lookup"><span data-stu-id="56b90-p101">Microsoft Search effortlessly brings searching work and the web together in one experience. Use Microsoft Search for a simple, fast, powerful, and safer way to get the right information at the right time in any browser and on any device.</span></span>
   
-<span data-ttu-id="686d3-p102">Выполняется ли поиск для людей, файлы, организационные диаграммы, внутренние узлы и ресурсы или ответы на часто задаваемые вопросы, можно с помощью Microsoft Search во всем своего рабочего дня для более быстрого ответы, повысить производительность и рабочих рационально. Для получения результатов рабочих, перейдите к [bing.com/business](https://www.bing.com/business), вход с помощью рабочих или школа учетной записи и поиска.</span><span class="sxs-lookup"><span data-stu-id="686d3-p102">Whether you're searching for people, files, org charts, internal sites and resources, or answers to common questions, you can use Microsoft Search throughout your work day to get answers faster, be more productive, and work smarter. To get work results, just go to [bing.com/business](https://www.bing.com/business), sign in with your work or school account, and search.</span></span> 
+<span data-ttu-id="56b90-p102">Если вы ищете людей, файлы, организационные диаграммы, внутренние сайты и ресурсы или ответы на общие вопросы, вы можете использовать Поиск (Майкрософт) в течение рабочего дня, чтобы быстрее получать ответы, повышать производительность и эффективность работы. Чтобы получить результаты, связанные с работой, просто перейдите на страницу [bing.com/business](https://www.bing.com/business), войдите с помощью своей рабочей или учебной учетной записи и выполните поиск.</span><span class="sxs-lookup"><span data-stu-id="56b90-p102">Whether you're searching for people, files, org charts, internal sites and resources, or answers to common questions, you can use Microsoft Search throughout your work day to get answers faster, be more productive, and work smarter. To get work results, just go to [bing.com/business](https://www.bing.com/business), sign in with your work or school account, and search.</span></span> 
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AA2W?autoplay=false]
 
-## <a name="what-you-can-find"></a><span data-ttu-id="686d3-108">Можно найти</span><span class="sxs-lookup"><span data-stu-id="686d3-108">What you can find</span></span>
+## <a name="what-you-can-find"></a><span data-ttu-id="56b90-108">Что можно найти</span><span class="sxs-lookup"><span data-stu-id="56b90-108">What you can find</span></span>
   
-<span data-ttu-id="686d3-109">Использование поиска Microsoft для поиска:</span><span class="sxs-lookup"><span data-stu-id="686d3-109">Use Microsoft Search to find:</span></span>
+<span data-ttu-id="56b90-109">С помощью Поиска (Майкрософт) можно находить:</span><span class="sxs-lookup"><span data-stu-id="56b90-109">Use Microsoft Search to find:</span></span>
   
-- [<span data-ttu-id="686d3-110">Люди</span><span class="sxs-lookup"><span data-stu-id="686d3-110">People</span></span>](find-people-and-groups.md)
+- [<span data-ttu-id="56b90-110">Людей</span><span class="sxs-lookup"><span data-stu-id="56b90-110">People</span></span>](find-people-and-groups.md)
     
-    <span data-ttu-id="686d3-111">Легко найти сведения о контакте, предстоящие собрания, которые у вас есть друг с другом, Организационная диаграмма сведений, членство в группах и другие файлы</span><span class="sxs-lookup"><span data-stu-id="686d3-111">Easily find contact info, upcoming meetings you have together, org chart details, group memberships, and other files</span></span>
+    <span data-ttu-id="56b90-111">Легко находите контактные данные, предстоящие совместные собрания, сведения об организационной диаграмме, участие в группах и другие файлы</span><span class="sxs-lookup"><span data-stu-id="56b90-111">Easily find contact info, upcoming meetings you have together, org chart details, group memberships, and other files</span></span>
     
-- [<span data-ttu-id="686d3-112">Группы</span><span class="sxs-lookup"><span data-stu-id="686d3-112">Groups</span></span>](find-people-and-groups.md)
+- [<span data-ttu-id="56b90-112">Группы</span><span class="sxs-lookup"><span data-stu-id="56b90-112">Groups</span></span>](find-people-and-groups.md)
     
-    <span data-ttu-id="686d3-113">Найдите группу по его имени или членов, ознакомьтесь с группами, к которому относится пользователь и обзор их общего содержимого</span><span class="sxs-lookup"><span data-stu-id="686d3-113">Find a group by its name or members, explore groups a person belongs, and browse their shared content</span></span>
+    <span data-ttu-id="56b90-113">Находите группы по названию или участникам, изучайте группы, в которых состоит пользователь, и просматривайте его общее содержимое</span><span class="sxs-lookup"><span data-stu-id="56b90-113">Find a group by its name or members, explore groups a person belongs, and browse their shared content</span></span>
     
-- [<span data-ttu-id="686d3-114">Ресурсы и средства</span><span class="sxs-lookup"><span data-stu-id="686d3-114">Resources and tools</span></span>](find-resources-tools-and-more.md)
+- [<span data-ttu-id="56b90-114">Ресурсы и средства</span><span class="sxs-lookup"><span data-stu-id="56b90-114">Resources and tools</span></span>](find-resources-tools-and-more.md)
     
-    <span data-ttu-id="686d3-115">Легко найти внутренних ресурсов, средств и др.</span><span class="sxs-lookup"><span data-stu-id="686d3-115">Easily locate internal resources, tools, and more</span></span>
+    <span data-ttu-id="56b90-115">Легко находите внутренние ресурсы, средства и многое другое</span><span class="sxs-lookup"><span data-stu-id="56b90-115">Easily locate internal resources, tools, and more</span></span>
     
-- [<span data-ttu-id="686d3-116">Сайты SharePoint</span><span class="sxs-lookup"><span data-stu-id="686d3-116">SharePoint sites</span></span>](find-sharepoint-sites.md)
+- [<span data-ttu-id="56b90-116">Сайты SharePoint</span><span class="sxs-lookup"><span data-stu-id="56b90-116">SharePoint sites</span></span>](find-sharepoint-sites.md)
     
-    <span data-ttu-id="686d3-117">Найдите сайты SharePoint или сайтов SharePoint, созданные группы или сотрудников, имеющих разрешение на просмотр</span><span class="sxs-lookup"><span data-stu-id="686d3-117">Find your SharePoint sites or SharePoint sites created by groups or co-workers that you have permission to view</span></span>
+    <span data-ttu-id="56b90-117">Находите свои сайты SharePoint или сайты SharePoint, созданные группами или коллегами, которые вам разрешено просматривать</span><span class="sxs-lookup"><span data-stu-id="56b90-117">Find your SharePoint sites or SharePoint sites created by groups or co-workers that you have permission to view</span></span>
     
-- [<span data-ttu-id="686d3-118">Файлы</span><span class="sxs-lookup"><span data-stu-id="686d3-118">Files</span></span>](find-files.md)
+- [<span data-ttu-id="56b90-118">Файлы</span><span class="sxs-lookup"><span data-stu-id="56b90-118">Files</span></span>](find-files.md)
     
-    <span data-ttu-id="686d3-119">Быстро найти собственные файлы или контент, созданный с сотрудниками, которые у вас есть разрешение на просмотр или изменение</span><span class="sxs-lookup"><span data-stu-id="686d3-119">Quickly find your own files, or content created by co-workers that you have permission to view or edit</span></span>
+    <span data-ttu-id="56b90-119">Быстро находите собственные файлы или контент, созданный коллегами, который вам разрешено просматривать или изменять</span><span class="sxs-lookup"><span data-stu-id="56b90-119">Quickly find your own files, or content created by co-workers that you have permission to view or edit</span></span>
     
-- [<span data-ttu-id="686d3-120">Беседы</span><span class="sxs-lookup"><span data-stu-id="686d3-120">Conversations</span></span>](find-conversations.md)
+- [<span data-ttu-id="56b90-120">Беседы</span><span class="sxs-lookup"><span data-stu-id="56b90-120">Conversations</span></span>](find-conversations.md)
     
-    <span data-ttu-id="686d3-121">Найдите вашей частной группами Майкрософт или Microsoft Yammer бесед или диалогов между сотрудниками, у вас есть разрешение на просмотр</span><span class="sxs-lookup"><span data-stu-id="686d3-121">Find your private Microsoft Teams or Microsoft Yammer conversations or conversations between co-workers you have permission to view</span></span>
+    <span data-ttu-id="56b90-121">Находите личные беседы Microsoft Teams и Microsoft Yammer или беседы между коллегами, которые вам разрешено просматривать</span><span class="sxs-lookup"><span data-stu-id="56b90-121">Find your private Microsoft Teams or Microsoft Yammer conversations or conversations between co-workers you have permission to view</span></span>
     
-- [<span data-ttu-id="686d3-122">Расположения</span><span class="sxs-lookup"><span data-stu-id="686d3-122">Locations</span></span>](find-locations.md)
+- [<span data-ttu-id="56b90-122">Расположения</span><span class="sxs-lookup"><span data-stu-id="56b90-122">Locations</span></span>](find-locations.md)
     
-    <span data-ttu-id="686d3-123">Результаты поиска карты адреса зданий, офисы, необязательно и ряд других, легко найти и возможности рядом</span><span class="sxs-lookup"><span data-stu-id="686d3-123">Find map results and addresses for buildings, offices, campuses, and more, easily get directions, and see what's nearby</span></span>    
+    <span data-ttu-id="56b90-123">Находите результаты на карте, а также адреса зданий, офисов, комплексов и многое другое, легко находите маршруты и знакомьтесь с окрестностями</span><span class="sxs-lookup"><span data-stu-id="56b90-123">Find map results and addresses for buildings, offices, campuses, and more, easily get directions, and see what's nearby</span></span>    
     
-<span data-ttu-id="686d3-p103">Можно просматривать только работы результатов после входа для Bing с помощью учетной записи рабочего или школы. Это же учетная запись, используемая для входа в Outlook на веб-сайта, SharePoint и другие приложения Office 365.</span><span class="sxs-lookup"><span data-stu-id="686d3-p103">You can only see work results when you're signed in to Bing with your work or school account. This is the same account you use to sign in to Outlook on the web, SharePoint, and other Office 365 apps.</span></span> 
+<span data-ttu-id="56b90-p103">Результаты, связанные с работой, можно увидеть только при входе в Bing с помощью рабочей или учебной учетной записи. Эта та учетная запись, которую вы используете для входа в Outlook в Интернете, SharePoint и другие приложения Office 365. </span><span class="sxs-lookup"><span data-stu-id="56b90-p103">You can only see work results when you're signed in to Bing with your work or school account. This is the same account you use to sign in to Outlook on the web, SharePoint, and other Office 365 apps.</span></span> 
   
-<span data-ttu-id="686d3-p104">Microsoft Search будет возвращать только сведения и файлы, имеющие разрешения на просмотр. Так как созданные файлы или сведения о, они предоставили с вами или с более высокой группы, которая включает в себя вы или они хранятся в папках или расположения, в которых у вас есть разрешения на доступ к может иметь разрешение.</span><span class="sxs-lookup"><span data-stu-id="686d3-p104">Microsoft Search will only return information and files that you have permission to see. You may have permission because you created the files or information, they've been shared with you or with a larger group that includes you, or they're stored in folders or locations that you have permission to access.</span></span>
+<span data-ttu-id="56b90-p104">Поиск (Майкрософт) возвращает только те сведения и файлы, которые вам разрешено просматривать. Возможные причины наличия разрешения: файлы или данные созданы вами, ими поделились с вами или с группой, в которую вы входите, либо они хранятся в папках или расположениях, к которым у вас есть разрешение на доступ.</span><span class="sxs-lookup"><span data-stu-id="56b90-p104">Microsoft Search will only return information and files that you have permission to see. You may have permission because you created the files or information, they've been shared with you or with a larger group that includes you, or they're stored in folders or locations that you have permission to access.</span></span>
 
   
 
