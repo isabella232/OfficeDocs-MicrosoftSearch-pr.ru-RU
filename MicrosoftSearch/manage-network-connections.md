@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
-description: Добавьте следующие URL-адреса и домены в брандмауэр белый список, пользователям легко получить доступ к Microsoft Search
+description: Добавьте эти URL-адреса и домены в список разрешений вашего брандмауэра, чтобы пользователи могли легко получать доступ к Поиску (Майкрософт)
 ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612548"
 ---
 # <a name="manage-network-connections"></a>Управление сетевыми подключениями
 
-Чтобы убедиться, что пользователи могут подключаться к Microsoft Search конечных точек, добавьте списки разрешенных этих URL-адресов для брандмауэра.
+Чтобы убедиться, что вы и ваши пользователи можете подключаться к конечным точкам для Поиска (Майкрософт), добавьте эти URL-адреса в список разрешенных вашего брандмауэра.
   
-## <a name="for-the-microsoft-search-admin-portal"></a>Для администрирования поиска Microsoft портала:
+## <a name="for-the-microsoft-search-admin-portal"></a>Для портала администрирования Поиска (Майкрософт):
 
 - `www.bingatwork.com`
     
@@ -39,7 +39,7 @@ ms.locfileid: "29612548"
     
 - `\*.bingforbusiness.com`
     
-## <a name="for-microsoft-search-in-bing"></a>Microsoft поиска в Bing:
+## <a name="for-microsoft-search-in-bing"></a>Для Поиска (Майкрософт) в Bing:
 
 - `business.bing.com`
     

@@ -13,51 +13,51 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
-description: Получите ответы на часто задаваемые вопросы о поиска в корпоративной среде и Microsoft Search
+description: Получите ответы на часто задаваемые вопросы о поиске в корпоративной среде и Поиске (Майкрософт)
 ms.openlocfilehash: ed4179262dc20a441ce5e3acadc895bacb271fa9
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612513"
 ---
 # <a name="faqs"></a>Вопросы и ответы
 
-Далее представлены часто задаваемые вопросы, которые имеют организации и пользователей об администрировании и использовании Microsoft Search.
+Ниже указаны часто задаваемые вопросы, возникающие у организаций и пользователей об администрировании и использовании Поиска (Майкрософт).
   
-## <a name="whats-the-value-proposition-for-microsoft-search"></a>Что такое достоинства для Microsoft Search
+## <a name="whats-the-value-proposition-for-microsoft-search"></a>Какими преимуществами обладает Поиск (Майкрософт)?
 
-Microsoft Search является безопасным способом для поиска работы и веб-контентом. Этот тип интеграции между веб-серверы и enterprise доступна только с корпорацией Майкрософт. Данные, связанные с соответствием требованиям [безопасности для поиска Microsoft](security.md)см.
+Поиск (Майкрософт) — это безопасный способ поиска содержимого в организации и Интернете. Подобная интеграция Интернета и корпоративного раздела доступна только с корпорацией Майкрософт. Сведения, связанные с соответствием требованиям, см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="what-microsoft-search-features-are-available-now"></a>Какие функции поиска Microsoft теперь доступны?
+## <a name="what-microsoft-search-features-are-available-now"></a>Какие возможности Поиска (Майкрософт) доступны в настоящее время?
 
-Полный список в разделе [Функции поиска Microsoft](features.md).
+Полный список см. в статье [Возможности Поиска (Майкрософт)](features.md).
   
-## <a name="does-microsoft-search-support-advanced-query-understanding"></a>Общее представление о запроса поддержки расширенного поиска Microsoft означает?
+## <a name="does-microsoft-search-support-advanced-query-understanding"></a>Поддерживает ли Поиск (Майкрософт) расширенное понимание запросов?
 
-Да, Microsoft Search анализирует цель запроса из большего фраз. Эта функция использует AI узнать распространенных пользователи избыточным фраз добавить в свои запросы, которые не влиять на свои цели поиска. К примеру когда пользователь выполняет поиск «Дополнительные сведения о том, как можно изменить пароль» мы извлечения менее важных ключевых слов из запроса и триггер на основе соответствующих существующих как «изменить пароль».
+Да, Поиск (Майкрософт) выделяет цель запроса из больших фраз. Эта функция использует ИИ для изучения распространенных избыточных фраз, которые добавляются пользователями в запросы и не влияют на цель поиска. Например, когда пользователь выполняет поиск по запросу "дополнительные сведения о том, как изменить пароль", менее важные слова извлекаются из запроса, и вызов результата осуществляется с учетом релевантных слов, таких как "изменить пароль".
   
-Этот компонент не будет переопределять набор ключевых слов в портал администрирования.
+Эта функция не имеет приоритета над набором ключевых слов на портале администрирования.
   
-## <a name="does-microsoft-search-search-for-files-on-premises-as-well-as-the-cloud"></a>Microsoft Search поиск файлов в локальной, а также облаке?
+## <a name="does-microsoft-search-search-for-files-on-premises-as-well-as-the-cloud"></a>Ищет ли Поиск (Майкрософт) файлы в локальной среде и облаке?
 
-Microsoft Search поддерживает поиск документов, которые динамически доступны на SharePoint Online, OneDrive для бизнеса, а также через гибридные локального SharePoint и SharePoint Online для наиболее распространенные типы файлов Office. Если можно выполнить поиск локального контента в SharePoint Online, можно будет найти локального контента с помощью Microsoft Search. 
+Поиск (Майкрософт) поддерживает поиск документов, которые находятся в SharePoint Online, OneDrive для бизнеса, а также гибридной конфигурации локальной среды SharePoint и SharePoint Online для наиболее распространенных типов файлов Office. Если вы можете выполнять поиск локального контента в SharePoint Online, вы сможете находить контент с помощью Поиска (Майкрософт).  
   
-## <a name="does-microsoft-search-replace-other-enterprise-search-experiences"></a>Microsoft Search заменяет другие интерфейсы поиска предприятия?
+## <a name="does-microsoft-search-replace-other-enterprise-search-experiences"></a>Заменяет ли Поиск (Майкрософт) другие корпоративные интерфейсы поиска?
 
-Microsoft Search — это дополнительная предложения, который объединяет результаты из нескольких источников. Дополнительные сведения о поддерживаемых типов файлов и источников см.
+Поиск (Майкрософт) является дополнительным предложением, в котором объединены результаты из нескольких источников. Дополнительные сведения о поддерживаемых типах файлов и источниках см. в следующем вопросе и ответе.
   
-## <a name="what-file-types-and-sources-does-microsoft-search-support"></a>Какие типы файлов и источников Microsoft Search поддерживает?
+## <a name="what-file-types-and-sources-does-microsoft-search-support"></a>Какие типы файлов и источники поддерживает Поиск (Майкрософт)?
 
-Мы поддерживают следующие источники контента.
+Поддерживаются следующие источники контента:
   
 - SharePoint Online
     
-- Гибридные SharePoint (локальной + SPO)
+- Гибридная среда SharePoint (локальная среда + SPO)
     
 - OneDrive для бизнеса
     
-Следующие типы файлов размещаются в файл поиска и отображаются на вкладке файлы люди и группы:
+Перечисленные ниже типы файлов отображаются при поиске файлов и выводятся на вкладке "Файлы" для людей и групп:
   
 - Word
     
@@ -69,77 +69,77 @@ Microsoft Search — это дополнительная предложения,
     
 - PDF
     
-## <a name="what-compliance-and-trust-measures-are-in-place-for-microsoft-search"></a>Соответствие требованиям и доверия меры Каковы на месте для Microsoft Search
+## <a name="what-compliance-and-trust-measures-are-in-place-for-microsoft-search"></a>Какие меры по обеспечению соответствия требованиям и безопасности применены в Поиске (Майкрософт)?
 
-Сведения о соответствия требованиям и меры доверия см [для Microsoft Search](security.md).
+Сведения о мерах по обеспечению соответствия требованиям и безопасности см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="where-can-i-get-info-about-office-365-compliance-tierscategories"></a>Где можно получить сведения об Office 365 соответствия уровней/категорий
+## <a name="where-can-i-get-info-about-office-365-compliance-tierscategories"></a>Где можно получить дополнительные сведения об уровнях и категориях соответствия требованиям в Office 365?
 
-Подробные сведения можно найти в [Структуру соответствия требованиям для действие экспортного отраслевых стандартов](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (ФАЙЛ для загрузки). 
+Подробные сведения можно найти в статье [Инфраструктура соответствия отраслевым стандартам и нормативным требованиям](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (скачать PDF). 
   
-## <a name="how-does-microsoft-search-keep-results-secure"></a>Как Microsoft Search безопасность результаты?
+## <a name="how-does-microsoft-search-keep-results-secure"></a>Как Поиск (Майкрософт) обеспечивает защиту результатов?
 
-Сведения о как сохраняет результаты поиска Microsoft безопасного см [безопасности для Microsoft Search](security.md).
+Сведения о том, как Поиск (Майкрософт) обеспечивает защиту результатов см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="what-are-the-content-sources-for-the-people-card"></a>Что такое источников контента для карточка контакта
+## <a name="what-are-the-content-sources-for-the-people-card"></a>Что является источником контента для карточки "Люди"?
 
-Карточка контакта является производным сведения из Azure Active Directory, Exchange Online и SharePoint Online.
+Карточка "Люди" получает сведения из Azure Active Directory, Exchange Online и SharePoint Online.
   
-## <a name="do-microsoft-search-users-earn-microsoft-rewards"></a>Поиск Microsoft пользователей получить преимущества Microsoft?
+## <a name="do-microsoft-search-users-earn-microsoft-rewards"></a>Получают ли пользователи Поиска (Майкрософт) вознаграждения по программе Microsoft Rewards?
 
-Операций поиска Microsoft Search не получите Вознаграждениями точек и не связаны с пользовательской учетной записи Майкрософт.
+Поисковые запросы в Поиске (Майкрософт) не приносят очков вознаграждения и никогда не соотносятся с пользовательской учетной записью Майкрософт.
   
-## <a name="does-microsoft-search-respect-existing-file-permissions"></a>Microsoft Search обеспечивается существующих разрешений файлов?
+## <a name="does-microsoft-search-respect-existing-file-permissions"></a>Соблюдает ли Поиск (Майкрософт) существующие разрешения для файлов?
 
-Microsoft Search учитывает ли это фильтрация по ролям безопасности из источника. Пользователи могут видеть только сведения, которые получают доступ.
+Поиск (Майкрософт) соблюдает фильтрацию по ролям безопасности с исходного сайта. Пользователи могут просматривать только те сведения, к которым они имеют доступ.
   
-## <a name="how-are-user-queries-protected-from-sharing-on-the-web"></a>Как запросы пользователей защищены от общего доступа в Интернете
+## <a name="how-are-user-queries-protected-from-sharing-on-the-web"></a>Как запросы пользователей защищены от передачи в Интернет?
 
-Сведения о как защищенные пользовательских запросов содержатся [безопасности для Microsoft Search](security.md).
+Сведения о том, как защищены запросы пользователей, см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="what-types-of-advertising-do-microsoft-search-users-see"></a>Какие типы рекламы видите Microsoft Search пользователей?
+## <a name="what-types-of-advertising-do-microsoft-search-users-see"></a>Какие типы рекламы видят пользователи Поиска (Майкрософт)?
 
-Сведения о рекламы содержатся [безопасности для Microsoft Search](security.md).
+Сведения о рекламе см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="what-are-the-minimum-requirements-to-enable-microsoft-search"></a>Что такое минимальные требования для включения поиска Microsoft
+## <a name="what-are-the-minimum-requirements-to-enable-microsoft-search"></a>Каковы минимальные требования для включения Поиска (Майкрософт)?
 
-Сведения о требованиях к содержатся [требования к Microsoft Search](requirements.md).
+Сведения о требованиях см. в статье [Требования для Поиска (Майкрософт)](requirements.md).
   
-## <a name="how-does-microsoft-search-use-azure-active-directory"></a>Как Microsoft Search использовать Azure Active Directory?
+## <a name="how-does-microsoft-search-use-azure-active-directory"></a>Каким образом Поиск (Майкрософт) использует Azure Active Directory?
 
-Microsoft Search использует Azure Active Directory для проверки подлинности и авторизации доступа к данным вашей компании. Microsoft Search соответствует удостоверения, обработка стандартный рекомендациям во всех продуктах Microsoft. Это означает, что пользователи могут быть автоматический вход через единого входа. 
+Поиск (Майкрософт) использует Azure Active Directory для проверки подлинности и разрешения доступа к данным вашей организации. Поиск (Майкрософт) соответствует стандартным рекомендациям обработки удостоверений для всех продуктов Майкрософт. Это означает, что пользователи могут автоматически входить с помощью единого входа.  
   
-## <a name="how-do-i-set-bing-as-the-default-search-provider-for-my-users"></a>Как установить Bing как службы поиска по умолчанию для личных пользователей?
+## <a name="how-do-i-set-bing-as-the-default-search-provider-for-my-users"></a>Как установить Bing в качестве поставщика поиска по умолчанию для пользователей?
 
-Сведения об этом разделе [набор поисковой системы по умолчанию](set-default-search-engine.md), [Задайте главной страницы по умолчанию](set-default-homepage.md)и [набор браузера по умолчанию](set-default-browser.md).
+Сведения об этом см. в статьях [Установка поисковой системы по умолчанию](set-default-search-engine.md), [Установка домашней страницы по умолчанию](set-default-homepage.md) и [Установка браузера по умолчанию](set-default-browser.md).
   
-## <a name="does-microsoft-search-provide-search-results-across-tenants"></a>Microsoft Search предоставляет результаты поиска клиентов?
+## <a name="does-microsoft-search-provide-search-results-across-tenants"></a>Предоставляет ли Поиск (Майкрософт) результаты поиска в другие клиенты?
 
-Нет, на нескольких клиента или клиента, общего доступа не поддерживается. 
+Нет, доступ между клиентами или общий клиентский доступ не поддерживается.  
   
-## <a name="where-can-i-get-help-with-keywords-and-reserved-keywords"></a>Где можно получить помощь с ключевыми словами и зарезервированные слова
+## <a name="where-can-i-get-help-with-keywords-and-reserved-keywords"></a>Где можно получить справку о ключевых и зарезервированных словах?
 
-Сведения об использовании ключевые слова и зарезервированные слова в разделе [Планирование содержимого](plan-your-content.md).
+Сведения об использовании ключевых слов и зарезервированных ключевых слов см. в статье [Планирование контента](plan-your-content.md).
   
-## <a name="which-office-365-skus-are-supported"></a>Какие номера SKU Office 365, поддерживаются?
+## <a name="which-office-365-skus-are-supported"></a>Какие SKU Office 365 поддерживаются?
 
-Сведения о поддерживаемых номера SKU содержатся [требования к Microsoft Search](requirements.md).
+Сведения о поддерживаемых SKU см. в статье [Требования для Поиска (Майкрософт)](requirements.md).
   
-## <a name="is-microsoft-search-gdpr-compliant"></a>Соответствует GDPR поиска Microsoft?
+## <a name="is-microsoft-search-gdpr-compliant"></a>Соответствует ли Поиск (Майкрософт) требованиям GDPR?
 
-Сведения о совместимости GDPR видеть [безопасности для Microsoft Search](security.md).
+Сведения о соответствии требованиям GDPR см. в статье [Безопасность для Поиска (Майкрософт)](security.md).
   
-## <a name="why-am-i-signed-into-bing-automatically"></a>Почему am я вошел в Bing автоматически?
+## <a name="why-am-i-signed-into-bing-automatically"></a>Почему я вхожу в Bing автоматически?
 
-Microsoft Search использует AAD единого входа для автоматически вход работу или школе учетной записи, когда вы входить в систему приложения Office 365 или Windows 10. Выход можно в любое время.
+Поиск (Майкрософт) использует единый вход AAD, чтобы вы автоматически выполняли вход с использованием рабочей или учебной учетной записи, если вы уже вошли в приложение Office 365 или Windows 10. Вы можете выполнить выход в любое время.
   
-## <a name="what-is-bing-for-business"></a>Что такое Bing для бизнеса
+## <a name="what-is-bing-for-business"></a>Что такое Bing для бизнеса?
 
-Microsoft Search ранее вызван Bing для бизнеса.
+Поиск (Майкрософт) раньше назывался Bing для бизнеса.
   
-## <a name="how-does-microsoft-search-order-result-cards-in-the-all-results-carousel"></a>Как Microsoft Search заказ карточек результатов в все карусели результаты?
+## <a name="how-does-microsoft-search-order-result-cards-in-the-all-results-carousel"></a>Как Поиск (Майкрософт) упорядочивает карточки результатов в карусели всех результатов?
 
-Microsoft Search использует intelligent ранжирования алгоритмы для упорядочивания результатов платы на релевантности.
+Поиск (Майкрософт) использует интеллектуальные алгоритмы ранжирования, чтобы упорядочить карточки результатов на основе релевантности.
 
   
 
