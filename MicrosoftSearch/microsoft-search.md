@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: Поиск Microsoft — это обеспечения взаимодействия корпоративного поиска, который позволяет повысить производительность труда и сохраняет времени, обеспечивая более качественных результатов поиска для вашей организации
-ms.openlocfilehash: 9ef8153979a31bbcb2ed6014055e99dc8dbc793a
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Microsoft Search — это опыт поиска в корпоративной среде, который повышает производительность и экономит время за счет предоставления более релевантных результатов поиска в Организации
+ms.openlocfilehash: 4d3e3edd64d527121c1e4aee30376b15ca0c2e60
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29379129"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746401"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -45,8 +45,8 @@ ms.locfileid: "29379129"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Причины для поиска Microsoft</h2>
-                        <p>Получение обеспечения взаимодействия корпоративного поиска, который позволяет повысить производительность труда и сохраняет времени, обеспечивая более качественных результатов поиска для вашей организации</p>
+                        <h2>Почему Поиск (Майкрософт)</h2>
+                        <p>Узнайте, как использовать возможности поиска в корпоративной среде, чтобы повысить производительность и сэкономить время, дополняя более релевантные результаты поиска в Организации.</p>
                         <p><a href="why-microsoft-search.md">Подробнее...</a></p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ ms.locfileid: "29379129"
     </li>
 </ul>
 
-<h2>Разделы</h2>
+<h2>Рекомендуемые темы</h2>
 
 <ul class="panelContent cardsW">
     <li>
@@ -69,7 +69,7 @@ ms.locfileid: "29379129"
                     </div>
                     <div class="cardText">
                         <h3>Основные функции</h3>
-                        <p>Узнать, какие функции для администраторов и пользователей, включая, что вы найдете, при выполнении поиска</p>
+                        <p>Узнайте, какие функции доступны для администраторов и пользователей, включая то, что вы ищете при поиске.</p>
                         <p><a href="features.md">Дополнительные сведения</a></p>
                     </div>
                 </div>
@@ -86,9 +86,9 @@ ms.locfileid: "29379129"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Настройка быстрого администрирования</h3>
-                        <p>Узнайте, как включить Microsoft Search и настроить его для вашей организации в четыре шага</p>
-                        <p><a href="quick-set-up.md">Начать собрание</a></p>
+                        <h3>Быстрая настройка администратора</h3>
+                        <p>Сведения о том, как включить поиск Майкрософт и настроить его для организации можно четырьмя простыми действиями</p>
+                        <p><a href="quick-set-up.md">Запустить сейчас</a></p>
                     </div>
                 </div>
             </div>
@@ -105,8 +105,8 @@ ms.locfileid: "29379129"
                     </div>
                     <div class="cardText">
                         <h3>Вопросы и ответы</h3>
-                        <p>Получите ответы на некоторые часто задаваемые вопросы о Microsoft Search</p>
-                        <p><a href="faqs.md">Обзор часто задаваемые вопросы</a></p>
+                        <p>Ответы на некоторые из часто задаваемых вопросов о поиске Майкрософт</p>
+                        <p><a href="faqs.md">Обзор вопросов и ответов</a></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "29379129"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Использование Microsoft Search</h2>
-                        <p>Microsoft Search — это простой, быстрой и безопасной способ найти сведения, повысить производительность и организации работы</p>
+                        <h2>Использование службы поиска Майкрософт</h2>
+                        <p>Microsoft Search — это простой, быстрый и безопасный способ поиска информации, повышения продуктивности и более разумной работы</p>
                         <p><a href="use/about-microsoft-search.md">Подробнее...</a></p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ ms.locfileid: "29379129"
                     <div class="cardText">
                         <p><a href="security.md">Безопасность</a></p>
                         <p><a href="requirements.md">Требования</a></p>  
-                        <p><a href="about-the-admin-portal.md">О портале администрирования</a></p>
+                        <p><a href="about-the-admin-portal.md">Сведения о портале администрирования</a></p>
                     </div>
                 </div>
             </div>
@@ -166,8 +166,8 @@ ms.locfileid: "29379129"
                 <div class="card">
                     <div class="cardText">
                         <p><a href="quick-set-up.md">Быстрая настройка</a></p>
-                        <p><a href="connected-services.md">Подключенных служб</a></p>
-                        <p><a href="set-up-microsoft-search.md">Настройка поиска Microsoft</a></p>
+                        <p><a href="connected-services.md">Подключенные службы</a></p>
+                        <p><a href="set-up-microsoft-search.md">Настройка Поиска (Майкрософт)</a></p>
                     </div>
                 </div>
             </div>
@@ -178,9 +178,9 @@ ms.locfileid: "29379129"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><a href="create-bookmarks.md">Создание закладки</a></p>
-                        <p><a href="create-qas.md">Создание Q&As</a></p>
-                        <p><a href="add-users.md">Добавление пользователей</a></p>
+                        <p><a href="create-bookmarks.md">Создание закладок</a></p>
+                        <p><a href="create-qas.md">Создание вопросов и ответов</a></p>
+                        <p><a href="add-users.md">Управление пользователями</a></p>
                     </div>
                 </div>
             </div>
