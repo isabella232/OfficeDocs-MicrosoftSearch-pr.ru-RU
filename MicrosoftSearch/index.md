@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
 description: Поиск (Майкрософт) — это возможность корпоративного поиска, обеспечивающая повышение производительности и экономию времени путем предоставления более релевантных результатов поиска для вашей организации.
-ms.openlocfilehash: 1a50ff7a0ae3c2b86f3051ad4eeecb38a8a602a9
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 904a54998900e1c702d273dc71ceb605929269ed
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612360"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746385"
 ---
 # <a name="microsoft-search"></a>Поиск (Майкрософт)
 
@@ -70,7 +70,7 @@ ms.locfileid: "29612360"
                     <div class="cardText">
                         <h3>Основные возможности</h3>
                         <p>Ознакомьтесь с возможностями, доступными для администраторов и пользователей, включая результаты поиска</p>
-                        <p><a href="features.md">Подробнее</a></p>
+                        <p><a href="features.md">Подробности</a></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ ms.locfileid: "29612360"
                     <div class="cardText">
                         <p><a href="create-bookmarks.md">Создание закладок</a></p>
                         <p><a href="create-qas.md">Создание вопросов и ответов</a></p>
-                        <p><a href="add-users.md">Добавление пользователей</a></p>
+                        <p><a href="add-users.md">Управление пользователями</a></p>
                     </div>
                 </div>
             </div>

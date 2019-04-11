@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
 description: Узнайте, почему Поиск (Майкрософт) является интеллектуальным поиском в корпоративной среде для современного рабочего места.
-ms.openlocfilehash: f00622643aac867a83614fe613f8c8ef4bdb116b
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612387"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746417"
 ---
 # <a name="why-microsoft-search"></a>Почему Поиск (Майкрософт)
 
@@ -39,7 +39,7 @@ ms.locfileid: "29612387"
   
 ## <a name="easy-to-administer-and-available-everywhere"></a>Удобное администрирование и повсеместный доступ
 
-Развернуть Поиск (Майкрософт) крайне просто: достаточно включить эту службу в Центре администрирования Microsoft 365 и настроить параметры, включая логотип, название, цвета и другое. Авторизованные пользователи могут работать с ней на любом устройстве, просто войдя в Bing.
+Развернуть Поиск (Майкрософт) крайне просто: достаточно включить эту службу в Центре администрирования Microsoft 365 и настроить параметры, включая логотип, название, цвета и прочее. Пользователи могут работать с ней на любом устройстве, просто войдя в Bing.
   
 ## <a name="one-place-to-search-across-office-365-apps"></a>Один интерфейс для поиска в приложениях Office 365
 
