@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: bc3d1d2a-a4d9-4a02-9d7d-deb492e79cd0
 description: Сведения о четырех простых шагах, необходимых для включения и использования Поиска (Майкрософт).
-ms.openlocfilehash: fb5677a0acc896e593eae42c35111e0f744ef45d
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 2a113cf10d944aea54d3fe6342599934e4b5ac45
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612361"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746369"
 ---
 # <a name="quick-set-up-for-microsoft-search"></a>Быстрая настройка Поиска (Майкрософт)
 
@@ -73,7 +73,7 @@ ms.locfileid: "29612361"
     
 3. Подробные сведения см. в статье [Средства портала администрирования](admin-portal-tools.md)
     
-После завершения быстрой настройки и [добавления пользователей](add-users.md) они смогут перейти на сайт Bing.com и искать результаты, связанные с работой. 
+После завершения быстрой настройки пользователи смогут перейти на сайт Bing.com и искать результаты, связанные с работой. 
   
 ## <a name="how-do-i-get-to-the-microsoft-search-admin-portal"></a>Как перейти на портал администрирования Поиска (Майкрософт)?
 
