@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
 description: Создание большого количества закладок с помощью средств импорта для портала администрирования поиска Microsoft
-ms.openlocfilehash: 07694de1f546a1431f371fa24ffc5721ea66337c
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 7c134784f0ca0d4cc84d5bce3a98f7e75aa6f441
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068405"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901795"
 ---
 # <a name="bulk-create-bookmarks"></a>Массовое создание закладок
 
@@ -32,6 +32,8 @@ ms.locfileid: "30068405"
 3. Сохранение и открытие CSV-файла
     
 4. Добавление содержимого закладок и параметров и сохранение файла
+
+    CSV-файл должен быть сохранен в виде файла CSV UTF-8, другие типы файлов и кодировки могут вызывать ошибки импорта
     
 5. В правом верхнем углу раздела "закладки" щелкните **Импорт**
     

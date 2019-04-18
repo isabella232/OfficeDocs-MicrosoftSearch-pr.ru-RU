@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
 description: Добавление большого количества местоположений с помощью средств импорта для портала администрирования поиска Microsoft
-ms.openlocfilehash: eb51b93ceaa560e5142ac46d316ba745c614fe34
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 3c7e43b03b97b46769d5e73f20ddae47b3459b59
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068413"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901811"
 ---
 # <a name="bulk-create-locations"></a>Массовое создание расположений
 
@@ -32,6 +32,8 @@ ms.locfileid: "30068413"
 3. Сохранение и открытие CSV-файла
     
 4. Добавление содержимого расположения и сохранение файла
+
+    CSV-файл должен быть сохранен в виде файла CSV UTF-8, другие типы файлов и кодировки могут вызывать ошибки импорта
     
 5. В правом верхнем углу раздела "расположения" щелкните **Импорт**
     
