@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Со временем может потребоваться обновить состояние и содержимое расположения, чтобы оно соответствовало.
 ms.openlocfilehash: 69fa4fc86d80adf76aa2a5788bdde433dd827a4d
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901827"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508669"
 ---
 # <a name="manage-locations"></a>Управление расположениями
 
@@ -87,7 +87,7 @@ ID — это уникальный идентификатор для каждо�
     
    - ЗаРезервированные ключевые слова
     
-   - State
+   - Состояние
     
 5. Сохранение CSV-файла
 

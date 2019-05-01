@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Поиск и обновление ответов по отдельности или использование доступных средств поиска Microsoft для одновременного редактирования
 ms.openlocfilehash: 47882deeb95133cfc19f4eec6417fc20fb7203de
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901835"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508820"
 ---
 # <a name="manage-qas"></a>Управление вопросами и ответами
 
@@ -65,11 +65,11 @@ ID — это уникальный идентификатор каждого К_
     
    - Вопрос
     
-   - URL-адрес
+   - URL
       
    - Ключевые слова
     
-   - State
+   - Состояние
     
    - Описание ответа
     
@@ -79,7 +79,7 @@ ID — это уникальный идентификатор каждого К_
     
    - Дата окончания
     
-   - Страна или регион
+   - Страна
     
    - Группы
     

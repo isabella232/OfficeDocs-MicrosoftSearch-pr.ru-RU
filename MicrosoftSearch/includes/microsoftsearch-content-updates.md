@@ -31,4 +31,17 @@
 | 4/9/2019 | [Поиск (Майкрософт)](/MicrosoftSearch/microsoft-search) | Изменено |
 | 4/9/2019 | [Быстрая настройка Поиска (Майкрософт)](/MicrosoftSearch/quick-set-up) | Изменено |
 | 4/9/2019 | [Настройка Поиска (Майкрософт)](/MicrosoftSearch/set-up-microsoft-search) | Изменено |
-| 4/9/2019 | [Почему Поиск (Майкрософт)](/MicrosoftSearch/why-microsoft-search) | изменено |
+| 4/9/2019 | [Почему Поиск (Майкрософт)](/MicrosoftSearch/why-microsoft-search) | Изменено |
+
+
+## <a name="week-of-april-15-2019"></a>Неделя с 15 апреля 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 4/16/2019 | [Массовое создание закладок](/MicrosoftSearch/bulk-create-bookmarks) | Изменено |
+| 4/16/2019 | [Массовое создание расположений](/MicrosoftSearch/bulk-create-locations) | Изменено |
+| 4/16/2019 | [Массовое создание К_амп_ас](/MicrosoftSearch/bulk-create-qas) | Изменено |
+| 4/16/2019 | [Управление закладками](/MicrosoftSearch/manage-bookmarks) | Изменено |
+| 4/16/2019 | [Управление расположениями](/MicrosoftSearch/manage-locations) | Изменено |
+| 4/16/2019 | [Управление К_амп_ас](/MicrosoftSearch/manage-qas) | изменено |

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Search
+title: Поиск (Майкрософт)
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: Microsoft Search — это опыт поиска в корпоративной среде, который повышает производительность и экономит время за счет предоставления более релевантных результатов поиска в Организации
-ms.openlocfilehash: 4d3e3edd64d527121c1e4aee30376b15ca0c2e60
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+description: Поиск (Майкрософт) — это возможность корпоративного поиска, обеспечивающая повышение производительности и экономию времени путем предоставления более релевантных результатов поиска для вашей организации.
+ms.openlocfilehash: b9937dd91d6101386a781884917dab131ddc85e9
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746401"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509047"
 ---
-# <a name="microsoft-search"></a>Microsoft Search
+# <a name="microsoft-search"></a>Поиск (Майкрософт)
 
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -45,9 +45,9 @@ ms.locfileid: "31746401"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Почему Поиск (Майкрософт)</h2>
-                        <p>Узнайте, как использовать возможности поиска в корпоративной среде, чтобы повысить производительность и сэкономить время, дополняя более релевантные результаты поиска в Организации.</p>
-                        <p><a href="why-microsoft-search.md">Подробнее...</a></p>
+                        <h2>Почему Microsoft Search?</h2>
+                        <p>Воспользуйтесь возможностью корпоративного поиска, обеспечивающей повышение производительности и экономию времени путем предоставления более релевантных результатов поиска для вашей организации.</p>
+                        <p><a href="overview-microsoft-search.md">Подробнее...</a></p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ ms.locfileid: "31746401"
     </li>
 </ul>
 
-<h2>Рекомендуемые темы</h2>
+<h2>Популярные разделы</h2>
 
 <ul class="panelContent cardsW">
     <li>
@@ -68,9 +68,9 @@ ms.locfileid: "31746401"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Основные функции</h3>
-                        <p>Узнайте, какие функции доступны для администраторов и пользователей, включая то, что вы ищете при поиске.</p>
-                        <p><a href="features.md">Дополнительные сведения</a></p>
+                        <h3>Предоставление контента для поиска</h3>
+                        <p>Ознакомьтесь с возможностями, доступными для администраторов и пользователей, включая результаты поиска</p>
+                        <p><a href="make-content-easy-to-find.md">Дополнительные сведения</a></p>
                     </div>
                 </div>
             </div>
@@ -86,9 +86,9 @@ ms.locfileid: "31746401"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Быстрая настройка администратора</h3>
-                        <p>Сведения о том, как включить поиск Майкрософт и настроить его для организации можно четырьмя простыми действиями</p>
-                        <p><a href="quick-set-up.md">Запустить сейчас</a></p>
+                        <h3>Начало работы</h3>
+                        <p>Узнайте, как приступить к работе со службой поиска Майкрософт и настроить ее для своей организации.</p>
+                        <p><a href="setup-microsoft-search.md">Начать сейчас</a></p>
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@ ms.locfileid: "31746401"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Вопросы и ответы</h3>
-                        <p>Ответы на некоторые из часто задаваемых вопросов о поиске Майкрософт</p>
-                        <p><a href="faqs.md">Обзор вопросов и ответов</a></p>
+                        <h3>Поиск в SharePoint</h3>
+                        <p>Хотите узнать, как работает SharePoint и служба поиска Майкрософт?</p>
+                        <p><a href="get-started-search-in-sharepoint-online.md">Получение фактов</a></p>
                     </div>
                 </div>
             </div>
@@ -120,9 +120,9 @@ ms.locfileid: "31746401"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Использование службы поиска Майкрософт</h2>
-                        <p>Microsoft Search — это простой, быстрый и безопасный способ поиска информации, повышения продуктивности и более разумной работы</p>
-                        <p><a href="use/about-microsoft-search.md">Подробнее...</a></p>
+                        <h2>Использование Поиска (Майкрософт)</h2>
+                        <p>Ознакомьтесь со статьями и видеороликами, чтобы помочь вам в обучении пользователей повысить эффективность работы с поиском в Майкрософт </p>
+                        <p><a href="https://go.microsoft.com/fwlink/?linkid=2090946">Взгляните</a></p>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ ms.locfileid: "31746401"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/c8456838-c6db-41f7-9e84-eebfd9c5b0b8.png" alt="How work results appear on Bing" />
+                            <img src="media/c8456838-c6db-41f7-9e84-eebfd9c5b0b8.png" alt="How work results appear in Bing" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -144,46 +144,3 @@ ms.locfileid: "31746401"
         </div>
     </li>
 </ul>
-
-<h2>Больше информации</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="security.md">Безопасность</a></p>
-                        <p><a href="requirements.md">Требования</a></p>  
-                        <p><a href="about-the-admin-portal.md">Сведения о портале администрирования</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="quick-set-up.md">Быстрая настройка</a></p>
-                        <p><a href="connected-services.md">Подключенные службы</a></p>
-                        <p><a href="set-up-microsoft-search.md">Настройка Поиска (Майкрософт)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p><a href="create-bookmarks.md">Создание закладок</a></p>
-                        <p><a href="create-qas.md">Создание вопросов и ответов</a></p>
-                        <p><a href="add-users.md">Управление пользователями</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>  
