@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
 description: Общие сведения о средствах Поиска (Майкрософт) для создания и импорта результатов, автоматического входа и поиска из любого расположения
 ms.openlocfilehash: cae2612979673e086820fec78e4c1e085e38a749
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746393"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508725"
 ---
 # <a name="admin-portal-tools"></a>Средства портала администрирования
 

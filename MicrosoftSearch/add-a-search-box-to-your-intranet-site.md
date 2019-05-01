@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 description: Быстрее получайте релевантные варианты поиска и находите результаты, связанные с работой, добавив поле Поиска (Майкрософт) на сайт или страницу интрасети.
 ms.openlocfilehash: a66c0cea71cf637209d298f49542864755e92ec9
-ms.sourcegitcommit: c18809f57f957de958a87e940dc3904061fe0bd0
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789316"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508524"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Добавление поля поиска на сайте интрасети
 

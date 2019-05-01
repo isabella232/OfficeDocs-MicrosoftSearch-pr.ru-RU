@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
 description: Узнайте, как настроить браузер по умолчанию для организации при использовании Поиска (Майкрософт).
 ms.openlocfilehash: 160dbbef9981127b74c51f54f86428667ecd4471
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612476"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509002"
 ---
 # <a name="set-default-browser"></a>Установка браузера по умолчанию
 

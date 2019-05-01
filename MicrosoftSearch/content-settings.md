@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: d1432d64-7a97-4b1b-a99f-11291814d361
 description: Добавьте логотип, название организации и многое другое в результаты Поиска (Майкрософт), связанные с работой
 ms.openlocfilehash: 1ec90c5ad10fb1c3b494ccbe3ad1cd1c6497e0fb
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612462"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508644"
 ---
 # <a name="content-settings"></a>Параметры контента
 

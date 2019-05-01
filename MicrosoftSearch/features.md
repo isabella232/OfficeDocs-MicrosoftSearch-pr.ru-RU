@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 description: Основные возможности Поиска (Майкрософт) для администраторов и конечных пользователей, включая закладки, вопросы и ответы, управление и анализ данных
 ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746377"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508596"
 ---
 # <a name="features-of-microsoft-search"></a>Возможности Поиска (Майкрософт)
 
@@ -49,7 +49,7 @@ ms.locfileid: "31746377"
     
     Глобальный администратор или администратор Поиска (Майкрософт) авторизует дополнительных администраторов, управляющих конфигурацией Поиска (Майкрософт), и редакторов, создающих содержимое.
     
-- [Аналитика ](get-insights.md) 
+- [Аналитика](get-insights.md) 
     
     Сведения об использовании Поиска (Майкрософт) в организации 
     
