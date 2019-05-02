@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
 description: Поиск (Майкрософт) — это возможность корпоративного поиска, обеспечивающая повышение производительности и экономию времени путем предоставления более релевантных результатов поиска для вашей организации.
 ms.openlocfilehash: 904a54998900e1c702d273dc71ceb605929269ed
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746385"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509103"
 ---
 # <a name="microsoft-search"></a>Поиск (Майкрософт)
 
@@ -70,7 +70,7 @@ ms.locfileid: "31746385"
                     <div class="cardText">
                         <h3>Основные возможности</h3>
                         <p>Ознакомьтесь с возможностями, доступными для администраторов и пользователей, включая результаты поиска</p>
-                        <p><a href="features.md">Подробности</a></p>
+                        <p><a href="features.md">Подробнее</a></p>
                     </div>
                 </div>
             </div>
