@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
 description: Все сведения, необходимые для развертывания Поиска (Майкрософт) для организации
 ms.openlocfilehash: f4a6a5c6fa3765cd08935970178af8ac0d46421c
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746353"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508956"
 ---
 # <a name="set-up-microsoft-search"></a>Настройка Поиска (Майкрософт)
 
@@ -53,7 +53,7 @@ ms.locfileid: "31746353"
     
     Предоставьте пользователям возможность подключения к Поиску (Майкрософт), а для Bing — возможность их идентификации и обеспечения входа
 
-- [Добавление поля поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
+- [Добавление поля поиска в интрасети](add-a-search-box-to-your-intranet-site.md)
 
     Предоставьте пользователям быстрый доступ к релевантным вариантам и результатам поиска
 
