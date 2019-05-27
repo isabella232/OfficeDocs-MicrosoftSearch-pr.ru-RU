@@ -13,17 +13,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8a294807-bb40-474d-bbe5-c5b03b2fb2c8
-description: Общайтесь с другими администраторами службы поиска Майкрософт и экспертами в сообществе Tech
+description: Общайтесь в сообществе Tech Community с другими администраторами и экспертами Поиска (Майкрософт)
 ms.openlocfilehash: a1bed1441657b891339b83ec34f4c276146e8ca4
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508636"
 ---
 # <a name="get-support"></a>Получение поддержки
 
-ПриКасайтесь к коллективному Висдом других администраторов поиска Майкрософт, изучать друг друга и экспертов и делиться опытом в разделе Microsoft Search на [сайте технического сообщества Майкрософт](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).
+Используйте коллективный опыт других администраторов Поиска (Майкрософт), обменивайтесь знаниями друг с другом и специалистами, а также делитесь своим опытом в разделе Поиска (Майкрософт) сайта [сообщества Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).
 
   
 
