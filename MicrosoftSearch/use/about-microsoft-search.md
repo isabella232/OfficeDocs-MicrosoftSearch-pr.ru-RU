@@ -12,13 +12,14 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: b453e6f0-10cf-4384-9914-241f425cd5f9
+ROBOTS: NOINDEX
 description: Получите общие сведения обо всей информации, которую можно найти при использовании Поиска (Майкрософт)
-ms.openlocfilehash: f5a9656144efad8c6e146f6654ebc9f69f1b1843
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: bc8d53610d125aba57b2c2c8a8c6d1077e2f012a
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508948"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590984"
 ---
 # <a name="about-microsoft-search"></a>О Поиске (Майкрософт)
 

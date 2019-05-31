@@ -3,22 +3,23 @@ title: Упрощение поиска контента с помощью Пои
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 12/11/2018
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
 localization_priority: Priority
+ROBOTS: NOINDEX
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Создавайте закладки, расположения и вопросы с ответами, чтобы упростить поиск контента вашей организации.
-ms.openlocfilehash: e7f65715faf71165549cb1af7f15a4d3ac918f19
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 851f88206d7f8e0330497c9706b02ad98e0f8e6c
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33511081"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591569"
 ---
 # <a name="make-content-easy-to-find"></a>Упрощение поиска контента
 ****Поиск (Майкрософт)**** помогает пользователям находить соответствующий контент. **Поиск (Майкрософт)** — это безопасный способ поиска содержимого в интрасети и Интернете. Подобная интеграция Интернета и организации доступна только с корпорацией Майкрософт. 
@@ -156,8 +157,9 @@ ms.locfileid: "33511081"
 #### <a name="what-are-powerapps"></a>Что такое PowerApps?
 PowerApps — это служба, которая позволяет создавать бизнес-приложения, работающие в браузере, на телефоне или планшете, при этом не требуется опыт кодирования. Служба PowerApps работает в любом браузере и на любом устройстве, и ее добавление занимает меньше минуты. Дополнительные сведения о PowerApps:
 - 
-  [Интерактивное обучение](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)
-- [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)
+  [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)
+- 
+  [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)
 - [Главная страница PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Добавление PowerApp в закладку
