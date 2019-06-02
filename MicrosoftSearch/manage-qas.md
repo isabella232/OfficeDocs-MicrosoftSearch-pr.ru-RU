@@ -1,9 +1,9 @@
 ---
 title: Управление вопросами и ответами
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 12/18/2018
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,98 +14,70 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Находите и обновляйте ответы по отдельности или используйте имеющиеся инструменты Поиска (Майкрософт), чтобы изменить их все одновременно
-ms.openlocfilehash: ee239aa73d4e650289f39d33c63c3e2df4f100cc
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 8620842e64a40eb32467c42a289bdec3b67d303b
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968470"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591524"
 ---
-# <a name="manage-qas"></a><span data-ttu-id="2bbda-103">Управление вопросами и ответами</span><span class="sxs-lookup"><span data-stu-id="2bbda-103">Manage Q&As</span></span>
+# <a name="manage-qas"></a><span data-ttu-id="0bcdd-103">Управление вопросами и ответами</span><span class="sxs-lookup"><span data-stu-id="0bcdd-103">Manage Q&As</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="2bbda-104">Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="2bbda-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="2bbda-105">Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.</span><span class="sxs-lookup"><span data-stu-id="2bbda-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
-    
-<span data-ttu-id="2bbda-106">Со временем может потребоваться обновление состояния и содержимого вопросов и ответов, чтобы обеспечить их релевантность.</span><span class="sxs-lookup"><span data-stu-id="2bbda-106">Over time, you may need to update a Q&A's status and content to keep it relevant.</span></span>
-  
-## <a name="filter-qas"></a><span data-ttu-id="2bbda-107">Фильтрация вопросов и ответов</span><span class="sxs-lookup"><span data-stu-id="2bbda-107">Filter Q&As</span></span>
+<span data-ttu-id="0bcdd-104">Создание вопросов и ответов похоже на создание закладок.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-104">Creating a Q&A is similar to creating bookmarks.</span></span> <span data-ttu-id="0bcdd-105">Вопросы и ответы позволяют отвечать на вопросы пользователя, а не только предоставлять ссылку на веб-страницу.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-105">Q&A allows you to answer the user's question instead of just providing a link to webpage.</span></span> <span data-ttu-id="0bcdd-106">Вы можете представить ответ в виде форматированного текста с помощью доступных средств.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-106">You can format the answer in rich text using the available tools.</span></span> <span data-ttu-id="0bcdd-107">Если закладка и вопрос с ответом используют одинаковое ключевое слово, результат закладки отображается первым.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-107">If a Bookmark and a Q&A share the same keyword, the Bookmark result is shown first.</span></span> <span data-ttu-id="0bcdd-108">Как и для закладок, индекс вопросов и ответов обновляется сразу после добавления или изменения вопроса и ответа.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-108">Like Bookmarks, the Q&A index is refreshed immediately after a Q&A is added or changed.</span></span> 
 
-<span data-ttu-id="2bbda-108">Используйте параметр фильтра в правом верхнем углу страницы вопросов и ответов, чтобы находить вопросы и ответы по дате и автору изменений.</span><span class="sxs-lookup"><span data-stu-id="2bbda-108">Use the filter option in the upper-right corner of the Q&As page to find Q&As by date and who modified them.</span></span> <span data-ttu-id="2bbda-109">Например, установите ползунок даты на 30 дней и выберите администратора или редактора, чтобы просмотреть список вопросов и ответов, которые он создал или изменил за это время.</span><span class="sxs-lookup"><span data-stu-id="2bbda-109">For example, set the date slider to 30 days and select an admin or editor to see the list of Q&As they've created or changed in that time.</span></span>
-  
-## <a name="change-qa-content-or-settings"></a><span data-ttu-id="2bbda-110">Изменение содержимого или настроек вопросов и ответов</span><span class="sxs-lookup"><span data-stu-id="2bbda-110">Change Q&A content or settings</span></span>
+## <a name="add-or-edit-a-single-qa"></a><span data-ttu-id="0bcdd-109">Добавление и изменение одного вопроса с ответом</span><span class="sxs-lookup"><span data-stu-id="0bcdd-109">Add or edit a single Q&A</span></span>
+1. <span data-ttu-id="0bcdd-110">Перейдите в **Центр администрирования Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-110">Go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="0bcdd-111">В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-111">In the navigation pane, go to **Settings** and select **Microsoft Search**.</span></span>
+1. <span data-ttu-id="0bcdd-112">Выберите вкладку **Вопросы и ответы**. По умолчанию выбрана первая вкладка (**Закладки**).</span><span class="sxs-lookup"><span data-stu-id="0bcdd-112">Select **Q&A** tab. By default, the first tab (**Bookmarks**) is selected.</span></span>
+1. <span data-ttu-id="0bcdd-113">Чтобы добавить вопрос и ответ, нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-113">To add a Q&A, select **Add new**.</span></span>
+<span data-ttu-id="0bcdd-114">Чтобы изменить вопрос и ответ, выберите вопрос и ответ в соответствующем списке.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-114">To edit a Q&A, select the Q&A in the relevant Q&A list.</span></span>
+1. <span data-ttu-id="0bcdd-115">При добавлении или изменении сведений предварительное изображение автоматически обновляется.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-115">As you add or edit the information, the preview automatically updates.</span></span>
+1. <span data-ttu-id="0bcdd-116">Сохраните изменения.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-116">Save your changes.</span></span>
 
-1. <span data-ttu-id="2bbda-111">Перейдите на портал администрирования Поиска (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="2bbda-111">Go to the Microsoft Search Admin portal</span></span>
-    
-2. <span data-ttu-id="2bbda-112">В области навигации щелкните пункт **Вопросы и ответы**</span><span class="sxs-lookup"><span data-stu-id="2bbda-112">In the navigation pane, click **Q&As**</span></span>
-    
-3. <span data-ttu-id="2bbda-113">Чтобы найти вопрос и ответ, используйте поиск, фильтрацию или щелкните состояние вопросов и ответов, чтобы сократить число результатов</span><span class="sxs-lookup"><span data-stu-id="2bbda-113">To find a Q&A, search, filter, or click a Q&A status to narrow your results</span></span>
-    
-4. <span data-ttu-id="2bbda-114">Чтобы изменить или обновить вопрос и ответ, щелкните название</span><span class="sxs-lookup"><span data-stu-id="2bbda-114">To change or update a Q&A, click the title</span></span>
-    
-5. <span data-ttu-id="2bbda-115">Внесите изменения или обновления в содержимое или настройки и просмотрите их предварительное изображение</span><span class="sxs-lookup"><span data-stu-id="2bbda-115">Make any changes or updates to the content or settings and preview how they'll appear</span></span>
-    
-6. <span data-ttu-id="2bbda-116">Нажмите кнопку **Сохранить**</span><span class="sxs-lookup"><span data-stu-id="2bbda-116">Click **Save**</span></span>
-    
-## <a name="bulk-export-and-edit-qas"></a><span data-ttu-id="2bbda-117">Массовый экспорт и изменение вопросов и ответов</span><span class="sxs-lookup"><span data-stu-id="2bbda-117">Bulk export and edit Q&As</span></span>
+### <a name="supported-html-tags"></a><span data-ttu-id="0bcdd-117">Поддерживаемые теги HTML</span><span class="sxs-lookup"><span data-stu-id="0bcdd-117">Supported HTML tags</span></span>
+<span data-ttu-id="0bcdd-118">В ответе (описании) можно использовать существующее HTML-содержимое или добавлять теги HTML.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-118">You can use existing HTML content or add HTML tags to your answer (description).</span></span> <span data-ttu-id="0bcdd-119">Неподдерживаемые теги игнорируются.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-119">Unsupported tags are ignored.</span></span>  
+<span data-ttu-id="0bcdd-120">Поддерживаются следующие HTML-теги:</span><span class="sxs-lookup"><span data-stu-id="0bcdd-120">The following HTML tags are supported:</span></span>
+- <span data-ttu-id="0bcdd-121">blockquote</span><span class="sxs-lookup"><span data-stu-id="0bcdd-121">blockquote</span></span>
+- <span data-ttu-id="0bcdd-122">div</span><span class="sxs-lookup"><span data-stu-id="0bcdd-122">div</span></span>
+- <span data-ttu-id="0bcdd-123">em</span><span class="sxs-lookup"><span data-stu-id="0bcdd-123">em</span></span>
+- <span data-ttu-id="0bcdd-124">h1, h2, h3 и h4</span><span class="sxs-lookup"><span data-stu-id="0bcdd-124">h1, h2, h3, and h4</span></span>
+- <span data-ttu-id="0bcdd-125">ol, ul и li</span><span class="sxs-lookup"><span data-stu-id="0bcdd-125">ol, ul, and li</span></span>
+- <span data-ttu-id="0bcdd-126">p</span><span class="sxs-lookup"><span data-stu-id="0bcdd-126">p</span></span>
+- <span data-ttu-id="0bcdd-127">pre</span><span class="sxs-lookup"><span data-stu-id="0bcdd-127">pre</span></span>
+- <span data-ttu-id="0bcdd-128">span</span><span class="sxs-lookup"><span data-stu-id="0bcdd-128">span</span></span>
+- <span data-ttu-id="0bcdd-129">strong</span><span class="sxs-lookup"><span data-stu-id="0bcdd-129">strong</span></span>
+- <span data-ttu-id="0bcdd-130">table, thead, tbody, tr, th и td</span><span class="sxs-lookup"><span data-stu-id="0bcdd-130">table, thead, tbody, tr, th, and td</span></span>
+- <span data-ttu-id="0bcdd-131">u</span><span class="sxs-lookup"><span data-stu-id="0bcdd-131">u</span></span>
+- <span data-ttu-id="0bcdd-132">a</span><span class="sxs-lookup"><span data-stu-id="0bcdd-132">a</span></span>
+- <span data-ttu-id="0bcdd-133">code</span><span class="sxs-lookup"><span data-stu-id="0bcdd-133">code</span></span>
+- <span data-ttu-id="0bcdd-134">br</span><span class="sxs-lookup"><span data-stu-id="0bcdd-134">br</span></span>
+- <span data-ttu-id="0bcdd-135">hr</span><span class="sxs-lookup"><span data-stu-id="0bcdd-135">hr</span></span>
+- <span data-ttu-id="0bcdd-136">img</span><span class="sxs-lookup"><span data-stu-id="0bcdd-136">img</span></span>
 
-<span data-ttu-id="2bbda-118">Никогда не изменяйте данные в следующих полях:</span><span class="sxs-lookup"><span data-stu-id="2bbda-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
-  
-- <span data-ttu-id="2bbda-119">ИД</span><span class="sxs-lookup"><span data-stu-id="2bbda-119">Id</span></span>
-    
-- <span data-ttu-id="2bbda-120">Последнее изменение</span><span class="sxs-lookup"><span data-stu-id="2bbda-120">Last modified</span></span>
-    
-- <span data-ttu-id="2bbda-121">Кем изменено</span><span class="sxs-lookup"><span data-stu-id="2bbda-121">Last modified by</span></span>
-    
-<span data-ttu-id="2bbda-122">ИД — это уникальный идентификатор для каждого вопроса и ответа, который никогда нельзя изменять.</span><span class="sxs-lookup"><span data-stu-id="2bbda-122">Id is a unique identifier for each Q&A and should never be edited.</span></span> <span data-ttu-id="2bbda-123">Поля "Последнее изменение" и "Кем изменено" следует использовать только для сортировки и поиска вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="2bbda-123">The Last Modified and Last Modified By fields should only be used to sort and find Q&As.</span></span>
-  
-1. <span data-ttu-id="2bbda-124">Если вы хотите экспортировать подмножество вопросов и ответов, выполните их фильтрацию</span><span class="sxs-lookup"><span data-stu-id="2bbda-124">If you want to export a subset of your Q&As, filter them</span></span>
-    
-2. <span data-ttu-id="2bbda-125">В правом верхнем углу страницы вопросов и ответов выберите пункт **Экспорт**</span><span class="sxs-lookup"><span data-stu-id="2bbda-125">In the upper-right corner of the Q&As page, click **Export**</span></span>
-    
-3. <span data-ttu-id="2bbda-126">Сохраните или откройте CSV-файл</span><span class="sxs-lookup"><span data-stu-id="2bbda-126">Save or open the .csv file</span></span>
-    
-4. <span data-ttu-id="2bbda-127">Измените данные в любом из следующих полей:</span><span class="sxs-lookup"><span data-stu-id="2bbda-127">Edit data in any of these fields:</span></span>
-    
-   - <span data-ttu-id="2bbda-128">Вопрос</span><span class="sxs-lookup"><span data-stu-id="2bbda-128">Question</span></span>
-    
-   - <span data-ttu-id="2bbda-129">URL-адрес</span><span class="sxs-lookup"><span data-stu-id="2bbda-129">URL</span></span>
-      
-   - <span data-ttu-id="2bbda-130">Ключевые слова</span><span class="sxs-lookup"><span data-stu-id="2bbda-130">Keywords</span></span>
-    
-   - <span data-ttu-id="2bbda-131">Состояние</span><span class="sxs-lookup"><span data-stu-id="2bbda-131">State</span></span>
-    
-   - <span data-ttu-id="2bbda-132">Описание ответа</span><span class="sxs-lookup"><span data-stu-id="2bbda-132">Answer Description</span></span>
-    
-   - <span data-ttu-id="2bbda-133">Зарезервированные слова</span><span class="sxs-lookup"><span data-stu-id="2bbda-133">Reserved keywords</span></span>
-    
-   - <span data-ttu-id="2bbda-134">Дата начала</span><span class="sxs-lookup"><span data-stu-id="2bbda-134">Start Date</span></span>
-    
-   - <span data-ttu-id="2bbda-135">Дата окончания</span><span class="sxs-lookup"><span data-stu-id="2bbda-135">End Date</span></span>
-    
-   - <span data-ttu-id="2bbda-136">Страна или регион</span><span class="sxs-lookup"><span data-stu-id="2bbda-136">Country/Region</span></span>
-    
-   - <span data-ttu-id="2bbda-137">Группы</span><span class="sxs-lookup"><span data-stu-id="2bbda-137">Groups</span></span>
-    
-   - <span data-ttu-id="2bbda-138">Устройство и ОС</span><span class="sxs-lookup"><span data-stu-id="2bbda-138">Device&amp;OS</span></span>
-    
-   - <span data-ttu-id="2bbda-139">Целевые вариации</span><span class="sxs-lookup"><span data-stu-id="2bbda-139">Targeted variations</span></span>
-    
-5. <span data-ttu-id="2bbda-140">Сохраните CSV-файл</span><span class="sxs-lookup"><span data-stu-id="2bbda-140">Save the file as a .csv file.</span></span>
+## <a name="bulk-add-or-edit-qas"></a><span data-ttu-id="0bcdd-137">Массовое добавление и изменение вопросов и ответов</span><span class="sxs-lookup"><span data-stu-id="0bcdd-137">Bulk add or edit Q&A</span></span>
+<span data-ttu-id="0bcdd-138">Администраторы могут использовать функции импорта и экспорта для массового создания и изменения вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-138">Administrators can use the Import and Export features to bulk create or edit Q&A.</span></span> <span data-ttu-id="0bcdd-139">Это удобная функция, если администратору нужно добавить или изменить большое количество вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-139">This is a useful feature when administrators need to add or edit a large number of Q&A.</span></span> 
 
-    <span data-ttu-id="2bbda-141">CSV-файл следует сохранить в виде файла CSV UTF-8. Другие типы файлов и кодировки могут приводить к ошибкам импорта</span><span class="sxs-lookup"><span data-stu-id="2bbda-141">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
-    
-6. <span data-ttu-id="2bbda-142">В правом верхнем углу страницы вопросов и ответов выберите пункт **Импорт**</span><span class="sxs-lookup"><span data-stu-id="2bbda-142">In the upper-right corner of the Q&As page, click **Import**</span></span>
-    
-7. <span data-ttu-id="2bbda-143">В панели импорта вопросов и ответов нажмите кнопку **Обзор** и выберите измененный CSV-файл</span><span class="sxs-lookup"><span data-stu-id="2bbda-143">In the Import Q&As pane, click **Browse** and select the edited .csv file</span></span> 
-    
-8. <span data-ttu-id="2bbda-144">Нажмите кнопку **Импорт**</span><span class="sxs-lookup"><span data-stu-id="2bbda-144">Click **Import**.</span></span>
-    
-<span data-ttu-id="2bbda-145">Если необходимые данные отсутствуют или недействительны, появится сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="2bbda-145">You'll get an error if any required data is missing or invalid.</span></span> <span data-ttu-id="2bbda-146">В зависимости от ошибки может быть создан файл журнала с дополнительной информацией о том, какие строки и столбцы нужно исправить.</span><span class="sxs-lookup"><span data-stu-id="2bbda-146">Depending on the error, a log file may be generated with more information about the rows and columns that need to be corrected.</span></span> <span data-ttu-id="2bbda-147">Внесите необходимые изменения и повторите импорт файла.</span><span class="sxs-lookup"><span data-stu-id="2bbda-147">Make necessary edits and try importing the file again.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="2bbda-148">Пока не исправлены все ошибки, вы не сможете создать или изменить вопросы и ответы.</span><span class="sxs-lookup"><span data-stu-id="2bbda-148">Until all errors are resolved, you can't create or edit any Q&As.</span></span> 
-  
-<span data-ttu-id="2bbda-149">Требуются не все поля, а обязательные поля различаются в зависимости от состояния вопросов и ответов.</span><span class="sxs-lookup"><span data-stu-id="2bbda-149">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span> <span data-ttu-id="2bbda-150">В зависимости от поля состояния вопросы и ответы сохраняются в черновике, списке предложенных или запланированных или публикуются автоматически.</span><span class="sxs-lookup"><span data-stu-id="2bbda-150">Based on the State field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span> <span data-ttu-id="2bbda-151">Дополнительные сведения об обязательных и рекомендуемых полях см. в статье [Создание вопросов и ответов](create-qas.md).</span><span class="sxs-lookup"><span data-stu-id="2bbda-151">Find out more about required and recommended fields in [create Q&As](create-qas.md).</span></span>
+<span data-ttu-id="0bcdd-140">Используйте функции импорта и экспорта для следующих действий:</span><span class="sxs-lookup"><span data-stu-id="0bcdd-140">Use the import/export feature to:</span></span>
+1. <span data-ttu-id="0bcdd-141">Массовое добавление вопросов и ответов. Добавьте сведения в файл шаблона вопросов с ответами и импортируйте его.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-141">Bulk add Q&A - Add details in the Q&A template file, and then import it.</span></span>
+1. <span data-ttu-id="0bcdd-142">Массовое изменение вопросов и ответов. Экспортируйте вопросы и ответы в CSV-файл, измените сведения вопросов и ответов в экспортированном CSV-файле и импортируйте CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-142">Bulk edit Q&A - Export Q&A to a .csv file, then edit the Q&A details in the exported .csv file, and then import the .csv file.</span></span>
+1. <span data-ttu-id="0bcdd-143">Создание резервной копии вопросов и ответов. Экспортируйте вопросы и ответы в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-143">Backup Q&A - Export Q&A to a .csv file.</span></span>
 
-  
+<span data-ttu-id="0bcdd-144">Чтобы импортировать или экспортировать вопросы и ответы:</span><span class="sxs-lookup"><span data-stu-id="0bcdd-144">To import or export Q&A:</span></span>
+1. <span data-ttu-id="0bcdd-145">В правом верхнем углу вкладки вопросов и ответов выберите пункт **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-145">In the upper-right corner of the Q&A tab, select **Import**.</span></span> <span data-ttu-id="0bcdd-146">Выберите пункт **Экспорт**, чтобы скачать все существующие вопросы и ответы в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-146">Select **Export** to download all the existing Q&A in a .csv file.</span></span>
+1. <span data-ttu-id="0bcdd-147">В области справа выберите параметр для импорта с помощью CSV-файла.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-147">In the right pane, choose the option to import using a .csv file.</span></span>
+<span data-ttu-id="0bcdd-148">Скачайте файл шаблона для списка обязательных полей и сведений.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-148">Download the template file for a list of the required fields and details.</span></span> 
+1. <span data-ttu-id="0bcdd-149">Добавьте или измените сведения вопросов и ответов в файле шаблона и сохраните его на своем компьютере.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-149">Add or edit Q&A details in the template file and save it on your computer.</span></span> 
+1. <span data-ttu-id="0bcdd-150">В панели **Импорт вопросов и ответов** нажмите кнопку **Обзор** и выберите CSV-файл, который нужно импортировать.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-150">In the **Import Q&A** pane, select **Browse**, and then the .csv file that you want to import.</span></span>
+1. <span data-ttu-id="0bcdd-151">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-151">Select **Import**.</span></span>
 
+<span data-ttu-id="0bcdd-152">Ниже приведены некоторые важные моменты, касающиеся файла шаблона.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-152">Here are some important points regarding the template file:</span></span>
+- <span data-ttu-id="0bcdd-153">Никогда не изменяйте данные в следующих полях: *Id*, *Last Modified* и *Last Modified By*.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-153">Never edit data in these fields: *Id*, *Last Modified*, and *Last Modified By*</span></span>
+- <span data-ttu-id="0bcdd-154">Если добавить *идентификатор* существующей закладки, он будет заменен сведениями из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-154">If you include the *Id* of an existing bookmark, it will be replaced with the information in the import file.</span></span>
+- <span data-ttu-id="0bcdd-155">Если есть закладка с таким же заголовком или URL-адресом, закладка будет обновлена с использованием сведений из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-155">If there is an existing bookmark with the same title or URL, the bookmark will be updated with information in the import file.</span></span>
+- <span data-ttu-id="0bcdd-156">В файле шаблона требуются не все поля, а обязательные поля различаются в зависимости от состояния закладки.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-156">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span>
+- <span data-ttu-id="0bcdd-157">В зависимости от поля State закладки сохраняются в черновике, списке рекомендуемых или запланированных или публикуются автоматически.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-157">Based on the State field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+- <span data-ttu-id="0bcdd-158">Для организаций с несколькими клиентами можно экспортировать закладки из одного клиента и импортировать их в другой.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-158">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="0bcdd-159">Но перед импортом нужно удалить данные в столбце *Id*.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-159">But you must remove the data in the *Id* column before you import.</span></span>
+
+<span data-ttu-id="0bcdd-160">**Примечание.** Вам не удастся импортировать вопросы и ответы, если в файле шаблона есть ошибки.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-160">**Note:** You cannot import Q&A if there are any errors in the template file.</span></span> <span data-ttu-id="0bcdd-161">Чтобы избежать ошибок, убедитесь, что файл импорта правильно отформатирован и указаны все обязательные сведения.</span><span class="sxs-lookup"><span data-stu-id="0bcdd-161">To prevent errors, make sure your import file is properly formatted and include all the required information.</span></span> 
+
+<span data-ttu-id="0bcdd-162">Дополнительные сведения о том, как избежать ошибок, см. в разделе [Предотвращение ошибок импорта](manage-bookmarks.md#prevent-import-errors).</span><span class="sxs-lookup"><span data-stu-id="0bcdd-162">For more information on how to prevent error, see [Prevent import errors](manage-bookmarks.md#prevent-import-errors).</span></span>

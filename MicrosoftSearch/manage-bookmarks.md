@@ -1,9 +1,9 @@
 ---
 title: Управление закладками
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 09/08/2018
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,88 +13,86 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Поиск закладок, требующих обновления, и способы массового изменения результатов для закладок в Поиске (Майкрософт)
-ms.openlocfilehash: d5cebbfd5779bc8a6aa25cdbcdedb6e9b18f242e
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+description: Создание и обновление закладок, а также способы массового изменения результатов для закладок в Поиске (Майкрософт)
+ms.openlocfilehash: fb1be0bc137891a54e370fef1e4b5628963c5ad9
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968486"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591623"
 ---
-# <a name="manage-bookmarks"></a><span data-ttu-id="c6080-103">Управление закладками</span><span class="sxs-lookup"><span data-stu-id="c6080-103">Manage bookmarks</span></span>
+# <a name="manage-bookmarks"></a><span data-ttu-id="1fbe0-103">Управление закладками</span><span class="sxs-lookup"><span data-stu-id="1fbe0-103">Manage bookmarks</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="c6080-104">Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="c6080-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="c6080-105">Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.</span><span class="sxs-lookup"><span data-stu-id="c6080-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
-    
-<span data-ttu-id="c6080-106">Со временем может потребоваться обновление состояния и содержимого закладки, чтобы обеспечить ее релевантность.</span><span class="sxs-lookup"><span data-stu-id="c6080-106">Over time, you may need to update a bookmark's status and content to keep it relevant.</span></span> 
-  
-## <a name="filter-bookmarks"></a><span data-ttu-id="c6080-107">Фильтрация закладок</span><span class="sxs-lookup"><span data-stu-id="c6080-107">Filter bookmarks</span></span>
+<span data-ttu-id="1fbe0-104">Закладку можно создать с помощью нескольких действий.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-104">You can create a bookmark in just a few steps.</span></span> <span data-ttu-id="1fbe0-105">Каждая закладка содержит название, URL-адрес и набор ключевых слов, которые ее вызывают.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-105">Each bookmark includes a title, a URL, and a set of keywords that trigger it.</span></span> <span data-ttu-id="1fbe0-106">Закладка может содержать несколько ключевых слов. Несколько закладок могут использовать одинаковое ключевое слово, но использовать одинаковое зарезервированное слово нельзя.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-106">A bookmark can have several keywords and several bookmarks can share the same keyword, but reserved keyword can't be shared.</span></span> <span data-ttu-id="1fbe0-107">При создании или изменении закладки индекс поиска сразу же обновляется, и закладка сразу же становится доступной пользователям.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-107">When a Bookmark is created or modified, the search index is refreshed immediately, and the bookmark is available to users immediately.</span></span>
 
-<span data-ttu-id="c6080-108">Используйте параметр фильтра в правом верхнем углу страницы закладок, чтобы находить закладки по дате и автору изменений.</span><span class="sxs-lookup"><span data-stu-id="c6080-108">Use the filter option in the upper-right corner of the Bookmarks page to find bookmarks by date and who modified them.</span></span> <span data-ttu-id="c6080-109">Например, установите ползунок даты на 30 дней и выберите администратора или редактора, чтобы просмотреть список закладок, которые он создал или изменил за это время.</span><span class="sxs-lookup"><span data-stu-id="c6080-109">For example, set the date slider to 30 days and select an admin or editor to see the list of bookmarks they've created or changed in that time.</span></span>
-  
-## <a name="change-bookmark-content-or-settings"></a><span data-ttu-id="c6080-110">Изменение содержимого или настроек закладки</span><span class="sxs-lookup"><span data-stu-id="c6080-110">Change bookmark content or settings</span></span>
+<span data-ttu-id="1fbe0-108">Если в вашей организации настроены продвигаемые результаты в SharePoint, вы можете импортировать их в **Поиск (Майкрософт)** и сделать импортированный контент доступным для пользователей.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-108">If your organization has Promoted Results set up in SharePoint, you can import the Promoted Results into**Microsoft Search** and make the imported content available to your users.</span></span> <span data-ttu-id="1fbe0-109">Это простой способ быстро заполнить результаты поиска сразу после настройки **Поиска (Майкрософт)** и сделать его более эффективным для пользователей.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-109">This is an easy way to quickly populate search results as soon as you set up **Microsoft Search** and make it more effective for your users.</span></span> <span data-ttu-id="1fbe0-110">Рекомендуется использовать продвигаемые результаты из SharePoint в качестве справки по созданию релевантных результатов поиска и по присвоению им имени.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-110">We recommend that you use promoted results from SharePoint as a reference to understand how to name and create relevant search results.</span></span> 
 
-1. <span data-ttu-id="c6080-111">Перейдите на портал администрирования Поиска (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="c6080-111">Go to the Microsoft Search Admin portal</span></span>
-    
-2. <span data-ttu-id="c6080-112">В области навигации щелкните пункт **Закладки**</span><span class="sxs-lookup"><span data-stu-id="c6080-112">In the navigation pane, click **Bookmarks**</span></span>
-    
-3. <span data-ttu-id="c6080-113">Чтобы найти закладку, используйте поиск, фильтрацию или щелкните состояние закладки, чтобы сократить число результатов</span><span class="sxs-lookup"><span data-stu-id="c6080-113">To find a bookmark, search, filter, or click a bookmark status to narrow your results</span></span>
-    
-4. <span data-ttu-id="c6080-114">Чтобы изменить или обновить закладку, щелкните название</span><span class="sxs-lookup"><span data-stu-id="c6080-114">To change or update a bookmark, click the title</span></span>
-    
-5. <span data-ttu-id="c6080-115">Внесите изменения или обновления в содержимое или настройки и просмотрите их предварительное изображение</span><span class="sxs-lookup"><span data-stu-id="c6080-115">Make any changes or updates to the content or settings and preview how they'll appear</span></span> 
-    
-6. <span data-ttu-id="c6080-116">Нажмите кнопку **Сохранить**</span><span class="sxs-lookup"><span data-stu-id="c6080-116">Click **Save**</span></span>
-    
-## <a name="bulk-export-and-edit-bookmarks"></a><span data-ttu-id="c6080-117">Массовый экспорт и изменение закладок</span><span class="sxs-lookup"><span data-stu-id="c6080-117">Bulk export and edit bookmarks</span></span>
+## <a name="add-or-edit-a-single-bookmark"></a><span data-ttu-id="1fbe0-111">Добавление и изменение одной закладки</span><span class="sxs-lookup"><span data-stu-id="1fbe0-111">Add or edit a single bookmark</span></span>
+1. <span data-ttu-id="1fbe0-112">Перейдите в **Центр администрирования Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-112">Go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="1fbe0-113">В области навигации перейдите в **Параметры** и выберите \*\*\*\*Поиск (Майкрософт)\*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-113">In the navigation pane, go to **Settings**, and then select \*\*\*\*Microsoft Search\*\*\*\*.</span></span>
+<span data-ttu-id="1fbe0-114">По умолчанию выбрана вкладка **Закладки**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-114">By default, the **Bookmarks** tab is selected.</span></span>
+1. <span data-ttu-id="1fbe0-115">Чтобы добавить закладку, нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-115">To add a bookmark, select **Add new**.</span></span> <span data-ttu-id="1fbe0-116">Чтобы изменить закладку, выберите закладку в списке релевантных закладок.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-116">To edit a bookmark, select the bookmark in the relevant bookmark list.</span></span> 
+1. <span data-ttu-id="1fbe0-117">При добавлении или изменении сведений предварительное изображение автоматически обновляется.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-117">As you add or edit the information, the preview automatically updates.</span></span>
+1. <span data-ttu-id="1fbe0-118">Сохраните изменения.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-118">Save your changes.</span></span>
 
-<span data-ttu-id="c6080-118">Никогда не изменяйте данные в следующих полях:</span><span class="sxs-lookup"><span data-stu-id="c6080-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
-  
-- <span data-ttu-id="c6080-119">ИД</span><span class="sxs-lookup"><span data-stu-id="c6080-119">Id</span></span>
-    
-- <span data-ttu-id="c6080-120">Последнее изменение</span><span class="sxs-lookup"><span data-stu-id="c6080-120">Last modified</span></span>
-    
-- <span data-ttu-id="c6080-121">Кем изменено</span><span class="sxs-lookup"><span data-stu-id="c6080-121">Last modified by</span></span>
-    
-<span data-ttu-id="c6080-122">ИД — это уникальный идентификатор для каждой закладки, который никогда нельзя изменять.</span><span class="sxs-lookup"><span data-stu-id="c6080-122">Id is a unique identifier for each bookmark and should never be edited.</span></span> <span data-ttu-id="c6080-123">Поля "Последнее изменение" и "Кем изменено" следует использовать только для сортировки и поиска закладок.</span><span class="sxs-lookup"><span data-stu-id="c6080-123">The Last Modified and Last Modified By fields should only be used to sort and find bookmarks.</span></span>
-  
-1. <span data-ttu-id="c6080-124">Если вы хотите экспортировать подмножество закладок, выполните их фильтрацию</span><span class="sxs-lookup"><span data-stu-id="c6080-124">If you want to export a subset of your bookmarks, filter them</span></span>
-    
-2. <span data-ttu-id="c6080-125">В правом верхнем углу страницы закладок выберите пункт **Экспорт**</span><span class="sxs-lookup"><span data-stu-id="c6080-125">In the upper-right corner of the Bookmarks page, click **Export**</span></span>
-    
-3. <span data-ttu-id="c6080-126">Сохраните или откройте CSV-файл</span><span class="sxs-lookup"><span data-stu-id="c6080-126">Save or open the .csv file</span></span>
-    
-4. <span data-ttu-id="c6080-127">Измените данные в любом из следующих полей:</span><span class="sxs-lookup"><span data-stu-id="c6080-127">Edit data in any of these fields:</span></span>
-   - <span data-ttu-id="c6080-128">Название</span><span class="sxs-lookup"><span data-stu-id="c6080-128">Title</span></span>
-    
-   - <span data-ttu-id="c6080-129">URL-адрес</span><span class="sxs-lookup"><span data-stu-id="c6080-129">URL</span></span>
-    
-   - <span data-ttu-id="c6080-130">Ключевые слова</span><span class="sxs-lookup"><span data-stu-id="c6080-130">Keywords</span></span>
-    
-   - <span data-ttu-id="c6080-131">Состояние</span><span class="sxs-lookup"><span data-stu-id="c6080-131">State</span></span>
-    
-   - <span data-ttu-id="c6080-132">Описание</span><span class="sxs-lookup"><span data-stu-id="c6080-132">Description</span></span>
-    
-   - <span data-ttu-id="c6080-133">Зарезервированные слова</span><span class="sxs-lookup"><span data-stu-id="c6080-133">Reserved keywords</span></span>
-    
-   - <span data-ttu-id="c6080-134">Дата начала</span><span class="sxs-lookup"><span data-stu-id="c6080-134">Start Date</span></span>
-    
-   - <span data-ttu-id="c6080-135">Дата окончания</span><span class="sxs-lookup"><span data-stu-id="c6080-135">End Date</span></span>
-    
-   - <span data-ttu-id="c6080-136">Страна или регион</span><span class="sxs-lookup"><span data-stu-id="c6080-136">Country/Region</span></span>
-    
-   - <span data-ttu-id="c6080-137">Группы</span><span class="sxs-lookup"><span data-stu-id="c6080-137">Groups</span></span>
-    
-   - <span data-ttu-id="c6080-138">Устройство и ОС</span><span class="sxs-lookup"><span data-stu-id="c6080-138">Device&amp;OS</span></span>
-    
-   - <span data-ttu-id="c6080-139">Целевые вариации</span><span class="sxs-lookup"><span data-stu-id="c6080-139">Targeted variations</span></span>
-    
-5. <span data-ttu-id="c6080-140">Сохраните CSV-файл</span><span class="sxs-lookup"><span data-stu-id="c6080-140">Save the file as a .csv file.</span></span>
+## <a name="add-or-edit-bookmark-using-browser-extensions"></a><span data-ttu-id="1fbe0-119">Добавление и изменение закладки с помощью расширений браузеров</span><span class="sxs-lookup"><span data-stu-id="1fbe0-119">Add or edit bookmark using browser extensions</span></span>
+<span data-ttu-id="1fbe0-120">Администраторы поиска могут легко создавать контент поиска, используя расширения браузеров.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-120">Search administrators can create search content easily by using browser extensions.</span></span> <span data-ttu-id="1fbe0-121">Установите расширение браузера, перейдите на нужный сайт и добавьте его в качестве закладки.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-121">Install the browser extension and then go to the site you want to add as bookmark and add the site as bookmark.</span></span>
 
-    <span data-ttu-id="c6080-141">CSV-файл следует сохранить в виде файла CSV UTF-8. Другие типы файлов и кодировки могут приводить к ошибкам импорта</span><span class="sxs-lookup"><span data-stu-id="c6080-141">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
-    
-6. <span data-ttu-id="c6080-142">В правом верхнем углу страницы закладок выберите пункт **Импорт**</span><span class="sxs-lookup"><span data-stu-id="c6080-142">In the upper-right corner of the Bookmarks page, click **Import**</span></span>
-    
-7. <span data-ttu-id="c6080-143">В панели импорта закладок нажмите кнопку **Обзор** и выберите измененный CSV-файл</span><span class="sxs-lookup"><span data-stu-id="c6080-143">In the Import bookmarks pane, click **Browse** and select the edited .csv file</span></span> 
-    
-8. <span data-ttu-id="c6080-144">Нажмите кнопку **Импорт**</span><span class="sxs-lookup"><span data-stu-id="c6080-144">Click **Import**.</span></span>
+<span data-ttu-id="1fbe0-122">В настоящее время расширения браузеров доступны для Microsoft Edge и Chrome.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-122">Currently, browser extensions are available for Edge and Chrome.</span></span> 
+- <span data-ttu-id="1fbe0-123">Чтобы скачать расширение Microsoft Edge, перейдите в [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) и скачайте приложение.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-123">To download Edge extension, go to [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) and download the app.</span></span>
+- <span data-ttu-id="1fbe0-124">Чтобы скачать расширение Chrome, перейдите в [интернет-магазин Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и скачайте приложение.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-124">To download Chrome extension, go to [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) and download the app.</span></span>
+
+## <a name="bulk-add-or-edit-bookmarks"></a><span data-ttu-id="1fbe0-125">Массовое добавление и изменение закладок</span><span class="sxs-lookup"><span data-stu-id="1fbe0-125">Bulk add or edit bookmarks</span></span>
+<span data-ttu-id="1fbe0-126">Администратор поиска может использовать функции импорта или экспорта для массового создания и изменения закладок.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-126">Search administrator can use the Import or Export features to bulk create or edit bookmarks.</span></span> <span data-ttu-id="1fbe0-127">Это очень удобная функция, если администратор хочет добавить или изменить большое количество закладок.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-127">This is a very useful feature when an administrator wants to add or edit a large number of bookmarks.</span></span> 
+
+<span data-ttu-id="1fbe0-128">Используйте функции импорта и экспорта для следующих действий:</span><span class="sxs-lookup"><span data-stu-id="1fbe0-128">Use the import/export feature to:</span></span>
+- <span data-ttu-id="1fbe0-129">Массовое добавление закладок. Добавьте сведения в файл шаблона закладки и импортируйте его.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-129">Bulk add bookmarks - Add details in the bookmark template file, and then import it.</span></span>
+- <span data-ttu-id="1fbe0-130">Массовое изменение закладок. Экспортируйте закладки в CSV-файл, измените сведения закладки в экспортированном CSV-файле и импортируйте обновленный CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-130">Bulk edit bookmarks - Export bookmarks to a .csv file, then edit the bookmark details in the exported .csv file, and then import the updated .csv file.</span></span>
+- <span data-ttu-id="1fbe0-131">Импорт продвигаемых сайтов из SharePoint.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-131">Import promoted sites from SharePoint.</span></span>
+- <span data-ttu-id="1fbe0-132">Создание резервных копий закладок. Экспортируйте закладки в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-132">Backup bookmarks - Export bookmarks to a .csv file.</span></span>
+
+<span data-ttu-id="1fbe0-133">Чтобы импортировать или экспортировать закладки:</span><span class="sxs-lookup"><span data-stu-id="1fbe0-133">To import or export bookmarks:</span></span>
+1. <span data-ttu-id="1fbe0-134">В правом верхнем углу вкладки **Закладки** выберите пункт **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-134">In the upper-right corner of **Bookmarks** tab, select **Import**.</span></span> <span data-ttu-id="1fbe0-135">Выберите пункт **Экспорт**, чтобы скачать все существующие закладки в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-135">Select **Export** to download all the existing bookmarks in a .csv file.</span></span>
+1. <span data-ttu-id="1fbe0-136">В области справа выберите параметр для импорта с помощью CSV-файла или из SharePoint.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-136">In the right pane, choose the option to import using a .csv file or from SharePoint.</span></span>
+<span data-ttu-id="1fbe0-137">Скачайте файл шаблона для списка обязательных полей и сведений.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-137">Download the template file for a list of the required fields and details.</span></span> 
+1. <span data-ttu-id="1fbe0-138">Добавьте или измените сведения закладки в файле шаблона и сохраните его на своем компьютере.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-138">Add or edit bookmark details in the template file, and then save it on your computer.</span></span> 
+1. <span data-ttu-id="1fbe0-139">В панели **Импорт закладок** нажмите кнопку **Обзор** и выберите CSV-файл, который нужно импортировать.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-139">In the **Import bookmarks** pane, select **Browse** and then the .csv file that you want to import.</span></span>
+1. <span data-ttu-id="1fbe0-140">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-140">Select **Import**.</span></span>
+
+<span data-ttu-id="1fbe0-141">Ниже приведены некоторые важные моменты, которые нужно учитывать в отношении файла шаблона.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-141">Here are some important points to be noted regarding the template file:</span></span>
+- <span data-ttu-id="1fbe0-142">Никогда не изменяйте данные в следующих полях: *Id*, *Last Modified* и *Last Modified By*.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-142">Never edit data in these fields: *Id*, *Last Modified*, and *Last Modified By*</span></span>
+- <span data-ttu-id="1fbe0-143">Если добавить *идентификатор* существующей закладки, он будет заменен сведениями из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-143">If you include the *Id* of an existing bookmark, it will be replaced with the information in the import file.</span></span>
+- <span data-ttu-id="1fbe0-144">Если есть закладка с таким же заголовком или URL-адресом, закладка будет обновлена с использованием сведений из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-144">If there is an existing bookmark with the same title or URL, the bookmark will be updated with information in the import file.</span></span>
+- <span data-ttu-id="1fbe0-145">В файле шаблона требуются не все поля, а обязательные поля различаются в зависимости от состояния закладки.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-145">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span>
+- <span data-ttu-id="1fbe0-146">В зависимости от поля *State* закладки сохраняются в черновике, списке рекомендуемых или запланированных или публикуются автоматически.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-146">Based on the *State* field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+- <span data-ttu-id="1fbe0-147">Для организаций с несколькими клиентами можно экспортировать закладки из одного клиента и импортировать их в другой.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-147">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="1fbe0-148">Но перед импортом нужно удалить данные в столбце *Id*.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-148">But you must remove the data in the *Id* column before you import.</span></span>
+
+### <a name="prevent-import-errors"></a><span data-ttu-id="1fbe0-149">Предотвращение ошибок импорта</span><span class="sxs-lookup"><span data-stu-id="1fbe0-149">Prevent import errors</span></span>
+<span data-ttu-id="1fbe0-150">Если любые обязательные данные отсутствуют или являются недопустимыми, возникает ошибка и создается файл журнала с дополнительной информацией о строках и столбцах, подлежащих исправлению.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-150">You'll get an error if any required data is missing or invalid, and a log file is generated with more information about the rows and columns to be corrected.</span></span> <span data-ttu-id="1fbe0-151">Внесите необходимые изменения и повторите импорт файла.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-151">Make necessary edits and try importing the file again.</span></span> <span data-ttu-id="1fbe0-152">Вам не удастся импортировать или сохранить закладки, пока не устранены все ошибки.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-152">You cannot import or save any bookmarks until all errors are resolved.</span></span>
+
+<span data-ttu-id="1fbe0-153">Чтобы избежать ошибок, убедитесь, что файл импорта правильно отформатирован и:</span><span class="sxs-lookup"><span data-stu-id="1fbe0-153">To prevent errors, make sure your import file is properly formatted and:</span></span>
+- <span data-ttu-id="1fbe0-154">содержит строку заголовка и все столбцы из шаблона импорта;</span><span class="sxs-lookup"><span data-stu-id="1fbe0-154">Includes the header row and all the columns that were in the import template</span></span>
+- <span data-ttu-id="1fbe0-155">порядок столбцов совпадает с шаблоном импорта;</span><span class="sxs-lookup"><span data-stu-id="1fbe0-155">The column order is the same as the import template</span></span>
+- <span data-ttu-id="1fbe0-156">все столбцы содержат значения, кроме трех, которые могут быть пустыми: *Id*, *Last Modified* и *Last Modified By*;</span><span class="sxs-lookup"><span data-stu-id="1fbe0-156">All columns have values, except the three that can be empty: *Id*, *Last Modified*, and *Last Modified By*</span></span> 
+- <span data-ttu-id="1fbe0-157">столбец *State* заполнен, так как это обязательные сведения.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-157">The *State* column is not empty, as this information is required</span></span>
+
+## <a name="powerapps"></a><span data-ttu-id="1fbe0-158">PowerApps</span><span class="sxs-lookup"><span data-stu-id="1fbe0-158">PowerApps</span></span>
+<span data-ttu-id="1fbe0-159">Помогите пользователям выполнять задачи, например ввести время отпуска или сообщить о расходах, добавив существующую службу PowerApps в закладки.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-159">Help your users complete tasks, such as entering vacation time or reporting expenses, by adding existing PowerApps to your bookmarks.</span></span> 
+
+### <a name="what-are-powerapps"></a><span data-ttu-id="1fbe0-160">Что такое PowerApps?</span><span class="sxs-lookup"><span data-stu-id="1fbe0-160">What are PowerApps?</span></span>
+<span data-ttu-id="1fbe0-161">PowerApps — это служба, которая позволяет создавать бизнес-приложения, работающие в браузере, на телефоне или планшете, при этом не требуется опыт кодирования.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-161">PowerApps is a service that lets you build business apps that run in a browser or on a phone or tablet with no coding experience required.</span></span> <span data-ttu-id="1fbe0-162">Служба PowerApps работает в любом браузере и на любом устройстве, и ее добавление занимает меньше минуты.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-162">PowerApps work in any browser and on any device and take less than a minute to add.</span></span> <span data-ttu-id="1fbe0-163">Дополнительные сведения о PowerApps:</span><span class="sxs-lookup"><span data-stu-id="1fbe0-163">For more on PowerApps, see:</span></span>
+- <span data-ttu-id="1fbe0-164">
+  [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)</span><span class="sxs-lookup"><span data-stu-id="1fbe0-164">[Guided Learning](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)</span></span>
+- <span data-ttu-id="1fbe0-165">
+  [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)</span><span class="sxs-lookup"><span data-stu-id="1fbe0-165">[Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid)</span></span>
+- [<span data-ttu-id="1fbe0-166">Главная страница PowerApps</span><span class="sxs-lookup"><span data-stu-id="1fbe0-166">PowerApps Home</span></span>](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
+
+### <a name="add-a-powerapp-to-a-bookmark"></a><span data-ttu-id="1fbe0-167">Добавление PowerApp в закладку</span><span class="sxs-lookup"><span data-stu-id="1fbe0-167">Add a PowerApp to a bookmark</span></span>
+1. <span data-ttu-id="1fbe0-168">Найдите [идентификатор приложения PowerApp](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id), которое нужно интегрировать.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-168">Find the [App ID for the PowerApp](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) that you want to add.</span></span>
+1. <span data-ttu-id="1fbe0-169">Выполните вход и перейдите в **Центр администрирования Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-169">Sign in and go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="1fbe0-170">В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-170">In the navigation pane, go to **Settings**, and then select **Microsoft Search**.</span></span>
+1. <span data-ttu-id="1fbe0-171">Добавьте или найдите существующую закладку, в которую вы хотите добавить **PowerApp**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-171">Add a bookmark or find an existing bookmark that you want to add a **PowerApp** to.</span></span>
+1. <span data-ttu-id="1fbe0-172">В **параметрах закладки** выберите **Power App** и нажмите кнопку **Добавить Power App**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-172">In **Bookmark settings**, select **Power App**, and then **Add a Power App**.</span></span>
+1. <span data-ttu-id="1fbe0-173">Введите или вставьте **идентификатор приложения**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-173">Enter or paste the **App ID**.</span></span>
+    <span data-ttu-id="1fbe0-174">Высота и ширина настраиваются автоматически.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-174">The height and width are automatically adjusted.</span></span> <span data-ttu-id="1fbe0-175">Закладки могут поддерживать альбомную и книжную ориентацию, но в настоящее время нельзя изменить размер.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-175">Bookmarks can support both portrait and landscape orientations, but currently the size can't be changed.</span></span> <span data-ttu-id="1fbe0-176">При предварительном просмотре закладки отображается полнофункциональное приложение PowerApp для упрощения проверки.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-176">The bookmark preview shows a fully functional PowerApp to make it easy to test.</span></span>
+1. <span data-ttu-id="1fbe0-177">Выберите команду **Опубликовать** или **Сохранить в черновике**.</span><span class="sxs-lookup"><span data-stu-id="1fbe0-177">Select **Publish** or **Save to Draft**.</span></span>

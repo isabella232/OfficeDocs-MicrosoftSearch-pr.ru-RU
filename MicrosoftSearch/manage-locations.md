@@ -3,7 +3,7 @@ title: Управление расположениями
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 11/08/2018
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,93 +14,51 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Со временем может потребоваться обновление состояния и содержимого расположения, чтобы обеспечить его релевантность. 
-ms.openlocfilehash: 0e23cf3d3d3d05fe86cdc3e09ce808e54242d670
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968434"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591560"
 ---
-# <a name="manage-locations"></a><span data-ttu-id="a2f63-103">Управление расположениями</span><span class="sxs-lookup"><span data-stu-id="a2f63-103">Manage locations</span></span>
+# <a name="manage-locations"></a><span data-ttu-id="a1236-103">Управление расположениями</span><span class="sxs-lookup"><span data-stu-id="a1236-103">Manage locations</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="a2f63-104">Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="a2f63-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="a2f63-105">Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.</span><span class="sxs-lookup"><span data-stu-id="a2f63-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
-    
-<span data-ttu-id="a2f63-106">Со временем может потребоваться обновление состояния и содержимого расположения, чтобы обеспечить его релевантность. </span><span class="sxs-lookup"><span data-stu-id="a2f63-106">Over time, you may need to update a location's status and content to keep it relevant.</span></span> 
-  
-## <a name="filter-locations"></a><span data-ttu-id="a2f63-107">Фильтрация расположений</span><span class="sxs-lookup"><span data-stu-id="a2f63-107">Filter locations</span></span>
+## <a name="location"></a><span data-ttu-id="a1236-104">Расположение</span><span class="sxs-lookup"><span data-stu-id="a1236-104">Location</span></span>
+<span data-ttu-id="a1236-105">Расположения позволяют пользователям находить адреса и здания организации, предоставляя точное местонахождение офисов, комплексов и зданий, а также маршруты и направления.</span><span class="sxs-lookup"><span data-stu-id="a1236-105">Location helps your users find addresses and locate your organization's buildings by providing an accurate location for offices, campuses, and buildings, along with directions and navigation.</span></span> <span data-ttu-id="a1236-106">Администраторам следует добавлять все важные расположения организации.</span><span class="sxs-lookup"><span data-stu-id="a1236-106">Administrators should add all important locations of your organization.</span></span> <span data-ttu-id="a1236-107">В отличие от закладок и вопросов с ответами индекс не обновляется сразу, и может потребоваться несколько часов, чтобы новые или измененные расположения отобразились в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="a1236-107">Unlike Bookmarks and Q&A, the index is not refreshed immediately, and it can take several hours for new or changed locations to appear in search results.</span></span>
 
-<span data-ttu-id="a2f63-108">Используйте параметр фильтра в правом верхнем углу страницы расположений, чтобы находить расположения по дате и просматривать авторов изменений.</span><span class="sxs-lookup"><span data-stu-id="a2f63-108">Use the filter option in the upper-right corner of the Locations page to find locations by date and see who modified them.</span></span> <span data-ttu-id="a2f63-109">Например, установите ползунок даты на 30 дней и выберите администратора или редактора, чтобы просмотреть список расположений, которые он создал или изменил за это время.</span><span class="sxs-lookup"><span data-stu-id="a2f63-109">For example, set the date slider to 30 days and select an admin or editor to see the list of locations they've created or changed during that time.</span></span>
-  
-## <a name="change-location-content"></a><span data-ttu-id="a2f63-110">Изменение содержимого расположения</span><span class="sxs-lookup"><span data-stu-id="a2f63-110">Change location content</span></span>
+### <a name="add-or-edit-a-single-location"></a><span data-ttu-id="a1236-108">Добавление и изменение одного расположения</span><span class="sxs-lookup"><span data-stu-id="a1236-108">Add or edit a single location</span></span>
+1. <span data-ttu-id="a1236-109">Перейдите в **Центр администрирования Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="a1236-109">Go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="a1236-110">В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.</span><span class="sxs-lookup"><span data-stu-id="a1236-110">In the navigation pane, go to **Settings** and select **Microsoft Search**.</span></span>
+1. <span data-ttu-id="a1236-111">Выберите вкладку **Расположения**. По умолчанию на странице **Поиска (Майкрософт)** выбрана вкладка **Закладки**.</span><span class="sxs-lookup"><span data-stu-id="a1236-111">Select **Locations** tab. By default, the **Bookmarks** tab is selected on the **Microsoft Search** page.</span></span>
+1. <span data-ttu-id="a1236-112">Чтобы добавить новое расположение, нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="a1236-112">To add a new location, select **Add new**.</span></span>
+1. <span data-ttu-id="a1236-113">Чтобы изменить расположение, выберите его в списке соответствующих расположений.</span><span class="sxs-lookup"><span data-stu-id="a1236-113">To edit a location, select the location in the relevant locations list.</span></span>
+1. <span data-ttu-id="a1236-114">При добавлении или изменении сведений предварительное изображение автоматически обновляется.</span><span class="sxs-lookup"><span data-stu-id="a1236-114">As you add or edit the information, the preview automatically updates.</span></span>
+1. <span data-ttu-id="a1236-115">Сохраните изменения.</span><span class="sxs-lookup"><span data-stu-id="a1236-115">Save your changes.</span></span>
 
-1. <span data-ttu-id="a2f63-111">Перейдите на портал администрирования Поиска (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="a2f63-111">Go to the Microsoft Search Admin portal</span></span>
-    
-2. <span data-ttu-id="a2f63-112">В области навигации щелкните **Расположения**</span><span class="sxs-lookup"><span data-stu-id="a2f63-112">In the navigation pane, click **Tools**</span></span>
-    
-3. <span data-ttu-id="a2f63-113">Чтобы найти расположение, используйте поиск, фильтрацию или щелкните состояние расположения, чтобы сократить число результатов</span><span class="sxs-lookup"><span data-stu-id="a2f63-113">To find a location, search, filter, or click a location status to narrow your results</span></span>
-    
-4. <span data-ttu-id="a2f63-114">Чтобы изменить или обновить расположение, щелкните его имя</span><span class="sxs-lookup"><span data-stu-id="a2f63-114">To change or update a location, click the location name</span></span>
-    
-5. <span data-ttu-id="a2f63-115">Внесите изменения или обновления в содержимое и просмотрите его предварительное изображение</span><span class="sxs-lookup"><span data-stu-id="a2f63-115">Make any changes or updates to the content and preview how they'll appear</span></span> 
-    
-6. <span data-ttu-id="a2f63-116">Нажмите кнопку **Сохранить**</span><span class="sxs-lookup"><span data-stu-id="a2f63-116">Click **Save**</span></span>
-    
-## <a name="bulk-export-and-edit-locations"></a><span data-ttu-id="a2f63-117">Массовый экспорт и изменение расположений</span><span class="sxs-lookup"><span data-stu-id="a2f63-117">Bulk export and edit locations</span></span>
+### <a name="bulk-add-or-edit-locations"></a><span data-ttu-id="a1236-116">Массовое добавление и изменение расположений</span><span class="sxs-lookup"><span data-stu-id="a1236-116">Bulk add or edit locations</span></span>
+<span data-ttu-id="a1236-117">Администраторы могут использовать функции импорта и экспорта для массового добавления и изменения расположений.</span><span class="sxs-lookup"><span data-stu-id="a1236-117">Administrators can use the Import or Export feature to bulk add or edit locations.</span></span> 
 
-<span data-ttu-id="a2f63-118">Никогда не изменяйте данные в следующих полях:</span><span class="sxs-lookup"><span data-stu-id="a2f63-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
-  
-- <span data-ttu-id="a2f63-119">ИД</span><span class="sxs-lookup"><span data-stu-id="a2f63-119">Id</span></span>
-    
-- <span data-ttu-id="a2f63-120">Последнее изменение</span><span class="sxs-lookup"><span data-stu-id="a2f63-120">Last modified</span></span>
-    
-- <span data-ttu-id="a2f63-121">Кем изменено</span><span class="sxs-lookup"><span data-stu-id="a2f63-121">Last modified by</span></span>
-    
-<span data-ttu-id="a2f63-122">ИД — это уникальный идентификатор для каждого расположения, который никогда нельзя изменять.</span><span class="sxs-lookup"><span data-stu-id="a2f63-122">Id is a unique identifier for each location and should never be edited.</span></span> <span data-ttu-id="a2f63-123">Поля "Последнее изменение" и "Кем изменено" следует использовать только для сортировки и поиска расположений.</span><span class="sxs-lookup"><span data-stu-id="a2f63-123">The Last Modified and Last Modified By fields should only be used to sort and find locations.</span></span>
-  
-1. <span data-ttu-id="a2f63-124">Если вы хотите экспортировать подмножество расположений, выполните их фильтрацию</span><span class="sxs-lookup"><span data-stu-id="a2f63-124">If you want to export a subset of your locations, filter them</span></span>
-    
-2. <span data-ttu-id="a2f63-125">В правом верхнем углу страницы расположений выберите пункт **Экспорт**</span><span class="sxs-lookup"><span data-stu-id="a2f63-125">In the upper-right corner of the Locations page, click **Export**</span></span>
-    
-3. <span data-ttu-id="a2f63-126">Сохраните или откройте CSV-файл</span><span class="sxs-lookup"><span data-stu-id="a2f63-126">Save or open the .csv file</span></span>
-    
-4. <span data-ttu-id="a2f63-127">Измените данные в любом из следующих полей:</span><span class="sxs-lookup"><span data-stu-id="a2f63-127">Edit data in any of these fields:</span></span>
-    
-   - <span data-ttu-id="a2f63-128">Имя</span><span class="sxs-lookup"><span data-stu-id="a2f63-128">Name</span></span>
-    
-   - <span data-ttu-id="a2f63-129">Адрес (строка 1)</span><span class="sxs-lookup"><span data-stu-id="a2f63-129">Street Address Line 1</span></span>
-    
-   - <span data-ttu-id="a2f63-130">Адрес (строка 2)</span><span class="sxs-lookup"><span data-stu-id="a2f63-130">Street Address Line 2</span></span>
-    
-   - <span data-ttu-id="a2f63-131">Город</span><span class="sxs-lookup"><span data-stu-id="a2f63-131">City</span></span>
-    
-   - <span data-ttu-id="a2f63-132">Область</span><span class="sxs-lookup"><span data-stu-id="a2f63-132">Other Address State</span></span>
-    
-   - <span data-ttu-id="a2f63-133">Почтовый индекс</span><span class="sxs-lookup"><span data-stu-id="a2f63-133">ZIP Code</span></span>
-    
-   - <span data-ttu-id="a2f63-134">Страна</span><span class="sxs-lookup"><span data-stu-id="a2f63-134">Country</span></span>
-    
-   - <span data-ttu-id="a2f63-135">Полный адрес</span><span class="sxs-lookup"><span data-stu-id="a2f63-135">Full Address</span></span>
-    
-   - <span data-ttu-id="a2f63-136">Широта</span><span class="sxs-lookup"><span data-stu-id="a2f63-136">latitude</span></span>
-    
-   - <span data-ttu-id="a2f63-137">Долгота</span><span class="sxs-lookup"><span data-stu-id="a2f63-137">longitude</span></span>
-    
-   - <span data-ttu-id="a2f63-138">Ключевые слова</span><span class="sxs-lookup"><span data-stu-id="a2f63-138">Keywords</span></span>
-    
-   - <span data-ttu-id="a2f63-139">Зарезервированные слова</span><span class="sxs-lookup"><span data-stu-id="a2f63-139">Reserved keywords</span></span>
-    
-   - <span data-ttu-id="a2f63-140">Состояние</span><span class="sxs-lookup"><span data-stu-id="a2f63-140">State</span></span>
-    
-5. <span data-ttu-id="a2f63-141">Сохраните CSV-файл</span><span class="sxs-lookup"><span data-stu-id="a2f63-141">Save the file as a .csv file.</span></span>
+<span data-ttu-id="a1236-118">Используйте функции импорта и экспорта для следующих действий:</span><span class="sxs-lookup"><span data-stu-id="a1236-118">Use the import/export feature to:</span></span>
+1. <span data-ttu-id="a1236-119">Массовое добавление расположений. Добавьте сведения в файл шаблона расположений и импортируйте его.</span><span class="sxs-lookup"><span data-stu-id="a1236-119">Bulk add location - Add details in the location template file, and then import it.</span></span> 
+1. <span data-ttu-id="a1236-120">Массовое изменение расположений. Экспортируйте расположения в CSV-файл, измените сведения расположений в экспортированном CSV-файле и импортируйте обновленный CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="a1236-120">Bulk edit locations - Export locations to a .csv file, then edit the location details in the exported .csv file, and then import the updated .csv file.</span></span>
+1. <span data-ttu-id="a1236-121">Создание резервных копий расположений. Экспортируйте существующие расположения в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="a1236-121">Backups Locations – Export existing locations to a .csv file.</span></span>
 
-    <span data-ttu-id="a2f63-142">CSV-файл следует сохранить в виде файла CSV UTF-8. Другие типы файлов и кодировки могут приводить к ошибкам импорта</span><span class="sxs-lookup"><span data-stu-id="a2f63-142">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
-    
-6. <span data-ttu-id="a2f63-143">В правом верхнем углу страницы расположений выберите пункт **Импорт**</span><span class="sxs-lookup"><span data-stu-id="a2f63-143">In the upper-right corner of the Locations tab, select **Import**.</span></span>
-    
-7. <span data-ttu-id="a2f63-144">В панели импорта расположений нажмите кнопку **Обзор** и выберите измененный CSV-файл</span><span class="sxs-lookup"><span data-stu-id="a2f63-144">In the Import locations pane, click **Browse** and select the edited .csv file</span></span> 
-    
-8. <span data-ttu-id="a2f63-145">Нажмите кнопку **Импорт**</span><span class="sxs-lookup"><span data-stu-id="a2f63-145">Click **Import**.</span></span>
+<span data-ttu-id="a1236-122">Чтобы экспортировать или импортировать расположения:</span><span class="sxs-lookup"><span data-stu-id="a1236-122">To export or import locations:</span></span>
+1. <span data-ttu-id="a1236-123">В правом верхнем углу вкладки **Расположения** выберите пункт **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="a1236-123">In the upper-right corner of the **Locations** tab, select **Import**.</span></span>
+<span data-ttu-id="a1236-124">Выберите пункт **Экспорт**, чтобы скачать существующие расположения в CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="a1236-124">Select **Export** to download the existing locations in a .csv file.</span></span>
+1. <span data-ttu-id="a1236-125">В области справа выберите параметр для импорта с помощью CSV-файла.</span><span class="sxs-lookup"><span data-stu-id="a1236-125">In the right pane, choose the option to import using a .csv file.</span></span> <span data-ttu-id="a1236-126">Скачайте файл шаблона для списка обязательных полей и сведений.</span><span class="sxs-lookup"><span data-stu-id="a1236-126">Download ehe template file for a list of the required fields and details.</span></span>
+1. <span data-ttu-id="a1236-127">Добавьте или измените сведения расположений в файле шаблона и сохраните его на своем компьютере.</span><span class="sxs-lookup"><span data-stu-id="a1236-127">Add or edit location details in the template file, and then save it on your computer.</span></span> 
+1. <span data-ttu-id="a1236-128">В панели **Импорт** расположений нажмите кнопку **Обзор** и выберите CSV-файл, который нужно импортировать.</span><span class="sxs-lookup"><span data-stu-id="a1236-128">In the **Import** locations pane, select **Browse**, and then the .csv file that you want to import.</span></span>
+1. <span data-ttu-id="a1236-129">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="a1236-129">Select **Import**.</span></span>
 
-  
+<span data-ttu-id="a1236-130">Ниже приведены некоторые важные моменты, касающиеся файла шаблона.</span><span class="sxs-lookup"><span data-stu-id="a1236-130">Here are some important points regarding the template file:</span></span>
+- <span data-ttu-id="a1236-131">Никогда не изменяйте данные в следующих полях: *Id*, *Last Modified* и *Last Modified By*.</span><span class="sxs-lookup"><span data-stu-id="a1236-131">Never edit data in these fields: *Id*, *Last Modified*, and *Last Modified By*</span></span>
+- <span data-ttu-id="a1236-132">Если добавить *идентификатор* существующей закладки, он будет заменен сведениями из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="a1236-132">If you include the *Id* of an existing bookmark, it will be replaced with the information in the import file.</span></span>
+- <span data-ttu-id="a1236-133">Если есть закладка с таким же заголовком или URL-адресом, закладка будет обновлена с использованием сведений из файла импорта.</span><span class="sxs-lookup"><span data-stu-id="a1236-133">If there is an existing bookmark with the same title or URL, the bookmark will be updated with information in the import file.</span></span>
+- <span data-ttu-id="a1236-134">В файле шаблона требуются не все поля, а обязательные поля различаются в зависимости от состояния закладки.</span><span class="sxs-lookup"><span data-stu-id="a1236-134">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span>
+- <span data-ttu-id="a1236-135">В зависимости от поля *State* закладки сохраняются в черновике, списке рекомендуемых или запланированных или публикуются автоматически.</span><span class="sxs-lookup"><span data-stu-id="a1236-135">Based on the *State* field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+- <span data-ttu-id="a1236-136">Для организаций с несколькими клиентами можно экспортировать закладки из одного клиента и импортировать их в другой.</span><span class="sxs-lookup"><span data-stu-id="a1236-136">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="a1236-137">Но перед импортом нужно удалить данные в столбце *Id*.</span><span class="sxs-lookup"><span data-stu-id="a1236-137">But you must remove the data in the *Id* column before you import.</span></span>
 
+<span data-ttu-id="a1236-138">**Примечание.** Вам не удастся импортировать расположения, если в файле шаблона есть ошибки.</span><span class="sxs-lookup"><span data-stu-id="a1236-138">**Note:** You cannot import Locations if there are any errors in the template file.</span></span> <span data-ttu-id="a1236-139">Чтобы избежать ошибок, убедитесь, что файл импорта правильно отформатирован и указаны все обязательные сведения.</span><span class="sxs-lookup"><span data-stu-id="a1236-139">To prevent errors, make sure your import file is properly formatted and include all the required information.</span></span> 
+
+<span data-ttu-id="a1236-140">Дополнительные сведения о том, как избежать ошибок, см. в разделе [Предотвращение ошибок импорта](manage-bookmarks.md#prevent-import-errors).</span><span class="sxs-lookup"><span data-stu-id="a1236-140">For more information on how to prevent error, see [Prevent import errors](manage-bookmarks.md#prevent-import-errors).</span></span>
