@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b40a575d-7727-4bb0-80da-e25131315790
+ROBOTS: NoIndex
 description: Обзор всех способов создания ответов на часто задаваемые вопросы на портале администрирования Поиска (Майкрософт)
-ms.openlocfilehash: 09c6747dafd5d2cf029f75fec210d308356c54fe
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 2d58d8b7bdec69f2f1d5078283ee1fb939e84e32
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968437"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591452"
 ---
 # <a name="create-and-manage-qas"></a>Создание вопросов и ответов и управление ими
 
 > [!IMPORTANT]
-> Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365. Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
     
 ## <a name="create-qas"></a>Создание вопросов и ответов
 

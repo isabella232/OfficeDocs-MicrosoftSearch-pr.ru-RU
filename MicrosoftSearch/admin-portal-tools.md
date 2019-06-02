@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
+ROBOTS: NoIndex
 description: Общие сведения о средствах Поиска (Майкрософт) для создания и импорта результатов, автоматического входа и поиска из любого расположения
-ms.openlocfilehash: cae2612979673e086820fec78e4c1e085e38a749
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 16beaf5ae2945df19b32b65ae4e65b4989217f9f
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508725"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591353"
 ---
 # <a name="admin-portal-tools"></a>Средства портала администрирования
 
+> [!IMPORTANT]
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+    
 Портал администрирования Поиска (Майкрософт) содержит средства и ресурсы, предназначенные для администраторов, редакторов и пользователей, в том числе:
   
 - Расширение браузера для создателя контента

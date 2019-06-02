@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3d2a1498-174e-4214-9cf1-8b58cce5a872
+ROBOTS: NOINDEX
 description: Создание результатов, связанных с работой, для Поиска (Майкрософт) с помощью поисковых запросов из SharePoint
-ms.openlocfilehash: 6e55e2000792bdb576a18a0efeb353dc3ea13605
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 1538c57a7b4138b36fe62e3076feb58d746b2b3e
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968454"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591605"
 ---
 # <a name="import-sharepoint-promoted-results-and-top-queries"></a>Импорт популярных запросов и повышенных результатов SharePoint
 
 > [!IMPORTANT]
-> Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365. Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
     
 Чтобы использовать запросы пользователей и наиболее подходящие элементы, созданные в SharePoint, Поиск (Майкрософт) содержит два средства для импорта этих сведений в виде рекомендуемых закладок: 
   

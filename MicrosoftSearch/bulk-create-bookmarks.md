@@ -13,18 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
+ROBOTS: NoIndex
 description: Создавайте множество закладок одновременно с помощью инструментов импорта на портале администрирования Поиска (Майкрософт)
-ms.openlocfilehash: 560cda6f94060d428f2d18cc61bd2430cb31b474
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 1b3922215534391c65547a4ece22310261626036
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968353"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591425"
 ---
 # <a name="bulk-create-bookmarks"></a>Массовое создание закладок
 
 > [!IMPORTANT]
-> Параметры Поиска (Майкрософт) в Bing теперь доступны в Центре администрирования Microsoft 365. Начните с [назначения администраторов поиска](https://docs.microsoft.com/ru-RU/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) в Центре администрирования.
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
     
 Скачайте и используйте шаблон в CSV-формате для массового создания, изменения и сохранения закладок. Чтобы массово изменить существующие закладки, экспортируйте их из портала администрирования, внесите необходимые изменения, а затем импортируйте их.
   

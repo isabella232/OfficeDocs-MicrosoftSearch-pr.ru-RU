@@ -13,16 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 161ea667-9b27-4695-b7a8-e8e063141795
+ROBOTS: NoIndex
 description: Узнайте, как настроить результаты, связанные с работой, которые отображаются при использовании Поиска (Майкрософт).
-ms.openlocfilehash: 0990b8362b01a2173f87e541bc1ea86aadcbb506
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 9054febab2626097762a80f093affb1e3351fe1a
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508714"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591263"
 ---
 # <a name="connected-services"></a>Подключенные службы
 
+> [!IMPORTANT]
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+     
+     
 Поиск (Майкрософт) позволяет использовать эффективную поисковую систему Bing, чтобы искать контент организации в Office 365: файлы SharePoint, внутренние веб-сайты в закладках, людей в глобальном списке адресов и группы Office 365.
   
 ## <a name="search-for-sites-and-documents"></a>Поиск сайтов и документов

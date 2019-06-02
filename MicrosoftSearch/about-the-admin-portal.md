@@ -13,16 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fee131cf-c82f-4f4b-b288-6fa98a99b793
+ROBOTS: NoIndex
 description: Обзор возможностей портала администрирования и разрешений на доступ, применяемых при использовании Поиска (Майкрософт)
-ms.openlocfilehash: 28706ada22b1523c8a89101d673fdbea8f752cb2
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 4edfbce7b5858a3e8cd3aad30109177d71d45d7b
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508532"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590723"
 ---
 # <a name="about-the-admin-portal"></a>Сведения о портале администрирования
 
+> [!IMPORTANT]
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+
+    
 Поиск (Майкрософт) позволяет использовать систему Bing для поиска различного контента организации: сайтов и файлов SharePoint, внутренних веб-сайтов, людей, групп Office 365 и многого другого. С помощью портала администрирования можно управлять всеми аспектами Поиска (Майкрософт).
   
 Портал администрирования Поиска (Майкрософт) состоит из указанных ниже разделов.

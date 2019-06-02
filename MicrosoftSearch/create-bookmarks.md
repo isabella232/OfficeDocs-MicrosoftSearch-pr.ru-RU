@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
+ROBOTS: NoIndex
 description: Создавайте закладки или используйте расширение браузера, чтобы добавлять их в результаты Поиска (Майкрософт), связанные с работой
-ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 6f6efd10b360547bb0cde47f35510433bf6f90cc
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508734"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590714"
 ---
 # <a name="create-bookmarks"></a>Создание закладок
 
+> [!IMPORTANT]
+> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+    
 Закладки помогают пользователям быстро находить важные ресурсы, сайты и средства. Каждая закладка содержит название, URL-адрес и набор ключевых слов, которые ее вызывают.
   
 ## <a name="create-a-bookmark"></a>Создание закладки
