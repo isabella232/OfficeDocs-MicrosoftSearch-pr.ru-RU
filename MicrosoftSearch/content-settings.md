@@ -15,18 +15,16 @@ search.appverid:
 ms.assetid: d1432d64-7a97-4b1b-a99f-11291814d361
 ROBOTS: NoIndex
 description: Добавьте логотип, название организации и многое другое в результаты Поиска (Майкрософт), связанные с работой
-ms.openlocfilehash: d3989422c4bd38236241984c1f9beb67d12a0847
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 0ae26acd0e0114b83c022e0a0b4ad082d495cd1c
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591245"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727981"
 ---
 # <a name="content-settings"></a>Параметры контента
 
-> [!IMPORTANT]
-> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
-    
+ 
 Поиск (Майкрософт) предоставляет вам привычный интерфейс для результатов поиска, полученных из таких источников контента, как SharePoint, OneDrive для бизнеса или интрасеть вашей организации.  
   
 - Название организации

@@ -15,18 +15,16 @@ search.appverid:
 ms.assetid: 47eedbb9-6da9-47e0-aac5-078d34a7fd8f
 ROBOTS: NoIndex
 description: Обеспечьте удобную возможность входа для пользователей путем настройки DNS-сервера с помощью CNAME
-ms.openlocfilehash: 6a291165df33f8acc99d247104e8e88cd35c3a0e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 05562bd9379af395ee305ffebdddbf7bfcd1e835
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591362"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727900"
 ---
 # <a name="advanced-dns-configuration"></a>Расширенная конфигурация DNS
 
-> [!IMPORTANT]
-> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
-    
+
 Чтобы система Bing всегда могла определять пользователей в организации и успешно выполнять их вход в рабочую или учебную учетную запись, настройте внутренний DNS-сервер или прокси-сервер для сопоставления `www.bing.com` с `ms.bing.com`. Для этого создайте запись DNS для `www.bing.com`, являющуюся CNAME для `ms.bing.com`.
   
 ****
