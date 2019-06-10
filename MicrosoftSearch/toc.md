@@ -1,7 +1,10 @@
 #[Обзор Поиска (Майкрософт)](overview-microsoft-search.md)
 #[Настройка Поиска (Майкрософт)](setup-microsoft-search.md)
-#[Планирование содержимого](plan-your-content.md)
+#Упрощение поиска контента
+##[Планирование содержимого](plan-your-content.md)
 ##[Управление закладками](manage-bookmarks.md)
 ##[Управление вопросами и ответами](manage-qas.md)
 ##[Управление расположениями](manage-locations.md)
 #[Поиск (Майкрософт) в SharePoint Online](get-started-search-in-sharepoint-online.md)
+#[Руководство по внедрению среди пользователей](user-adoption-guide.md)
+#[Использование Поиска (Майкрософт)](use/about-microsoft-search.md)
