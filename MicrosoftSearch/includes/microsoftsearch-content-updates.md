@@ -3,21 +3,12 @@
 
 
 
-## <a name="week-of-may-06-2019"></a>Неделя в 06 мая 2006 г., 2019
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 5/9/2019 | [Поиск (Майкрософт)](/MicrosoftSearch/index) | Изменено |
-| 5/9/2019 | [Настройка **службы поиска Майкрософт**](/MicrosoftSearch/setup-microsoft-search) | Изменено |
-
-
 ## <a name="week-of-may-13-2019"></a>Неделя с 13 мая 2019 г.
 
 
 | Дата публикации |Название статьи | Изменение |
 |------|------------|--------|
-| 5/13/2019 | [Сведения о Центре администрирования](/MicrosoftSearch/about-the-admin-portal) | Изменено |
+| 5/13/2019 | [Сведения о портале администрирования](/MicrosoftSearch/about-the-admin-portal) | Изменено |
 | 5/13/2019 | [Добавление расположения](/MicrosoftSearch/add-a-location) | Изменено |
 | 5/13/2019 | [Добавление поля поиска на сайте интрасети](/MicrosoftSearch/add-a-search-box-to-your-intranet-site) | Изменено |
 | 5/13/2019 | [Управление пользователями](/MicrosoftSearch/add-users) | Изменено |
@@ -132,3 +123,17 @@
 | 6/5/2019 | [Руководство по внедрению среди пользователей](/MicrosoftSearch/user-adoption-guide) | Изменено |
 | 6/7/2019 | [Начало работы с Поиском (Майкрософт) в SharePoint Online](/MicrosoftSearch/get-started-search-in-sharepoint-online) | Изменено |
 | 6/7/2019 | [Обзор Поиска (Майкрософт)](/MicrosoftSearch/overview-microsoft-search) | Изменено |
+
+
+## <a name="week-of-june-10-2019"></a>Неделя с 10 июня 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 6/10/2019 | [Импорт популярных запросов и повышенных результатов SharePoint](/MicrosoftSearch/import-sharepoint-promoted-results-and-top-queries) | Изменено |
+| 6/14/2019 | [Планирование содержимого](/MicrosoftSearch/plan-your-content) | Изменено |
+| 6/14/2019 | [Настройка **службы поиска Майкрософт**](/MicrosoftSearch/setup-microsoft-search) | Изменено |
+| 6/14/2019 | [Интеграция PowerApps](/MicrosoftSearch/integrate-powerapps) | Изменено |
+| 6/14/2019 | [Обзор Поиска (Майкрософт)](/MicrosoftSearch/overview-microsoft-search) | Изменено |
+| 6/14/2019 | [Поиск сайтов SharePoint](/MicrosoftSearch/use/find-sharepoint-sites) | Изменено |
+| 6/14/2019 | [Безопасность для Поиска (Майкрософт)](/MicrosoftSearch/security) | Изменено |
