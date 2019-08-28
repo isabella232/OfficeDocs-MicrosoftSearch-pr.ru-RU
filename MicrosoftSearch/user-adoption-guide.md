@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Узнайте о методах и процессах, которые помогут вам успешно выполнить развертывание Microsoft Search в Организации
-ms.openlocfilehash: 2b4dafa4168dfd4c3bbb78ba40e860186ff3d9e3
-ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
+ms.openlocfilehash: 3bca460fe4d764fd1fee1eac16faa467c66cd4b9
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36170314"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639887"
 ---
 # <a name="user-adoption-guide"></a>Руководство по внедрению среди пользователей
 
@@ -79,7 +79,7 @@ ms.locfileid: "36170314"
     
 ## <a name="stage-3-readiness"></a>Этап 3: готовность
 
-Время, в течение которого подготавливается к развертыванию Microsoft Search, приводит к положительному появлению на предприятии. Корпорация Майкрософт предоставляет <a href="https://aka.ms/MicrosoftSearch/Adoption">набор для внедрения</a> , который содержит рекомендации по планированию, настраиваемые объявления электронной почты, шаблоны опросов, руководящие презентации и многое другое. Кроме того, в <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">центре ресурсов поиска Майкрософт</a> можно найти другие материалы по обучению и освоению, разработанные для достижения успеха при пробной отучении Microsoft Search.
+Время, в течение которого подготавливается к развертыванию Microsoft Search, приводит к положительному появлению на предприятии. Корпорация Майкрософт предоставляет <a href="https://resources.techcommunity.microsoft.com/microsoft-search-in-bing-adoption-kit/">набор для внедрения</a> , который содержит рекомендации по планированию, настраиваемые объявления электронной почты, шаблоны опросов, руководящие презентации и многое другое. Кроме того, в <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">центре ресурсов поиска Майкрософт</a> можно найти другие материалы по обучению и освоению, разработанные для достижения успеха при пробной отучении Microsoft Search.
   
  **Готовность продукта и контента**
   

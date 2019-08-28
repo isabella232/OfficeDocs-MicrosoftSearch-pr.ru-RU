@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 3d2a1498-174e-4214-9cf1-8b58cce5a872
 ROBOTS: NOINDEX
 description: Использование поисковых запросов из SharePoint для создания результатов работы Microsoft Search
-ms.openlocfilehash: 59d133aceb15c8f1fa75ecc3f35522def4201d0a
-ms.sourcegitcommit: 9a9d24b4b7a6f3e80b89086d29fd369ebded0619
+ms.openlocfilehash: ebfd10f8705ce5b9a36b9c13d549e28a3f1c6b91
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34810649"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639805"
 ---
 # <a name="import-sharepoint-promoted-results-and-top-queries"></a>Импорт популярных запросов и рекомендуемых результатов SharePoint
 
 > [!IMPORTANT]
-> Эта статья относится к Microsoft Search на портале администрирования Bing. Вы перемещаете портал в центр администрирования Microsoft 365, и он будет удален. Чтобы приступить к работе, рекомендуется использовать центр администрирования Microsoft 365. [Обзор Microsoft Search](overview-microsoft-search.md).
+> Эта статья относится к Microsoft Search на портале администрирования Bing. Вы перемещаете портал в центр администрирования Microsoft 365, а затем служба поиска Microsoft Search на портале Bing будет удалена. Чтобы приступить к работе, рекомендуется использовать центр администрирования Microsoft 365. [Обзор Microsoft Search](overview-microsoft-search.md).
     
 Чтобы использовать запросы пользователей и наиболее подходящие элементы, созданные в SharePoint, Microsoft Search включает два средства для импорта этих сведений в виде предложенных закладок: 
   
