@@ -1,8 +1,8 @@
 ---
 title: Установка браузера по умолчанию
-ms.author: dawholl
-author: dawholl
-manager: kellis
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
@@ -14,70 +14,55 @@ search.appverid:
 - MOE150
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
 ROBOTS: NOINDEX
-description: Узнайте, как настроить браузер по умолчанию для организации при использовании Поиска (Майкрософт).
-ms.openlocfilehash: 08c61bf6dd68f8044f3f79a0b22829a8f7f6b8ef
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+description: Настройте Microsoft Edge или Internet Explorer в качестве браузера по умолчанию для пользователей Поиска (Майкрософт).
+ms.openlocfilehash: ed145a1811aba0b58158ed04dd3bf8dc089a0682
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727846"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639742"
 ---
-# <a name="set-default-browser"></a>Установка браузера по умолчанию
+# <a name="make-microsoft-edge-the-default-browser"></a>Настройка Microsoft Edge в качестве браузера по умолчанию
+  
+Чтобы оптимально использовать возможности Поиска (Майкрософт), вы можете сделать Microsoft Edge браузером по умолчанию. При этом Microsoft Edge будет настроен в качестве браузера по умолчанию только для пользователей в вашей организации. Отдельные пользователи по-прежнему смогут выбирать другие браузеры.
+  
+  
+## <a name="windows-8-and-later"></a>Windows 8 и более поздние версии
 
+В этих инструкциях показано, как настроить Microsoft Edge или Internet Explorer в качестве браузера по умолчанию для компьютеров под управлением Windows 8 и более поздних версий. Пользователи смогут сменить браузер после установки этой политики.
   
-Настройка браузера, поисковой системы и домашней страницы по умолчанию поможет пользователям раскрыть возможности Поиска (Майкрософт), поддерживает дополнительное использование и обеспечивает удобный интерфейс.
-  
-Чтобы установить браузер по умолчанию для организации, следуйте указанным ниже инструкциям.
-  
-## <a name="windows-8-and-above"></a>Windows 8 и более поздняя версия
-
-Чтобы установить Internet Explorer или Microsoft Edge в качестве браузера по умолчанию, выполните указанные ниже действия:
-  
-### <a name="create-default-associations-file"></a>Создание файла сопоставлений по умолчанию
+### <a name="step-1-create-the-default-associations-file"></a>ШАГ 1. Создание файла сопоставлений по умолчанию
+Создайте файл сопоставлений по умолчанию в папке SYSVOL контроллера домена.
 
 1. Откройте административную консоль PowerShell.
+1. `New-Item -Path "\\$env:USERDOMAIN\SYSVOL\$env:USERDNSDOMAIN" -Type Directory -Name "Settings"`
+1. `$SettingsPath="\\$env:USERDOMAIN\SYSVOL\$env:USERDNSDOMAIN\Settings"`
+1. `Start-Process Dism.exe -PassThru "/Online /Export-DefaultAppAssociations:$SettingsPath\AppAssoc.xml"`
     
-2.  `New-Item -Path "\\$env:USERDOMAIN\SYSVOL\$env:USERDNSDOMAIN" -Type Directory -Name "Settings"`
-    
-3.  `$SettingsPath="\\$env:USERDOMAIN\SYSVOL\$env:USERDNSDOMAIN\Settings"`
-    
-4.  `Start-Process Dism.exe -PassThru "/Online /Export-DefaultAppAssociations:$SettingsPath\AppAssoc.xml"`
-    
-Эти действия создают файл сопоставлений по умолчанию в папке SYSVOL контроллера домена.
   
-### <a name="add-or-edit-the-default-associations-file"></a>Добавление или изменение файла сопоставлений по умолчанию
+### <a name="step-2-add-or-edit-the-default-associations-file"></a>ШАГ 2. Добавление или изменение файла сопоставлений по умолчанию
 
 1. `Notepad "$SettingsPath\AppAssoc.xml"`
-    
-2. Измените указанные ниже записи (.htm, .html, http, https) и удалите другие записи, если они не нужны.
-    
+1. Измените указанные ниже записи (.htm, .html, http, https) и удалите другие записи, если они не нужны.
   - **Microsoft Edge**
-    
-     `<Association Identifier=".htm" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" ApplicationName="Microsoft Edge" />`
-  
-     `<Association Identifier=".html" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" ApplicationName="Microsoft Edge" />`
-  
-     `<Association Identifier="http" ProgId="AppXq0fevzme2pys62n3e0fbqa7peapykr8v" ApplicationName="Microsoft Edge" />`
+    - `<Association Identifier=".htm" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" ApplicationName="Microsoft Edge" />`
+              
+    - `<Association Identifier=".html" ProgId="AppX4hxtad77fbk3jkkeerkrm0ze94wjf3s9" ApplicationName="Microsoft Edge" />`
+    - `<Association Identifier="http" ProgId="AppXq0fevzme2pys62n3e0fbqa7peapykr8v" ApplicationName="Microsoft Edge" />`
     
   - **Internet Explorer**
     
-     `<Association Identifier=".htm" ProgId="htmlfile" ApplicationName="Internet Explorer" />`
-  
-     `<Association Identifier=".html" ProgId="htmlfile" ApplicationName="Internet Explorer" />`
-  
-     `<Association Identifier="http" ProgId="IE.HTTP" ApplicationName="Internet Explorer" />`
-  
-     `<Association Identifier="https" ProgId="IE.HTTPS" ApplicationName="Internet Explorer" />`
-    
-3. Откройте консоль управления групповыми политиками (gpmc.msc) и перейдите к редактированию любой существующей политики или созданию новой.
-    
+    - `<Association Identifier=".htm" ProgId="htmlfile" ApplicationName="Internet Explorer" />`        
+    - `<Association Identifier=".html" ProgId="htmlfile" ApplicationName="Internet Explorer" />`
+    - `<Association Identifier="http" ProgId="IE.HTTP" ApplicationName="Internet Explorer" />`
+    - `<Association Identifier="https" ProgId="IE.HTTPS" ApplicationName="Internet Explorer" />`
+
+### <a name="step-3-edit-the-group-policy"></a>Шаг 3. Изменение групповой политики
+
+1. Откройте **консоль управления групповыми политиками** (gpmc.msc) и перейдите к редактированию любой существующей политики или созданию новой.
 1. Перейдите к разделу **Computer Configuration\Administrative Templates\Windows Components\File Explorer**
-    
-2. Дважды щелкните параметр **Set a default associations configuration file** (Задать файл конфигурации сопоставлений по умолчанию), установите для него значение **Enabled** (Включено) и введите путь к AppAssoc.xml (например, %USERDOMAIN%\SYSVOL\%USERDNSDOMAIN%\Settings\AppAssoc.xml)
-    
-4. Примените полученный объект групповой политики, привязав его к нужному домену.
-    
-Пользователи смогут сменить браузер после установки этой политики.
+1. Дважды щелкните параметр **Set a default associations configuration file** (Задать файл конфигурации сопоставлений по умолчанию), установите для него значение **Enabled** (Включено) и введите путь к AppAssoc.xml (например, %USERDOMAIN%\SYSVOL\%USERDNSDOMAIN%\Settings\AppAssoc.xml). Примените полученный объект групповой политики, привязав его к нужному домену.
+
   
 ## <a name="windows-7"></a>Windows 7
 
@@ -103,4 +88,3 @@ ms.locfileid: "34727846"
   
 3. Примените полученный объект групповой политики, привязав его к нужному домену.
     
-Пользователи смогут сменить браузер после установки этой политики.
