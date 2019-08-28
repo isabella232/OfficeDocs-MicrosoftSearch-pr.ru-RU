@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 ROBOTS: NoIndex
 description: Основные возможности Поиска (Майкрософт) для администраторов и конечных пользователей, включая закладки, вопросы и ответы, управление и анализ данных
-ms.openlocfilehash: a0c9dc773ce7e11c446437cbcbcdc56014a4fe5e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 2bcc922e6f9915494434098d6418dcceea264354
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591488"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639643"
 ---
 # <a name="features-of-microsoft-search"></a>Возможности Поиска (Майкрософт)
 
 > [!IMPORTANT]
-> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+> Эта статья относится к порталу администрирования Поиска (Майкрософт) в Bing. Мы переносим портал в Центр администрирования Microsoft 365, после чего портал Поиска (Майкрософт) в Bing будет удален. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
 
 ## <a name="key-admin-features-include"></a>Основные возможности администратора:
 

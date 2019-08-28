@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 41723aec-435c-400e-a818-6b1e8a1324c0
 ROBOTS: NoIndex
 description: Назначение разрешений и ролей администраторам и редакторам Поиска (Майкрософт)
-ms.openlocfilehash: e29de1b38c0014d282168b4771f8400b2deb6ee3
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: af89aa2d536baa64f16b0c2b2ff316200c83cbc0
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591380"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639652"
 ---
 # <a name="manage-users"></a>Управление пользователями
 
 > [!IMPORTANT]
-> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
+> Эта статья относится к порталу администрирования Поиска (Майкрософт) в Bing. Мы переносим портал в Центр администрирования Microsoft 365, после чего портал Поиска (Майкрософт) в Bing будет удален. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
     
 Редакторы могут добавлять содержимое, но не могут изменять параметры
   
