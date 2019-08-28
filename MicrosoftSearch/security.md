@@ -14,14 +14,17 @@ search.appverid:
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 description: Защитите корпоративные данные и пользователей, предоставляя сведения авторизованным пользователям с помощью Поиска (Майкрософт)
-ms.openlocfilehash: b7b62173dc61d271a4953adbf20a6cf48b122694
-ms.sourcegitcommit: 4eeb78066fd13e906daed3add003398bd9d0f6ca
+ms.openlocfilehash: 7aef4acad9f387e50fb03478a7c00d57fa451c00
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "35917572"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639620"
 ---
 # <a name="security-for-microsoft-search"></a>Безопасность для Поиска (Майкрософт)
+
+> [!IMPORTANT]
+> Эта статья относится к порталу администрирования Поиска (Майкрософт) в Bing. Мы переносим портал в Центр администрирования Microsoft 365, после чего портал Поиска (Майкрософт) в Bing будет удален. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
 
 С помощью средств безопасности корпоративного класса Поиск (Майкрософт) всегда обеспечивает защиту пользователей и данных.
 

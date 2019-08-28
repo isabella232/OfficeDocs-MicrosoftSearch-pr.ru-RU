@@ -15,29 +15,24 @@ search.appverid:
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 ROBOTS: NOINDEX
 description: Добавляйте браузерные приложения в результаты для закладок в Поиске (Майкрософт)
-ms.openlocfilehash: d818ab8149032b4664adb90098700d4432a6fbb7
-ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
+ms.openlocfilehash: f68b3c2b74f0a5c1712f0e86e86826e1f2c94b58
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35003122"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639850"
 ---
 # <a name="integrate-powerapps"></a>Интеграция PowerApps
-
-> [!IMPORTANT]
-> Эта статья относится к Поиску (Майкрософт) на портале администрирования Bing. Мы переносим портал в Центр администрирования Microsoft 365 с последующим его удалением. Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365. [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
-    
+   
 Помогите пользователям выполнять задачи, например ввести время отпуска или сообщить о расходах, интегрировав существующую службу PowerApps в закладки. Интегрированная служба PowerApps отображается в результатах для закладок, не требуя перехода на другой сайт или открытия отдельного инструмента, что экономит время и усилия.
   
 ## <a name="what-are-powerapps"></a>Что такое PowerApps?
 
 PowerApps — это служба, которая позволяет создавать бизнес-приложения, работающие в браузере, на телефоне или планшете, при этом не требуется опыт кодирования. Дополнительные сведения
   
-- 
-  [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)
+- [Интерактивное обучение](https://docs.microsoft.com/learn/browse/?products=powerapps)
     
-- 
-  [Документация](https://docs.microsoft.com/ru-RU/powerapps/)
+- [Документация](https://docs.microsoft.com/powerapps/)
     
 ## <a name="add-a-powerapp-to-a-bookmark"></a>Добавление PowerApp в закладку
 
