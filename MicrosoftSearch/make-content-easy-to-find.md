@@ -161,10 +161,8 @@ ms.locfileid: "36639859"
 #### <a name="what-are-powerapps"></a>Что такое PowerApps?
 
 PowerApps — это служба, которая позволяет создавать бизнес-приложения, работающие в браузере, на телефоне или планшете, при этом не требуется опыт кодирования. Служба PowerApps работает в любом браузере и на любом устройстве, и ее добавление занимает меньше минуты. Дополнительные сведения о PowerApps:
-- 
-  [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)
-- 
-  [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)
+- [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)
+- [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)
 - [Главная страница PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Добавление PowerApp в закладку

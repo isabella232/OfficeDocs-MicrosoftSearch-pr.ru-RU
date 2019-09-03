@@ -48,9 +48,7 @@ ms.locfileid: "36639507"
 | Люди          | Вы можете исключить определенных пользователей из результатов поиска по своему списку адресов, задав для параметра `HiddenFromAddressListEnabled` значение `true` с помощью командлета [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Управление доступом пользователей к Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Управление общим доступом](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | 
-  [Планирование разрешений](https://docs.microsoft.com/ru-RU/sharepoint/plan-your-permissions-strategy)<br> 
-  [Создание уровней разрешений](https://docs.microsoft.com/ru-RU/sharepoint/how-to-create-and-edit-permission-levels)                          |
+| SharePoint      | [Планирование разрешений](https://docs.microsoft.com/ru-RU/sharepoint/plan-your-permissions-strategy)<br> [Создание уровней разрешений](https://docs.microsoft.com/ru-RU/sharepoint/how-to-create-and-edit-permission-levels)                          |
 | OneNote         | Выполнять поиск по файлам, внедренным в OneNote, невозможно. [Изменение разрешений для записной книжки в OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Параметры безопасности Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
@@ -89,5 +87,4 @@ ms.locfileid: "36639507"
 
 - [Находите нужные элементы с помощью Поиска (Майкрософт) в Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
 - [Обучение работе с Office 365](https://support.office.com/office-training-center)
-- 
-  [Центр Поиска (Майкрософт)](https://support.office.com/ru-RU/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+- [Центр Поиска (Майкрософт)](https://support.office.com/ru-RU/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
