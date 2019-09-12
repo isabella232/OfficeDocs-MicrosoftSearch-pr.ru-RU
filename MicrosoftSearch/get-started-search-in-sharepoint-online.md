@@ -47,7 +47,6 @@ ms.locfileid: "34767184"
 ## <a name="see-also"></a>См. также
 [Обзор Поиска (Майкрософт)](overview-microsoft-search.md)
 
-
-  [Сведения об интерфейсах поиска в SharePoint](https://docs.microsoft.com/ru-RU/sharepoint/overview-of-search)
+[Сведения об интерфейсах поиска в SharePoint](https://docs.microsoft.com/ru-RU/sharepoint/overview-of-search)
 
 [Когда следует использовать разные интерфейсы поиска в SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
