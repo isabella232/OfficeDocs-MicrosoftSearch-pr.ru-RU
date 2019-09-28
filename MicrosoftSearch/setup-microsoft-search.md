@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка Microsoft поиска в первый раз.
-ms.openlocfilehash: 7c80701e83fea7b9b93e4e01f98fd1eeedbfa749
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 3b3df3e3b3cb3e94abdf57bbb2c7e2db5f174898
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639507"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288994"
 ---
 # <a name="set-up-microsoft-search"></a>Настройка Поиска (Майкрософт)
 
@@ -32,7 +32,7 @@ ms.locfileid: "36639507"
 
 Управление Поиском (Майкрософт) выполняется из Центра администрирования Microsoft 365.
 
-1. В Центре администрирования Microsoft 365 откройте раздел **Параметры** > **Microsoft**.
+1. В Центре администрирования Microsoft 365 откройте раздел **Параметры** > **Поиск (Майкрософт)**.
 
 **Примечание.** Если Поиск (Майкрософт) НЕ отображается в разделе **Параметры**, включите переключатель **Попробовать предварительную версию** в правом верхнем углу Центра администрирования.
 
@@ -48,7 +48,7 @@ ms.locfileid: "36639507"
 | Люди          | Вы можете исключить определенных пользователей из результатов поиска по своему списку адресов, задав для параметра `HiddenFromAddressListEnabled` значение `true` с помощью командлета [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Управление доступом пользователей к Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Управление общим доступом](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | [Планирование разрешений](https://docs.microsoft.com/ru-RU/sharepoint/plan-your-permissions-strategy)<br> [Создание уровней разрешений](https://docs.microsoft.com/ru-RU/sharepoint/how-to-create-and-edit-permission-levels)                          |
+| SharePoint      | [Планирование разрешений](https://docs.microsoft.com/sharepoint/plan-your-permissions-strategy)<br> [Создание уровней разрешений](https://docs.microsoft.com/sharepoint/how-to-create-and-edit-permission-levels)                          |
 | OneNote         | Выполнять поиск по файлам, внедренным в OneNote, невозможно. [Изменение разрешений для записной книжки в OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Параметры безопасности Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
@@ -59,7 +59,7 @@ ms.locfileid: "36639507"
 1. **Администратор Поиска.** Эта роль может создавать и контролировать содержимое результатов поиска, а также определять параметры запросов для улучшенных результатов поиска в организации. Администратор Поиска управляет конфигурацией Поиска (Майкрософт) и может выполнять все те же задачи по управлению контентом, что и редактор Поиска.
 2. **Редактор Поиска.** Создает, контролирует и удаляет контент для Поиска (Майкрософт) в Центре администрирования Microsoft 365. Эта роль может создавать и контролировать редакторский контент, например вопросы и ответы, важные места и расположения, а также популярные сайты и приложения.
 
-В настоящее время роли "Администратор Поиска" и "Редактор Поиска" должен назначать глобальный администратор. Дополнительные сведения см. в статье [Назначение ролей администратора](https://docs.microsoft.com/ru-RU/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+В настоящее время роли "Администратор Поиска" и "Редактор Поиска" должен назначать глобальный администратор. Дополнительные сведения см. в статье [Назначение ролей администратора](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 Администраторы поиска непосредственно влияют на возможности поиска для конечных пользователей. Сюда относится выбор типов результатов, которые должны отображаться для пользователей. Одному человеку может быть сложно выбрать и создать достоверное содержимое по множеству разных тем, которые пользователи ищут в организации. Рекомендуем использовать опыт и знания профильных специалистов, а также других пользователей, добавляя их в качестве редакторов Поиска.
 
@@ -85,6 +85,6 @@ ms.locfileid: "36639507"
 
 Создайте ресурсы самостоятельного обслуживания, к которым сотрудники могут обращаться самостоятельно. Это уменьшит для вас и вашей группы общую нагрузку по постоянной отправке push-уведомлений и поможет в обучении пользователей. Предоставьте пользователям средства взаимодействия, вопросы и ответы, видео и записанные учебные курсы или вебинары. Ниже представлены некоторые полезные ссылки для начала работы:
 
-- [Находите нужные элементы с помощью Поиска (Майкрософт) в Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
+- [Находите нужные элементы с помощью Поиска (Майкрософт) в Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446)
 - [Обучение работе с Office 365](https://support.office.com/office-training-center)
-- [Центр Поиска (Майкрософт)](https://support.office.com/ru-RU/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+- [Центр Поиска (Майкрософт)](https://support.office.com/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc)

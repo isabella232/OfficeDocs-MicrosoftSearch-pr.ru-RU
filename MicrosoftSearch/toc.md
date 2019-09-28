@@ -10,6 +10,7 @@
 ##[Управление закладками](manage-bookmarks.md)
 ##[Управление вопросами и ответами](manage-qas.md)
 ##[Управление расположениями](manage-locations.md)
+##[Управление планами этажей](manage-floorplans.md)
 #[Руководство по внедрению среди пользователей](user-adoption-guide.md)
 #[Вопросы и ответы](faqs.md)
 #[Использование Поиска (Майкрософт)](use/about-microsoft-search.md)
