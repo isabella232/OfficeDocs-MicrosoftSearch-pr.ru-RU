@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Подготовьте организацию к работе с Поиском (Майкрософт) в SharePoint Online
-ms.openlocfilehash: cff89b29b06d1592db15642a697cd414c011ecbc
-ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
+ms.openlocfilehash: 7651339d4c531139522d844cef238d6dc90a2496
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767184"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288985"
 ---
 # <a name="get-started-with-microsoft-search-in-sharepoint"></a>Начало работы с Поиском (Майкрософт) в SharePoint
 
@@ -47,6 +47,6 @@ ms.locfileid: "34767184"
 ## <a name="see-also"></a>См. также
 [Обзор Поиска (Майкрософт)](overview-microsoft-search.md)
 
-[Сведения об интерфейсах поиска в SharePoint](https://docs.microsoft.com/ru-RU/sharepoint/overview-of-search)
+[Сведения об интерфейсах поиска в SharePoint](https://docs.microsoft.com/sharepoint/overview-of-search)
 
 [Когда следует использовать разные интерфейсы поиска в SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)

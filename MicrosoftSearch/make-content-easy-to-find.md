@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создавайте закладки, расположения и вопросы с ответами, чтобы упростить поиск контента вашей организации.
-ms.openlocfilehash: a2f8018a85d792473f268a735abb368babfc582c
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 2ed18cf8dcb855725a7cf3d51737e767000e9e83
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639859"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288922"
 ---
 # <a name="make-content-easy-to-find"></a>Упрощение поиска контента
 
@@ -116,7 +116,7 @@ ms.locfileid: "36639859"
 Администраторы поиска могут легко создавать контент поиска, используя расширения браузеров. Установите расширение браузера, перейдите на нужный сайт и добавьте его в качестве закладки.
 
 В настоящее время расширения браузеров доступны для Microsoft Edge и Chrome. 
-- Чтобы скачать расширение Microsoft Edge, перейдите в [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) и скачайте приложение.
+- Чтобы скачать расширение Microsoft Edge, перейдите в [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) и скачайте приложение.
 - Чтобы скачать расширение Chrome, перейдите в [интернет-магазин Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и скачайте приложение.
 
 ### <a name="bulk-add-or-edit-bookmarks"></a>Массовое добавление и изменение закладок
@@ -161,13 +161,13 @@ ms.locfileid: "36639859"
 #### <a name="what-are-powerapps"></a>Что такое PowerApps?
 
 PowerApps — это служба, которая позволяет создавать бизнес-приложения, работающие в браузере, на телефоне или планшете, при этом не требуется опыт кодирования. Служба PowerApps работает в любом браузере и на любом устройстве, и ее добавление занимает меньше минуты. Дополнительные сведения о PowerApps:
-- [Интерактивное обучение](https://docs.microsoft.com/ru-RU/learn/browse/?products=powerapps)
-- [Документация](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid)
+- [Интерактивное обучение](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Документация](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Главная страница PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Добавление PowerApp в закладку
 
-1. Найдите [идентификатор приложения PowerApp](https://docs.microsoft.com/ru-RU/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id), которое нужно интегрировать.
+1. Найдите [идентификатор приложения PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id), которое нужно интегрировать.
 1. Выполните вход и перейдите в **Центр администрирования Microsoft 365**.
 1. В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.
 1. Добавьте или найдите существующую закладку, в которую вы хотите добавить **PowerApp**.
