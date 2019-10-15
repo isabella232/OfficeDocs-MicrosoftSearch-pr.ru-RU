@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
-ms.openlocfilehash: 7c7ec8be726f2ac12a0e07f3d70c4b6515366bf3
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.openlocfilehash: 0106799b4307e979c5fbafc4ed8c1ddb55098b14
+ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37289021"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37502950"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   
-В этой статье описывается, как сделать Bing поисковой системой по умолчанию для браузеров Microsoft Edge, Google Chrome и Internet Explorer. 
+В этой статье описывается, как можно сделать Bing поисковой системой по умолчанию для браузеров Microsoft Edge, Google Chrome и Internet Explorer. 
   
 ## <a name="microsoft-edge-on-windows-10-version-1703-or-later"></a>Microsoft Edge в Windows 10 версии 1703 или более поздней
 
