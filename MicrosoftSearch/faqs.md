@@ -12,15 +12,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
 ROBOTS: NoIndex
 description: Получите ответы на часто задаваемые вопросы о поиске в корпоративной среде и Поиске (Майкрософт)
-ms.openlocfilehash: 3b30980c76915405767381fb3b6397468bdd1b68
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: d3cf7e4a6f252711f94e90a4e6561c8f25769c27
+ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639506"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37502932"
 ---
 # <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -59,3 +58,8 @@ ms.locfileid: "36639506"
 ## <a name="where-can-i-get-info-about-office-365-and-microsoft-365-compliance-tiers-and-categories"></a>Где можно получить дополнительные сведения об уровнях и категориях соответствия требованиям в Office 365 и Microsoft 365?
 
 Подробные сведения можно найти в статье [Инфраструктура соответствия отраслевым стандартам и нормативным требованиям](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (скачать PDF).
+
+## <a name="can-users-earn-microsoft-rewards-points-with-their-work-or-school-account"></a>Могут ли пользователи получать баллы Microsoft Rewards, используя рабочую или учебную учетную запись?
+
+Для использования Поиска (Майкрософт) корпоративные пользователи должны выполнять вход с помощью рабочей или учебной учетной записи. Но пользователь не может присоединиться к программе Microsoft Rewards или войти в нее, используя эти учетные записи. Однако существует вариант, при котором корпоративный пользователь может наблюдать начисление баллов программы Rewards. Это может происходить, если у пользователя Поиска (Майкрософт) есть учетная запись Rewards, созданная с помощью <a href="https://www.microsoft.com/en-us/welcome?rtc=1">учетной записи Майкрософт</a>. (Для связи с учетной записью Майкрософт может применяться адрес электронной почты от Outlook.com, Hotmail.com, Gmail, Yahoo или других поставщиков.) Если пользователи попеременно входят в один сеанс браузера, используя рабочую учетную запись и учетную запись Майкрософт, они могут получать баллы для своей учетной записи Rewards. Пользователи могут прекратить начисление баллов при использовании Поиска (Майкрософт), очистив свои файлы cookie. 
+
