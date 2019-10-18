@@ -22,14 +22,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/27/2019
 ms.locfileid: "36639796"
 ---
-# <a name="manage-network-connections"></a><span data-ttu-id="f3664-103">Управление сетевыми подключениями</span><span class="sxs-lookup"><span data-stu-id="f3664-103">Manage network connections</span></span>
+# <a name="manage-network-connections"></a><span data-ttu-id="00a43-103">Управление сетевыми подключениями</span><span class="sxs-lookup"><span data-stu-id="00a43-103">Manage network connections</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f3664-104">Эта статья относится к порталу администрирования Поиска (Майкрософт) в Bing.</span><span class="sxs-lookup"><span data-stu-id="f3664-104">This article applies to the Microsoft Search in Bing admin portal.</span></span> <span data-ttu-id="f3664-105">Мы переносим портал в Центр администрирования Microsoft 365, после чего портал Поиска (Майкрософт) в Bing будет удален.</span><span class="sxs-lookup"><span data-stu-id="f3664-105">We’re moving the portal to the Microsoft 365 admin center, and then the Microsoft Search in Bing portal will be removed.</span></span> <span data-ttu-id="f3664-106">Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="f3664-106">We recommend that you use the Microsoft 365 admin center to get started.</span></span> <span data-ttu-id="f3664-107">[Обзор Поиска (Майкрософт)](overview-microsoft-search.md).</span><span class="sxs-lookup"><span data-stu-id="f3664-107">[Overview of Microsoft Search](overview-microsoft-search.md)</span></span>
+> <span data-ttu-id="00a43-104">Эта статья относится к порталу администрирования Поиска (Майкрософт) в Bing.</span><span class="sxs-lookup"><span data-stu-id="00a43-104">This article applies to the Microsoft Search in Bing admin portal.</span></span> <span data-ttu-id="00a43-105">Мы переносим портал в Центр администрирования Microsoft 365, после чего портал Поиска (Майкрософт) в Bing будет удален.</span><span class="sxs-lookup"><span data-stu-id="00a43-105">We’re moving the portal to the Microsoft 365 admin center, and then the Microsoft Search in Bing portal will be removed.</span></span> <span data-ttu-id="00a43-106">Чтобы приступить к работе, рекомендуется использовать Центр администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="00a43-106">We recommend that you use the Microsoft 365 admin center to get started.</span></span> <span data-ttu-id="00a43-107">[Обзор Поиска (Майкрософт)](overview-microsoft-search.md).</span><span class="sxs-lookup"><span data-stu-id="00a43-107">[Overview of Microsoft Search](overview-microsoft-search.md)</span></span>
     
-<span data-ttu-id="f3664-108">Чтобы убедиться, что вы и ваши пользователи можете подключаться к конечным точкам для Поиска (Майкрософт), добавьте эти URL-адреса в список разрешенных вашего брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="f3664-108">To ensure you and your users can connect to Microsoft Search endpoints, add these URLs to your firewall allow lists.</span></span>
+<span data-ttu-id="00a43-108">Чтобы убедиться, что вы и ваши пользователи можете подключаться к конечным точкам для Поиска (Майкрософт), добавьте эти URL-адреса в список разрешенных вашего брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="00a43-108">To ensure you and your users can connect to Microsoft Search endpoints, add these URLs to your firewall allow lists.</span></span>
   
-## <a name="for-the-microsoft-search-admin-portal"></a><span data-ttu-id="f3664-109">Для портала администрирования Поиска (Майкрософт):</span><span class="sxs-lookup"><span data-stu-id="f3664-109">For the Microsoft Search Admin portal:</span></span>
+## <a name="for-the-microsoft-search-admin-portal"></a><span data-ttu-id="00a43-109">Для портала администрирования Поиска (Майкрософт):</span><span class="sxs-lookup"><span data-stu-id="00a43-109">For the Microsoft Search Admin portal:</span></span>
 
 - `www.bingatwork.com`
     
@@ -43,7 +43,7 @@ ms.locfileid: "36639796"
     
 - `\*.bingforbusiness.com`
     
-## <a name="for-microsoft-search-in-bing"></a><span data-ttu-id="f3664-110">Для Поиска (Майкрософт) в Bing:</span><span class="sxs-lookup"><span data-stu-id="f3664-110">For Microsoft Search in Bing:</span></span>
+## <a name="for-microsoft-search-in-bing"></a><span data-ttu-id="00a43-110">Для Поиска (Майкрософт) в Bing:</span><span class="sxs-lookup"><span data-stu-id="00a43-110">For Microsoft Search in Bing:</span></span>
 
 - `business.bing.com`
     
