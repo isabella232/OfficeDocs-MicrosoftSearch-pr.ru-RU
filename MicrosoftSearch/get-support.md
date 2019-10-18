@@ -22,9 +22,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/30/2019
 ms.locfileid: "34591596"
 ---
-# <a name="get-support"></a><span data-ttu-id="3eb85-103">Получение поддержки</span><span class="sxs-lookup"><span data-stu-id="3eb85-103">Get support</span></span>
+# <a name="get-support"></a><span data-ttu-id="1909d-103">Получение поддержки</span><span class="sxs-lookup"><span data-stu-id="1909d-103">Get support</span></span>
 
-<span data-ttu-id="3eb85-104">Используйте коллективный опыт других администраторов Поиска (Майкрософт), обменивайтесь знаниями друг с другом и специалистами, а также делитесь своим опытом в разделе Поиска (Майкрософт) сайта [сообщества Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="3eb85-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
+<span data-ttu-id="1909d-104">Используйте коллективный опыт других администраторов Поиска (Майкрософт), обменивайтесь знаниями друг с другом и специалистами, а также делитесь своим опытом в разделе Поиска (Майкрософт) сайта [сообщества Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="1909d-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
 
   
 
