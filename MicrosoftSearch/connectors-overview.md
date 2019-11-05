@@ -12,26 +12,26 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединителей Microsoft Graph для поиска в Микросфот
-ms.openlocfilehash: c60154e5769e96cf8a6a4a399d344da259f4e7b0
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: c372d4750c6644f0f98054a2531b6431fb8cd334
+ms.sourcegitcommit: 90f82efc3671c477536cbe8d8846132910b64600
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949982"
+ms.locfileid: "37961959"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединителей Microsoft Graph
 
 Microsoft Search индексирует все данные Microsoft 365, чтобы обеспечить возможность поиска для пользователей. С помощью Microsoft Graph Connectors в Организации можно индексировать сторонние данные, которые будут отображаться в результатах поиска Майкрософт. Сторонние данные могут размещаться в локальной среде или в общедоступных или частных облаках. Соединители расширяют типы источников контента, которые доступны для поиска в приложениях Microsoft 365 для продуктивной работы, а также в более широком наборе Microsoft экосистеме.
 
 > [!IMPORTANT]
-> **Заявление об отказе**: Microsoft Graph Connectors, API индексирования и API поиска в настоящее время находятся в режиме предварительного просмотра. Дополнительные сведения о предварительной версии см в разделе [Предварительный просмотр соединителей](connectors-preview.md). Чтобы принять участие в предварительной версии, необходимо сначала добавить [форму подписки на предварительный просмотр соединителей Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
+> **Заявление об отказе**: Microsoft Graph Connectors и API службы поиска Microsoft (индексирование и поиск) в настоящее время находятся в режиме предварительного просмотра. Дополнительные сведения о предварительной версии можно найти в [статье Microsoft Graph Connectors Preview](connectors-preview.md). Чтобы принять участие в предварительной версии, необходимо сначала добавить [форму подписки на предварительный просмотр соединителей Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
 
 ## <a name="architecture"></a>Архитектура
 На следующей архитектурной схеме платформы Microsoft Graph показано, как соединительное содержимое проходит через индексирование содержимого для пользователей в клиентах [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) . В этой статье описываются основные конструктивные блоки в процессе обработки поток данных Microsoft Graph Connectors.
 
-[СМ. ВРЕМЕННАЯ СХЕМА НИЖЕ]![](media/highlevel-connectors_FINAL.jpg)
+![](media/highlevel-connectors_FINAL.png)
 
-API создает экземпляр одного подключения для каждого источника данных. Затем исходные данные передаются через API индексирования содержимого Майкрософт для индексирования и хранения. Установленные подключения взаимодействуют с Microsoft Search, поэтому пользователи могут получать результаты поиска.
+API создает экземпляр одного подключения для каждого источника данных. Затем API индексирует и сохраняет данные. Установленные подключения взаимодействуют с Microsoft Search, поэтому пользователи могут получать результаты поиска.
 
 Все соединители, созданные корпорацией Майкрософт, можно настроить в [центре администрирования microsoft 365](https://admin.microsoft.com). Центр администрирования упрощает настройку соединителя с помощью простого пользовательского интерфейса.
 
@@ -42,7 +42,7 @@ API создает экземпляр одного подключения для
 
 Чтобы просмотреть соединители от одного из наших партнеров по экосистеме, свяжитесь с ними напрямую. Дополнительные сведения можно найти в [коллекции соединителей Microsoft Graph](connectors-gallery.md).
 
-Вы также можете создать собственный соединитель с помощью [API индексирования Microsoft Graph](/graph/search-index-overview).
+Вы также можете [создать собственный соединитель](https://docs.microsoft.com/graph/search-concept-overview).
 
 ### <a name="connectors-by-microsoft"></a>Соединители корпорации Майкрософт
 Ознакомительная версия Microsoft Graph Connectors содержит шесть соединителей, созданных корпорацией Майкрософт. Вы можете настроить их в [центре администрирования microsoft 365](https://admin.microsoft.com) и узнать, как [настроить соединитель, созданный корпорацией Майкрософт](configure-connector.md).
@@ -72,10 +72,10 @@ API создает экземпляр одного подключения для
 Узнайте больше о соединителях наших партнеров в [коллекции соединителей Microsoft Graph](connectors-gallery.md).
 
 ### <a name="build-your-own-connector"></a>Создание собственного соединителя
-Чтобы индексировать пользовательские типы данных или файлы, разработчики могут создавать соединители в [Microsoft Graph](https://developer.microsoft.com/graph/). Соединитель — это приложение, которое использует API индексирования Microsoft Graph для создания подключения и отправки элементов в индекс поиска Майкрософт. Более подробную информацию можно найти в [статье Обзор API индексирования Microsoft Graph](https://docs.microsoft.com/graph/search-index-overview).
+Чтобы индексировать пользовательские типы данных или файлы, разработчики могут создавать соединители в [Microsoft Graph](https://developer.microsoft.com/graph/). Соединитель — это приложение, которое [создает подключение](https://docs.microsoft.com/graph/search-index-manage-connections) и передает элементы в индекс поиска Майкрософт. Для получения дополнительных сведений ознакомьтесь с [обзором, чтобы расширить возможности поиска Microsoft для приложений в Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
 
 ### <a name="search-results-with-your-custom-built-connector"></a>Результаты поиска с помощью созданного настраиваемого соединителя
-После индексирования пользовательских данных разработчики могут запрашивать эти данные с помощью API поиска в Microsoft Graph. Вы можете просматривать данные в любом приложении. Для получения дополнительных сведений обратитесь к разделу [Обзор API поиска Microsoft Graph](https://docs.microsoft.com/graph/api/resources/indexing-api-overview).
+После индексирования пользовательских данных разработчики могут [запрашивать эти данные](https://docs.microsoft.com/graph/search-concept-custom-types). Вы можете просматривать данные в любом приложении. Для получения дополнительных сведений ознакомьтесь с [обзором, чтобы расширить возможности поиска Microsoft для приложений в Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
 
 ## <a name="license-requirements"></a>Требования лицензирования
 Чтобы просмотреть данные из соединителей в результатах поиска, у пользователей должна быть одна из следующих подписок Microsoft 365:
