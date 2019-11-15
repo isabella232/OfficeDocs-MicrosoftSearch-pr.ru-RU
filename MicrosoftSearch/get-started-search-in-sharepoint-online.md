@@ -3,50 +3,51 @@ title: Начало работы с Поиском (Майкрософт) в Sha
 ms.author: tlarsen
 author: tlarsen
 manager: mnirkhe
-ms.date: 12/11/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Подготовьте организацию к работе с Поиском (Майкрософт) в SharePoint Online
-ms.openlocfilehash: 7651339d4c531139522d844cef238d6dc90a2496
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
-ms.translationtype: HT
+description: Начало работы с организацией Microsoft Search в SharePoint Online
+ms.openlocfilehash: 662dc2b69f02857327cd95b0f7c162e92800ce1c
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288985"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626858"
 ---
 # <a name="get-started-with-microsoft-search-in-sharepoint"></a>Начало работы с Поиском (Майкрософт) в SharePoint
 
-Поиск (Майкрософт) в SharePoint — это современный интерфейс поиска в SharePoint Online. В SharePoint Online также доступен классический интерфейс поиска. Администратор поиска не может отключить или включить ни один из этих интерфейсов поиска. Они оба включены по умолчанию. Предоставляемый пользователям интерфейс поиска зависит от места выполнения поиска:
+Microsoft Search в SharePoint — это современный интерфейс поиска в [SharePoint Online](https://products.office.com/sharepoint/collaboration). В SharePoint Online также доступен классический интерфейс поиска. Как администратор поиска, вы не можете включать и отключать любой из этих функций поиска. Они оба включены по умолчанию. Предоставляемый пользователям интерфейс поиска зависит от места выполнения поиска:
 
-- Пользователям доступно поле Поиска (Майкрософт) на начальной странице SharePoint, центральных сайтах, информационных сайтах и современных сайтах групп.
-- Пользователям предоставляется классическое поле поиска на сайтах публикации, классических сайтах групп и в центре поиска.
+- Пользователи получают поле поиска Майкрософт на начальной странице [SharePoint](http://sharepoint.com/) , центральных сайтах, сайтах для общения и современных сайтах групп.
+- Пользователи получают классическое поле поиска на сайтах публикации, классических сайтах группы и в [центре поиска SharePoint](https://docs.microsoft.com/sharepoint/manage-search-center).
 
-Выполните эти действия, чтобы подготовить организацию к работе с Поиском (Майкрософт) в SharePoint.
+Чтобы получить доступ к организации Microsoft Search в SharePoint, выполните действия, описанные в следующих разделах.
 
-## <a name="step-1-prepare-for-microsoft-search-in-sharepoint"></a>Шаг 1. Подготовка к использованию Поиска (Майкрософт) в SharePoint
+## <a name="prepare-for-microsoft-search-in-sharepoint"></a>Подготовка к Microsoft Search в SharePoint
 
-Пользователи могут находить только индексированный контент SharePoint. Поиск (Майкрософт) использует тот же индекс для контента SharePoint, что и классический поиск, а обход и индексирование контента SharePoint выполняются автоматически. Если в вашей организации в SharePoint используется как классический поиск, так и Поиск (Майкрософт), [узнайте, как избежать влияния параметров классического поиска на Поиск (Майкрософт)](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
+Пользователи могут находить только индексированный контент SharePoint. Служба поиска Майкрософт и классический поиск используют один и тот же индекс для контента SharePoint, который обходится и индексируется автоматически. 
 
-Выполните общие инструкции по [настройке Поиска (Майкрософт)](set-up-microsoft-search.md).
+В некоторых организациях в SharePoint используется классический поиск и поиск Майкрософт. Чтобы узнать, как избежать влияния на классические параметры поиска в Microsoft Search в SharePoint, ознакомьтесь [со статьями различия между классическим и современным опытом поиска в SharePoint Online](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
+
+Следуйте рекомендациям по [настройке службы поиска Майкрософт](set-up-microsoft-search.md).
 
 
-## <a name="step-2-get-your-organization-to-adopt-modern-sites"></a>Шаг 2. Внедрение в организации современных сайтов
+## <a name="get-your-organization-to-adopt-modern-sites"></a>Получение современных сайтов в Организации
 
-Повлияйте на свою организацию, чтобы вместо классических сайтов начали применяться современные сайты. [Сведения о современном интерфейсе в SharePoint](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
+Для улучшения качества поиска постарайтесь использовать современные, а не классические сайты. Чтобы узнать больше, ознакомьтесь [с классическим и современным интерфейсом SharePoint](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
-## <a name="step-3-promote-searching-from-the-sharepoint-start-page"></a>Шаг 3. Популяризация поиска на начальной странице SharePoint
+## <a name="promote-searching-from-the-sharepoint-start-page"></a>Повышение уровня поиска на начальной странице SharePoint
 
-Научите пользователей выполнять поиск на начальной странице SharePoint, а не в классическом центре поиска. Рассмотрите возможность скрытия классического центра поиска от пользователей.
+Научите пользователей выполнять поиск с начальной страницы [SharePoint](http://sharepoint.com/) , а не из классического[центра поиска](https://docs.microsoft.com/sharepoint/manage-search-center). Рассмотрите возможность скрытия классического центра поиска от пользователей.
 
 ## <a name="see-also"></a>См. также
 [Обзор Поиска (Майкрософт)](overview-microsoft-search.md)
 
-[Сведения об интерфейсах поиска в SharePoint](https://docs.microsoft.com/sharepoint/overview-of-search)
+[Настройка поиска](https://docs.microsoft.com/sharepoint/overview-of-search)
 
-[Когда следует использовать разные интерфейсы поиска в SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
+[Интерфейсы поиска в SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)

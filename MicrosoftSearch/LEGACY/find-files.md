@@ -3,7 +3,6 @@ title: Поиск файлов
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 12/18/2018
 ms.audience: Consumer/IW
 ms.topic: article
 ms.service: mssearch
@@ -14,12 +13,12 @@ search.appverid:
 ms.assetid: ff42d668-f721-4ada-b130-77e38508197c
 ROBOTS: NOINDEX
 description: Поиск файлов Office и файлов PDF и сведений, которые можно увидеть, с помощью службы поиска Microsoft Search
-ms.openlocfilehash: cd6d166c99f226b9182d9201866d936b58f7c57a
-ms.sourcegitcommit: 6b531b2ce7253c16251c7089795dedf1d2f3fc33
+ms.openlocfilehash: 6f723f9101bece706545e775be17b7f26033aaae
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311849"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626750"
 ---
 # <a name="find-files"></a>Поиск файлов
 

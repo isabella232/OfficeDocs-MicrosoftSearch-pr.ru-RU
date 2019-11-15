@@ -1,22 +1,23 @@
 ---
 title: Коллекция соединителей
-description: Список всех соединителей Microsoft Graph для поиска Майкрософт
-services: microsoft-search
+ms.author: mounika.narayanan
 author: monaray
-manager: samanro
-layout: LandingPage
-ms.assetid: ''
-ms.service: mssearch
-ms.tgt_pltfrm: na
-ms.devlang: na
+manager: shohara
+ms.audience: Admin
 ms.topic: landing-page
-ms.author: samanro
-ms.openlocfilehash: 87fc858f702940afd5a943d05287aab15fd33d1e
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.service: mssearch
+localization_priority: Normal
+search.appverid:
+- BFB160
+- MET150
+- MOE150
+description: Список всех соединителей Microsoft Graph для поиска Майкрософт
+ms.openlocfilehash: 6ae3ef26fc80997c9698b3fc5bd47cfceef6a32a
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949993"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626555"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Коллекция соединителей Microsoft Graph
 
@@ -32,7 +33,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Azure Data Lake Storage Gen2</h3>
+                        <h3>Azure Data Lake Storage 2-го поколения</h3>
                         <p>корпорацией <a href="https://www.microsoft.com" target="_blank" data-linktype="external">Майкрософт</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут искать файлы и контент, хранящиеся в контейнерах больших двоичных объектов Azure. Соединитель Gen2 для Azure Data Lake Storage также индексирует папки с включенной иерархией в учетных записях Azure Data Lake Storage Gen2, которые вы указали.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
@@ -103,7 +104,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>медиавики</h3>
+                        <h3>MediaWiki</h3>
                         <p>корпорацией <a href="https://www.microsoft.com">Майкрософт</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">С помощью этого соединителя Microsoft Graph пользователи могут выполнять поиск в статьях базы знаний на вики-сайтах, создаваемых в Организации с помощью Медиавики.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
@@ -149,7 +150,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Действующие</h3>
+                        <h3>ServiceNow</h3>
                         <p>корпорацией <a href="https://www.microsoft.com">Майкрософт</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут выполнять поиск в статьях базы знаний в экземпляре ServiceNow.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
@@ -1309,7 +1310,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>медиавики</h3>
+                       <h3>MediaWiki</h3>
                         <p>по <a href="https://www.raytion.com">райтион</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">Соединитель для Медиавики. Индексирование страниц, страниц обсуждений и вложений из экземпляров Медиавики в режиме реального времени. Соединитель полностью поддерживает встроенную модель разрешений Медиавики, а также установки Медиавики на основе Active Directory и других служб каталогов. соединитель поиска для шестого поколения Райтион.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1871,7 +1872,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Действующие</h3>
+                        <h3>ServiceNow</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">Соединитель Now (служба) будет выполнять обход контента из ServiceNow.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1887,7 +1888,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Действующие</h3>
+                        <h3>ServiceNow</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">Соединитель ServiceNow учитывает безопасность исходной системы и обеспечивает как полный, так и добавочный обход контента, чтобы пользователи могли получить доступ к самой последней информации.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1903,7 +1904,7 @@ ms.locfileid: "37949993"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>Действующие</h3>
+                       <h3>ServiceNow</h3>
                         <p>по <a href="https://www.raytion.com">райтион</a></p>
                         <p style="min-height: 100px; overflow: hidden; height: 100px;" onmouseover="this.style.height='auto'" onmouseout="this.style.height='100px'">Соединитель для ServiceNow. Индексирует проблемы, задачи, вложения, км статьи, страницы, а не все остальные из ServiceNow в режиме реального времени. Соединитель поддерживает встроенные в ServiceNow Управление пользователями и группами. соединитель поиска для шестого поколения Райтион.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">

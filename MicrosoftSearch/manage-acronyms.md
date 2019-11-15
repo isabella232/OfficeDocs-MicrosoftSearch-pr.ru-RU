@@ -3,7 +3,6 @@ title: Управление сокращениями ответов в Microsoft
 ms.author: v-pamcna
 author: TrishaMc1
 manager: mnirkhe
-ms.date: 10/28/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание и обновление аббревиатур ответов в Microsoft Search
-ms.openlocfilehash: 8ff48f1eaa4ef8dab83411fad2f0ee4367158cd1
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 4f47d5b743709657459ccbc6b03897c29a51e109
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950018"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626822"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Управление сокращениями ответов в Microsoft Search
 
@@ -64,7 +63,7 @@ ms.locfileid: "37950018"
 
 | Аббревиатура (обязательно) | Расширение (обязательно) | Описание  | Источник | State (обязательно) |
 | --------- | --------- | ---------- | --------- |--------- |
-| *XXX* | *Сокращенное сокращение* |  | *URL* | *Опубликовано или черновик* |
+| *XXX* | *Сокращенное сокращение* |  | *URL-адрес* | *Опубликовано или черновик* |
 
 ### <a name="csv-fields"></a>Поля CSV
 **Акроним**. Содержит собственно краткую форму или аббревиатуру. Пример: *днн*.
@@ -92,7 +91,7 @@ ms.locfileid: "37950018"
 > [!NOTE]
 > Для акронимов mined не требуется настройка ИТ-администратора.
 
-## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
 **Вопрос: как редакционные и mined-данные ранжированы?**
 
 **A:** В настоящее время функция, в настоящее время, ранжирует акронимы над акронимами mined.

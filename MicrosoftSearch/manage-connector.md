@@ -1,9 +1,8 @@
 ---
 title: Управление соединителями Microsoft Graph для поиска Майкрософт
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: mnirkhe
-ms.date: 11/04/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Управление соединителями Microsoft Graph для поиска Майкрософт.
-ms.openlocfilehash: 5aab310a05d073221918a8aaa80ea1e06c818e51
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: c74dc8f6d08519860e757b0ebe19e83dcf42159b
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37950009"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626804"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Управление соединителем для поиска Майкрософт
 
@@ -34,9 +33,9 @@ ms.locfileid: "37950009"
 **Операция** | **Соединитель, созданный корпорацией Майкрософт** | **Партнер или настраиваемый соединитель**
 --- | --- | ---
 Добавление подключения | : heavy_check_mark: (см. раздел [Настройка соединителя, созданного корпорацией Майкрософт](configure-connector.md)) | : x: (обратитесь к своему партнеру или к пользовательскому администратору соединителя)
-Удаление подключения | :heavy_check_mark: | :heavy_check_mark:
-Изменение опубликованного подключения | : heavy_check_mark: Name<br></br> : heavy_check_mark: описание<br></br> : heavy_check_mark: учетные данные для проверки подлинности для внешнего источника данных<br></br> : heavy_check_mark: учетные данные шлюза для локального источника данных<br></br> : heavy_check_mark: расписание обновления<br></br> | : heavy_check_mark: Name<br></br> : heavy_check_mark: описание
-Изменение черновика подключения | :heavy_check_mark: | x
+Удаление подключения | : heavy_check_mark: | : heavy_check_mark:
+Изменение опубликованного подключения | : heavy_check_mark: имя<br></br> : heavy_check_mark: описание<br></br> : heavy_check_mark: учетные данные для проверки подлинности для внешнего источника данных<br></br> : heavy_check_mark: учетные данные шлюза для локального источника данных<br></br> : heavy_check_mark: расписание обновления<br></br> | : heavy_check_mark: имя<br></br> : heavy_check_mark: описание
+Изменение черновика подключения | : heavy_check_mark: | x
 
 ## <a name="monitor-your-connection-status"></a>Отслеживание состояния подключения
 После создания подключения отображается количество обработанных элементов на вкладке **соединители** на странице **Microsoft Search** . После успешного выполнения начального полного обхода отображается ход выполнения для периодического добавочного обхода контента. На этой странице представлены сведения о повседневных операциях соединителя и обзор журналов ошибок и журналов ошибок.
