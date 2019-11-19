@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Узнайте о методах и процессах, которые помогут вам успешно выполнить развертывание Microsoft Search в Организации
-ms.openlocfilehash: 59fbc5ea629d385fbdc01f56a8bca3f5c6e7626f
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 135b07b7dd4e26eaaebd0c09d0d94689b83f2b16
+ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626885"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699533"
 ---
 # <a name="user-adoption-guide"></a>Руководство по внедрению среди пользователей
 
@@ -121,7 +121,7 @@ ms.locfileid: "38626885"
   
 Как неотъемлемой частью [microsoft 365](https://www.microsoft.com/microsoft-365), служба поиска Майкрософт соответствует рекомендациям по GDPR и уровню с. В зависимости от вашей организации может потребоваться предоставить общий доступ к сведениям о поиске Майкрософт для групп конфиденциальности и безопасности. Более подробную информацию можно узнать в [статье Security for Microsoft Search](overview-microsoft-search.md#microsoft-search-in-bing-protects-enterprise-searches).
   
-Убедитесь, что ваша служба технической поддержки знает о возможностях и функциях Microsoft Search, а также требованиях пользователей к входу, чтобы они могли более эффективно поддерживать пользователей. Дополнительные сведения см в статье [сведения о поиске в microsoft 365](https://support.office.com/en-us/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) и [FAQ](faqs.md).
+Убедитесь, что ваша служба технической поддержки знает о возможностях и функциях Microsoft Search, а также требованиях пользователей к входу, чтобы они могли более эффективно поддерживать пользователей. Дополнительные сведения см в статье [сведения о поиске в microsoft 365](https://support.office.com/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) и [FAQ](faqs.md).
   
 ### <a name="evaluate-with-pilot-users"></a>Оценка с помощью пилотных пользователей
   
