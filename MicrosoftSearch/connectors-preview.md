@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Дополнительные сведения о Microsoft Graph Connectors Preview for Microsoft Search.
-ms.openlocfilehash: 6080674e1a6b789cbe5b3492f93f5f932b536e53
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 054dc00bcb5cc0c110858fd329fbf2dbf16fb38b
+ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699371"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39205879"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Предварительная версия соединителей Microsoft Graph
 
-В настоящее время доступны предварительный просмотр соединителей Microsoft Graph, API индексирования и API поиска. Чтобы получить доступ к функциональным возможностям соединителей, необходимо запросить присоединение к программе предварительной версии, отправив <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">форму подписки на предварительный просмотр соединителей Microsoft Graph</a>. Это раннее Предварительная версия, и отсутствует гарантия уровня обслуживания. Мы рекомендуем пользователям попытаться воспользоваться функциями соединителей и отправить свои отзывы. Мы не рекомендуем использовать соединители для производственных целей во время ознакомительного периода.
+Microsoft Graph Connectors и API службы поиска Microsoft (запрос и индекс) в настоящее время находятся в состоянии предварительной версии. Чтобы получить доступ к функциональным возможностям соединителей, необходимо запросить присоединение к программе предварительной версии, отправив <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">форму подписки на предварительный просмотр соединителей Microsoft Graph</a>. Это раннее Предварительная версия, и отсутствует гарантия уровня обслуживания. Мы рекомендуем пользователям попытаться воспользоваться функциями соединителей и отправить свои отзывы. Мы не рекомендуем использовать соединители для производственных целей во время ознакомительного периода.
 
 ## <a name="set-up-targeted-release"></a>Настройка целевого выпуска
 Чтобы попробовать соединители, для всех пользователей в Организации должен быть установлен параметр **целевой выпуск** . Требования к целевому выпуску не изменяются в зависимости от того, какие из указанных сред предварительной версии выбраны.
