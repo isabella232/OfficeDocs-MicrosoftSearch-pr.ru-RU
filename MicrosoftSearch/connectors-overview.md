@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие сведения о Microsoft Graph Connectors for Microsoft Search
-ms.openlocfilehash: f08393d5696466af72ed7b8f3e141c62adb61728
-ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
+ms.openlocfilehash: 8b02eadac099d75174fe849f7f2f97c26bf6c3af
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39205861"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663138"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединителей Microsoft Graph
 
 Microsoft Search индексирует все данные [microsoft 365](https://www.microsoft.com/microsoft-365) , чтобы обеспечить возможность поиска для пользователей. С помощью Microsoft Graph Connectors в Организации можно индексировать сторонние данные, которые будут отображаться в результатах поиска Майкрософт. Сторонние данные могут размещаться в локальной среде или в общедоступных или частных облаках. Соединители расширяют типы источников контента, которые доступны для поиска в приложениях Microsoft 365 для продуктивной работы, а также в более широком наборе Microsoft экосистеме.
 
 > [!IMPORTANT]
-> **Заявление об отказе**: Microsoft Graph Connectors и API службы поиска Microsoft (запрос и индекс) в настоящее время доступны в предварительной версии. Дополнительные сведения о программе предварительной версии можно найти в [статье Microsoft Graph Connectors Preview](connectors-preview.md). Чтобы присоединиться к ознакомительной программе, отправляйте [форму регистрации Microsoft Graph Connector Preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
+> **Заявление об отказе**: Microsoft Graph Connectors и API службы поиска (запрос и индекс) в настоящее время находятся в состоянии предварительной версии. Чтобы использовать соединители в Поиске (Майкрософт) или создавать соединители, требуется зарегистрироваться в [программе предварительной оценки соединителей](connectors-preview.md). Чтобы присоединиться к ознакомительной программе, отправляйте [форму регистрации Microsoft Graph Connector Preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
 
 ## <a name="architecture"></a>Архитектура
 На следующей архитектурной схеме платформы Microsoft Graph показано, как соединительное содержимое проходит через индексирование содержимого для пользователей в клиентах [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) . В этой статье описываются основные конструктивные блоки в процессе обработки поток данных Microsoft Graph Connectors.
