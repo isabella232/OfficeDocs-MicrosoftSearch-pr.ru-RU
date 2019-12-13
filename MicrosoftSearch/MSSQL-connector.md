@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя Microsoft SQL Connector для поиска Майкрософт.
-ms.openlocfilehash: c31399e65bd4bfc154d10d2e6057fa23d11f030d
-ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
+ms.openlocfilehash: b48fece5fccaf2a82ac343cd13130073ee6b3c21
+ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39663170"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39995053"
 ---
 # <a name="microsoft-sql-server-connector"></a>Соединитель Microsoft SQL Server
 
@@ -26,7 +26,7 @@ ms.locfileid: "39663170"
 Эта статья предназначена для администраторов Microsoft 365 или пользователей, которые настраивают, запускают и отслеживают соединитель Microsoft SQL Server. В этой статье объясняется, как настроить возможности соединителя и соединителя, ограничения и способы устранения неполадок.
 
 ## <a name="install-a-data-gateway"></a>Установка Data Gateway
-Чтобы получить доступ к данным третьих сторон, необходимо установить и настроить шлюз Microsoft Power BI Gateway. Чтобы узнать больше, ознакомьтесь со статьей [Установка и локальный шлюз](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) .  
+Чтобы получить доступ к данным третьих сторон, необходимо установить и настроить шлюз Microsoft Power BI Gateway. Чтобы узнать больше, ознакомьтесь со статьей [Установка локального шлюза](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) .  
 
 ## <a name="connect-to-a-data-source"></a>Подключение к источнику данных
 Чтобы подключить соединитель Microsoft SQL Server к источнику данных, необходимо настроить сервер базы данных, для которого выполняется обход, и локальный шлюз. Затем можно подключиться к базе данных с помощью требуемого метода проверки подлинности.
