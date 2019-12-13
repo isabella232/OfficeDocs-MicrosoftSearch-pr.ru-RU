@@ -31,6 +31,7 @@
 ##[Макеты результатов поиска](customize-results-layout.md)
 ##[Поиск (Майкрософт) в SharePoint](get-started-search-in-sharepoint-online.md)
 ##Поиск (Майкрософт) в Bing
+###[Безопасность и конфиденциальность](security-for-search.md)
 ###[Настройка Microsoft Edge в качестве браузера по умолчанию](set-default-browser.md)
 ###[Настройка Bing в качестве поисковой системы по умолчанию](set-default-search-engine.md)
 ###[Настройка Bing.com в качестве домашней страницы по умолчанию](set-default-homepage.md)
