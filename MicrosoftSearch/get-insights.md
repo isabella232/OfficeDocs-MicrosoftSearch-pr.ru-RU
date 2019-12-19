@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Анализ показателей и управление контентом из панели мониторинга Insights в Microsoft Search
-ms.openlocfilehash: bbfc8b230690eeef1f7a23d70d7af29b88924e7d
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 8ed0e13b53f61c699e8cf5628341adba3b96be9c
+ms.sourcegitcommit: 26481c00963d836de4ed64a454fb6c5b49c5075d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699865"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40738056"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Отчеты панели мониторинга Microsoft Search Insights
 
@@ -47,7 +47,7 @@ ms.locfileid: "38699865"
 
 ## <a name="impression-distribution"></a>Распространение впечатления
 
-В этом отчете показано распределение выдачи в [Bing](https://Bing.com) с течением времени для различных ответов. Примеры: закладки, люди, Q&A, файлы, расположения, файловые сайты, группы и беседы. 
+В этом отчете показано распределение выдачи в [Bing](https://Bing.com) с течением времени для различных ответов. Примеры: закладки, люди, Q&A, файлы, расположения, файловые сайты, группы и беседы.
 
 ![Отчет о впечатлениях с 90 дней выбран в качестве периода времени.](media/Insights-impressions.png)
 
