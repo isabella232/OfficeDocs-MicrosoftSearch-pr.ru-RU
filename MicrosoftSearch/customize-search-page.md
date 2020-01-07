@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: 28e8fdc7fe7f08abe265c53772a161b8a7095503
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
+ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699560"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947029"
 ---
-# <a name="customize-the-microsoft-search-page"></a>Настройка страницы поиска Microsoft
+# <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
 Создавая вертикальные и типы результатов поиска, вы можете настроить результаты поиска, которые будут отображаться для пользователей при поиске в [SharePoint](http://sharepoint.com/), [Microsoft Office](https://Office.com)и Microsoft Search в [Bing](https://Bing.com). Вертикальные черты облегчают пользователям поиск сведений, которые у них есть разрешение на просмотр. Например, вы можете создать вертикаль поиска для данных маркетингового анализа от стороннего программного обеспечения для пользователей в отделе маркетинга. Вы также можете определить типы результатов и настроить макет для этих данных.  
 
