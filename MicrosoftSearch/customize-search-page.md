@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
-ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
+ms.openlocfilehash: 198e5c85c1544b05cdc622f7b617e8bddbcd6a00
+ms.sourcegitcommit: 78dc72e99e148898455e016b4ccb110d16b3d81c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "40947029"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40987679"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -101,7 +101,7 @@ ms.locfileid: "40947029"
 ### <a name="view-the-vertical-after-enabling"></a>Просмотр вертикальной оси после включения
 
 После включения вертикальной установки может потребоваться некоторое время, прежде чем вы сможете просмотреть его.
-Если вы хотите дождаться его включения, можно добавить **качеклеар = true** в URL-адрес в [SharePoint](http://sharepoint.com/) и [Office](https://Office.com) для немедленного просмотра по вертикали.
+Если вы не хотите дождаться его включения, вы можете добавить **качеклеар = true** в URL-адрес в [SharePoint](http://sharepoint.com/) и [Office](https://Office.com) для немедленного просмотра по вертикали.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
