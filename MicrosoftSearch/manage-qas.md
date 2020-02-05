@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Находите и обновляйте ответы по отдельности или используйте имеющиеся инструменты Поиска (Майкрософт), чтобы изменить их все одновременно
-ms.openlocfilehash: af5f12e759179d7a00d682575a51286e607149b2
-ms.sourcegitcommit: 5946fe6aad2331c023bedda8faf826c0248651f8
+ms.openlocfilehash: 0877de027b68589e5ba15cd8109ea7edeeae8725
+ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/04/2020
-ms.locfileid: "41711762"
+ms.locfileid: "41721744"
 ---
 # <a name="manage-qas"></a>Управление вопросами и ответами
 
@@ -62,8 +62,8 @@ ms.locfileid: "41711762"
 
 В настоящее время расширения браузеров доступны для Microsoft Edge и Chrome.
 
-- Чтобы скачать расширение Microsoft Edge, перейдите в [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) и скачайте приложение.
-- Чтобы скачать расширение Chrome, перейдите в [интернет-магазин Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и скачайте приложение.
+- Чтобы скачать пограничные расширения, перейдите в [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) и скачайте приложение.
+- Чтобы скачать расширения Chrome, перейдите в [веб-магазин Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и скачайте приложение.
 
 ## <a name="bulk-add-or-edit-qas"></a>Массовое добавление и изменение вопросов и ответов
 
