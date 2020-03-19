@@ -8,7 +8,6 @@
 ## [Сокращения](manage-acronyms.md)
 ## [Закладки](manage-bookmarks.md)
 ## [Планы этажей](manage-floorplans.md)
-### [Рекомендации](floorplans-bestpractices.md)
 ## [Расположения](manage-locations.md)
 ## [Вопросы и ответы](manage-qas.md)
 # Соединители (предварительная версия)
