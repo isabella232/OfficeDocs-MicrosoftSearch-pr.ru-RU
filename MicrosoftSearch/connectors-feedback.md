@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обеспечение обратной связи для соединителей поиска Майкрософт
-ms.openlocfilehash: a2ed1b513c0d5f34ba1406ab7c36bec57c7ff3ee
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 7f16081954d4943b05142a64a1440784750209fc
+ms.sourcegitcommit: 0fa3dc45ca9fe266822911b397beceae754726e3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626483"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42891433"
 ---
 # <a name="provide-feedback-for-microsoft-search-connectors"></a>Предоставление обратной связи для соединителей поиска Майкрософт
 
@@ -25,5 +25,5 @@ ms.locfileid: "38626483"
 
 * **Общие вопросы:** Отправьте сообщение электронной почты в [группу отзывов Microsoft Graph Connectors](mailto:MicrosoftGraphConnectorsFeedback@service.microsoft.com).
 * **Отзывы о документации:** Если у вас возникнут вопросы о документации по Microsoft Graph Connectors или хотите сообщить нам, что вам нравится или нет, вы можете оставить отзыв в нижней части любой статьи. 
-* **Запросы функций:** Если наши платформы не позволяют вам выполнить нужные действия, сделайте все предложения в **соединителях** категорий в <a href="https://office365.uservoice.com/forums/925270-microsoft-search" target="_blank" data-linktype="external">Microsoft Search UserVoice</a>.
+* **Запросы функций:** Если наши платформы не позволяют вам выполнить нужные действия, сделайте все предложения в **соединителях** категорий в <a href="https://microsoftsearch.uservoice.com/forums/926998-connectors" target="_blank" data-linktype="external">Microsoft Search UserVoice</a>.
 
