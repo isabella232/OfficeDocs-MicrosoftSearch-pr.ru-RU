@@ -1,8 +1,8 @@
 ---
 title: Рекомендации для планов Microsoft Search этажа
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Рекомендации для планов Microsoft Search этажа
-ms.openlocfilehash: ddad671592ab3cf05400faa1261ee7258f3868bb
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 47eb46df48f1871f6d34d4b00787cf11ccbac1ea
+ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699855"
+ms.lasthandoff: 04/20/2020
+ms.locfileid: "43571017"
 ---
+<!-- markdownlint-disable no-inline-html -->
 # <a name="best-practices-for-microsoft-search-floor-plans"></a>Рекомендации для планов Microsoft Search этажа
 
 Для успешной реализации планов этажей Microsoft Search необходимо координировать три части данных:
@@ -30,6 +31,7 @@ ms.locfileid: "38699855"
 Рекомендации по развертыванию планов на основания поиска Майкрософт также описаны в следующих разделах.
 
 ## <a name="building-location-data"></a>Построение данных о расположении
+
 Перед добавлением планов этажей необходимо добавить здания в расположения поиска Майкрософт. Предоставьте следующие необходимые данные для построения:
 
 |Необходимые данные для построения  |Пример  |
@@ -42,7 +44,8 @@ ms.locfileid: "38699855"
 Вы можете добавить несколько зданий за раз, используя функцию **импорта** на вкладке " **расположения** " вместо того, чтобы добавлять расположения по одному. С помощью функции **импорта** вы можете указать широту и долготу. Более подробную информацию можно узнать в статье [Manage Locations](manage-locations.md).
 
 ## <a name="floor-plan-map-in-dwg-format"></a>Схема плана этажа в формате DWG
-Для создания карт в Microsoft Search необходимо загрузить планы этажей в формате DWG с определенными сведениями. Сведения о том, как создавать и просматривать файлы в формате DWG, можно найти в разделе [читатели DWG](https://www.autodesk.in/products/dwg). 
+
+Для создания карт в Microsoft Search необходимо загрузить планы этажей в формате DWG с определенными сведениями. Сведения о том, как создавать и просматривать файлы в формате DWG, можно найти в разделе [читатели DWG](https://www.autodesk.in/products/dwg).
 
 Карты плана этажей отображают четыре элемента:
 
@@ -60,17 +63,19 @@ ms.locfileid: "38699855"
 Эти сведения хранятся в [Azure AD](https://azure.microsoft.com/services/active-directory/) в свойстве **фисикалделиверйоффиценаме** . В [центре администрирования](https://admin.microsoft.com)Microsoft 365 он называется свойством **Office** и может быть добавлен в поле **Активные пользователи**.
 
 ### <a name="dwg-files"></a>Файлы DWG
+
 Microsoft Search требует файлы плана этажа в файле DWG, который является форматом чертежа [AutoCAD](https://www.autodesk.com/autocad) . Файлы должны содержать **Макет** и данные **меток** . **Номера комнат** — это наиболее важные метки для планов этажей.
 
 Рекомендуется создать систему нумерации Office с помощью метода точного совпадения, показанного в следующей таблице. Но вы не ограничены этими метками. Например, если расположение Office пользователя в [Azure AD](https://azure.microsoft.com/services/active-directory/) — **B1 1001**, можно добавить номер комнаты в файл DWG с любым из приведенных ниже вариантов.
 
-|ПОИСКПОЗ  |Структура  |
+|ПОИСКПОЗ  |Макет  |
 |---------|---------|
 |Точное совпадение с расположением в офисе (рекомендуется) <br> **B1 1001** <br> Построение кода: B1<br>Пол: 1 <br>Номер комнаты: 001    |    ![Один план этажа Office с номером Office B1 1001](media/floorplans-layoutexactmatch.png)     |
 |Сравнение основания и номера комнаты <br> **1001**<br>Пол: 1 <br>Номер комнаты: 001    |   ![Один план этажа Office с номером Office "1001"](media/floorplans-layoutfloorroom.png)   |
 |Только номер комнаты <br> **1,1**<br>Номер комнаты: 1        |    ![Карта с одним офисным основанием и номером Office "1"](media/floorplans-layoutroomonly.png)     |
 
 ## <a name="user-account-office-location"></a>Местоположение Office для учетной записи пользователя
+
 Чтобы сопоставить местонахождение сотрудника, Номера комнат в файлах DWG сопоставляются с расположениями Office в учетной записи пользователя в [Azure AD](https://azure.microsoft.com/services/active-directory/). Свойство **Location в офисе** должно сопоставлено с информацией о расположении комнаты в файле DWG.
 
 В следующей таблице приводятся рекомендации по сопоставлению данных о расположении:
@@ -83,5 +88,6 @@ Microsoft Search требует файлы плана этажа в файле D
 |
 
 ## <a name="next-steps"></a>Дальнейшие действия
+
 [Управление расположениями](manage-locations.md)<br>
 [Управление планами этажей](manage-floorplans.md)
