@@ -1,8 +1,8 @@
 ---
 title: Настройка Поиска (Майкрософт)
-ms.author: anfowler
-author: adefowler
-manager: mnirkhe
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка Microsoft поиска в первый раз.
-ms.openlocfilehash: d8b796e0ff61972f3e244c1a5af98319884769dc
-ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
+ms.openlocfilehash: 37b5f33fe7b49a11c4558debac5b9acae4cc40cd
+ms.sourcegitcommit: aa48b6510883e1617aa13a50b1056fb149c47586
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39663063"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256640"
 ---
 # <a name="set-up-microsoft-search"></a>Настройка Поиска (Майкрософт)
 
-Microsoft Search предоставляет понятный пользователю интерфейс, помогающий пользователям находить такие сведения, как файлы и документы, внутренние сайты и бизнес-средства, люди и группы, расположения и направления, беседы и ответы. Это осуществляется с помощью безопасного доступа ко всем источникам данных, включая электронную почту, файлы, файлы SharePoint, контент OneDrive и другие общие ресурсы, а также Интернет в организации пользователя.
+Microsoft Search предоставляет понятный пользователю интерфейс, помогающий пользователям находить такие сведения, как файлы и документы, внутренние сайты и бизнес-средства, люди и группы, расположения и направления, беседы и ответы. Это осуществляется с помощью безопасного доступа ко всем источникам данных, включая электронную почту, файлы, файлы SharePoint, контент OneDrive и другие общие ресурсы. С помощью Microsoft Search в Bing вы можете получать результаты поиска из Интернета.
 
 Дополнительные сведения о возможностях Поиска (Майкрософт) см.в статье [Обзор Поиска (Майкрософт)](overview-microsoft-search.md).
 
