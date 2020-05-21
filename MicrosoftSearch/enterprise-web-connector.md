@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя корпоративных веб-сайтов для поиска Microsoft Search
-ms.openlocfilehash: 4ed926cfdacca66d90854147afdc3c7932d1bd5f
-ms.sourcegitcommit: 49659ecd2ac47c85acc297b21e9e34701213862c
+ms.openlocfilehash: 66fd0804bf26d70208cdaca519f91dba3a1ba166
+ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43803955"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326833"
 ---
 # <a name="enterprise-websites-connector"></a>Соединитель корпоративных веб-сайтов
 
@@ -26,7 +26,7 @@ ms.locfileid: "43803955"
 Эта статья предназначена для администраторов [Microsoft 365](https://www.microsoft.com/microsoft-365) или пользователей, которые настраивают, запускают и осуществляют мониторинг соединителя корпоративных веб-сайтов. В этой статье объясняется, как настроить возможности соединителя и соединителя, ограничения и способы устранения неполадок.  
 
 ## <a name="connect-to-a-data-source"></a>Подключение к источнику данных 
-Чтобы подключиться к источнику данных, вам потребуется корневой URL-адрес и форма проверки подлинности: обычная проверка подлинности или OAuth 2,0 с [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/).
+Для подключения к источнику данных необходим корневой URL-адрес и обычная проверка подлинности.
 
 ### <a name="root-url"></a>Корневой URL-адрес
 Корневой URL-адрес — это то, что инициирует обход контента и используется для проверки подлинности. Вы можете получить URL-адрес с домашней страницы веб-сайта, обход которого требуется выполнить.
