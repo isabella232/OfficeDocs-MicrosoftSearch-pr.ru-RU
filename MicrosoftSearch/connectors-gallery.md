@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Список всех соединителей Microsoft Graph для поиска Майкрософт
-ms.openlocfilehash: b1b2c99c57d0a5d2df909f24019446c0ee07b7a4
-ms.sourcegitcommit: 37fc4a833885c2f3329b729cc3c79ccbb9213a77
+ms.openlocfilehash: a5c3cb0090361e16456b01646b2a0dec46602d88
+ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097482"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326842"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Коллекция соединителей Microsoft Graph
 
@@ -1485,7 +1485,7 @@ ms.locfileid: "43097482"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>OneDrive;</h3>
+                        <h3>OneDrive</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
                         <p>Соединитель OneDrive будет выполнять обход контента из Microsoft OneDrive, просмотрев папки, чтобы найти файлы. Он создает подпись для каждого элемента, чтобы разрешить добавочное обновление только измененных элементов. Каждый файл отправляется вместе со своими метаданными (размер, расположение, Последний доступ и т. д.) и со списками управления доступом.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1995,6 +1995,25 @@ ms.locfileid: "43097482"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
+                       <h3>Промежуток</h3>
+                        <p>по <a href="https://www.raytion.com">райтион</a></p>
+                        <p>Соединитель для эффективного и надежной синхронизации резервного содержимого с помощью Microsoft Search. Он обеспечивает надежную индексацию сообщений, потоков и общих файлов со всех общедоступных каналов. Все почти в режиме реального времени. Соединитель гарантирует, что все документы поставляются с полным набором метаданных, что позволяет разрабатывать лучшие возможности поиска. Даже в ярких средах временной временной соединитель отслеживает все изменения и гарантирует обновленный индекс поиска.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.raytion.com/connectors/raytion-slack-connector"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<!--- 37 ROW --->
+<ul class="panelContent cardsZ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
                         <h3>БИЗНЕСА</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
                         <p>Этот соединитель SMB выполняет обход файлов и каталогов на общих дисках. Он создает подпись для каждого элемента, чтобы разрешить добавочное обновление только измененных элементов. Каждый файл отправляется вместе со своими метаданными (размер, расположение, Последний доступ и т. д.) и со списками управления доступом.</p>
@@ -2006,9 +2025,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-</ul>
-<!--- 37 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2041,6 +2057,9 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
+</ul>
+<!--- 38 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2057,10 +2076,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-
-</ul>
-<!--- 38 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2093,6 +2108,9 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
+</ul>
+<!--- 39 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2109,9 +2127,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-</ul>
-<!--- 39 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2144,6 +2159,9 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
+</ul>
+<!--- 40 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2160,9 +2178,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-</ul>
-<!--- 40 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2195,6 +2210,9 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
+</ul>
+<!--- 41 ROW --->
+<ul class="panelContent cardsZ">
         <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2211,9 +2229,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-</ul>
-<!--- 41 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2246,6 +2261,9 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
+</ul>
+<!--- 42 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2262,9 +2280,6 @@ ms.locfileid: "43097482"
             </div>
         </div>
     </li>
-</ul>
-<!--- 42 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2298,4 +2313,3 @@ ms.locfileid: "43097482"
         </div>
     </li>
 </ul>
-
