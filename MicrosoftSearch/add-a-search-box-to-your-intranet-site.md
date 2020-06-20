@@ -15,16 +15,22 @@ search.appverid:
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 ROBOTS: NoIndex
 description: Быстрее получайте релевантные варианты поиска и находите результаты, связанные с работой, добавив поле Поиска (Майкрософт) на сайт или страницу интрасети.
-ms.openlocfilehash: bcf1c6890415fdd9ae22f28cdf6d3dec1ffcaac4
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: af12ce4d17c2695e196f8e4d79ccd515f002f238
+ms.sourcegitcommit: 92206ea179ec00b22496f6fd2866b5406449cf40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37948909"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44798228"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Добавление поля поиска на сайте интрасети
 
-Чтобы обеспечить быстрый доступ к релевантным вариантам поиска и результатам, связанным с работой, добавьте поле Поиска (Майкрософт) на любой сайт или страницу интрасети.
+Чтобы предоставить пользователям доступ к результатам из вашей организации, добавьте Microsoft Search в поле поиска Bing на любой сайт или страницу интрасети. Ниже приведены некоторые преимущества.
+
+- Поле поиска на портале SharePoint или интрасети предоставляет известную надежную точку входа для начала поиска
+- Поддержка всех основных веб-браузеров, в том числе Google Chrome и Microsoft Edge.
+- Отображаются только предложения поиска из вашей организации, веб-предложения никогда не включаются
+- Переводит пользователей на страницу результатов тестирования Microsoft Search, которая исключает рекламу и веб-результаты.
+- Управление внешним видом и поведением поля поиска
   
 ## <a name="add-a-search-box-to-an-intranet-page"></a>Добавление поля поиска на странице интрасети
 
@@ -88,8 +94,8 @@ ms.locfileid: "37948909"
         dropShadow: true,                       // default: true
         iconColor: "#067FA6",                   // default: #067FA6
         companyNameInGhostText: "Contoso"       // default: not specified
-                                                // when absent, ghost text will be "Search work and the web"
-                                                // when specified, text will be "Search the web and [Contoso]"
+                                                // when absent, ghost text will be "Search work"
+                                                // when specified, text will be "Search <companyNameInGhostText>"
     };
 </script>
 <script async src="https://www.bing.com/business/s?k=sb"></script>
