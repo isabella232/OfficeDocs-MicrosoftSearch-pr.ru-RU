@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя Gen2 для Azure Data Lake Storage для поиска Майкрософт
-ms.openlocfilehash: 392960a5f7e6c93442ac7e1f60245217e194b42b
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: f8cb94e806e619d6dae7258b6c2d708d93afb9a8
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626474"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861079"
 ---
-# <a name="azure-data-lake-storage-gen2-connector-for-microsoft-search"></a>Соединитель Gen2 для Azure Data Lake Storage для поиска Майкрософт
+# <a name="azure-data-lake-storage-gen2-connector"></a>Соединитель Gen2 для Azure Data Lake Storage
 
 С помощью соединителя [Gen2 Azure Data Lake Storage](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) пользователи в вашей организации могут искать файлы и их содержимое. Этот соединитель получает доступ к данным, хранящимся в контейнерах больших двоичных объектов Azure и папках с включенной поддержкой иерархии, в учетной записи Azure Data Lake Storage поколения 2.
 

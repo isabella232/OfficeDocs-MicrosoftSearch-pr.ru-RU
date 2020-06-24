@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя, созданного корпорацией Майкрософт для поиска Microsoft Search
-ms.openlocfilehash: eb81f9cdc9caf2020bae64984f11ae7e1b87dae9
-ms.sourcegitcommit: a8a6c949f249d106f37103e127d2ea7df730f7a3
+ms.openlocfilehash: e5b40326bdd83f461e7ce9a45889ad82245e20aa
+ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702761"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44850892"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
@@ -26,6 +26,8 @@ ms.locfileid: "44702761"
 В этой статье описывается настройка соединителя, созданного корпорацией Майкрософт. Он обработает процесс настройки подключения в [центре администрирования](https://admin.microsoft.com)Microsoft 365. Дополнительные сведения о настройке конкретных соединителей, созданных корпорацией Майкрософт, можно найти в следующих статьях:
 
 * [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
+* [Azure DevOps](azure-devops-connector.md)
+* [Azure SQL](MSSQL-connector.md)
 * [Корпоративные веб-сайты](enterprise-web-connector.md)
 * [Файловый ресурс](file-share-connector.md)
 * [MediaWiki](mediawiki-connector.md)

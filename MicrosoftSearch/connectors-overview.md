@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие сведения о Microsoft Graph Connectors for Microsoft Search
-ms.openlocfilehash: 0b5420eb4eb93eb257fab30f3e56a20e6456e1b3
-ms.sourcegitcommit: 64eea81f8c1db9ee955013462a7b51612fb7d0b7
+ms.openlocfilehash: 08ddb8e61606007c706134242e865459f0399b86
+ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44604395"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44850874"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединителей Microsoft Graph
 
@@ -55,6 +55,12 @@ API создает экземпляр одного подключения для
 - **[Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)**. С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут искать файлы и контент, хранящиеся в контейнерах больших двоичных объектов Azure. Соединитель Gen2 для Azure Data Lake Storage также индексирует папки с включенной иерархией в учетных записях Azure Data Lake Storage Gen2, которые вы указали.
 Дополнительные сведения о [соединителе Gen2 для Azure Data Lake Storage](azure-data-lake-connector.md).
 
+- **[Azure DevOps](https://azure.microsoft.com/services/devops)**. С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут выполнять поиск рабочих элементов из экземпляра Azure DevOps.
+Узнайте больше о [соединителе Azure DevOps Connector](azure-devops-connector.md).
+
+- **[Azure SQL](https://azure.microsoft.com/services/sql-database)**. С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут выполнять поиск данных из базы данных SQL Azure.
+Узнайте больше о [соединителе Azure SQL Connector](MSSQL-connector.md).
+
 - **Корпоративные веб-сайты**. С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут выполнять поиск на страницах любого веб-сайта, отличного от SharePoint Enterprise.
 Узнайте больше о [соединителе корпоративных веб-сайтов](enterprise-web-connector.md).
 
@@ -85,8 +91,8 @@ API создает экземпляр одного подключения для
 
 ## <a name="license-requirements"></a>Требования лицензирования
 
-Чтобы просмотреть данные из соединителей в результатах поиска, у пользователей должна быть одна из следующих подписок Microsoft 365:
+Для просмотра данных из соединителей в результатах поиска пользователи должны иметь одну из следующих подписок на Microsoft 365 или Office 365:
 
-- [Microsoft 365 для предприятий E3 или "е"](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
+- [Microsoft 365 или Office 365 корпоративный E3 или "е"](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
-- [Microsoft 365 для образовательных учреждений a3 или A5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)
+- [Microsoft 365 или Office 365 для образования a3 или A5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)

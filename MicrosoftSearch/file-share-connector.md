@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя файлового ресурса для поиска Майкрософт.
-ms.openlocfilehash: ece8997138182c1cd4ac7230aa2a3501af912933
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 2349ad753508d5f19a70648d9cbf1df495b27108
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699785"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861097"
 ---
-# <a name="the-file-share-connector-for-microsoft-search"></a>Соединитель файлового ресурса для службы поиска Майкрософт
+# <a name="file-share-connector"></a>Соединитель файлов общего доступа
 
 С помощью соединителя файлового ресурса пользователи организации могут выполнять поиск в локальных файловых ресурсах. Результаты поиска из этих общих файловых ресурсов объединены с результатами из [SharePoint](http://sharepoint.com/) и [Microsoft OneDrive для бизнеса](https://onedrive.live.com/about/business/).
 
@@ -50,7 +50,7 @@ ms.locfileid: "38699785"
 
 2. Установите [командную консоль SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588).
 
-3. Откройте командную консоль SharePoint Online от имени администратора и импортируйте модуль **Microsoft. SharePoint. Client. dll** , `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll`расположенный по адресу.
+3. Откройте командную консоль SharePoint Online от имени администратора и импортируйте модуль **Microsoft.SharePoint.Client.dll** по указанному адресу `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll` .
 
 > [!NOTE]
 > Этот путь может быть не одинаковым для всех пользователей.
@@ -89,7 +89,7 @@ Write-Host "Success" -ForegroundColor Cyan
 Read-Host -Prompt 'Press enter to exit'
 ```
 
-5. Введите необходимые значения в [Microsoft PowerShell](https://microsoft.com/powershell), например название организации, имя пользователя, пароль и URL-адрес сайта. **Например**, если учетные данные администратора указаны `admin@a830edad9050849823J19081300.onmicrosoft.com`, то имя вашей организации — **a830edad9050849823J19081300**, а URL-адрес вашего сайта `https:// a830edad9050849823J19081300.sharepoint.com`—.
+5. Введите необходимые значения в [Microsoft PowerShell](https://microsoft.com/powershell), например название организации, имя пользователя, пароль и URL-адрес сайта. **Например**, если учетные данные администратора указаны `admin@a830edad9050849823J19081300.onmicrosoft.com` , то имя вашей организации — **a830edad9050849823J19081300**, а URL-адрес вашего сайта — `https:// a830edad9050849823J19081300.sharepoint.com` .
 
 > [!NOTE]
 > Параметр **аллпропертиес** можно выполнить только на уровне семейства веб-сайтов (на сайте Teams/Dataport).
