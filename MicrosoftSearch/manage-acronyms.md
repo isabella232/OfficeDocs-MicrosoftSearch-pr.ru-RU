@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание и обновление аббревиатур ответов в Microsoft Search
-ms.openlocfilehash: cd9e1a48288e6df8f5746d937684a3f2eedd65df
-ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
+ms.openlocfilehash: 9d58306751f735cef77eba4404597c73c0528c11
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44535359"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996079"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Управление сокращениями ответов в Microsoft Search
 
@@ -44,16 +44,16 @@ ms.locfileid: "44535359"
 
 ## <a name="set-up-acronyms-answers"></a>Настройка аббревиатур ответов
 
-В [центре администрирования](https://admin.microsoft.com)Microsoft 365 откройте раздел **Параметры**  >  **Microsoft Search**  > **акронимы**, а затем выберите команду **Добавить акронимы**.
+В [центре администрирования](https://admin.microsoft.com)Microsoft 365 перейдите к разделу **Параметры**  >  **Microsoft Search**  >  **Answers**  >  [**Acronyms**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms), а затем нажмите кнопку **Добавить акронимы**.
 
 Служба поиска Microsoft выполняет запрос двух источников данных для сокращения ответов на запросы пользователей.
 
-1. **Редакционные акронимы**. Предоставляется ИТ администраторами в [центре администрирования](https://admin.microsoft.com).
+1. **Редакционные акронимы**. Предоставляется ИТ администраторами в [центре администрирования](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
 2. **Аббревиатуры mined**. Mined Microsoft Search из личной электронной почты и документов пользователя и общедоступных данных в Организации.
 
 ### <a name="set-up-editorial-acronyms"></a>Настройка редакционных аббревиатур
 
-Администраторы поиска могут настроить редакционные сокращения на [вкладке аббревиатуры](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch) в [центре администрирования Microsoft 365]( https://admin.microsoft.com). Вы можете добавлять акронимы из любого внутреннего сайта или репозитория в центр администрирования. Редакционные сокращения можно добавлять в состояние **опубликованных** или **черновиков** :
+Администраторы поиска могут настроить редакционные сокращения на [вкладке сокращения](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) в [центре администрирования поиска Майкрософт](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch). Вы можете добавлять акронимы из любого внутреннего сайта или репозитория в центр администрирования. Редакционные сокращения можно добавлять в состояние **опубликованных** или **черновиков** :
 
 **Опубликованное состояние**. Аббревиатуры доступны для сотрудников Организации в Microsoft Search.
 
@@ -66,7 +66,7 @@ ms.locfileid: "44535359"
 
 | Аббревиатура (обязательно) | Расширение (обязательно) | Описание  | Источник | State (обязательно) |
 | --------- | --------- | ---------- | --------- |--------- |
-| *XXX* | *Сокращенное сокращение* |  | *URL* | *Опубликовано или черновик* |
+| *XXX* | *Сокращенное сокращение* |  | *URL-адрес* | *Опубликовано или черновик* |
 
 ### <a name="csv-fields"></a>Поля CSV
 

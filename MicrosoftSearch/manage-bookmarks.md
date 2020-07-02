@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Создание и обновление закладок и способов массового редактирования закладок для поиска Microsoft
-ms.openlocfilehash: 292a04714f4baa115473df86bfbeb2f3c8860114
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: 64e430309ef1969ab804e8d757b987332f0a6006
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721753"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996106"
 ---
 # <a name="manage-bookmarks"></a>Управление закладками
 
@@ -29,8 +29,7 @@ ms.locfileid: "41721753"
 ## <a name="add-or-edit-a-single-bookmark"></a>Добавление и изменение одной закладки
 
 1. Перейдите в **Центр администрирования Microsoft 365**.
-1. В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.
-По умолчанию выбрана вкладка **Закладки**.
+1. В области навигации перейдите к разделу **Параметры**  >  **Microsoft Search**  >  **Answers Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
 1. Чтобы добавить закладку, нажмите кнопку **Добавить**.
 Чтобы изменить закладку, выберите закладку в списке релевантных закладок.
 1. При добавлении или изменении сведений предварительное изображение автоматически обновляется.
@@ -106,8 +105,8 @@ Power Apps — это служба, позволяющая создавать б
 ### <a name="add-a-power-app-to-a-bookmark"></a>Добавление приложения Power App в закладку
 
 1. Найдите [идентификатор приложения для приложения Power](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) , которое вы хотите добавить.
-1. Выполните вход и перейдите в **Центр администрирования Microsoft 365**.
-1. В области навигации перейдите в **Параметры** и выберите **Поиск (Майкрософт)**.
+1. Войдите в [**центр администрирования Microsoft 365**](https://admin.microsoft.com).
+1. В области навигации перейдите к разделу **Параметры**  >  **Microsoft Search**  >  **Answers Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
 1. Добавьте или найдите существующую закладку, в которую вы хотите добавить **PowerApp**.
 1. В **параметрах закладки** выберите **Power App** и нажмите кнопку **Добавить Power App**.
 1. Введите или вставьте **идентификатор приложения**.
