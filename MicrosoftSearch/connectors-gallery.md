@@ -13,21 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Список всех соединителей Microsoft Graph для поиска Майкрософт
-ms.openlocfilehash: 47782a9a429bf3ad75cffaadf6f67402638fd3a6
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 82718cdadc57bf9133b61183cdbd912e269fdc70
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850936"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45388015"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Коллекция соединителей Microsoft Graph
 
 
 #### <a name="in-this-article"></a>В этой статье
-* <a href="#Microsoft">Соединители корпорации Майкрософт</a>
-* <a href="#Partners">Соединители наших партнеров</a>
+* <a href="#Microsoft">Соединители от Майкрософт</a>
+* <a href="#Partners">Соединители от наших партнеров</a>
 
-<h2 id="Microsoft">Соединители корпорации Майкрософт</h2>
+<h2 id="Microsoft">Соединители от Майкрософт</h2>
 <ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
@@ -120,27 +120,6 @@ ms.locfileid: "44850936"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Файловый ресурс</h3>
-                        <p>корпорацией <a href="https://www.microsoft.com">Майкрософт</a></p>
-                        <p>С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут выполнять поиск файлов, хранящихся в локальных общих папках Windows.</p>
-                        <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
-                            <div style="font-weight:500;width:150px;display:inline">
-                                <a href="file-share-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
-                                    <font color="0065BA">Дополнительные сведения</font>
-                                </a>
-                             <img src="media/FileConnectorLogo_Small.png" alt="File share" width="35" height="35" align="right" style="display:inline; margin-left:210px" data-linktype="relative-path"  />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="overflow: hidden; height: 235px;">
-                    <div class="cardText">
                         <h3>MediaWiki</h3>
                         <p>корпорацией <a href="https://www.microsoft.com">Майкрософт</a></p>
                         <p>С помощью этого соединителя Microsoft Graph пользователи могут искать статьи на основе знаний на вики-сайтах, создаваемых в Организации с помощью Медиавики.</p>
@@ -157,8 +136,6 @@ ms.locfileid: "44850936"
             </div>
         </div>
     </li>
-</ul>
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -180,6 +157,8 @@ ms.locfileid: "44850936"
             </div>
         </div>
     </li>
+</ul>
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -205,7 +184,7 @@ ms.locfileid: "44850936"
 
 ---
 
-<h2 id="Partners">Соединители наших партнеров</h2>
+<h2 id="Partners">Соединители от наших партнеров</h2>
 <!--- 1 ROW --->
 <h3 id="A"></h3>
 <ul class="panelContent cardsZ">
@@ -476,7 +455,7 @@ ms.locfileid: "44850936"
                     <div class="cardText">
                         <h3>Azure Data Lake</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Azure Data Lake Connector будет выполнять обход контента в облаке Azure Data Lake Store с корневого или указанного пути. Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
+                        <p>Azure Data Lake Connector будет выполнять обход контента из облака АДЛС в корневом или указанном пути. Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Data+Lake+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1104,7 +1083,7 @@ ms.locfileid: "44850936"
                     <div class="cardText">
                         <h3>Иманаже трудозатраты</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
-                        <p>Рабочий соединитель Иманаже обеспечивает полную защиту и работает с высокой пропускной способностью, чтобы свести к минимуму время обхода, при котором поддержание снижения производительности работы. Ему необходим только доступ для чтения, и нет необходимости устанавливать клиентское программное обеспечение на любой сервер Иманаже. Это приводит к неэффективному и одновременному доступу ко всему контенту, хранящемуся в Иманаже.</p>
+                        <p>Рабочий соединитель Иманаже обеспечивает полное обеспечение безопасности и работает с высокой пропускной способностью, чтобы свести к минимуму время обхода, а также снижение производительности работы. Ему необходим только доступ для чтения, и нет необходимости устанавливать клиентское программное обеспечение на любой сервер Иманаже. Это приводит к неэффективному и одновременному доступу ко всему контенту, хранящемуся в Иманаже.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/imanage-work-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1476,7 +1455,7 @@ ms.locfileid: "44850936"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>нетдокументс</h3>
+                        <h3>NetDocuments</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
                         <p>Соединитель Нетдокументс индексирует контент, хранящийся в Нетдокс, чтобы пользователи могли искать и получать содержимое Нетдокументс прямо из своего портала. Соединитель автоматически применяет безопасность документов в Нетдокс к поиску Майкрософт, поэтому информация о пользователях остается надежной. Метаданные, хранимые в Нетдокументс, могут быть сопоставлены с эквивалентными терминами, чтобы пользователи могли выполнять поиск.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1511,7 +1490,7 @@ ms.locfileid: "44850936"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Выпуска</h3>
+                        <h3>Цель</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
                         <p>Соединитель задания был специально разработан для цели, устанавливая безопасное подключение к цели и сопоставляя содержимое, включая метаданные схемы целевой системы, в схему поисковой системы. Затем содержимое и веб-каналы извлекаются в поисковую подсистему в процессе, который называется обходным.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
