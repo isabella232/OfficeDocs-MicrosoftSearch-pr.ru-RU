@@ -1,0 +1,56 @@
+---
+title: Создание настраиваемой страницы результатов поиска в SharePoint Online
+ms.author: jeffkizn
+author: jeffkizn
+manager: jeffkizn
+ms.audience: Admin
+ms.topic: article
+ms.service: mssearch
+localization_priority: Normal
+description: Создание собственной страницы результатов поиска для сайта SharePoint Online
+ms.openlocfilehash: 9b168dccaa6126148c877b5841b91c63f7bdc2ac
+ms.sourcegitcommit: 5fb46a04e86fb49477f8ce7ab3caa1b503215b8e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503246"
+---
+# <a name="create-a-custom-search-results-page-in-sharepoint-online"></a><span data-ttu-id="9e0f0-103">Создание настраиваемой страницы результатов поиска в SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="9e0f0-103">Create a custom search results page in SharePoint Online</span></span>
+
+<span data-ttu-id="9e0f0-104">Один из способов настройки взаимодействия с поиском в SharePoint состоит в создании настраиваемой страницы результатов поиска для сайта.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-104">One way to customize the search experience in SharePoint is to create a custom search results page for a site.</span></span> <span data-ttu-id="9e0f0-105">Это позволяет использовать созданную страницу, а не по умолчанию на странице результатов поиска Microsoft.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-105">This allows you to use a page that you created, rather than the default in Microsoft Search results page.</span></span> <span data-ttu-id="9e0f0-106">Это обеспечивает более гибкие возможности поиска результатов поиска для пользователей.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-106">This gives you more flexibility on how the search results experience looks for your users.</span></span>
+
+>[!NOTE]
+> <span data-ttu-id="9e0f0-107">Чтобы изменить страницу результатов поиска по умолчанию, доступную по умолчанию, ознакомьтесь со [статьей Настройка страницы результатов поиска](customize-search-page.md).</span><span class="sxs-lookup"><span data-stu-id="9e0f0-107">To make changes to the default Microsoft Search results page that is available by default, please see [Customize the search results page](customize-search-page.md).</span></span>
+
+<span data-ttu-id="9e0f0-108">С помощью настраиваемой страницы результатов можно создать новую страницу, которая может использоваться для управления макетом и оформлением результатов поиска для поддержки потребностей Организации.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-108">With a custom results page you can create a new page that can be used to control the layout and design of search results to support your organization's needs.</span></span> <span data-ttu-id="9e0f0-109">Вы можете использовать любые встроенные веб-части, веб-части поиска с помощью шаблонов и практических рекомендаций SharePoint, а также пользовательские веб-части, разработанные с помощью SharePoint Framework.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-109">You can use any built-in web parts, open-source search web parts from SharePoint Patterns and Practices community, as well as any custom web parts that you may have developed using SharePoint Framework.</span></span>
+
+## <a name="configure-a-results-page"></a><span data-ttu-id="9e0f0-110">Настройка страницы результатов</span><span class="sxs-lookup"><span data-stu-id="9e0f0-110">Configure a results page</span></span>
+
+<span data-ttu-id="9e0f0-111">Чтобы настроить настраиваемую страницу результатов в SharePoint Online, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-111">To configure a custom results page in SharePoint Online follow the steps below:</span></span>
+
+1. <span data-ttu-id="9e0f0-112">Перейдите на сайт, где вы хотите настроить настраиваемую страницу результатов, и перейдите к разделу **Параметры сайта > параметры семейства сайтов > параметры поиска**.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-112">Browse to the site where you would like to configure a custom results page and go to **Site Settings > Site Collection Settings > Search Settings**.</span></span>
+
+2. <span data-ttu-id="9e0f0-113">В параметрах поиска снимите флажок **использовать те же параметры страницы результатов, что и у родительского**элемента, выберите команду **отправить запросы на настраиваемую страницу результатов**и введите значение для параметра **URL-адрес страницы результатов:**.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-113">In Search Settings, clear selection from **Use the same results page settings as my parent**, choose **Send queries to a custom results page**, and provide a value for **Results page URL:**.</span></span><span data-ttu-id="9e0f0-114">Затем сохраните изменения.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-114"> Then, save your changes.</span></span> <span data-ttu-id="9e0f0-115">URL-адрес, который вы используете, должен быть указан для страницы, созданной для использования в качестве настраиваемой страницы результатов.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-115">The URL you use here should be for the page that you created to use as your custom results page.</span></span>
+
+>[!NOTE]
+> <span data-ttu-id="9e0f0-116">Настраиваемая страница результатов должна находиться в том же домене, что и сайт, но не обязательно должен находиться в том же семействе веб-сайтов.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-116">The custom results page needs to be on the same domain as your site, but it does not have to be in the same site collection.</span></span>  
+
+<span data-ttu-id="9e0f0-117">Кроме того, вы можете использовать [команду Set-Пнпсеарчсеттингс SharePoint PnP PowerShell](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpsearchsettings?view=sharepoint-ps) , чтобы задать значение, а не использовать страницу "Параметры сайта".</span><span class="sxs-lookup"><span data-stu-id="9e0f0-117">Alternatively, you can use the [Set-PnPSearchSettings SharePoint PnP PowerShell command](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpsearchsettings?view=sharepoint-ps) to set the value instead of using the Site Settings page.</span></span>
+
+<span data-ttu-id="9e0f0-118">После установки пользовательская страница результатов поиска отображается при поиске с помощью поля Microsoft Search, которое отображается в панели навигации, расположенной вверху страницы, и используется при вводе условий поиска с страниц сайта или домашней страницы сайта.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-118">Once set, the custom search results page is displayed when you search using the Microsoft Search box that appears in the navigation bar on top of the page and is used when you enter search from site pages or the home page of the site.</span></span> <span data-ttu-id="9e0f0-119">Он не используется при поиске в списке, библиотеке или странице "содержимое сайта".</span><span class="sxs-lookup"><span data-stu-id="9e0f0-119">It is not used when you are searching within a list, library, or the site contents page.</span></span> <span data-ttu-id="9e0f0-120">Эту ссылку можно использовать для расширения поиска из результатов поиска в списках и библиотеках, чтобы перейти на страницу настраиваемых результатов.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-120">You may use the link to expand your search from search results in lists and libraries to get to the custom results page.</span></span>
+
+## <a name="change-the-layout-of-your-custom-results-page"></a><span data-ttu-id="9e0f0-121">Изменение макета страницы настраиваемых результатов</span><span class="sxs-lookup"><span data-stu-id="9e0f0-121">Change the layout of your custom results page</span></span>
+
+<span data-ttu-id="9e0f0-122">Макет страницы с именем **хеадерлесссеарчресултс** можно использовать для того, чтобы страница результатов поиска отображалась ближе к нашему интерфейсу результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-122">A page layout named **HeaderlessSearchResults** can be used to make the search results page appear closer to our out of box search results experience.</span></span><span data-ttu-id="9e0f0-123">Этот новый макет может быть активным только для тех страниц, которые настроены как настраиваемые страницы результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-123"> This new layout can only be active for the pages that are set to be the custom search results page.</span></span>
+
+<span data-ttu-id="9e0f0-124">Чтобы задать макет страницы, можно использовать [команду Set-Пнпклиентсидепажешарепоинт PnP PowerShell](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpclientsidepage?view=sharepoint-ps) с параметром-лайауттипе хеадерлесссеарчресултс.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-124">To set the page layout, you can use the [Set-PnPClientSidePageSharePoint PnP PowerShell command](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnpclientsidepage?view=sharepoint-ps) with -LayoutType HeaderlessSearchResults.</span></span>
+
+## <a name="use-sharepoint-framework-query-extensions"></a><span data-ttu-id="9e0f0-125">Использование расширений запросов SharePoint Framework</span><span class="sxs-lookup"><span data-stu-id="9e0f0-125">Use SharePoint Framework Query extensions</span></span>
+
+<span data-ttu-id="9e0f0-126">Пользовательские страницы результатов поиска также могут использовать [расширение запроса SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/building-search-extensions) , чтобы изменить запрос перед его отправкой в поисковую подсистему.</span><span class="sxs-lookup"><span data-stu-id="9e0f0-126">Custom search results pages can also make use of the [SharePoint Framework Query Extension](https://docs.microsoft.com/sharepoint/dev/spfx/building-search-extensions) to modify the query before it gets sent to the search engine.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="9e0f0-127">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="9e0f0-127">Additional resources</span></span>
+
+<span data-ttu-id="9e0f0-128">Чтобы узнать больше о настраиваемой странице результатов, ознакомьтесь со статьей [Настройка поиска Ignite 2019 и сеанс разработки](https://myignite.techcommunity.microsoft.com/sessions/85238?source=sessions).</span><span class="sxs-lookup"><span data-stu-id="9e0f0-128">To learn more about custom results page, check out our [Ignite 2019 Search Customization and Development session](https://myignite.techcommunity.microsoft.com/sessions/85238?source=sessions).</span></span>
+
+<span data-ttu-id="9e0f0-129">Для проектов с открытым кодом, Приступая к работе с нашими API службы поиска Майкрософт и дополнительными примерами настройки и расширения, перейдите на веб-сайт [Microsoft Search на сайте GitHub](https://github.com/microsoft-search).</span><span class="sxs-lookup"><span data-stu-id="9e0f0-129">For open source projects, getting started with our Microsoft Search APIs, and more customization and extensibility samples, visit [Microsoft Search on GitHub](https://github.com/microsoft-search).</span></span>
