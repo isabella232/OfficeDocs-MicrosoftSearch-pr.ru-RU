@@ -27,8 +27,10 @@
 ## [Условия использования](terms-of-use.md)
 # Настройка
 ## [Управление вертикалями и типами результатов](customize-search-page.md)
-## [Макеты результатов поиска](customize-results-layout.md)
-## [Поиск (Майкрософт) в SharePoint](get-started-search-in-sharepoint-online.md)
+## [Управление макетами результатов поиска](customize-results-layout.md)
+## Поиск (Майкрософт) в SharePoint
+### [Обзор](get-started-search-in-sharepoint-online.md)
+### [Создание настраиваемой страницы результатов поиска](create-search-results-pages.md)
 ## Поиск (Майкрософт) в Bing
 ### [Безопасность и конфиденциальность](security-for-search.md)
 ### [Добавление поля поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
