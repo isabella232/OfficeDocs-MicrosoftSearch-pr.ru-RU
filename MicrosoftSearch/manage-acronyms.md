@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание и обновление аббревиатур ответов в Microsoft Search
-ms.openlocfilehash: bbdd27b00be323db8d80994fe9ff6ab7fac17416
-ms.sourcegitcommit: b5142052ed17cd430b4c193b67d8f3d90d94ba6e
+ms.openlocfilehash: 68e62884898e3aa081fc32438ad9a80068092738
+ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143868"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46591511"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Управление сокращениями ответов в Microsoft Search
 
@@ -27,7 +27,7 @@ ms.locfileid: "45143868"
 
 ## <a name="what-users-experience"></a>Взаимодействие с пользователями
 
-Пользователи службы поиска Майкрософт могут получать определения с акронимами в [Bing](https://Bing.com) и [SharePoint](https://products.office.com/sharepoint/collaboration). В поле **поиска** пользователи вводят запросы, как показано в следующих примерах:
+Пользователи службы поиска Майкрософт могут получать определения с акронимами в [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)и [Office 365](https://Office.com). В поле **поиска** пользователи вводят запросы, как показано в следующих примерах:
 
 - *Что такое* днн
 - *Определение* днн
@@ -108,7 +108,7 @@ ms.locfileid: "45143868"
 
 **Вопрос: как пользователи инициируют акронимы?**
 
-**Ответ: чтобы**получить акронимы, пользователи должны ввести определенные шаблоны запросов в поле поиска [Bing](https://bing.com) или [SharePoint](https://products.office.com/sharepoint/collaboration) **Search** . В настоящее время ответы на акронимы недоступны в [Office 365](https://Office.com).
+Ответ: чтобы получить акронимы **, пользователи**должны ввести определенные шаблоны запросов в поле поиска [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)или [Office 365](https://Office.com) **Search** .
 
 **В. Сколько времени займет отображение аббревиатур mined после получения или отправки нового сообщения или документа?**
 
@@ -126,7 +126,3 @@ ms.locfileid: "45143868"
 
 **А**: чтобы отключить отображение акронимов mined в результатах поиска, создайте билет поддержки клиентов, следуя инструкциям в статье [Поддержка для бизнеса](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 После создания билета в службу поддержки для аббревиатур mined в результатах поиска потребуется до 48 часов.
-
-**В. когда я буду видеть акронимы ответы в [Office 365](https://Office.com)?**
-
-Ответ **: аббревиатуры в Office**365 являются частью нашего плана продукции, но мы не можем указать дату или временные рамки.
