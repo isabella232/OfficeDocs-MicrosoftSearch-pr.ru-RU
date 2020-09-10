@@ -1,5 +1,5 @@
 ---
-title: Отчеты панели мониторинга Microsoft Search Insights
+title: Отчеты Аналитики Microsoft Search на информационной панели
 ms.author: jeffkizn
 author: jeffkizn
 manager: parulm
@@ -13,20 +13,20 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Анализ показателей и управление контентом из панели мониторинга Insights в Microsoft Search
-ms.openlocfilehash: 230c1cdec9c1f6e94adf7123bc9a3ad048dee892
-ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
+ms.openlocfilehash: a107be18900f1b68270e5afbeb0966eea04d656f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2020
-ms.locfileid: "43571008"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422994"
 ---
-# <a name="microsoft-search-insights-dashboard-reports"></a>Отчеты панели мониторинга Microsoft Search Insights
+# <a name="microsoft-search-insights-dashboard-reports"></a>Отчеты Аналитики Microsoft Search на информационной панели
 
 Вы можете использовать панель мониторинга Microsoft Search Insights, чтобы управлять данными [Bing](https://Bing.com) для ваших опубликованных ответов. Это всего лишь одно из действий, необходимых для [упрощения поиска контента](make-content-easy-to-find.md) для пользователей.
 
-При первом переходе в Microsoft Search в [центре администрирования](https://admin.microsoft.com)Microsoft 365 вы можете указать на панели мониторинга Insights.
+При первом переходе в Microsoft Search в [центре администрирования microsoft 365](https://admin.microsoft.com)вы можете указать на панели мониторинга Insights.
 
-![Инсигхтс-дашбоард. png](media/Insights-dashboard.png)
+![Insights-dashboard.png](media/Insights-dashboard.png)
 
 В панели мониторинга Insights доступны следующие отчеты.
 

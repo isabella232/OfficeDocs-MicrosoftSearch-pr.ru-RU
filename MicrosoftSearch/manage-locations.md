@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Со временем может потребоваться обновление состояния и содержимого расположения, чтобы обеспечить его релевантность. 
-ms.openlocfilehash: a5d3209e2b6e9269ff2e5986cf81de705ae1cc4d
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: ab093cca1c340268b2fd43f7594eb48eddf32208
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996070"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422886"
 ---
 # <a name="manage-locations"></a>Управление расположениями
 
@@ -28,8 +28,7 @@ ms.locfileid: "44996070"
 
 ### <a name="add-or-edit-a-single-location"></a>Добавление и изменение одного расположения
 
-1. Перейдите в **Центр администрирования Microsoft 365**.
-1. В области навигации перейдите к разделу **Параметры**  >  **ответов поиска Microsoft Search**  >  **Answers**  >  [**Locations**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations) .
+1. В [центре администрирования Microsoft 365](https://admin.microsoft.com)перейдите в раздел " [**расположения**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations) ".
 1. Чтобы добавить новое расположение, нажмите кнопку **Добавить**.
 1. Чтобы изменить расположение, выберите его в списке соответствующих расположений.
 1. При добавлении или изменении сведений предварительное изображение автоматически обновляется.

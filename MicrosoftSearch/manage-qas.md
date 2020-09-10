@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Поиск и обновление ответов по отдельности или использование доступных средств поиска Microsoft для одновременного редактирования&Q.
-ms.openlocfilehash: 78a6ee0ff14f3347b0b2e2a65cc1ee0f68500981
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: 2a8b0727ef3540a35d617cf6c8bae7b0d99767a8
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996088"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47423003"
 ---
 # <a name="manage-qas"></a>Управление вопросами и ответами
 
@@ -26,9 +26,8 @@ ms.locfileid: "44996088"
 
 ## <a name="add-or-edit-a-single-qa"></a>Добавление и изменение одного вопроса с ответом
 
-1. Перейдите в **Центр администрирования Microsoft 365**.
-1. В области навигации перейдите к разделу **Параметры**  >  **Microsoft Search**  >  **Answers**  >  [**Q&A**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
-1. Чтобы добавить вопрос и ответ, нажмите кнопку **Добавить**.
+1. В [центре администрирования Microsoft 365](https://admin.microsoft.com)откройте раздел [**Q&A**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
+1. Чтобы добавить Q&а, нажмите кнопку **Добавить**.
 Чтобы изменить вопрос и ответ, выберите вопрос и ответ в соответствующем списке. При добавлении или изменении сведений предварительное изображение автоматически обновляется.
 1. Сохраните изменения.
 

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Получите ответы на часто задаваемые вопросы о поиске в корпоративной среде и Поиске (Майкрософт)
-ms.openlocfilehash: 1acf4b5c4b3e771072ea67f4d807454723352c3f
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: c4b0d888e7765cf965832c252a79bdcf8aa5f6cf
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721762"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422967"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 # <a name="frequently-asked-questions"></a>Вопросы и ответы
@@ -31,7 +31,7 @@ ms.locfileid: "41721762"
 
 Да, Microsoft Search анализирует цель запроса из больших фраз. Эта функция использует AI для изучения распространенных избыточных фраз, которые добавляются к своим запросам, не влияющим на цель поиска. Например, когда пользователь *покажет дополнительные сведения о том, как изменить пароль*, мы извлекаем менее важных слов из запроса и триггера, основываясь на соответствующих параметрах, таких как " *изменить пароль*".
   
-Эта функция не переопределяет ключевые слова в [центре администрирования](https://admin.microsoft.com)Microsoft 365.
+Эта функция не переопределяет ключевые слова в [центре администрирования Microsoft 365](https://admin.microsoft.com).
   
 ## <a name="can-you-search-for-files-on-premises"></a>Можно ли искать локальные файлы?
 

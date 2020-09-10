@@ -1,7 +1,7 @@
 ---
 title: Страница обратной связи с соединителями
-ms.author: mounika.narayanan
-author: monaray
+ms.author: monaray
+author: monaray97
 manager: jameslau
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обеспечение обратной связи для соединителей поиска Майкрософт
-ms.openlocfilehash: 176361ff63f8b7aa94ec4c3704638f95f7c91487
-ms.sourcegitcommit: 64eea81f8c1db9ee955013462a7b51612fb7d0b7
+ms.openlocfilehash: 678fb84e6b3495fbe518c93f15a9685ac2d9376a
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44604368"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422738"
 ---
 # <a name="provide-feedback-for-microsoft-search-connectors"></a>Предоставление обратной связи для соединителей поиска Майкрософт
 

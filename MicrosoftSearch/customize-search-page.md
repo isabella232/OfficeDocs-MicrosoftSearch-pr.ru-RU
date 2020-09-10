@@ -1,7 +1,7 @@
 ---
 title: Настройка страницы поиска Microsoft
-ms.author: jypal6
-author: jypal
+ms.author: jypal
+author: jypal6
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: 9bc0448c1105c26b0e083316db04887327d8db41
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: f9ecaa0c7aaaf75b40ed87db45f6ec4921488212
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387988"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422985"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -59,7 +59,7 @@ ms.locfileid: "45387988"
 
 Чтобы создать вертикальную область поиска в Microsoft Search [в домашнем](https://sharepoint.com/) , [Office](https://office.com)или [Bing](https://bing.com), выполните указанные ниже действия.
 
-1. В [центре администрирования](https://admin.microsoft.com)Microsoft 365 перейдите к разделу **Параметры**   >  **Microsoft Search**   >  **Customization**  >  [**вертикальных**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals)настроек поиска Microsoft Search.
+1. В [центре администрирования Microsoft 365](https://admin.microsoft.com)перейдите на страницу [**вертикальные черты**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 1. Нажмите кнопку **Добавить** , чтобы приступить к работе.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Создание вертикальной вертикальной версии на уровне сайта
@@ -88,7 +88,7 @@ ms.locfileid: "45387988"
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Создание типа результатов на уровне Организации
 
-1. В [центре администрирования](https://admin.microsoft.com)перейдите к разделу **Настройка**  >  параметров настройки**поиска Microsoft Search**  >  **Customizations**  >  [**Result types**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
+1. В [центре администрирования Microsoft 365](https://admin.microsoft.com)перейдите к разделу [**типы результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
 1. Чтобы добавить **Тип результата**, нажмите кнопку **Добавить**. Чтобы изменить тип результата, выберите тип результата в соответствующем списке.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Создание типа результатов на уровне сайта
@@ -97,7 +97,7 @@ ms.locfileid: "45387988"
 1. Выберите **сведения о сайте** , а затем **Просмотрите все параметры сайта**.
 1. Найдите раздел Microsoft Search, а затем выберите **Настройка службы поиска Майкрософт для этого семейства веб-сайтов**.
 1. В области навигации перейдите в раздел **Настраиваемый интерфейс**и выберите вкладку **Тип результата** .
-2. Чтобы добавить тип результата, нажмите кнопку **Добавить**.  Чтобы изменить тип результата, выберите тип результата в списке.
+1. Чтобы добавить тип результата, нажмите кнопку **Добавить**.  Чтобы изменить тип результата, выберите тип результата в списке.
 
 ### <a name="view-the-vertical-after-its-enabled"></a>Просмотр вертикального элемента после его включения
 
@@ -107,12 +107,12 @@ ms.locfileid: "45387988"
 
 Ниже перечислены распространенные проблемы, которые могут возникнуть, а также действия по их устранению.
 
-|Error  |Действие  |
+|Error  |Action  |
 |---------|---------|
 | Отображается сообщение об ошибке "что-то пошло не так" на вертикальном. | Для завершения настройки необходимы как вертикальные, так и типы результатов. Убедитесь, что вы создали оба для одного источника контента. |
 | Я не вижу моего макета результатов, несмотря на то, что он был создан. | Это занимает несколько минут, так как эти параметры, как правило, кэшируются. Подождите несколько минут и повторите попытку.        |
 | На странице "вертикальный текст" или "тип результата" не отображаются источники контента. | Убедитесь, что вы настроили соединители и индексированные данные.   |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Шаг 3: Настройка макета результатов](customize-results-layout.md)
