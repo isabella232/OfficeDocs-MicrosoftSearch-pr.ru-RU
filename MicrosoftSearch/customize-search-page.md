@@ -1,7 +1,7 @@
 ---
 title: Настройка страницы поиска Microsoft
-ms.author: jypal
-author: jypal6
+ms.author: jeffkizn
+author: jypal
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: f9ecaa0c7aaaf75b40ed87db45f6ec4921488212
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 8b212f385d126b4f6c3513b066936db28387377f
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422985"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206971"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -113,6 +113,6 @@ ms.locfileid: "47422985"
 | Я не вижу моего макета результатов, несмотря на то, что он был создан. | Это занимает несколько минут, так как эти параметры, как правило, кэшируются. Подождите несколько минут и повторите попытку.        |
 | На странице "вертикальный текст" или "тип результата" не отображаются источники контента. | Убедитесь, что вы настроили соединители и индексированные данные.   |
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Шаг 3: Настройка макета результатов](customize-results-layout.md)
