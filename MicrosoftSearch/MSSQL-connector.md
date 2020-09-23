@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединителя Microsoft SQL Server или Azure SQL для поиска Майкрософт.
-ms.openlocfilehash: e67b1e6175744fd741b265c056798f18dc28b1d4
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 71fd8b6cdf090c9dda9ac94973661d865536a984
+ms.sourcegitcommit: 6baf6f4b8a6466ee1a6ad142be8541f659fcf5d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422913"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48214491"
 ---
 # <a name="azure-sql-and-microsoft-sql-server-connectors"></a>Соединители Azure SQL и Microsoft SQL Server
 
@@ -30,17 +30,15 @@ ms.locfileid: "47422913"
 Чтобы получить доступ к данным третьих сторон, необходимо установить и настроить шлюз Microsoft Power BI Gateway. Чтобы узнать больше, ознакомьтесь со статьей [Установка локального шлюза](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) .  
 
 ## <a name="register-an-app"></a>Регистрация приложения
+Для соединителя Azure SQL необходимо зарегистрировать приложение в Azure Active Directory, чтобы приложение Microsoft Search было иметь доступ к данным для индексирования. Чтобы узнать больше о регистрации приложения, обратитесь к документации по Microsoft Graph, посвященной [регистрации приложения](https://docs.microsoft.com/graph/auth-register-app-v2). 
 
-Для соединителя Azure SQL необходимо зарегистрировать приложение в Azure Active Directory, чтобы приложение Microsoft Search было иметь доступ к данным для индексирования. Чтобы узнать больше о регистрации приложения, обратитесь к документации по Microsoft Graph, посвященной [регистрации приложения](https://docs.microsoft.com/graph/auth-register-app-v2).
-
-По завершении регистрации приложения и заметкой имени приложения, идентификатора приложения (клиента) и идентификатора клиента необходимо [создать новый секрет клиента](https://docs.microsoft.com/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). Секрет клиента будет отображаться только один раз. Запомните, что & безопасно хранить секрет клиента. Использование идентификатора клиента и секрета клиента при настройке нового подключения в Microsoft Search.
+По завершении регистрации приложения и заметкой имени приложения, идентификатора приложения (клиента) и идентификатора клиента необходимо [создать новый секрет клиента](https://docs.microsoft.com/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). Секрет клиента будет отображаться только один раз. Запомните, что & безопасно хранить секрет клиента. Использование идентификатора клиента и секрета клиента при настройке нового подключения в Microsoft Search. 
 
 Чтобы добавить зарегистрированное приложение в базу данных SQL Azure, необходимо выполнить следующие действия:
-
-- Вход в базу данных SQL Azure
-- Открытие нового окна запроса
-- Создайте нового пользователя, выполнив команду "создать пользователя [имя приложения] от внешнего поставщика".
-- Добавление пользователя к роли путем выполнения команды "exec sp_addrolemember" db_datareader ", [имя приложения]" или "ALTER ROLE db_datareader ADD MEMBER [App name]"
+ - Вход в базу данных SQL Azure
+ - Открытие нового окна запроса
+ - Создайте нового пользователя, выполнив команду "создать пользователя [имя приложения] от внешнего поставщика".
+ - Добавление пользователя к роли путем выполнения команды "exec sp_addrolemember" db_datareader ", [имя приложения]" или "ALTER ROLE db_datareader ADD MEMBER [App name]"
 
 >[!NOTE]
 >Чтобы отозвать доступ к любому приложению, зарегистрированному в Azure Active Directory, обратитесь к документации по Azure, посвященной [удалению зарегистрированного приложения](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app).
@@ -81,22 +79,6 @@ ms.locfileid: "47422913"
 * **Дениедграупс**: этот параметр указывает группу пользователей, у которых **нет доступа** к результатам поиска. В следующем примере группы engg-team@contoso.com и pm-team@contoso.com не имеют доступа к записи с OrderId = 15, тогда как все остальные пользователи имеют доступ к этой записи.  
 
 ![Примеры данных, в которых показаны свойства Ордертабле и Аклтабле, например свойства](media/MSSQL-ACL1.png)
-
-### <a name="supported-data-types"></a>Поддерживаемые типы данных
-
-В приведенной ниже таблице представлены типы данных SQL, которые поддерживаются в соединителях MS SQL и Azure SQL. В таблице также представлена сводная информация о типе данных индексирования для поддерживаемого типа данных SQL. Чтобы узнать больше о поддерживаемых типах данных Microsoft Graph Connectors для индексирования, обратитесь к документации по [типам ресурсов Property](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties).
-<!-- markdownlint-disable no-inline-html -->
-| Категория | Тип данных источника | Тип данных индексирования |
-| ------------ | ------------ | ------------ |
-| дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
-| Точное числовое | типу <br> int <br> smallint <br> tinyint | переменной |
-| Точное числовое | Битовая | boolean |
-| Приблизительные числовые | с плавающей запятой <br> режиме реального | double |
-| Строка символов | разделител <br> типа <br> text | string |
-| Строки символов Юникода | nchar <br> nvarchar <br> типы | string |
-| Другие типы данных | идентификатора | string |
-
-Для других типов данных, которые в настоящее время не поддерживаются напрямую, столбец необходимо явно привести к поддерживаемому типу данных.
 
 ### <a name="watermark-required"></a>Водяной знак (обязательный)
 
