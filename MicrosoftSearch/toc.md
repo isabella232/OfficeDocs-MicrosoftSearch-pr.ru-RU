@@ -23,6 +23,7 @@
 ### [Корпоративные веб-сайты](enterprise-web-connector.md)
 ### [MediaWiki](mediawiki-connector.md)
 ### [ServiceNow](servicenow-connector.md)
+## [Лицензирование](licensing.md)
 ## [Отзыв](connectors-feedback.md)
 ## [Условия использования](terms-of-use.md)
 # Настройка
