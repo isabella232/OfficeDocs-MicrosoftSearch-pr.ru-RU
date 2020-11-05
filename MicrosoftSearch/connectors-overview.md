@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие сведения о Microsoft Graph Connectors for Microsoft Search
-ms.openlocfilehash: 2e3ca14b408ca6471c3163871c80fb24d62cff26
-ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
+ms.openlocfilehash: d20c576c92c0ec2d794fc6f8fd21c829e468c086
+ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48206989"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919486"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединителей Microsoft Graph
 
 Microsoft Search индексирует все данные [microsoft 365](https://www.microsoft.com/microsoft-365) , чтобы обеспечить возможность поиска для пользователей. С помощью соединителей Microsoft Graph ваша организация может индексировать сторонние данные, чтобы отображать их в результатах Поиска (Майкрософт). Сторонние данные могут размещаться в локальной среде или в общедоступных или частных облаках. Соединители расширяют типы источников контента, которые доступны для поиска в приложениях Microsoft 365 для продуктивной работы, а также в более широком наборе Microsoft экосистеме.
 
 > [!IMPORTANT]
-> **Заявление об отказе**: Microsoft Graph Connectors и API службы поиска Microsoft (запрос и индекс) в настоящее время доступны для клиентов в целевом выпуске. Чтобы использовать соединители с поиском Майкрософт или создавать соединители, следует отказаться от [целевой версии](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Чтобы узнать больше о предварительном просмотре, ознакомьтесь со статьей [Просмотр соединителей](connectors-preview.md).
+> **Заявление об отказе** : Microsoft Graph Connectors и API службы поиска Microsoft (запрос и индекс) в настоящее время доступны для клиентов в целевом выпуске. Чтобы использовать соединители с поиском Майкрософт или создавать соединители, следует отказаться от [целевой версии](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide). Чтобы узнать больше о предварительном просмотре, ознакомьтесь со статьей [Просмотр соединителей](connectors-preview.md).
 
 ## <a name="architecture"></a>Архитектура
 
@@ -88,8 +88,6 @@ API создает экземпляр одного подключения для
 
 ## <a name="license-requirements"></a>Требования лицензирования
 
-Для просмотра данных из соединителей в результатах поиска пользователи должны иметь одну из следующих подписок на Microsoft 365 или Office 365:
+Вам необходима действительная лицензия Microsoft 365 или Office 365 и достаточная квота Graph Connectors для пользователей в вашей организации, чтобы просматривать данные из соединителей в результатах поиска.
 
-- [Microsoft 365 или Office 365 корпоративный E3 или "е"](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
-
-- [Microsoft 365 или Office 365 для образования a3 или A5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)
+Чтобы узнать больше, ознакомьтесь [со статьей требования к лицензии и цены](licensing.md).
