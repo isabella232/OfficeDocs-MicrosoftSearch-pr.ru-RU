@@ -1,5 +1,5 @@
 ---
-title: Настройка макета результатов поиска
+title: Управление макетами результатов поиска
 ms.author: jypal
 author: jypal6
 manager: jeffkizn
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание макета с помощью адаптивных карт для просмотра настраиваемых результатов поиска
-ms.openlocfilehash: 5bd42eded291781f5122cfede3759327b5222108
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 425e5404c14d500f6ecd84ad449dafb05bbfd31b
+ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919513"
+ms.locfileid: "48927183"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Создание макета для настройки результатов поиска
@@ -198,7 +198,7 @@ ms.locfileid: "48919513"
 - При связывании значений не определяйте недопустимые типы данных. Дополнительные сведения о типах данных можно найти в статье [Управление схемой поиска](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Не обрезайте результат на странице результатов, следуя максимальной высоте в формате JSON. Если вы превысили максимальную высоту макета результатов, результат будет обрезан на странице результатов.
 - Не используйте `px` значения в свойствах элементов.
-- Не используйте Markdown, если для свойства **ресултсниппет** в макете результатов выделяется поисковый запрос в результатах поиска.
+- Не используйте Markdown со свойством **ресултсниппет** в макете результатов, чтобы выделить поисковый запрос в результатах поиска.
 
 ## <a name="resources"></a>Ресурсы
 
