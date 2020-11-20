@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Список всех соединителей Microsoft Graph для поиска Майкрософт
-ms.openlocfilehash: 82718cdadc57bf9133b61183cdbd912e269fdc70
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: 6ab0518dffacb25190a0eafc20e50408fd51004b
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45388015"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367629"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Коллекция соединителей Microsoft Graph
 
@@ -159,6 +159,27 @@ ms.locfileid: "45388015"
     </li>
 </ul>
 <ul class="panelContent cardsZ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="overflow: hidden; height: 235px;">
+                    <div class="cardText">
+                        <h3>Salesforce</h3>
+                        <p>корпорацией <a href="https://www.microsoft.com">Майкрософт</a></p>
+                        <p>С помощью этого соединителя Microsoft Graph пользователи в вашей организации могут искать объекты Contacts, возможные сделки, интересы и учетные записи из экземпляра Salesforce.</p>
+                        <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
+                            <div style="font-weight:500;width:150px;display:inline">
+                                <a href="salesforce-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
+                                    <font color="0065BA">Дополнительные сведения</font>
+                                </a>
+                             <img src="media/Salesforce_Small.png" alt="Enterprise Website" width="35" height="35" align="right" style="display:inline; margin-left:210px" data-linktype="relative-path"  />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -318,7 +339,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Соединитель S3 для Amazon будет выполнять обход контента любой службы простого хранения Amazon.Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
+                        <p>Соединитель S3 для Amazon будет выполнять обход контента любой службы простого хранения Amazon. Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Amazon+S3+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -334,7 +355,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
-                        <p>Соединитель S3 для Amazon работает со всем содержимым, хранящимся в S3.Ваша организация может использовать соединитель для безопасного подключения к S3 и индексации содержимого из сегментов S3. Мощные возможности фильтрации позволяют организациям контролировать контент, обнаруженный в S3, для индексирования.</p>
+                        <p>Соединитель S3 для Amazon работает со всем содержимым, хранящимся в S3. Ваша организация может использовать соединитель для безопасного подключения к S3 и индексации содержимого из сегментов S3. Мощные возможности фильтрации позволяют организациям контролировать контент, обнаруженный в S3, для индексирования.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/amazon-s3-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -608,7 +629,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>Documentum/Documentum DQL</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Documentum Connector будет выполнять обход контента из любого репозитория контента Documentum. DQL — это язык запросов, позволяющий выполнять очень сложные запросы с использованием специализированных возможностей поиска для управления документами и контентом.Соединитель аспире Documentum DQL будет выполнять обход контента из Documentum.</p>
+                        <p>Documentum Connector будет выполнять обход контента из любого репозитория контента Documentum. DQL — это язык запросов, позволяющий выполнять очень сложные запросы с использованием специализированных возможностей поиска для управления документами и контентом. Соединитель аспире Documentum DQL будет выполнять обход контента из Documentum.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Documentum+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -659,7 +680,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>Ерум EMC</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
-                        <p>Соединитель Ерум устанавливает безопасное подключение к приложению Ерум и сопоставляет содержимое, включая метаданные и вложения, из схемы Ерум в схему поисковой системы. Затем содержимое и веб-каналы извлекаются в поисковую подсистему в процессе, который называется обходным.</p>
+                        <p>Соединитель Ерум устанавливает безопасное подключение к приложению Ерум и сопоставляет содержимое, включая метаданные и вложения, из схемы Ерум в схему поисковой системы.  Затем содержимое и веб-каналы извлекаются в поисковую подсистему в процессе, который называется обходным.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/eroom-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -793,7 +814,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>СЕРВЕРЕ</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Соединитель FTP обеспечивает доступ к файлам и папкам на FTP-сервере.Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
+                        <p>Соединитель FTP обеспечивает доступ к файлам и папкам на FTP-сервере. Каждый файл отправляется вместе с его метаданными (размер, расположение, Последний доступ и т. д.). Обновления автоматически обнаруживаются.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/FTP+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1032,7 +1053,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>IBM Lotus Notes</h3>
                         <p>по <a href="https://www.bainsight.com">Ба аналитика</a></p>
-                        <p>С помощью соединителя электронной почты IBM Notes в BA пользователи могут искать сообщения заметок непосредственно в SharePoint или другом портале.Безопасность, определенная в IBM Notes, автоматически отражается в интерфейсе поиска, поэтому пользователи увидят результаты поиска из собственного почтового ящика, общедоступных почтовых ящиков и других почтовых ящиков, для которых им был предоставлен доступ.</p>
+                        <p>С помощью соединителя электронной почты IBM Notes в BA пользователи могут искать сообщения заметок непосредственно в SharePoint или другом портале.  Безопасность, определенная в IBM Notes, автоматически отражается в интерфейсе поиска, поэтому пользователи увидят результаты поиска из собственного почтового ящика, общедоступных почтовых ящиков и других почтовых ящиков, для которых им был предоставлен доступ.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/lotus-notes-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1935,7 +1956,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>SharePoint 2013</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Соединитель SharePoint 2013 будет выполнять обход контента по любому URL-адресу семейства веб-сайтов SharePoint 2013.Соединитель поддерживает списки, страницы и сайты, а обновления идентифицируются либо автоматически, либо через журнал изменений SharePoint.</p>
+                        <p>Соединитель SharePoint 2013 будет выполнять обход контента по любому URL-адресу семейства веб-сайтов SharePoint 2013. Соединитель поддерживает списки, страницы и сайты, а обновления идентифицируются либо автоматически, либо через журнал изменений SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2013+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1951,7 +1972,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>SharePoint 2016</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Соединитель SharePoint 2016 будет выполнять обход контента по любому URL-адресу семейства веб-сайтов SharePoint 2016.Соединитель поддерживает списки, страницы и сайты, а обновления идентифицируются либо автоматически, либо через журнал изменений SharePoint.</p>
+                        <p>Соединитель SharePoint 2016 будет выполнять обход контента по любому URL-адресу семейства веб-сайтов SharePoint 2016. Соединитель поддерживает списки, страницы и сайты, а обновления идентифицируются либо автоматически, либо через журнал изменений SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2016+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -1967,7 +1988,7 @@ ms.locfileid: "45388015"
                     <div class="cardText">
                         <h3>SharePoint Online</h3>
                         <p>по <a href="https://www.accenture.com">акцентуре</a></p>
-                        <p>Соединитель SharePoint Online будет выполнять обход контента из любого URL-адреса семейства веб-сайтов SharePoint Online.Соединитель будет получать сайты, списки, папки, элементы списков и вложения, а также другие страницы (в формате ASPX). Этот соединитель поддерживает SharePoint, работающий в предложении Microsoft O365. Поддержка обхода локальных услуг SharePoint поддерживается соединителем SharePoint 2010/2007 и соединителем SharePoint 2013.</p>
+                        <p>Соединитель SharePoint Online будет выполнять обход контента из любого URL-адреса семейства веб-сайтов SharePoint Online. Соединитель будет получать сайты, списки, папки, элементы списков и вложения, а также другие страницы (в формате ASPX). Этот соединитель поддерживает SharePoint, работающий в предложении Microsoft O365. Поддержка обхода локальных услуг SharePoint поддерживается соединителем SharePoint 2010/2007 и соединителем SharePoint 2013.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+Online+Connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
@@ -2016,7 +2037,7 @@ ms.locfileid: "45388015"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>Промежуток</h3>
+                       <h3>Slack</h3>
                         <p>по <a href="https://www.raytion.com">райтион</a></p>
                         <p>Соединитель для эффективного и надежной синхронизации резервного содержимого с помощью Microsoft Search. Он обеспечивает надежную индексацию сообщений, потоков и общих файлов со всех общедоступных каналов почти в режиме реального времени. Соединитель гарантирует, что все документы поставляются с полным набором метаданных, что позволяет разрабатывать лучшие возможности поиска. Даже в ярких средах временной временной соединитель отслеживает все изменения и гарантирует обновленный индекс поиска.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -2255,9 +2276,9 @@ ms.locfileid: "45388015"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                       <h3>виндреам ECM — система</h3>
+                       <h3>виндреам ECM-System</h3>
                         <p>по <a href="https://www.raytion.com">райтион</a></p>
-                        <p>Соединитель для виндреам ECM – System. Индексирует файлы и папки из виндреам ECM — система почти в режиме реального времени. соединитель поиска для шестого поколения Райтион.</p>
+                        <p>Соединитель для виндреам ECM – System. Индексирует файлы и папки из виндреам ECM-System почти в режиме реального времени. соединитель поиска для шестого поколения Райтион.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-windream-ecm-system-connector"><font color="0065BA">Дополнительные сведения</font></a>
                         </p>
