@@ -12,16 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Юридические условия для Microsoft Graph Connectors общедоступная Предварительная версия для поиска Майкрософт
-ms.openlocfilehash: ee70ae9b747d6f0558426fd568a63abc6d2142f1
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: d9a8e4d55904edac845a46ed6b524ed09433135b
+ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626903"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49382574"
 ---
-# <a name="microsoft-graph-connectors-public-preview-terms-of-use"></a>Общедоступная Предварительная версия соединителей Microsoft Graph: условия использования
-
-Microsoft Graph Connectors — это предварительная версия, которая подчиняется тем же условиям использования, описанных в разделе "предварительный просмотр" в [терминах веб-служб](http://www.microsoftvolumelicensing.com/Downloader.aspx?documenttype=OST&lang=English).
+# <a name="microsoft-graph-connectors-terms-of-use"></a>Соединители Microsoft Graph: условия использования
 
 Использование соединителей Microsoft Graph зависит от условий и условий третьих лиц. Корпорация Майкрософт не является участником ваших соглашений с третьими сторонами и какими-либо вопросами или вопросами, относящимися к сторонним условиям или службам, которые должны быть направлены на третью сторону. Вы, как контроллер данных для ваших данных, несете ответственность за индексацию данных в клиенте Microsoft 365.
 
