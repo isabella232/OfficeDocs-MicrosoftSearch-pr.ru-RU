@@ -11,13 +11,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
+ROBOTS: NoIndex
 description: Локальный агент
-ms.openlocfilehash: 30ddf0ac8c6df76d1c598606754066b3d2e93615
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 487c5b179e09fd99fa26ae7a237e89ca38b7be4d
+ms.sourcegitcommit: 69a1c544cc8db364991cb58d7818d7158ff108b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367781"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408945"
 ---
 # <a name="on-prem-agent"></a>Локальный агент
 
@@ -59,7 +60,7 @@ ms.locfileid: "49367781"
 
 Сведения о проверке подлинности могут быть предоставлены в одной из следующих форм.
 
-### <a name="configuring-the-client-secret-for-authentation"></a>Настройка секрета клиента для аусентатион
+### <a name="configuring-the-client-secret-for-authentication"></a>Настройка секрета клиента для проверки подлинности
 
 1. Перейдите на [портал Azure](https://portal.azure.com) и войдите в систему, используя учетные данные администратора для клиента.
 2. Откройте **регистрацию приложений** в области навигации и перейдите к соответствующему приложению. В разделе **Управление** выберите **Сертификаты и секреты**.
@@ -68,7 +69,7 @@ ms.locfileid: "49367781"
 
 ## <a name="using-thumbprint-certificate-for-authentication"></a>Использование сертификата отпечатков для проверки подлинности
 
-Если вы уже настроили сведения проверки подлинности, выполнив [настройку секрета клиента для аусентатион](#Configuring-the-client-secret-for-authentication) , вы можете перейти к разделу [Обзор программы установки](configure-connector.md).
+Если вы уже настроили сведения для проверки подлинности, выполнив [настройку секрета клиента для проверки подлинности](#configuring-the-client-secret-for-authentication) , вы можете перейти непосредственно к [обзору программы установки](configure-connector.md).
 
 1. Откройте **регистрацию приложения** и выберите **Сертификаты и секреты** в области навигации. Скопируйте отпечаток сертификата.
 ![Список сертификатов сумбринт, когда в левой панели выбраны сертификаты и секреты](media/onprem-agent/certificates.png)
