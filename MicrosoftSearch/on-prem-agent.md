@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Локальный агент
-ms.openlocfilehash: 763904f8dd96c5db8b0633e36795443502afe7d0
-ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
+ms.openlocfilehash: 5dbca392fefdcc11de253fd244cc98a6adcee68a
+ms.sourcegitcommit: e8d770fa72ac83e074a5de57098cb55d06d8db07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420836"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588370"
 ---
 # <a name="graph-connector-agent"></a>Агент соединителя Graph
 
@@ -31,6 +31,7 @@ ms.locfileid: "49420836"
 Рекомендуемая конфигурация:
 
 * Windows 10, Windows Server 2016 R2 и более поздних версий
+* [Среда выполнения .NET Core для настольных ПК 3,1 (x64)](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 * 8 ядер, 3 ГГц
 * 16 ГБ ОЗУ, 2 ГБ дискового пространства
 * Сетевой доступ к источнику данных и Интернету через 443
