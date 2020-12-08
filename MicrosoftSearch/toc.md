@@ -2,7 +2,7 @@
 ## [Обзор](overview-microsoft-search.md)
 ## [Настройка](setup-microsoft-search.md)
 ## [Вопросы и ответы](faqs.md)
-# [Получение аналитики](get-insights.md)
+# [Получение аналитики](usage-reports.md)
 # Предоставление ответов
 ## [Планирование содержимого](plan-your-content.md)
 ## [Сокращения](manage-acronyms.md)
