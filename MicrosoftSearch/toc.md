@@ -33,11 +33,13 @@
 # Настройка
 ## [Управление вертикалями и типами результатов](customize-search-page.md)
 ## [Управление макетами результатов поиска](customize-results-layout.md)
-## [Управление кластером результатов](result-cluster.md)
+## [Управление кластерами результатов](result-cluster.md)
 ## [Управление пользовательскими фильтрами](custom-filters.md)
 ## Поиск (Майкрософт) в SharePoint
 ### [Обзор](get-started-search-in-sharepoint-online.md)
 ### [Создание настраиваемой страницы результатов поиска](create-search-results-pages.md)
+### [Управление настройками поля поиска](manage-spo-search-box.md)
+### [Использование Поиск (Майкрософт) на классических страницах](manage-classic-spo-pages.md)
 ## Поиск (Майкрософт) в Bing
 ### [Безопасность и конфиденциальность](security-for-search.md)
 ### [Добавление поля поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
