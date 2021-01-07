@@ -9,6 +9,7 @@
 ## [Закладки](manage-bookmarks.md)
 ## [Планы этажей](manage-floorplans.md)
 ## [Расположения](manage-locations.md)
+## [Power BI](manage-powerbi.md)
 ## [Вопросы и ответы](manage-qas.md)
 # Соединители (предварительная версия)
 ## [Обзор](connectors-overview.md)
