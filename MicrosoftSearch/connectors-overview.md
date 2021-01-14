@@ -1,5 +1,5 @@
 ---
-title: Обзор соединителей
+title: Общие сведения о соединители
 ms.author: monaray
 author: monaray97
 manager: shohara
@@ -11,31 +11,31 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Общие сведения о Microsoft Graph Connectors for Microsoft Search
-ms.openlocfilehash: 7388653927ca6a7af0ba64c3c592f2689780c181
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+description: Обзор соединители Microsoft Graph для Поиска (Майкрософт)
+ms.openlocfilehash: 677c91f121185faa6dc96f80c517917f429a3ab0
+ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367526"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49847522"
 ---
-# <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединителей Microsoft Graph
+# <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединители Microsoft Graph
 
-[Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) индексирует все данные [Microsoft 365](https://www.microsoft.com/microsoft-365) , чтобы обеспечить возможность поиска для пользователей. С помощью соединителей Microsoft Graph организация может индексировать сторонние данные, чтобы они отображались в результатах поиска Microsoft. Это расширяет типы источников контента, которые доступны для поиска в приложениях Microsoft 365 для продуктивной работы, а также в обширной экосистеме корпорации Майкрософт. Сторонние данные могут размещаться в локальной среде или в общедоступных или частных облаках.
+[Поиск (Майкрософт)](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) индексирует [все ваши данные Microsoft 365,](https://www.microsoft.com/microsoft-365) чтобы сделать их поиском пользователей. С помощью соединители Microsoft Graph ваша организация может индексировать сторонние данные, чтобы они появляются в результатах Поиска (Майкрософт). Это расширяет типы источников контента, доступных для поиска в приложениях Для повышения производительности Microsoft 365 и в более широкой экосистеме Майкрософт. Сторонние данные могут быть локально или в общедоступных или закрытых облаках.
 
 <!---link Microsoft Graph reference in line 19 when we have access to relevant documentation--->
 
-Оставшаяся часть этой статьи предназначена для того, чтобы помочь администраторам Microsoft 365 найти ресурсы, которые аваиабле, чтобы ответить на следующие вопросы:
+Остальная часть этой статьи предназначена для помощи администраторам Microsoft 365 в поиске ресурсов, доступных для ответа на следующие вопросы:
 
-* [Какие источники данных могут быть подключены к поиску Майкрософт?](#what-data-sources-can-be-connected-to-microsoft-search)
+* [Какие источники данных можно подключать к Поиску (Майкрософт)?](#what-data-sources-can-be-connected-to-microsoft-search)
 * [Как управлять подключениями?](#how-do-i-manage-my-connections)
-* [Каковы требования к лицензии и условия использования для соединителей Graph?](#what-are-the-license-requirements-and-terms-of-use-for-graph-connectors)
+* [Каковы требования к лицензиям и условия использования соединители Graph?](#what-are-the-license-requirements-and-terms-of-use-for-graph-connectors)
 * [Как настроить и настроить результаты поиска?](#how-do-i-customize-and-configure-search-results)
-* [Поиск данных о соединителе из настраиваемого приложения](#how-do-i-search-my-connector-data-from-a-custom-application)
+* [Как искать данные соединители из пользовательского приложения?](#how-do-i-search-my-connector-data-from-a-custom-application)
 
 <!---Modify to another note that is more accurate--->
 > [!IMPORTANT]
-> Microsoft Graph Connectors и API службы поиска, как правило, доступны в настоящее время. Первые развертывания будут выполняться для клиентов, настроенных для целевого выпуска. Если вы хотите использовать графический соединитель в клиенте, пользователи и администраторы должны принять участие в [целевой версии](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide).
+> Теперь соединители Microsoft Graph и API Поиска (Майкрософт) доступны в целом. Первый выпуск будет для клиентов, настроенных для целевого выпуска. Если вы хотите использовать соединители Graph в клиенте, пользователи и администраторы должны выбрать выпуск [Targeted.](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)
 
 <!---Add Value, scenario, example, and/or graphic in December updates--->
 <!---Probably remove architecture section below
@@ -53,13 +53,13 @@ You can use the Microsoft 365 [admin center](https://admin.microsoft.com) to set
 ***Edit paragraph below**_
 To create a _*connection** to a data source, admins need authenticated access to the data and the entire content repository. The data is fed to the graph connector service for indexing.--->
 
-## <a name="what-data-sources-can-be-connected-to-microsoft-search"></a>Какие источники данных могут быть подключены к поиску Майкрософт?
+## <a name="what-data-sources-can-be-connected-to-microsoft-search"></a>Какие источники данных можно подключать к Поиску (Майкрософт)?
 
-Корпорация Майкрософт предоставляет десять графических соединителей, а наши партнеры по экосистеме создали более 100 дополнительных графических соединителей. Вы также можете создать собственный соединительный соединитель. 
+Корпорация Майкрософт предоставляет десять соединитеев Graph, а наши партнеры по экосистеме создали более 100 дополнительных соединители Graph. Вы также можете создать собственный соединител Graph. 
 
-### <a name="graph-connectors-by-microsoft"></a>Графические соединители корпорации Майкрософт
+### <a name="graph-connectors-by-microsoft"></a>Соединители Graph от Майкрософт
 
-С помощью соединителей Graph, созданных корпорацией Майкрософт, можно подключаться к следующим источникам данных:
+Вы можете подключаться к следующим источникам данных, используя соединители Graph, созданные корпорацией Майкрософт:
 
 <!---Need to add a few links below when docs exist--->
 * [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
@@ -69,39 +69,53 @@ To create a _*connection** to a data source, admins need authenticated access to
 * [MediaWiki](mediawiki-connector.md)
 * [Microsoft SQL Server](MSSQL-connector.md)
 * [Файловый ресурс](fileshare-connector.md)
-* Oracle (Предварительная версия)
-* [SalesForce (Предварительная версия)](salesforce-connector.md)
+* Oracle (предварительная версия)
+* [Salesforce (предварительная версия)](salesforce-connector.md)
 * [ServiceNow](servicenow-connector.md)
 
-В [галерее Graph Connectors](connectors-gallery.md) содержится краткое описание каждого из этих соединителей Graph. Если вы готовы подключить один из этих источников данных к клиенту, ознакомьтесь с [обзором программы установки](configure-connector.md) и другими статьями раздела Настройка соединителей Майкрософт, которые применимы к источнику данных.
+В [коллекции соединители Graph](connectors-gallery.md) содержится краткое описание каждого из этих соединитеителей Graph. Если вы готовы подключить один из этих источников данных к [](configure-connector.md) вашему арендатору, ознакомьтесь с обзором программы установки и другими статьями в разделе "Соединители установки" корпорации Майкрософт, которые относятся к вашему источнику данных.
 
-### <a name="graph-connectors-by-our-partners"></a>Graph Connectors by наших партнеров
+### <a name="graph-connectors-by-our-partners"></a>Соединители Graph от наших партнеров
 
-В [коллекции соединителей Microsoft Graph](connectors-gallery.md) содержатся краткие описания всех соединителей графов, созданных нашими партнерами, а также ссылки на веб-сайт каждого партнера. Свяжитесь с каждым партнером напрямую, чтобы узнать больше.
+В [коллекции соединитеев Microsoft Graph](connectors-gallery.md) содержится краткое описание каждого соединители Graph, созданных нашими партнерами, и ссылка на веб-сайт каждого партнера. Свяжитесь с каждым партнером напрямую, чтобы узнать больше.
 
-### <a name="build-your-own-graph-connector"></a>Создание собственного соединителя Graph
+### <a name="build-your-own-graph-connector"></a>Создание собственного соединитела Graph
 
-Если вы планируете создать собственный соединительный соединитель, ознакомьтесь со статьей [Обзор API Microsoft Search API в Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview) для получения дополнительных сведений.
+Если вы планируете создать собственный соединитатель Graph, дополнительные сведения см. в обзоре [API Поиска (Майкрософт) в Microsoft Graph.](https://docs.microsoft.com/graph/search-concept-overview)
 
 ## <a name="how-do-i-manage-my-connections"></a>Как управлять подключениями?
 
-Вы можете управлять подключениями на [вкладке соединители](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) [центра администрирования Microsoft 365](https://admin.microsoft.com/). Дополнительные сведения можно найти [в разделе Manage Your Connections](manage-connector.md) .
+Вы можете управлять подключениями на вкладке ["Соединители"](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) в Центре администрирования [Microsoft 365.](https://admin.microsoft.com/) Дополнительные [сведения см. в](manage-connector.md) под управлением подключений.
 
-## <a name="what-are-the-license-requirements-and-terms-of-use-for-graph-connectors"></a>Каковы требования к лицензии и условия использования для соединителей Graph?
+## <a name="what-are-the-license-requirements-and-terms-of-use-for-graph-connectors"></a>Каковы требования к лицензиям и условия использования соединители Graph?
 
-Вам необходима действительная лицензия Microsoft 365 или Office 365 и достаточная квота Graph Connectors для пользователей в вашей организации, чтобы просматривать данные из соединителей в результатах поиска.
+Для просмотра данных соединителов в результатах поиска пользователям в организации необходима действующая лицензия Microsoft 365 или Office 365 и достаточная квота соединителов Graph.
 
-Чтобы узнать больше, ознакомьтесь со статьей [требования к лицензии и цены](licensing.md) и [условия использования](terms-of-use.md).
+Дополнительные [см. в требованиях к лицензиям, ценах](licensing.md) [и условиях использования.](terms-of-use.md)
 
 ## <a name="how-do-i-customize-and-configure-search-results"></a>Как настроить и настроить результаты поиска?
 
-Существует несколько способов настройки и настройки результатов поиска. Чтобы узнать больше, ознакомьтесь со следующими статьями:
+Существует несколько способов настройки и настройки результатов поиска. Подробнее см. в следующих статьях:
 
 * [Управление вертикалями и типами результатов](customize-search-page.md)
 * [Управление макетами результатов поиска](customize-results-layout.md)
 * [Управление кластером результатов](result-cluster.md)
-* [Управление настраиваемыми фильтрами](custom-filters.md)
+* [Управление пользовательскими фильтрами](custom-filters.md)
 
-## <a name="how-do-i-search-my-connector-data-from-a-custom-application"></a>Поиск данных о соединителе из настраиваемого приложения
+## <a name="how-do-i-search-my-connector-data-from-a-custom-application"></a>Как искать данные соединители из пользовательского приложения?
 
-После индексирования пользовательских данных разработчики могут [запрашивать эти данные](https://docs.microsoft.com/graph/search-concept-custom-types). Вы можете просматривать данные в любом приложении. Дополнительные сведения можно найти в [обзоре API службы поиска Microsoft Graph в Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
+После индексации пользовательских данных разработчики могут [запросить эти данные.](https://docs.microsoft.com/graph/search-concept-custom-types) Вы можете просматривать данные в любом приложении. Дополнительные сведения см. в [обзоре API Поиска (Майкрософт) в Microsoft Graph.](https://docs.microsoft.com/graph/search-concept-overview)
+
+## <a name="limitations"></a>Ограничения
+
+* При **публикации** соединители, созданного корпорацией Майкрософт, может потребоваться несколько минут для создания подключения. В течение этого времени подключение будет отложено.
+
+* Центр [администрирования Microsoft 365](https://admin.microsoft.com) не поддерживает  редактирование схемы поиска после публикации подключения. Чтобы изменить схему поиска, удалите подключение и создайте новое.
+
+* Пропускная способность при входеть в нее отлажается примерно при четырех пунктах в секунду.
+
+* Обновления схемы не поддерживаются. После создания настройки подключения обновить схему нельзя. Можно только удалить и повторно создать подключение.
+
+* Существует ограничение подключений. Каждый клиент может создать до 10 подключений.
+
+* Поддержка редактирования подключения недоступна. После создания подключения изменить или изменить его нельзя. Если необходимо изменить какие-либо сведения, необходимо удалить и повторно создать подключение.

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Использование Поиска (Майкрософт) на классических страницах SharePoint
-ms.openlocfilehash: 605e63a30ad166c63320c7e89e1b2745e628e15d
-ms.sourcegitcommit: c5fe4e01403379b3ee7ea4dbded8b31696311d79
+ms.openlocfilehash: 9a5aeb2e683297faccfb55d3407653c1791b3961
+ms.sourcegitcommit: 7133d46ca9c3a5216ee9159db781febd17e5a831
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49700976"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49863177"
 ---
 # <a name="classic-pages-and-microsoft-search"></a>Классические страницы и Поиск (Майкрософт)
 
@@ -27,14 +27,14 @@ ms.locfileid: "49700976"
 
 ## <a name="classic-sites-that-will-automatically-switch-to-microsoft-search"></a>Классические сайты, которые автоматически переключаются на Поиск (Майкрософт)
 
-Классические сайты начнут использовать Поиск (Майкрософт), если все следующие узлы являются истинными.
+Классические сайты начнут использовать Поиск (Майкрософт), если все следующие узлы являются истинными:
 
 * Сайт основан на шаблоне сайта группы (например, STS#0 и STS#1).
 * На сайте не включена функция публикации.
 * На сайте не используется настраиваемая этакое страница (этакое, чем oslo.master или seattle.master).
 * В источнике результатов по умолчанию нет активных правил запроса, кроме правил добавления продвигаемого результата для сайта, веб-сайта или клиента.
 * В источнике результатов по умолчанию нет пользовательских типов результатов для сайта или коллекции веб-сайтов.
-* Сайт или веб-сайт, в который он входит, не отказался от переключения с помощью параметра SearchBoxInNavBar, описанного ниже.
+* Сайт или коллекция веб-сайтов не отключаются от переключения с помощью параметра *SearchBoxInNavBar,* описанного ниже.
 
 После перехода на Поиск (Майкрософт) классические страницы на сайте начнут показывать поле поиска на панели навигации набора и удалять классическое поле поиска со страницы. Затем, когда пользователь ищет термин, результаты будут отображаться с использованием современного интерфейса поиска Microsoft Search.
 
@@ -44,11 +44,11 @@ ms.locfileid: "49700976"
 
 Эту команду можно использовать в любое время, до или после переключения, чтобы можно было легко вернуться к ранее имевшийся опыт поиска.
 
-Чтобы выполнить команды ниже, используйте PowerShell с расширениями SharePoint PnP PowerShell. Вы можете установить и узнать больше о том, как начать [работу здесь.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) Чтобы войти на сайт или в его коллекцию, с помощью этой команды:
+Чтобы выполнить команды ниже, используйте PowerShell с расширениями SharePoint PnP PowerShell. Вы можете установить и узнать больше о том, как при этом начать [работу.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) Чтобы войти на сайт или в его коллекцию, с помощью этой команды:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
-# this will prompt you to sign into your site. Use the site owner credentials
+# this will prompt you to sign in to your site. Use the site owner credentials.
 ```
 
 Чтобы остаться с классическим опытом поиска для сайта, запустите следующую команду:
@@ -58,7 +58,7 @@ Set-PnPSearchSettings -Scope Web -SearchBoxInNavBar ModernOnly
 # ModernOnly | Inherit
 ```
 
-Кроме того, если вы хотите установить его для всех сайтов в коллекции сайтов, можно использовать эту команду:
+Кроме того, если вы хотите настроить его для всех сайтов в коллекции сайтов, можно использовать команду:
 
 ```powershell
 Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar ModernOnly
@@ -69,7 +69,7 @@ Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar ModernOnly
 
 Для тех сайтов, которые не соответствуют перечисленным выше критериям, или для определенных сайтов в коллекции сайтов, которые решили использовать классический режим, можно вручную включить поиск (Майкрософт).
 
-Чтобы изменить этот параметр для определенного сайта, можно использовать команду:
+Чтобы изменить этот параметр для определенного сайта, можно воспользоваться этой командой:
 
 ```powershell
 Set-PnPSearchSettings -Scope Web -SearchBoxInNavBar AllPages
