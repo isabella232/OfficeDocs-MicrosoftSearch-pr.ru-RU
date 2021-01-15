@@ -18,7 +18,7 @@
 ## Соединители Graph от Майкрософт
 ### [Обзор процесса настройки](configure-connector.md)
 ### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
-### [Сопоставление удостоверений Azure AD ](map-aad.md)
+### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
 ### Сведения о соединителях
 #### [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
 #### [Azure DevOps (предварительная версия)](azure-devops-connector.md)
@@ -28,6 +28,7 @@
 #### [Salesforce (предварительная версия)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## [Управление подключениями](manage-connector.md)
+## [Сведения о подключении и ошибки](connector-details-errors.md)
 ## [Лицензирование](licensing.md)
 ## [Отзыв](connectors-feedback.md)
 ## [Условия использования](terms-of-use.md)
@@ -44,7 +45,7 @@
 ## Поиск (Майкрософт) в Bing
 ### [Безопасность и конфиденциальность](security-for-search.md)
 ### [Добавление поля поиска на сайте интрасети](add-a-search-box-to-your-intranet-site.md)
-### [Настройка Microsoft Edge в качестве браузера по умолчанию](set-default-browser.md)
+### [Настройка Microsoft Edge в качестве браузера по умолчанию](/deployedge/edge-default-browser)
 ### [Настройка Bing в качестве поисковой системы по умолчанию](set-default-search-engine.md)
 ### [Настройка Bing.com в качестве домашней страницы по умолчанию](set-default-homepage.md)
 ### [Руководство по внедрению среди пользователей](user-adoption-guide.md)
