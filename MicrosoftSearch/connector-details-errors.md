@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о соединители и ошибки
-ms.openlocfilehash: bd091b35a1f62da9fe45ec7a955de051a1bc0a9a
-ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
+ms.openlocfilehash: 23b2f0745a09bffbc5ac6ad9c2163c7a5b63cb51
+ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848798"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49880603"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -53,7 +53,7 @@ ms.locfileid: "49848798"
 
 ![Список соединитений с выбранным соединитетелем и области сведений со списком ошибок для соединитела.](media/errormonitoring2.png)
 
-Ниже приведен список различных ошибок, которые могут отображаться для любого подключения. Если эти решения не работают, обратитесь в службу поддержки или отправьте нам [отзыв.](connectors-feedback.md)
+Ниже приведен список различных ошибок, которые могут отображаться для любого подключения.
 
 Код ошибки | Сообщение об ошибке | Решение
 --- | --- | ---
