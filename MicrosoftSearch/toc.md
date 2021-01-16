@@ -11,11 +11,11 @@
 ## [Расположения](manage-locations.md)
 ## [Power BI](manage-powerbi.md)
 ## [Вопросы и ответы](manage-qas.md)
-# Соединители (предварительная версия)
+# Соединители
 ## [Обзор](connectors-overview.md)
 ## [Предварительный выпуск](connectors-preview.md)
 ## [Коллекция соединителей](connectors-gallery.md)
-## Соединители Graph от Майкрософт
+## Настройка соединителей от Майкрософт
 ### [Обзор процесса настройки](configure-connector.md)
 ### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
 ### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
@@ -30,7 +30,6 @@
 ## [Управление подключениями](manage-connector.md)
 ## [Сведения о подключении и ошибки](connector-details-errors.md)
 ## [Лицензирование](licensing.md)
-## [Отзыв](connectors-feedback.md)
 ## [Условия использования](terms-of-use.md)
 # Настройка
 ## [Управление вертикалями и типами результатов](customize-search-page.md)
