@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о соединители и ошибки
-ms.openlocfilehash: 23b2f0745a09bffbc5ac6ad9c2163c7a5b63cb51
-ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
+ms.openlocfilehash: 79f6404670e6c5a655559efac7235b1e7813f8e4
+ms.sourcegitcommit: 39bf9f0db7f9bff2ab82c99a059b0ddcf1c98f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880603"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905978"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# <a name="view-connection-details-and-errors-for-microsoft-search"></a>Просмотр сведений о под подключениях и ошибок для Поиска (Майкрософт)
+# <a name="view-connection-details-and-errors"></a>Просмотр сведений о под подключениех и ошибок
 
 Для доступа к соединитетелям и управления ими необходимо назначить администратора поиска для клиента. Обратитесь к администратору клиента, чтобы у вас была роль администратора поиска.
 

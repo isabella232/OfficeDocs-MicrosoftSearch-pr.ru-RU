@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители Microsoft Graph для Поиска (Майкрософт)
-ms.openlocfilehash: 677c91f121185faa6dc96f80c517917f429a3ab0
-ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
+ms.openlocfilehash: a45a007bbb2774caaaac90fc1549c8ba634b0580
+ms.sourcegitcommit: 39bf9f0db7f9bff2ab82c99a059b0ddcf1c98f5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49847522"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905959"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединители Microsoft Graph
 
@@ -30,12 +30,13 @@ ms.locfileid: "49847522"
 * [Какие источники данных можно подключать к Поиску (Майкрософт)?](#what-data-sources-can-be-connected-to-microsoft-search)
 * [Как управлять подключениями?](#how-do-i-manage-my-connections)
 * [Каковы требования к лицензиям и условия использования соединители Graph?](#what-are-the-license-requirements-and-terms-of-use-for-graph-connectors)
+* [Что такое функции предварительного просмотра?](#what-are-the-preview-features)
 * [Как настроить и настроить результаты поиска?](#how-do-i-customize-and-configure-search-results)
 * [Как искать данные соединители из пользовательского приложения?](#how-do-i-search-my-connector-data-from-a-custom-application)
 
-<!---Modify to another note that is more accurate--->
+<!---Modify to another note that is more accurate after rollout completion--->
 > [!IMPORTANT]
-> Теперь соединители Microsoft Graph и API Поиска (Майкрософт) доступны в целом. Первый выпуск будет для клиентов, настроенных для целевого выпуска. Если вы хотите использовать соединители Graph в клиенте, пользователи и администраторы должны выбрать выпуск [Targeted.](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)
+> Теперь соединители Microsoft Graph и API Поиска (Майкрософт) доступны в целом. Первый этап запланирован на февраль 2021 г. До этого момента только клиенты и пользователи, которые выбрали выпуск [Targeted,](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) смогут использовать соединители Graph. После завершения вывоза для всех клиентов использование квоты индекса из контента соединителя станет предметом вы выставления счета. Дополнительные [сведения см. в требованиях](licensing.md) к лицензированию и ценах.
 
 <!---Add Value, scenario, example, and/or graphic in December updates--->
 <!---Probably remove architecture section below
@@ -92,6 +93,17 @@ To create a _*connection** to a data source, admins need authenticated access to
 Для просмотра данных соединителов в результатах поиска пользователям в организации необходима действующая лицензия Microsoft 365 или Office 365 и достаточная квота соединителов Graph.
 
 Дополнительные [см. в требованиях к лицензиям, ценах](licensing.md) [и условиях использования.](terms-of-use.md)
+
+## <a name="what-are-the-preview-features"></a>Что такое функции предварительного просмотра?
+
+Хотя соединители Microsoft Graph и API Поиска (Майкрософт) теперь доступны в целом, существует несколько функций, доступных в предварительной версии.
+
+Набор соединители и функции в предварительной версии включают:
+
+* [Соединителю Azure DevOps](azure-devops-connector.md)
+* [Соединители Salesforce](salesforce-connector.md)
+* [Соединитель ServiceNow с](servicenow-connector.md) разрешениями поиска, использующем исходные ALS
+* [Управление кластером результатов](result-cluster.md)
 
 ## <a name="how-do-i-customize-and-configure-search-results"></a>Как настроить и настроить результаты поиска?
 
