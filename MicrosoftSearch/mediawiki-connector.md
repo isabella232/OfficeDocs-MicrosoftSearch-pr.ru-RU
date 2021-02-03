@@ -1,8 +1,8 @@
 ---
-title: Соединитель MediaWiki для Поиска (Майкрософт)
-ms.author: monaray
-author: monaray97
-manager: mnirkhe
+title: Соединитель MediaWiki Graph для Поиска (Майкрософт)
+ms.author: mecampos
+author: mecampos
+manager: umas
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -11,55 +11,77 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Настройка соединители MediaWiki для Поиска (Майкрософт)
-ms.openlocfilehash: 7a22fcc84f6f435bf438aa027c42c76eb8be1eaf
-ms.sourcegitcommit: 39bf9f0db7f9bff2ab82c99a059b0ddcf1c98f5f
+description: Настройка соединитель MediaWiki Graph для Поиска (Майкрософт)
+ms.openlocfilehash: 9d9d7a1ef9aeaba079f8cccef1ec4a4836768e8d
+ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905958"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084986"
 ---
-# <a name="mediawiki-connector"></a>Соединитель MediaWiki
+<!---Previous ms.author: monaray --->
 
-С помощью соединители MediaWiki ваша организация может обнаруживировать и индексировать данные из вики-сайта, созданного с помощью программного обеспечения MediaWiki. Этот соединитатель индексирует указанный контент в Поиск (Майкрософт) и поддерживает периодические обходы контента для поддержания индекса в оперативном состоянии.
+# <a name="mediawiki-graph-connector"></a>Соединитель MediaWiki Graph
 
-Эта статья для администраторов Microsoft 365 или всех, кто настраивает, запускает и отслеживает соединитель MediaWiki Graph. Он дополняет общие инструкции, которые предоставляются в статье ["Настройка соединители Graph".](configure-connector.md) Если это еще не сделано, прочитайте всю статью "Настройка соединители Graph", чтобы ознакомиться с общим процессом настройки.
+Соединитель MediaWiki Graph позволяет организации обнаруживировать и индексировать данные из вики-сайта, созданного с помощью программного обеспечения MediaWiki. Этот соединитатель индексирует указанный контент в Поиск (Майкрософт) и поддерживает периодические обходы для поддержания индекса в курсе.
 
-Каждый этап процесса установки приведен ниже вместе с примечанием, которое указывает, что необходимо следовать общим инструкциям по настройке или другим инструкциям, которые применяются только к соединитетелям MediaWiki Graph. В этой статье также содержатся сведения [об](#limitations) ограничениях для соединители MediaWiki Graph. 
+> [!NOTE]
+> Прочитайте [**статью "Настройка соединители Graph",**](configure-connector.md) чтобы ознакомиться с общим процессом настройки соединители Graph.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центре администрирования Microsoft 365.
-Следуйте общим инструкциям по настройке.
+Эта статья для всех, кто настраивает, запускает и отслеживает соединители ServiceNow Graph. Он дополняет общий процесс настройки и показывает инструкции, применимые только к соединитеструктору MediaWiki Graph. В этой статье также содержатся сведения об [ограничениях.](#limitations)
 
-## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения.
-Следуйте общим инструкциям по настройке.
- 
-## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройте параметры подключения.
-Введите **URL-адрес вики-сайта** и выберите тип проверки подлинности в меню параметров.  Возможные варианты: **None,** **Basic** и **OAuth 2.0 AAD.**
+<!---## Before you get started-->
 
-If you choose **Basic** as the Authentication type, you will need to provide the **Username** and **Password** for the wiki.
+<!---Insert "Before you get started" recommendations for this data source-->
 
-Если вы выберете **AAD OAuth 2.0** в качестве типа  проверки подлинности, вам потребуется предоставить ИД ресурса вики-установки. Вам также потребуется предоставить **ИД**  клиента и секрет клиента, созданные на странице регистрации приложения AAD. 
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центре администрирования Microsoft 365
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
+
+Введите **URL-адрес вики-сайта** и выберите тип проверки подлинности в выпадаемом меню параметров.  Возможные варианты: **None,** **Basic** и **OAuth 2.0 AAD.**
+
+Если в **качестве** типа проверки подлинности вы  выберете "Базовый", необходимо ввести имя пользователя и пароль **для** вики-сайта.
+
+Если в качестве типа проверки подлинности вы выбрали **AAD OAuth 2.0,** необходимо предоставить ИД ресурса для вики-установки.  Вам также потребуется предоставить **ИД**  клиента и секрет клиента, созданные на странице регистрации приложения AAD.
 
 ## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями поиска
+
 Соединитель MediaWiki поддерживает только разрешения поиска, видимые **всем.** Индексные данные появляются в результатах поиска и видны всем пользователям в организации.
 
 ## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
-Следуйте общим инструкциям по настройке.
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-6-manage-schema"></a>Шаг 6. Управление схемой
-Следуйте общим инструкциям по настройке.
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-7-choose-refresh-settings"></a>Шаг 7. Выбор параметров обновления
-Следуйте общим инструкциям по настройке.
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Проверка подключения
-Следуйте общим инструкциям по настройке.
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
 <!---To be added-->
 
 ## <a name="limitations"></a>Ограничения
-Соединитель MediaWiki имеет указанные в предварительном выпуске ограничения:
+
+Соединитель MediaWiki имеет указанные в предварительной версии ограничения:
 
 * Поддерживает только облачные вики-сайты.
 * Поддерживает только Базовый или OAuth 2.0 с проверкой подлинности Azure Active Directory или Azure.

@@ -1,8 +1,8 @@
 ---
-title: Соединители файловой папки
-ms.author: rusamai
-author: rsamai
-manager: jameslau
+title: Соединители Graph с файловой папкой для Поиска (Майкрософт)
+ms.author: mecampos
+author: mecampos
+manager: umas
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,25 +12,32 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Настройка соединители файловой папки для Поиска (Майкрософт)
-ms.openlocfilehash: bf9fb730abd4ca6e42b681893525bbe3dd8a1419
-ms.sourcegitcommit: 249f41723dd6fda1e93ee1a8f3f7571ef066454b
+description: Настройка соединители Graph с файловой папкой для Поиска (Майкрософт)
+ms.openlocfilehash: ae496d0a1f41dc75326b0f7ab96e54bda4ee879e
+ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750900"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084851"
 ---
-# <a name="file-share-connector"></a>Соединители файловой папки
+<!---Previous ms.author: rusamai --->
 
-С помощью соединители Graph с файловой папкой пользователи в организации могут искать файлы в локальной папке Windows.
+# <a name="file-share-graph-connector"></a>Соединители Graph с файловой папкой
 
-Эта статья для администраторов Microsoft 365 или всех, кто настраивает, запускает и отслеживает соединители файловой папки. В ней объясняется, как настроить возможности, ограничения и методы устранения неполадок.
+Соединители Graph с файловой папкой позволяют пользователям в организации искать файлы в локальной папке Windows.
 
-## <a name="install-graph-connector-agent"></a>Установка агента соединителя Graph
+> [!NOTE]
+> Прочитайте [**статью "Настройка соединители Graph",**](configure-connector.md) чтобы ознакомиться с общим процессом настройки соединители Graph.
 
-Чтобы проиндексировать файловые папки Windows, необходимо установить и зарегистрировать программное обеспечение агента [соединителя Graph.](on-prem-agent.md)
+Эта статья для всех, кто настраивает, запускает и отслеживает соединители ServiceNow Graph. Он дополняет общий процесс настройки и показывает инструкции, применимые только к соединитеструктору MediaWiki Graph.
 
-## <a name="content-requirements"></a>Требования к контенту
+## <a name="before-you-get-started"></a>Перед началом работы
+
+### <a name="install-the-graph-connector-agent"></a>Установка агента соединителя Graph
+
+Чтобы проиндексировать файловые папки Windows, необходимо установить и зарегистрировать агент соединителя Graph. Дополнительные данные см. в подключении к агенту [соединителя Graph.](on-prem-agent.md)  
+
+### <a name="content-requirements"></a>Требования к контенту
 
 ### <a name="file-types"></a>Типы файлов
 
@@ -38,32 +45,53 @@ ms.locfileid: "49750900"
 
 ### <a name="file-size-limits"></a>Ограничения на размер файлов
 
-Максимальный поддерживаемый размер файла составляет 100 МБ. Файлы, которые превышают 100 МБ, не индексироваться. Максимальный размер после обработки составляет 4 МБ. Обработка останавливается, когда размер файла достигает 4 МБ. Поэтому некоторые фразы, присутствующие в файле, могут не работать для поиска.
+Максимальный поддерживаемый размер файла составляет 100 МБ. Файлы, объем которых превышает 100 МБ, не индексироваться. Максимальный размер после обработки составляет 4 МБ. Обработка останавливается, когда размер файла достигает 4 МБ. Поэтому некоторые фразы, присутствующие в файле, могут не работать для поиска.
 
-## <a name="connect-to-a-data-source"></a>Подключение к источнику данных
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центре администрирования Microsoft 365
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
+
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
+
+## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
 
 На странице  **"Подключение к источнику данных"** выберите "Файловая папка" и укажет имя, ИД подключения и описание. На следующей странице укажете путь к файловой папке и выберите ранее установленный агент соединители Graph. Введите учетные данные для учетной [записи пользователя Microsoft Windows](https://microsoft.com/windows) с доступом на чтение ко всем файлам в файловом папке.
 
-## <a name="preserve-last-access-time"></a>Сохранение времени последнего доступа
+### <a name="preserve-last-access-time"></a>Сохранение времени последнего доступа
 
-При попытке соединители обходить файл обновляется поле "Время последнего доступа" в метаданных. Если вы зависите от этого поля для каких-либо решений архивации и резервного копирования и не  хотите обновлять его при доступе соединителя к нему, этот параметр можно настроить на странице "Дополнительные параметры".
+При попытке соединители обходить файл обновляется поле "Время последнего доступа" в метаданных. Если вы зависите от этого поля для каких-либо решений архивации и резервного копирования и не хотите  обновлять его при доступе соединителя к нему, вы можете настроить этот параметр на странице "Дополнительные параметры".
 
-## <a name="manage-search-permissions"></a>Управление разрешениями поиска
+## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями поиска
 
 Вы можете ограничить разрешение на поиск файлов на основе списков управления доступом или списков управления доступом новой файловой системы (NTFS). Если вы хотите использовать списки управления доступом к данным, выберите соответствующий параметр на странице **"Дополнительные параметры".** Если вы хотите использовать списки управления доступом NTFS, выберите соответствующий параметр на странице "Управление **разрешениями поиска".**
 
-## <a name="assign-property-labels"></a>Назначение меток свойств
+## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
 
-Для каждой метки можно назначить свойство источника, выбрав в меню параметры. Хотя этот шаг не является обязательным, наличие некоторых меток свойств улучшит релевантность поиска и обеспечит более точные результаты поиска для конечных пользователей.
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="manage-schema"></a>Управление схемой
+## <a name="step-6-manage-schema"></a>Шаг 6. Управление схемой
 
-На  экране "Управление схемой" можно изменить атрибуты схемы(запрашиваемые, поискуемые, искомые и уточняемые), связанные со свойствами, добавить необязательные псевдонимы и выбрать свойство **Content.**  
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="set-the-refresh-schedule"></a>Настройка расписания обновления
+## <a name="step-7-choose-refresh-settings"></a>Шаг 7. Выбор параметров обновления
 
-Рекомендуемый интервал по умолчанию для обновления составляет 15 минут, но вы можете изменить его в зависимости от предпочтений.
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="result-layout"></a>Макет результатов
+## <a name="step-8-review-connection"></a>Шаг 8. Проверка подключения
 
-Для отображения результатов соединители Fileshare рекомендуется использовать макет результатов по умолчанию, так как он имеет соответствующие значки и элементы управления, которые помогают перейти к пути к файлу. При создании нового макета результатов он переопределит значение по умолчанию.
+Следуйте общим [инструкциям по настройке.](https://docs.microsoft.com/microsoftsearch/configure-connector)
+<!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
+instructions.-->
+
+<!---## Troubleshooting-->
+<!---Insert troubleshooting recommendations for this data source-->
+
+<!---## Limitations-->
+<!---Insert limitations for this data source-->
