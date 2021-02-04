@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитель MediaWiki Graph для Поиска (Майкрософт)
-ms.openlocfilehash: 9d9d7a1ef9aeaba079f8cccef1ec4a4836768e8d
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: e2b2b7c506d92623dd0f68801312c1820b5b9d4e
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084986"
+ms.locfileid: "50097397"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -28,7 +28,7 @@ ms.locfileid: "50084986"
 > [!NOTE]
 > Прочитайте [**статью "Настройка соединители Graph",**](configure-connector.md) чтобы ознакомиться с общим процессом настройки соединители Graph.
 
-Эта статья для всех, кто настраивает, запускает и отслеживает соединители ServiceNow Graph. Он дополняет общий процесс настройки и показывает инструкции, применимые только к соединитеструктору MediaWiki Graph. В этой статье также содержатся сведения об [ограничениях.](#limitations)
+Эта статья для всех, кто настраивает, запускает и отслеживает соединитель MediaWiki Graph. Он дополняет общий процесс настройки и показывает инструкции, применимые только к соединитеструктору MediaWiki Graph. В этой статье также содержатся сведения об [ограничениях.](#limitations)
 
 <!---## Before you get started-->
 
