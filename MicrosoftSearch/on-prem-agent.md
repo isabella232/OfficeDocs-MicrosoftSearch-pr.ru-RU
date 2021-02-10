@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: On-prem Agent
-ms.openlocfilehash: 31220196849fe90ab2611e9c2b83a1cec0a02b34
-ms.sourcegitcommit: a04f1df14a3221776ccd141f6060328612d80e06
+ms.openlocfilehash: 7aef2ea57c92929d4d4f45e1a738c84e6a3f4bba
+ms.sourcegitcommit: ab4f81ded967168689e6e81c90e115b94719335c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876501"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173065"
 ---
 # <a name="graph-connector-agent"></a>Агент соединители Graph
 
@@ -35,6 +35,15 @@ ms.locfileid: "49876501"
 * 8 ядер, 3 ГГц
 * 16 ГБ ОЗУ, 2 ГБ места на диске
 * Сетевой доступ к источнику данных и Интернету через 443
+
+Если прокси-серверы или брандмауэры организации блокируют связь с неизвестными доменами после установки агента, добавьте их в список допустимых.
+
+1. *.servicebus.windows.net
+2. *.events.data.microsoft.com
+3. https://login.microsoftonline.com
+4. https://gcs.office.com
+5. https://graph.microsoft.com/
+
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Создание и настройка приложения для агента  
 
