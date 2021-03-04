@@ -13,7 +13,6 @@
 ## [Вопросы и ответы](manage-qas.md)
 # Соединители
 ## [Обзор](connectors-overview.md)
-## [Предварительный выпуск](connectors-preview.md)
 ## [Коллекция соединителей](connectors-gallery.md)
 ## Настройка соединителей от Майкрософт
 ### [Обзор процесса настройки](configure-connector.md)
@@ -25,6 +24,7 @@
 #### [Azure DevOps (предварительная версия)](azure-devops-connector.md)
 #### [Azure SQL и Microsoft SQL Server](MSSQL-connector.md)
 #### [Корпоративные веб-сайты](enterprise-web-connector.md)
+#### [Файловый ресурс](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
 #### [Oracle SQL (предварительная версия)](OracleSQL-connector.md)
 #### [Salesforce (предварительная версия)](salesforce-connector.md)
