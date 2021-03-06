@@ -1,8 +1,8 @@
 ---
 title: Установка поисковой системы по умолчанию
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
-ms.openlocfilehash: 4ae46ba5d2896f645feee28f7b07de600cf4e5b1
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 1ac2f23a8263c01901e252e7dd830e7373380669
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626921"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508673"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   
@@ -30,62 +30,43 @@ ms.locfileid: "38626921"
   
 Последние версии ADMX-файлов для разных версий Windows см. в статье [Как создать центральное хранилище для административных шаблонов групповой политики в Windows и управлять им](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
-Если в GPMC не удается найти параметр, описанный в этом разделе, скачайте соответствующие ADMX-файлы и скопируйте их в центральное хранилище. Дополнительные сведения см. в статье [Изменение объектов GPO на основе домена с помощью ADMX-файлов](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). Центральное хранилище на контроллере — это папка с указанными ниже правилами именования:
-  
- **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
+Если параметр, описанный в этом разделе, не может быть найден внутри GPMC, скачайте соответствующий ADMX и скопируйте их в центральный магазин. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
   
 Все домены, обслуживаемые контроллером, должны получить отдельную папку. Чтобы скопировать ADMX-файл из командной строки, можно использовать указанную ниже команду:
   
  `Copy <path_to_ADMX.ADMX> %systemroot%\sysvol\<domain>\policies\PolicyDefinitions`
   
 1. Откройте консоль управления групповыми политиками (gpmc.msc) и перейдите к редактированию любой существующей политики или созданию новой.
-    
 2. Перейдите к разделу **&lt;Computer/User Configuration&gt;\Administrative Templates\Windows Components\Microsoft Edge**.
-    
-1. Дважды щелкните параметр **Set default search engine** (Задать поисковую систему по умолчанию), установите значение **Enabled** (Включено) и введите `https://www.bing.com/sa/osd/bfb.xml`
-    
-3. Примените полученный объект групповой политики, привязав его к нужному домену.
+3. Дважды щелкните параметр **Set default search engine** (Задать поисковую систему по умолчанию), установите значение **Enabled** (Включено) и введите `https://www.bing.com/sa/osd/bfb.xml`
+4. Примените полученный объект групповой политики, привязав его к нужному домену.
 
 
-## <a name="google-chrome-on-windows-xp-sp2-or-later"></a>Google Chrome в Windows XP с пакетом обновления 2 (SP2) или более поздней версии
+## <a name="google-chrome-on-windows-10-version-1507-or-later"></a>Google Chrome в Windows 10, Версии 1507 или более поздней версии
 
 Пользователи не смогут сменить поисковую систему по умолчанию после установки этой политики.
   
-Chrome содержит собственный набор параметров групповой политики, которые можно скачать в виде ADMX-файла с сайта [справки Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202). Если для управления объектом GPO для домена используются операционные системы Windows Vista/Server 2008 или более поздней версии, ADMX-файл, поставляемый в этом пакете, позаботится о настройках Chrome на Windows XP SP2 или более поздней версии.
+Chrome поставляется с собственным набором параметров групповой политики, которые можно скачать в виде ADMX-файла из [google Chrome Enterprise Help.](https://support.google.com/chrome/a/answer/187202)
   
-Скопируйте файл шаблона в центральное хранилище для ADMX-файлов на контроллере домена. Дополнительные сведения см. в статье [Изменение объектов GPO на основе домена с помощью ADMX-файлов](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). Центральное хранилище на контроллере — это папка с указанными ниже правилами именования:
-  
- **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
+Скопируйте файл шаблона в центральный магазин файлов ADMX на контроллере домена. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
   
 Все домены, обслуживаемые контроллером, должны получить отдельную папку. Чтобы скопировать ADMX-файл из командной строки, можно использовать указанную ниже команду:
   
  `Copy <path_to_Chrome.ADMX> %systemroot%\sysvol\<domain>\policies\PolicyDefinitions`
   
 1. Откройте консоль управления групповыми политиками (gpmc.msc) и перейдите к редактированию любой существующей политики или созданию новой.
-    
 2. Проверьте, что в разделе Administrative Templates (Административные шаблоны) для обеих конфигураций User/Computer Configuration (Конфигурация пользователя/компьютера) отображаются следующие папки: Google Chrome и Google Chrome – Default Settings.
-    
-  - Параметры первого раздела являются фиксированными, и локальные администраторы не смогут их изменять в браузере.
-    
-  - Параметры последнего раздела политик могут изменяться пользователями в настройках браузера.
-    
-3. Перейдите к разделу **\<Computer/User\> Configuration\Administrative Templates\Google Chrome\Default search provider**
-    
+
+    - Параметры первого раздела являются фиксированными, и локальные администраторы не смогут их изменять в браузере.
+    - Параметры последнего раздела политик могут изменяться пользователями в настройках браузера.
+
+3. Перейдите к **\<Computer/User\> configuration\Administrative Templates\Google Chrome\Default search provider**
 4. Дважды щелкните параметр **Enable the default search provider** (Включить поставщика поиска по умолчанию) и установите для него значение **Enabled** (Включено).
-    
 5. Дважды щелкните параметр **Default search provider icon** (Значок поставщика поиска по умолчанию), установите для него значение **Enabled** (Включено) и введите `https://www.bing.com/sa/simg/bb.ico`
-    
 6. Дважды щелкните параметр **Default search provider instant URL** (URL-адрес для быстрого поиска поставщика поиска по умолчанию) и введите `https://www.bing.com/business/search?q={searchTerms}&amp;form=BFBSPR`
-    
 7. Дважды щелкните параметр **Default search provider name** (Имя поставщика поиска по умолчанию), установите для него значение Enabled (Включено) и введите "Поиск (Майкрософт) в Bing"
-    
 8. Дважды щелкните параметр **Default search provider search URL** (Поисковый URL-адрес поставщика поиска по умолчанию), установите для него значение **Enabled** (Включено) и введите `https://www.bing.com/business/search?q={searchTerms}&amp;form=BFBSPR`
-    
-9. Дважды щелкните параметр **Default search provider suggest URL** (Рекомендуемый URL-адрес поставщика поиска по умолчанию), установите для него значение **Enabled** (Включено) и введите `https://business.bing.com/api/v2/browser/suggest?q={searchTerms}&amp;form=BFBSPA`
-    
-10. Примените полученный объект групповой политики, привязав его к нужному домену.
-    
-Настройка поисковой системы по умолчанию добавит функцию поисковых вариантов Поиска (Майкрософт) в адресной строке браузера. В настоящее время она поддерживается только для закладок. При вводе в адресной строке пользователи увидят две самые популярные рекомендации для закладок над предложениями из Интернета.
+9. Примените полученный объект групповой политики, привязав его к нужному домену.
 
 ## <a name="internet-explorer-11-or-later"></a>Internet Explorer 11 или более поздняя версия
 
@@ -104,8 +85,6 @@ Windows Registry Editor Version 5.00
 "DisplayName"="Microsoft Search in Bing"
 "OSDFileURL"="https://www.bing.com/sa/osd/bfb.xml"
 "FaviconURL"="https://www.bing.com/sa/simg/bb.ico"
-"SuggestionsURL_JSON"="https://business.ing.com/api/v2/browser/suggest?q={searchTerms}&amp;form=BFBSPA"
-"ShowSearchSuggestions"=dword:00000001
 "URL"="https://www.bing.com/business/search?q={searchTerms}&amp;form=BFBSPR"</pre>
   
 Дважды щелкните созданный файл и выполните действия для импорта файла. После успешного выполнения импорта появится указанное ниже диалоговое окно:
@@ -115,32 +94,21 @@ Windows Registry Editor Version 5.00
 ### <a name="step-2-open-the-group-policy-management-console-gpmcmsc-and-switch-to-editing-an-existing-policy-or-creating-a-new-one"></a>ШАГ 2. Открытие консоли управления групповыми политиками (gpmc.msc) и переход к редактированию любой существующей политики или созданию новой
 
 1. Перейдите к разделу **User Configuration\Policies\Preferences\Windows Settings**.
-    
 2. Щелкните правой кнопкой мыши **Registry\New** (Реестр\Создать) и выберите **Registry Wizard** (Мастер реестра). В окне браузера реестра выберите **Local Computer** (Локальный компьютер) и нажмите кнопку **Next** (Далее).
-    
 3. Перейдите к разделу **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\SearchScopes**.
-    
 4. В этом разделе обязательно выберите имя DefaultScope.
-    
+
     ![Браузер реестра с выбранным именем DefaultScope](media/ec5a450d-0cba-4e9c-acba-1a09e8e90bad.png)
-  
 5. Проверьте все подразделы, содержащие идентификатор GUID для Поиска (Майкрософт) в Bing, и каждое значение в разделе, кроме путей к профилям пользователей. Прокрутите вниз, чтобы выбрать другие элементы.
-    
-    ![Браузер реестра с выбранными дополнительными значениями](media/7eef7690-8bc5-46cf-9cd8-bd134fc77a02.png)
-  
 6. Нажмите кнопку "Готово", чтобы завершить настройку.
-    
+
 ### <a name="step-3-set-up-user-preferences-to-help-eliminate-a-warning-the-user-may-get-when-defaultscope-search-is-enforced"></a>ШАГ 3. Настройка параметров пользователя для устранения предупреждения, которое может появляться при применении поиска DefaultScope
 
 Это предупреждение является стандартным и уведомляет пользователей о программе, пытающейся изменить настройки.
   
 1. В том же объекте групповой политики щелкните правой кнопкой мыши **Registry\New** (Реестр\Создать) и выберите **Registry Wizard** (Мастер реестра).
-    
 2. Перейдите к разделу **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\User Preferences**.
-    
 3. Выберите раздел **User Preference** (Параметры пользователя).
-    
 4. Нажмите кнопку **Готово**.
-    
 5. Щелкните созданный объект. В области справа дважды щелкните объект параметров пользователя и измените **Action** (Действие) на **Delete and Save** (Удалить и сохранить).
-1. Примените полученный объект групповой политики, привязав его к нужному домену.
+6. Примените полученный объект групповой политики, привязав его к нужному домену.
