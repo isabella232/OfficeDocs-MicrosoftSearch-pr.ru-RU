@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Списки всех соединители Microsoft Graph для поиска Майкрософт
-ms.openlocfilehash: 936fa78ddfecf86f4e299963c70248969a37c5a7
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: f20a52beb3894503e0c5b8911bfc026b8249f9a5
+ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508935"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929619"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Галерея соединители Microsoft Graph
 
@@ -36,7 +36,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Azure Data Lake Storage 2-го поколения</h3>
                         <p>от <a href="https://www.microsoft.com" target="_blank" data-linktype="external">Microsoft</a></p>
-                        <p>С помощью этого соединителя Microsoft Graph пользователи в организации могут искать файлы и контент, хранимые в контейнерах Azure Blob. Соединитель Azure Data Lake Storage Gen2 также индексирует папки с поддержкой иерархии в учетных записях Azure Data Lake Storage Gen2, которые вы указываете.</p>
+                        <p>Позволяет организации искать содержимое, хранящемся в контейнерах Azure Blob. Индексирует папки с поддержкой иерархии в указанных учетных записях Azure Data Lake Storage Gen2.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="azure-data-lake-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -57,7 +57,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Azure DevOps</h3>
                         <p>от <a href="https://www.microsoft.com" target="_blank" data-linktype="external">Microsoft</a></p>
-                        <p>С помощью этого соединителя Microsoft Graph пользователи в организации могут искать элементы работы в экземпляре Azure DevOps.</p>
+                        <p>Позволяет организации искать элементы работы в экземпляре Azure DevOps.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="azure-devops-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -78,7 +78,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Azure SQL</h3>
                         <p>от <a href="https://www.microsoft.com" target="_blank" data-linktype="external">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи в организации могут искать данные из базы данных Azure SQL.</p>
+                        <p>Позволяет организации искать данные из azure SQL.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="MSSQL-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -101,7 +101,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Корпоративные веб-сайты</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи в организации могут искать страницы на любом веб-сайте предприятия, не относящемся к SharePoint.</p>
+                        <p>Позволяет вашей организации искать любой веб-сайт предприятия, не относящемся к SharePoint.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="enterprise-web-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -122,7 +122,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>MediaWiki</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи могут искать статьи на основе знаний на сайтах вики-сайтов, которые создает организация с помощью MediaWiki.</p>
+                        <p>Позволяет организации искать статьи на основе знаний на сайтах, которые она создает с помощью MediaWiki.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="mediawiki-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -143,7 +143,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Microsoft SQL</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи в организации могут искать данные в локальной базе данных Microsoft SQL серверов.</p>
+                        <p>Позволяет вашей организации искать на локальном сервере базы данных Microsoft SQL серверов.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="MSSQL-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -166,7 +166,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Oracle SQL</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи могут открывать и индексировать данные из локальной базы данных Oracle.</p>
+                        <p>Позволяет организации обнаруживть и индексировать данные из локальной базы данных. Индексирует указанный контент в Microsoft Search и поддерживает периодические обходы. Вы также можете ограничить доступ к результатам поиска для определенных пользователей.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="mediawiki-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -187,7 +187,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>Salesforce</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи в организации могут искать объекты Contacts, Opportunities, Leads и Accounts из экземпляра Salesforce.</p>
+                        <p>Позволяет организации искать экземпляр Salesforce для объектов Contacts, Opportunities, Leads и Accounts.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="salesforce-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -208,7 +208,7 @@ ms.locfileid: "50508935"
                     <div class="cardText">
                         <h3>ServiceNow</h3>
                         <p>от <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>С помощью этого соединиттеля Microsoft Graph пользователи в организации могут искать статьи на основе знаний из экземпляра ServiceNow.</p>
+                        <p>Позволяет организации искать экземпляр ServiceNow для статей на основе знаний.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="servicenow-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -2375,4 +2375,157 @@ ms.locfileid: "50508935"
             </div>
         </div>
     </li>
-</ul>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Atlassian Confluence (Cloud)</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>Соединителю Confluence (Cloud Version) — это соединителю индексации корпоративного класса, который позволяет обходу и индексации контента, хранимого в Confluence.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/connector-for-confluence-cloud-version/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Bentley</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>Соединитель BAI Bentley AssetWise позволяет вместить контент из AssetWise в единый сводный индекс поиска, а также контент из других репозиториев.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/bentley-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Egnyte</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>"Соединительный Egnyte поддерживает полный и дополнительный обход и индексы с очень высокой пропускной способностью".</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/egnyte-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Google Диск</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>Соединитель BaI Google Drive позволяет вводить контент из Google Drive в единый сводный индекс поиска, ссылаясь на содержимое Google Drive, а также контент из других репозиториев.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/google-drive-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>облако iManage</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>Облачный соединитель ba Insight надежно индексирует полный текст и метаданные документов в рабочей области workspaces в поисковую движок.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/connector-for-imanage-work-cloud/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Jira</h3>
+                        <p>ba <a href="https://www.bainsight.com">Insight</a></p>
+                        <p>Соединителик Jira позволяет пользователям выполнять поиск по всем объектам Jira, устраняя необходимость непосредственного подключения к Jira.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/jira-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<!-- This is the "template" for each box > Copy and edit to add new boxes
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
+                        <h3>Test</h3>
+                        <p>by <a href="https://www.bainsight.com">BA Insight</a></p>
+                        <p>The Yammer Connector establishes a secure connection to the Yammer application and maps the content including metadata and attachments from the Yammer schema to the search engine schema. It then extracts content and feeds it to the search engine in a process called crawling.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.bainsight.com/connectors/yammer-connector-sharepoint-azure-elasticsearch"><font color="0065BA">More details</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li> >--->
+<!-- --->
+<!-- --->
+<!-- For simplicity, and while I find a better format for this boxes, I am adding the new connectors in one single line, please refer to the template above if you need a better understanding of the lines next--->
+<!-- --->
+<!-- --->
+<!-- --->
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira (Cloud)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединителик Jira (Cloud Version) выполняет поиск по всем объектам Jira, устраняя необходимость непосредственного перемещения в Jira.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/jira-cloud-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Kaltura</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитатель Kaltura позволяет индексировать не только видео, но и различные другие типы информации, включая категории, данные, документы и другие.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/kaltura-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Наш соединитатель CRM Microsoft Dynamics 365 поддерживает как локальное подключение к CRM, так и CRM-службу Dynamics Online. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-dynamics-crm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Dynamics 365 (Облако)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>CRM-соединитель Microsoft Dynamics 365 (Cloud Version) устанавливает безопасное подключение к приложению CRM и связывает содержимое из схемы CRM с схемой поиска.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-microsoft-dynamics-cloud/"><font color="0065BA"">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Online</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>С помощью соединителя Microsoft Exchange Online Ba Insight пользователи могут получать контент из Exchange Online с помощью различных платформ поиска.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-online-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Общедоступные папки Microsoft Exchange</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>С помощью соединителя общедоступных папок BaI Microsoft Exchange пользователи могут получать контент из Exchange с помощью различных платформ поиска.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Exchange Server</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>С помощью соединителя Microsoft Exchange Microsoft Exchange Ba Insight пользователи могут получать контент из Exchange с помощью различных поисковых систем. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-exchange-server-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Microsoft Teams</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель Microsoft Teams Microsoft Insight индексирует содержимое microsoft Teams вместе с контентом из других корпоративных систем, чтобы обеспечить унифицированные результаты.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/microsoft-teams-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Neudesic The Firm Directory</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель Firm Directory с честью обеспечивает безопасность системы исходных данных и обеспечивает полный и дополнительный обход, чтобы у пользователей всегда была последняя информация.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/the-firm-directory-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>OneDrive для бизнеса</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединиттель Ba Insight OneDrive позволяет индексировать контент из OneDrive на различные платформы поиска, предоставляя пользователям интегрированные результаты поиска из нескольких источников.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/onedrive-business-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Документ OpenText (Cloud)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Облачный соединитатель OpenText Documentum от Ba Insight надежно индексирует полный текст и метаданные объектов Documentum в поисковую движок, что позволяет получить один результат поиска, заданный в контенте из нескольких репозиториев. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-documentum-cloud/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Практическое право</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель практического права Ba Insight позволяет пользователям выполнять поиск по базе данных практического права, устраняя необходимость непосредственного перемещения по практическому праву.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/practical-law-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ProLaw</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель ba Insight для Pro Law соединяет любой портал с ProLaw, позволяя всплыть сведения из ProLaw, соблюдая права пользователей в ProLaw.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/prolaw-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP ERP (Cloud)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SAP ERP (Облачная версия) BA Insight предназначен для ввоза элементов из SAP в индекс поиска.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sap-erp-cloud/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SAP HANA (Cloud)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SAP HANA (Cloud Version) обеспечивает безопасность базы данных источника и обеспечивает полный и дополнительный обход, чтобы пользователи всегда были доступны последними сведениями. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-sap-hana-cloud-version/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>ServiceNow (Cloud)</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель BA Insight ServiceNow (Cloud Version) обеспечивает безопасность системы исходных данных и обеспечивает полный и дополнительный обход, чтобы пользователи постоянно были доступны последними сведениями.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/servicenow-cloud-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2010</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SharePoint 2010 ba Insight позволяет подключаться к SharePoint 2010, получать данные с любого сайта, библиотеки документов или списка; и безопасно индексировать этот контент. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2010-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2013</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SharePoint 2013 от BA Insight позволяет подключаться к SharePoint 2013, получать данные из любого сайта, библиотеки документов или списка; и безопасно индексировать этот контент. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2013-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2016</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SharePoint в Ba Insight позволяет подключаться к SharePoint 2016, получать данные из любого сайта, библиотеки документов или списка; и безопасно индексировать этот контент.  </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-2016-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint 2019</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SharePoint в Ba Insight позволяет подключаться к SharePoint 2019, получать данные из любого сайта, библиотеки документов или списка; и безопасно индексировать этот контент. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/connector-for-sharepoint-2019/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>SharePoint Online</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель SharePoint Online в Ba Insight позволяет подключаться к SharePoint Online, получать данные с любого сайта, библиотеки документов или списка; и безопасно индексировать этот контент.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/sharepoint-online-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Обход сайта</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель обхода веб-сайтов BA Insight позволяет в одном сводном индексе поиска выполнять контент с любого веб-сайта, а также контент из других репозиториев. </p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/website-connector-for-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Западный км</h3><p>ba <a href="https://www.bainsight.com">Insight</a></p><p>Соединитель км ba Insight West поддерживает поиск по документам транзакций и судебных разбирательств, включая создание пользовательских страниц результатов поиска.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.bainsight.com/connectors/westkm-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Azure AD </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из Microsoft Azure Active Directory (Azure AD) и интеллектуального поиска в Microsoft Graph. Индексирует объекты из Azure AD с помощью API Microsoft Graph. Соединител можно использовать для включении принципов в Microsoft Graph в режиме почти в режиме реального времени для реализации таких случаев использования, как поиск экспертов, поиск оборудования и поиск по местоположению, а также для обеспечения досрочной обрезки безопасности в сочетании с пользовательскими источниками данных. Соединитетель поддерживает федератированную проверку подлинности в Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-azure-ad-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Слияние </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из Atlassian Confluence и интеллектуального поиска в Microsoft Graph. Она надежно индексирует страницы, сообщения в блогах, вложения, комментарии, пробелы, профили и сайты-концентраторы для тегов из локального экземпляра Confluence в режиме реального времени. Соединителю полностью поддерживается встроенное управление пользователем и группой Atlassian Confluence, а также установки confluence на основе active Directory и других служб каталогов.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Облако слияния </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из облака confluence Atlassian и интеллектуального поиска в Microsoft Graph. Она надежно индексирует страницы, сообщения в блогах, вложения, комментарии, пробелы, профили и сайты концентраторов для тегов экземпляров Confluence Cloud в режиме реального времени. Соединителю полностью поддерживается встроенное управление пользователем и группой Atlassian Confluence Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-confluence-cloud-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Documentum </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из OpenText Documentum и интеллектуального поиска в Microsoft Graph. Он надежно индексирует репозитории, папки и файлы вместе с их метаданных и свойствами documentum в режиме реального времени. Соединителю полностью поддерживается встроенное управление пользователем и группой OpenText Documentum.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-documentum-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Хранилище предприятия </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителей корпоративного поиска для надежной индексации контента из хранилища Symantec Enterprise и интеллектуального поиска в Microsoft Graph. Он надежно индексирует архивные данные, такие как электронная почта, вложения, файлы, элементы календаря и контакты из Хранилища предприятия в режиме реального времени. Соединитель полностью поддерживает модели проверки подлинности Symantec Enterprise Vault Basic, NTLM и Kerberos.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector-2/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Хранилище предприятия </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединитель поиска предприятия для надежной индексации контента из хранилища Veritas Enterprise и интеллектуального поиска в Microsoft Graph. Он надежно индексирует архивные данные, такие как электронная почта, вложения, файлы, элементы календаря и контакты из Хранилища предприятия в режиме реального времени. Соединитель полностью поддерживает модели проверки подлинности Veritas Enterprise Vault Basic, NTLM и Kerberos.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>FirstSpirit </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединититель корпоративного поиска для надежной индексации контента из e-Spirit FirstSpirit и интеллектуального поиска в Microsoft Graph. Она надежно индексирует страницы, вложения и другие созданные типы документов из FirstSpirit почти в режиме реального времени. Соединититель полностью поддерживает встроенное управление пользователем, группой и разрешениями e-Spirit FirstSpirit, а также установки FirstSpirit на основе active Directory и других служб каталогов.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-firstspirit-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Jira </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из Atlassian Jira и интеллектуального поиска в Microsoft Graph. Он надежно индексирует проекты, проблемы, вложения, комментарии, журналы работы, выдает истории, ссылки и профили из локального экземпляра Jira почти в режиме реального времени. Соединителя полностью поддерживает встроенное управление пользователем и группой Atlassian Jira, а также установки Jira на основе Active Directory и других служб каталогов.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-connector /"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Облако Jira </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из Atlassian Jira Cloud и интеллектуального поиска в Microsoft Graph. Он надежно индексирует проекты, проблемы, вложения, комментарии, журналы работы, выдают истории, ссылки и профили из Jira Cloud почти в режиме реального времени. Соединитатель полностью поддерживает встроенное управление пользователем и группой Atlassian Jira Cloud.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-jira-cloud-connector /"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Примечания </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из IBM Notes (ранее Lotus Note) и интеллектуального поиска в Microsoft Graph. Он надежно индексирует записи из настраиваемого набора баз данных Notes в режиме реального времени. Соединитектор полностью поддерживает встроенное управление пользователями и группой IBM Notes.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-notes-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Slack </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединителю корпоративного поиска для надежной индексации контента из Slack и интеллектуального поиска в Microsoft Graph. Он надежно индексирует сообщения, потоки и общие файлы из всех общедоступных каналов slack в режиме реального времени.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-slack-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
+<li><div class="cardSize"><div class="cardPadding"><div class="card" style="min-height:240px;"><div class="cardText"><h3>Yammer </h3><p>by <a href="https://www.raytion.com">Raytion</a></p><p>Безопасный соединитель корпоративного поиска для надежной индексации контента из Microsoft Yammer и интеллектуального поиска в Microsoft Graph. Он надежно индексирует каналы, сообщения, ответы, вложения, опросы и объявления от Yammer в режиме реального времени. Соединитель полностью поддерживает встроенное управление пользователем и группой Microsoft Yammer и, в частности, федераную проверку подлинности в отношении Microsoft 365.</p><p style="margin-top:20px;margin-bottom:20px;font-weight:500"><a href="https://www.raytion.com/connectors/raytion-yammer-connector/"><font color="0065BA">Дополнительные сведения</font></a></p></div></div></div></div></li>
