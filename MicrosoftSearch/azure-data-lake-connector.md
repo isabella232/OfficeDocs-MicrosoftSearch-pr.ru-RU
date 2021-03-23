@@ -13,34 +13,34 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединиттеля Azure Data Lake Storage Gen2 Graph для microsoft Search
-ms.openlocfilehash: 2bb9570bc3b0a5adef7ac72ea1620c4f22a8aefb
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 37a035b3de9dc217f885f193992d1e74a675fb35
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508889"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031326"
 ---
 <!---Previous ms.author: monaray --->
 
 # <a name="azure-data-lake-storage-gen2-graph-connector"></a>Разъем Azure Data Lake Storage Gen2 Graph
 
-Соединитель Azure Data Lake Storage Gen2 Graph позволяет пользователям в вашей организации искать файлы, хранимые в учетных записях хранения данных [Azure Blob](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) и [Azure Data Lake Gen 2.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+Соединитель Azure Data Lake Storage Gen2 Graph позволяет пользователям в вашей организации искать файлы, хранимые в учетных записях хранения данных [Azure Blob](/azure/storage/blobs/storage-blobs-introduction) и [Azure Data Lake Gen 2.](/azure/storage/blobs/data-lake-storage-introduction)
 
 > [!NOTE]
 > Ознакомьтесь [**со статьей Настройка соединиттеля Graph,**](configure-connector.md) чтобы понять общие инструкции по настройке соединитений Graph.
 
 Эта статья для всех, кто настраивает, запускает и контролирует соединитель Azure Data Lake Storage Gen2. Он дополняет общий процесс установки и показывает инструкции, которые применяются только для соединиттеля Azure Data Lake Storage Gen2. В этой статье также содержатся сведения об [ограничениях.](#limitations)
 
-В этой статье мы используем *Azure Storage* в качестве общего термина для хранения данных [Azure Blob и](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) Azure Data Lake Gen [2 Storage.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+В этой статье мы используем *Azure Storage* в качестве общего термина для хранения данных [Azure Blob и](/azure/storage/blobs/storage-blobs-introduction) Azure Data Lake Gen [2 Storage.](/azure/storage/blobs/data-lake-storage-introduction)
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
@@ -76,13 +76,13 @@ ms.locfileid: "50508889"
 
 ### <a name="azure-data-lake-gen-2"></a>Azure Data Lake Gen 2
 
-Вы можете выбрать, чтобы гнать списки управления доступом (ACLs) из учетной записи [хранения данных Azure Data Lake Gen 2.](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) При наборе этих разрешений поиска содержимое поиска обрезается на основе разрешений пользователя, подписанного в [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/) Кроме того, вы можете сделать все содержимое, индексироваться из учетной записи хранилища, видимым для всех в вашей организации. В этом случае все в вашей организации будут иметь доступ ко всем данным в учетной записи хранилища.
+Вы можете выбрать, чтобы гнать списки управления доступом (ACLs) из учетной записи [хранения данных Azure Data Lake Gen 2.](/azure/storage/blobs/data-lake-storage-introduction) При наборе этих разрешений поиска содержимое поиска обрезается на основе разрешений пользователя, подписанного в [Azure Active Directory.](/azure/active-directory/) Кроме того, вы можете сделать все содержимое, индексироваться из учетной записи хранилища, видимым для всех в вашей организации. В этом случае все в вашей организации будут иметь доступ ко всем данным в учетной записи хранилища.
 
 Соединитель Azure Data Lake Storage Gen2 Graph поддерживает разрешения на поиск, видимые всем или только людям с доступом **к этому источнику данных.** Индексные данные, которые появляются в результатах поиска, могут быть видны пользователям в организации, которые имеют доступ к каждому элементу.
 
 ### <a name="azure-blob-storage"></a>Хранилище BLOB-объектов Azure
 
-Для подключения к [хранилище blob Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)все содержимое, индексируемые из настроенного источника, видны всем в организации. Списки управления доступом не поддерживаются на уровне Blob в хранилище Azure Blob.
+Для подключения к [хранилище blob Azure](/azure/storage/blobs/storage-blobs-introduction)все содержимое, индексируемые из настроенного источника, видны всем в организации. Списки управления доступом не поддерживаются на уровне Blob в хранилище Azure Blob.
 
 ## <a name="step-7-set-the-refresh-schedule"></a>Шаг 7. Настройка расписания обновления
 
@@ -90,7 +90,7 @@ ms.locfileid: "50508889"
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->

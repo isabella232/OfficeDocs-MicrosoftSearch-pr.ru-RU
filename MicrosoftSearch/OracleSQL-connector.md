@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Настройка соединиттеля Oracle SQL Graph для Microsoft Search.
-ms.openlocfilehash: 901b772def7585606a090d8a7696a32ff028e2a0
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 7ad3d03c73ce051c43f3b3ea094130a837d3177f
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508898"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031425"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -40,12 +40,12 @@ ms.locfileid: "50508898"
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
@@ -87,16 +87,16 @@ ms.locfileid: "50508898"
 
 ### <a name="supported-data-types"></a>Поддерживаемые типы данных
 
-В приведенной ниже таблице приведены типы данных, поддерживаемые соединитетелем Oracle SQL. В таблице также кратко приводится тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединители Microsoft Graph, поддерживаемые типами данных для индексации, переслать документацию по [типам ресурсов свойств.](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties&preserve-view=true)
+В приведенной ниже таблице приведены типы данных, поддерживаемые соединитетелем Oracle SQL. В таблице также кратко приводится тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединители Microsoft Graph, поддерживаемые типами данных для индексации, переслать документацию по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
-| Category | Тип исходных данных | Тип индексации данных |
+| Категория | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
 | Тип данных номеров | NUMBER (p,0) | int64 (для p <= 18) <br> двойной (для p > 18) |
 | Тип данных номеров с плавающей точкой | NUMBER (p,s) <br> FLOAT (p) | double |
 | Тип данных даты | DATE <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Тип данных символов | CHAR (n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | string |
-| Тип данных символов Юникод | NCHAR <br> NVARCHAR | string |
-| Тип данных RowID | ROWID <br> UROWID | string |
+| Тип данных символов | CHAR (n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | String |
+| Тип данных символов Юникод | NCHAR <br> NVARCHAR | String |
+| Тип данных RowID | ROWID <br> UROWID | String |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 
@@ -145,12 +145,12 @@ ms.locfileid: "50508898"
 
 ## <a name="step-4-assign-property-labels"></a>Шаг 4. Назначение меток свойств
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-5-manage-schema"></a>Шаг 5. Управление схемой
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-6-manage-search-permissions"></a>Шаг 6. Управление разрешениями на поиск
@@ -165,7 +165,7 @@ ms.locfileid: "50508898"
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!--- ## Next steps: Customize the search results page

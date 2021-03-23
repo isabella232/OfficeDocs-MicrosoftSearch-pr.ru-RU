@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители Microsoft Graph для microsoft Search
-ms.openlocfilehash: 1b3ea74cf571b1b5a048695633f6b9f698a21bf5
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 2d49471c703b765f6e99324f39dbe730f6dea814
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508916"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031659"
 ---
 <!---Previous ms.author: monaray --->
 
 # <a name="overview-of-microsoft-graph-connectors"></a>Обзор соединители Microsoft Graph
 
-[Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) индексирует все данные [Microsoft 365,](https://www.microsoft.com/microsoft-365) чтобы сделать их более понятными для пользователей. С помощью соединители Microsoft Graph ваша организация может индексировать сторонние данные, чтобы они фигурали в результатах поиска Майкрософт. Эта функция расширяет типы источников контента, доступных для поиска в приложениях производительности Microsoft 365, и более широкую экосистему Майкрософт. Сторонние данные могут быть организованы на локальной основе или в общедоступных или частных облаках.
+[Microsoft Search](./overview-microsoft-search.md) индексирует все данные [Microsoft 365,](https://www.microsoft.com/microsoft-365) чтобы сделать их более понятными для пользователей. С помощью соединители Microsoft Graph ваша организация может индексировать сторонние данные, чтобы они фигурали в результатах поиска Майкрософт. Эта функция расширяет типы источников контента, доступных для поиска в приложениях производительности Microsoft 365, и более широкую экосистему Майкрософт. Сторонние данные могут быть организованы на локальной основе или в общедоступных или частных облаках.
 
 <!---link Microsoft Graph reference in line 19 when we have access to relevant documentation--->
 
@@ -41,13 +41,13 @@ ms.locfileid: "50508916"
 
 <!---Modify to another note that is more accurate after rollout completion--->
 > [!IMPORTANT]
-> Теперь в общем доступе доступны соединители Microsoft Graph и API поиска Майкрософт. Первыми выкатами будут клиенты, настроенные для целевого выпуска. Если вы хотите использовать соединители Graph в клиенте, пользователи и администраторы должны выбрать [целевой выпуск.](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)
+> Теперь в общем доступе доступны соединители Microsoft Graph и API поиска Майкрософт. Первыми выкатами будут клиенты, настроенные для целевого выпуска. Если вы хотите использовать соединители Graph в клиенте, пользователи и администраторы должны выбрать [целевой выпуск.](/microsoft-365/admin/manage/release-options-in-office-365?preserve-view=true&view=o365-worldwide)
 
 <!---Add Value, scenario, example, and/or graphic in December updates--->
 <!---Probably remove architecture section below
 ## Architecture
 
-The following architectural diagram of the Microsoft Graph platform shows how Graph connector content flows through content indexing to user results in [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) clients. The rest of this section explains each of the key building blocks in the diagram.
+The following architectural diagram of the Microsoft Graph platform shows how Graph connector content flows through content indexing to user results in [Microsoft Search](./overview-microsoft-search.md) clients. The rest of this section explains each of the key building blocks in the diagram.
 
 ![Diagram: on-premises and cloud-based data is pulled by connectors and indexed by the Microsoft Search API, and then the Microsoft Search service delivers the results to users.](media/connectors-overview/highlevel-connectors.png)
 Graph connectors can pull data from cloud-based (SaaS) data sources and on-premises data stores. The above diagram shows connections to only two data sources, but you can add connections to up ten sources per tenant.
@@ -86,7 +86,7 @@ To create a **connection** to a data source, admins need authenticated access to
 
 ### <a name="build-your-own-graph-connector"></a>Создание собственного соединитетеля Graph
 
-При желании можно создать собственный соединититель Graph. Дополнительные сведения о создании соединителов Graph см. в обзоре [API поиска Майкрософт в Microsoft Graph.](https://docs.microsoft.com/graph/search-concept-overview)
+При желании можно создать собственный соединититель Graph. Дополнительные сведения о создании соединителов Graph см. в обзоре [API поиска Майкрософт в Microsoft Graph.](/graph/search-concept-overview)
 
 ## <a name="how-do-i-manage-my-connections"></a>Как управлять подключениями?
 
@@ -120,11 +120,11 @@ To create a **connection** to a data source, admins need authenticated access to
 
 ## <a name="how-do-i-search-my-connector-data-from-a-custom-application"></a>Как искать данные соединитетеля в настраиваемом приложении?
 
-После индексации пользовательских данных разработчики могут [запрашивать эти данные.](https://docs.microsoft.com/graph/search-concept-custom-types) Вы можете просматривать данные в любом приложении. Дополнительные сведения см. в [обзоре API поиска Майкрософт в Microsoft Graph.](https://docs.microsoft.com/graph/search-concept-overview)
+После индексации пользовательских данных разработчики могут [запрашивать эти данные.](/graph/search-concept-custom-types) Вы можете просматривать данные в любом приложении. Дополнительные сведения см. в [обзоре API поиска Майкрософт в Microsoft Graph.](/graph/search-concept-overview)
 
 ## <a name="how-do-i-customize-search-results"></a>Как настроить результаты поиска?
 
-Следующим шагом является настройка результатов поиска, как рекомендуется в этой статье Как настроить и [настроить результаты поиска?](#how-do-i-customize-and-configure-search-results). Дополнительные информацию о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page)
+Следующим шагом является настройка результатов поиска, как рекомендуется в этой статье Как настроить и [настроить результаты поиска?](#how-do-i-customize-and-configure-search-results). Дополнительные информацию о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](./configure-connector.md#next-steps-customize-the-search-results-page)
 
 ## <a name="what-are-the-connector-limitations"></a>Какие ограничения имеют соединители?
 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
-ms.openlocfilehash: 1ac2f23a8263c01901e252e7dd830e7373380669
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 346bf3bf2da10178a8bd19390920db2d9de2629e
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508673"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031758"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   
@@ -30,7 +30,7 @@ ms.locfileid: "50508673"
   
 Последние версии ADMX-файлов для разных версий Windows см. в статье [Как создать центральное хранилище для административных шаблонов групповой политики в Windows и управлять им](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
-Если параметр, описанный в этом разделе, не может быть найден внутри GPMC, скачайте соответствующий ADMX и скопируйте их в центральный магазин. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
+Если параметр, описанный в этом разделе, не может быть найден внутри GPMC, скачайте соответствующий ADMX и скопируйте их в центральный магазин. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
   
 Все домены, обслуживаемые контроллером, должны получить отдельную папку. Чтобы скопировать ADMX-файл из командной строки, можно использовать указанную ниже команду:
   
@@ -48,7 +48,7 @@ ms.locfileid: "50508673"
   
 Chrome поставляется с собственным набором параметров групповой политики, которые можно скачать в виде ADMX-файла из [google Chrome Enterprise Help.](https://support.google.com/chrome/a/answer/187202)
   
-Скопируйте файл шаблона в центральный магазин файлов ADMX на контроллере домена. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
+Скопируйте файл шаблона в центральный магазин файлов ADMX на контроллере домена. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
   
 Все домены, обслуживаемые контроллером, должны получить отдельную папку. Чтобы скопировать ADMX-файл из командной строки, можно использовать указанную ниже команду:
   

@@ -1,5 +1,5 @@
 ---
-title: Интеграция приложений Power
+title: Интеграция power Apps
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,46 +12,46 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
-description: Включение приложений на основе браузера в результаты закладок поиска Microsoft Search
-ms.openlocfilehash: 7d3dd21758c63da14bbd3896ece1ce67a19c80a2
-ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
+description: Включаем приложения на основе браузера в результаты закладки для поиска в Microsoft Search
+ms.openlocfilehash: 52fa78c54ab6db74ef1e3679d3d32151a3f5ac10
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39995026"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031704"
 ---
-# <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Интеграция приложений Power в закладки поиска Microsoft
+# <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Интеграция power Apps в закладки поиска Майкрософт
    
-Помогите пользователям выполнить задачи, например ввести время отпуска или отчеты о расходах, интегрируя существующие [приложения Майкрософт Power Apps](https://products.office.com/business/microsoft-powerapps) в закладки поиска Майкрософт. Интегрированные приложения управления питанием отображаются в виде Закладка, что позволяет избежать необходимости переходить на другой сайт или открыть отдельное средство, которое экономит время и усилия.
+Помогите пользователям выполнять задачи, например вводить время отпуска или расходы на отчеты, интегрируя существующие [приложения Microsoft Power Apps](https://products.office.com/business/microsoft-powerapps) в закладки Microsoft Search. Интегрированные power Apps отображаются в результате закладки, устраняя необходимость перейти на другой сайт или открыть отдельный инструмент, который экономит время и усилия.
   
-## <a name="what-are-power-apps"></a>Что такое приложения для работы с питанием?
+## <a name="what-are-power-apps"></a>Что такое Power Apps?
 
-[Power Apps](https://products.office.com/business/microsoft-powerapps) — это служба, позволяющая создавать бизнес-приложения, которые запускаются в браузере или на телефоне или планшете без необходимости программирования. Дополнительные сведения
+[Power Apps](https://products.office.com/business/microsoft-powerapps) — это служба, которая позволяет создавать бизнес-приложения, которые работают в браузере или на телефоне или планшете без необходимости кодирования. Дополнительные сведения
   
-- [Интерактивное обучение](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Интерактивное обучение](/learn/browse/?products=powerapps)
     
-- [Документация](https://docs.microsoft.com/powerapps/)
+- [Документация](/powerapps/)
     
-## <a name="add-a-power-app-to-a-bookmark"></a>Добавление приложения Power App в закладку
+## <a name="add-a-power-app-to-a-bookmark"></a>Добавление power App в закладку
 
-[Power Apps (https://products.office.com/business/microsoft-powerapps) работа в любом браузере и на любом устройстве и требует меньше минут, которые можно добавить.
+[Power Apps( работа в любом браузере и на любом устройстве и https://products.office.com/business/microsoft-powerapps) займет меньше минуты, чтобы добавить.
   
-1. [Найдите идентификатор приложения для приложения](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) , которое вы хотите интегрировать.
+1. [Найдите ID приложения для приложения Power,](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) которое необходимо интегрировать.
     
-2. В [центре администрирования](https://admin.microsoft.com)Microsoft 365 перейдите к разделу **закладки**.
+2. В центре администрирования [](https://admin.microsoft.com)Microsoft 365 перейдите в **bookmarks**.
     
-3. Добавьте закладку или найдите существующую закладку, к которой требуется добавить приложение Power.
+3. Добавьте закладки или найдите существующую закладки, в которую необходимо добавить приложение Power.
     
-4. В разделе Параметры закладок выберите **Power App**, а затем выберите **Добавить приложение Power**.
+4. В параметрах закладок выберите **Power App** и выберите Добавить **power App**.
     
 5. Введите или вставьте идентификатор приложения.
     
     Высота и ширина добавляются автоматически. Закладки могут поддерживать альбомную и книжную ориентацию, но в настоящее время нельзя изменить размер.
     
-6. В предварительном просмотре закладка показано, как приложение Power будет отображаться в результате закладка.
+6. Предварительный просмотр закладок показывает, как power App будет отображаться в результате закладки.
     
-    Приложение Power App в предварительной версии полностью работоспособно, чтобы облегчить тестирование и использование.
+    Приложение Power в предварительном просмотре полностью функционально, что позволяет легко тестировать и использовать.
     
 7. Нажмите **Опубликовать**.
     
-Когда авторизованный пользователь поиска Microsoft выполняет поиск в [Bing](https://Bing.com) для любых ключевых слов закладки или зарезервированных ключевых слов, приложение Power App будет отображаться в результатах закладка.
+Когда авторизованный пользователь Microsoft Search ищет [в Bing](https://Bing.com) ключевые слова или зарезервированные ключевые слова закладки, в результате закладки появится power App.

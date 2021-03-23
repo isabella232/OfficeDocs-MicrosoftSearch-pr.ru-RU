@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля MediaWiki Graph для поиска в Microsoft Search
-ms.openlocfilehash: 1c2908de859056ccb26b862820e8b3be7a158569
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 5922cf76aa112430f9f6e857066acd054182058c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508772"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031695"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -37,12 +37,12 @@ ms.locfileid: "50508772"
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
@@ -59,22 +59,22 @@ ms.locfileid: "50508772"
 
 ## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-6-manage-schema"></a>Шаг 6. Управление схемой
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-7-choose-refresh-settings"></a>Шаг 7. Выбор параметров обновления
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->

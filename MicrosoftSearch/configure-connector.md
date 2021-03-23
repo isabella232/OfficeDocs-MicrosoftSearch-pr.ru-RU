@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор установки соединители Graph корпорацией Майкрософт
-ms.openlocfilehash: e97b930f627a6336cc93b3a1f33e390cae4ff0aa
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 5c674f6b9253af1145be983e5713f65be1c2b022
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508881"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031380"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -81,13 +81,13 @@ ID подключения создает неявные свойства для 
 
 Процесс настройки параметров подключения зависит от типа источника данных. Сведения о типе источника данных, который необходимо добавить для клиента, чтобы завершить этот шаг в процессе настройки, см. в специальной информации.  
 
-Дополнительные сведения о подключении к локальному источнику данных см. в статьи Установка локального шлюза [данных.](https://aka.ms/configuregateway)
+Дополнительные сведения о подключении к локальному источнику данных см. в статьи Установка локального шлюза [данных.](/data-integration/gateway/service-gateway-install)
 
 ## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями на поиск
 
 Списки управления доступом (ACLs) определяют, какие пользователи в организации могут получить доступ к каждому элементу данных.  
 
-Некоторые соединители, [такие как Microsoft SQL](MSSQL-connector.md) и Azure Data Lake Storage [Gen2,](azure-data-lake-connector.md) поддерживают acLs [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/)
+Некоторые соединители, [такие как Microsoft SQL](MSSQL-connector.md) и Azure Data Lake Storage [Gen2,](azure-data-lake-connector.md) поддерживают acLs [Azure Active Directory (Azure AD).](/azure/active-directory/)
 
 Другие соединители, такие как [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)и [Salesforce,](salesforce-connector.md) поддерживают синхронизацию пользователей и групп, не в том что касается Azure AD.  
 
@@ -202,6 +202,6 @@ RETRIEVE | Только свойства, которые можно получи
 
 Чтобы узнать, применяются ли другие ограничения к этому конкретному соединитектору Graph, см. в специальной информации для источника данных.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
-После публикации подключения необходимо настроить страницу результатов поиска. Подробнее о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page)
+После публикации подключения необходимо настроить страницу результатов поиска. Подробнее о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](#next-steps-customize-the-search-results-page)

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Получите обзор того, что такое Microsoft Search, его преимущества и какие приложения поддерживают Microsoft Search.
-ms.openlocfilehash: a7250bccd3f77eb3ad2f3c91bdfd176a2141fd98
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 23bc07766bd5fb00bed21c7e739b22e7d1333630
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508817"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031785"
 ---
 # <a name="overview-of-microsoft-search"></a>Обзор Поиска (Майкрософт)
 
@@ -68,7 +68,7 @@ Microsoft Search помогает пользователям находить п
 
 ## <a name="what-content-is-searched"></a>Поиск контента
 
-В Microsoft Search показано содержимое, которое ваша организация хранила в Microsoft 365 или индексировали через соединители. Microsoft Search не ведет поиск среди клиентов и не показывает результатов контента, который разделяется другими организациями. Если ваша организация установила гибридную среду SharePoint с помощью облачного гибридного поиска, Microsoft Search возвращает результаты поиска как из контента SharePoint, так и из локального контента SharePoint, включая любой внешний контент, подключенный к среде SharePoint Server. [Дополнительные сведения о гибридных средах поиска](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
+В Microsoft Search показано содержимое, которое ваша организация хранила в Microsoft 365 или индексировали через соединители. Microsoft Search не ведет поиск среди клиентов и не показывает результатов контента, который разделяется другими организациями. Если ваша организация установила гибридную среду SharePoint с помощью облачного гибридного поиска, Microsoft Search возвращает результаты поиска как из контента SharePoint, так и из локального контента SharePoint, включая любой внешний контент, подключенный к среде SharePoint Server. [Дополнительные сведения о гибридных средах поиска](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
 Пользователи получат те же результаты поиска, что и в других местах, а также будут получать результаты из Интернета.
 

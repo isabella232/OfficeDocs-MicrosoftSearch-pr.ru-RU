@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Создание и обновление закладки и способы массовой редактирования результатов закладки для Microsoft Search
-ms.openlocfilehash: b801e75f772a585c2ddfedd09aff3b74c1d909b5
-ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
+ms.openlocfilehash: e8488146a041e7165596dafff8012adfa1122341
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929610"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031731"
 ---
 # <a name="manage-bookmarks"></a>Управление закладками
 
@@ -160,4 +160,4 @@ ms.locfileid: "50929610"
 
 **В. Где найти код приложения для power App?**
 
-**A.** Перейдите на сайт Power Apps и просмотреть области Подробности для приложения. Узнайте больше о [получении ID приложения.](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)
+**A.** Перейдите на сайт Power Apps и просмотреть области Подробности для приложения. Узнайте больше о [получении ID приложения.](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)

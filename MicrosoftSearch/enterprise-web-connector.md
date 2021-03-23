@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля графа корпоративных веб-сайтов для microsoft Search
-ms.openlocfilehash: b0ed7cc4148dba6c7555fcf7c9c930184cdbc24c
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 42c3f0a80b21e23bb625db06c4f9e89f2c10de4a
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508799"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031632"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -39,19 +39,19 @@ ms.locfileid: "50508799"
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
 
-Чтобы подключиться к источнику данных, необходимо заполнить корневой URL-адрес веб-сайта, выбрать источник обхода и тип проверки подлинности, который вы хотите использовать: None, Basic Authentication или OAuth 2.0 с [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/) После получения этих сведений выберите тест-подключение для проверки параметров.
+Чтобы подключиться к источнику данных, необходимо заполнить корневой URL-адрес веб-сайта, выбрать источник обхода и тип проверки подлинности, который вы хотите использовать: None, Basic Authentication или OAuth 2.0 с [Azure Active Directory (Azure AD).](/azure/active-directory/) После получения этих сведений выберите тест-подключение для проверки параметров.
 
-### <a name="url"></a>URL-адрес
+### <a name="url"></a>URL
 
 Используйте поле URL-адресов, чтобы указать корень веб-сайта, который необходимо обходить. Соединителя веб-сайтов предприятия будет использовать этот URL-адрес в качестве отправной точки и следовать всем ссылкам из этого URL-адреса для обхода.
 
@@ -62,7 +62,7 @@ ms.locfileid: "50508799"
 
 Режим обхода определяет тип веб-сайтов, которые необходимо индексировать, облачные или локально. Для облачных веб-сайтов выберите **Облако** в качестве режима обхода.
 
-Кроме того, соединители теперь поддерживает обход локального веб-сайтов. Этот режим находится в предварительном режиме. Чтобы получить доступ к локальной информации, сначала необходимо установить и настроить агент соединителя Graph. Дополнительные данные см. в [графовом агенте соединители.](https://docs.microsoft.com/microsoftsearch/on-prem-agent)
+Кроме того, соединители теперь поддерживает обход локального веб-сайтов. Этот режим находится в предварительном режиме. Чтобы получить доступ к локальной информации, сначала необходимо установить и настроить агент соединителя Graph. Дополнительные данные см. в [графовом агенте соединители.](./on-prem-agent.md)
 
 Для локального веб-сайтов выберите **Агент** в режиме обхода и в поле **On-Prem Agent** выберите агент соединиттеля Graph, который был установлен и настроен ранее.  
 
@@ -73,16 +73,16 @@ ms.locfileid: "50508799"
 
 Для базовой проверки подлинности требуется имя пользователя и пароль. Создайте эту учетную запись бота с помощью [центра администрирования Microsoft 365.](https://admin.microsoft.com)
 
-OAuth 2.0 с [Azure AD](https://docs.microsoft.com/azure/active-directory/) требует ИД ресурса, ИД клиента и секрет клиента. OAuth 2.0 работает только в облачном режиме.
+OAuth 2.0 с [Azure AD](/azure/active-directory/) требует ИД ресурса, ИД клиента и секрет клиента. OAuth 2.0 работает только в облачном режиме.
 
-Дополнительные сведения см. в странице Авторизованный доступ к веб-приложениям Azure Active Directory с помощью потока грантов на код [OAuth 2.0.](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code) Зарегистрируйтесь со следующими значениями:
+Дополнительные сведения см. в странице Авторизованный доступ к веб-приложениям Azure Active Directory с помощью потока грантов на код [OAuth 2.0.](/azure/active-directory/develop/v1-protocols-oauth-code) Зарегистрируйтесь со следующими значениями:
 
 **Имя:** Поиск в Microsoft <br/>
 **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
 
 Чтобы получить значения для ресурса, client_id и client_secret перейдите к  коду авторизации для запроса маркера доступа на веб-странице URL-адреса перенаправления.
 
-Дополнительные сведения см. в [сайте Quickstart: Регистрация приложения с помощью платформы удостоверений Майкрософт.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+Дополнительные сведения см. в [сайте Quickstart: Регистрация приложения с помощью платформы удостоверений Майкрософт.](/azure/active-directory/develop/quickstart-register-app)
 
 ## <a name="step-3a-add-urls-to-exclude-optional-crawl-restrictions"></a>Шаг 3a. Добавление URL-адресов для исключения (необязательные ограничения обхода)
 
@@ -114,12 +114,12 @@ OAuth 2.0 с [Azure AD](https://docs.microsoft.com/azure/active-directory/) тр
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-При чтении контента веб-сайта обход может столкнуться с некоторыми исходными ошибками, которые представлены подробными кодами ошибок ниже. Чтобы получить дополнительные сведения о типах  ошибок, перейдите на страницу сведения об ошибках после выбора подключения. Выберите код **ошибки,** чтобы увидеть более подробные ошибки. Кроме того, [обратитесь к управлению соединитетелем,](https://docs.microsoft.com/microsoftsearch/manage-connector) чтобы узнать больше.
+При чтении контента веб-сайта обход может столкнуться с некоторыми исходными ошибками, которые представлены подробными кодами ошибок ниже. Чтобы получить дополнительные сведения о типах  ошибок, перейдите на страницу сведения об ошибках после выбора подключения. Выберите код **ошибки,** чтобы увидеть более подробные ошибки. Кроме того, [обратитесь к управлению соединитетелем,](./manage-connector.md) чтобы узнать больше.
 
  Подробный код ошибки | Сообщение об ошибке
  --- | ---

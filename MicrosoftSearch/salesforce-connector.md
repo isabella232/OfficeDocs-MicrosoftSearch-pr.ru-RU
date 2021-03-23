@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Salesforce Graph для поиска в Microsoft Search
-ms.openlocfilehash: 86140a4650593e08188f171be54f1753b73ecf7a
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 59cc321a40655a1c1e5edf615dd43a2a56c8ddbc
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508826"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031686"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -81,17 +81,17 @@ ms.locfileid: "50508826"
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
 
-Для URL-адреса экземпляра используйте https://[domain].my.salesforce.com, где домен будет доменом Salesforce для вашей организации.
+Для URL-адреса экземпляра используйте https://[domain].my.salesforce.com, где доменом будет домен Salesforce для вашей организации.
 
 Введите ИД клиента и секрет клиента, полученные из экземпляра Salesforce, и выберите Вход.
 
@@ -125,7 +125,7 @@ ms.locfileid: "50508826"
 
 ## <a name="step-4b-map-aad-identities"></a>Шаг 4b: идентификаторы AAD
 
-Если вы решили гнать ACL из экземпляра Salesforce и выбрали AAD для типа удостоверений, см. в примере Map [your Azure AD Identitys](map-aad.md) для инструкций по сопоставлению удостоверений. Подробнее о том, как настроить SSO Azure AD для Salesforce, см. в этом [руководстве.](https://docs.microsoft.com/azure/active-directory/saas-apps/salesforce-tutorial)
+Если вы решили гнать ACL из экземпляра Salesforce и выбрали AAD для типа удостоверений, см. в примере Map [your Azure AD Identitys](map-aad.md) для инструкций по сопоставлению удостоверений. Подробнее о том, как настроить SSO Azure AD для Salesforce, см. в этом [руководстве.](/azure/active-directory/saas-apps/salesforce-tutorial)
 
 ## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
 
@@ -150,7 +150,7 @@ ms.locfileid: "50508826"
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
@@ -170,7 +170,7 @@ ms.locfileid: "50508826"
     - MobilePhone
     - Электронная почта
     - Тип
-    - Название
+    - Заголовок
     - AccountId
     - Имя учетной записи
     - AccountUrl

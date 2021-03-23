@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля ServiceNow Graph для поиска в Microsoft Search
-ms.openlocfilehash: eaf8014876b03c0b64c012cf7e83c4e4b84838b9
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 692170ef6f8332418efc7d56a56c6fa1b1cce76c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508682"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031767"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -33,19 +33,19 @@ ms.locfileid: "50508682"
   
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-connection-settings"></a>Шаг 3. Параметры подключения
 
 Чтобы подключиться к данным ServiceNow, используйте URL-адрес url-адрес экземпляра **ServiceNow** вашей организации для этой учетной записи, удостоверение клиента и секрет клиента для проверки подлинности OAuth.  
 
-URL-адрес экземпляра **ServiceNow** организации обычно https:// **&lt; домена>.service-now.com.** Наряду с этим URL-адресом необходимо создать учетную запись для настройки подключения к ServiceNow и разрешить Microsoft Search обновлять статьи из ServiceNow в соответствии с расписанием обновления. Учетная запись должна, по крайней мере, иметь <em>роль знаний.</em> [Узнайте, как назначить роль для учетных записей ServiceNow.](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html)
+URL-адрес экземпляра **ServiceNow** организации обычно https:// домена вашей организации **&lt;>.service-now.com.** Наряду с этим URL-адресом необходимо создать учетную запись для настройки подключения к ServiceNow и разрешить Microsoft Search обновлять статьи из ServiceNow в соответствии с расписанием обновления. Учетная запись должна, по крайней мере, иметь <em>роль знаний.</em> [Узнайте, как назначить роль для учетных записей ServiceNow.](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html)
 
 >[!NOTE]
 >Если вы хотите обхода удостоверений пользователей и групп для получения разрешений на доступ к статьям знаний в результатах поиска Майкрософт, у учетной записи должен быть доступ к следующим записям таблицы в ServiceNow:
@@ -95,11 +95,11 @@ URL-адрес логотипа | URL-адрес, содержащий изоб�
 
 ## <a name="step-3a-register-a-new-application-in-azure-active-directory"></a>Шаг 3.a. Регистрация нового приложения в Azure Active Directory
 
-Подробнее о регистрации нового приложения в Azure Active Directory см. в статью [Регистрация приложения.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#register-an-application) Выберите единый организационный каталог клиента. Перенаправление URI не требуется. После регистрации обратите внимание на ID приложения (клиента) и directory (tenant).
+Подробнее о регистрации нового приложения в Azure Active Directory см. в статью [Регистрация приложения.](/azure/active-directory/develop/quickstart-register-app#register-an-application) Выберите единый организационный каталог клиента. Перенаправление URI не требуется. После регистрации обратите внимание на ID приложения (клиента) и directory (tenant).
 
 ## <a name="step-3b-create-a-client-secret"></a>Шаг 3.b. Создание секрета клиента
 
-Дополнительные информацию о создании клиентской тайны см. в [см. в "Создание секрета клиента".](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) Обратите внимание на секрет клиента.
+Дополнительные информацию о создании клиентской тайны см. в [см. в "Создание секрета клиента".](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) Обратите внимание на секрет клиента.
 
 ## <a name="step-3c-retrieve-service-principal-object-identifier"></a>Шаг 3.c. Извлечение идентификатора основного объекта службы
 
@@ -204,23 +204,23 @@ ID директора службы | Удостоверение для прил�
 >Соединитатель ServiceNow находится в предварительном **режиме,** если вы выбираете только людей **с доступом к этому источнику данных.**
 
 >[!NOTE]
->Если вы выбираете AAD в качестве типа источника удостоверений, убедитесь, что вы назначаете свойство источника UPN для адресной почты в ServiceNow. Чтобы проверить или изменить сопоставления, см. в приложении Azure Active Directory параметры настройки атрибута подготовка пользователей для [приложений SaaS.](https://docs.microsoft.com/azure/active-directory/app-provisioning/customize-application-attributes)
+>Если вы выбираете AAD в качестве типа источника удостоверений, убедитесь, что вы назначаете свойство источника UPN для адресной почты в ServiceNow. Чтобы проверить или изменить сопоставления, см. в приложении Azure Active Directory параметры настройки атрибута подготовка пользователей для [приложений SaaS.](/azure/active-directory/app-provisioning/customize-application-attributes)
 
 Если вы решили гнать ACL из экземпляра ServiceNow и выбрали "non-AAD" для типа удостоверений, см. в примере Map [your non-Azure AD Identitys](map-non-aad.md) для инструкций по сопоставлению удостоверений.
 
 ## <a name="step-6-assign-property-labels"></a>Шаг 6. Назначение меток свойств
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-7-manage-schema"></a>Шаг 7. Управление схемой
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-8-choose-refresh-settings"></a>Шаг 8. Выбор параметров обновления
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 >[!NOTE]
@@ -228,7 +228,7 @@ ID директора службы | Удостоверение для прил�
 
 ## <a name="step-9-review-connection"></a>Шаг 9. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="troubleshooting"></a>Устранение неполадок

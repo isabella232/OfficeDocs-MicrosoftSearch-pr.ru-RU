@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединиттеля Azure SQL Microsoft SQL Graph для Microsoft Search.
-ms.openlocfilehash: 499c0fad93f97e634086ff9025d947c4f70336fb
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 81951dab058a14d687f81f7611ee624b079f0822
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508907"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031407"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -40,13 +40,13 @@ ms.locfileid: "50508907"
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Шаг 2. Имя подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
@@ -54,9 +54,9 @@ instructions.-->
 
 ### <a name="register-an-app-for-azure-sql-connector-only"></a>Регистрация приложения (только SQL Azure)
 
-Для соедините SQL Azure необходимо зарегистрировать приложение в Azure Active Directory, чтобы позволить приложению Microsoft Search получать доступ к данным для индексации. Чтобы узнать больше о регистрации приложения, обратитесь к документации Microsoft Graph о том, как [зарегистрировать приложение.](https://docs.microsoft.com/graph/auth-register-app-v2)
+Для соедините SQL Azure необходимо зарегистрировать приложение в Azure Active Directory, чтобы позволить приложению Microsoft Search получать доступ к данным для индексации. Чтобы узнать больше о регистрации приложения, обратитесь к документации Microsoft Graph о том, как [зарегистрировать приложение.](/graph/auth-register-app-v2)
 
-После завершения регистрации приложения и с учетом имени приложения, имени приложения (клиента) и ИД клиента необходимо создать [новый секрет клиента.](https://docs.microsoft.com/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret) Секрет клиента будет отображаться только один раз. Помните, & хранить секрет клиента надежно. Используйте ID клиента и секрет клиента при настройке нового подключения в Microsoft Search.
+После завершения регистрации приложения и с учетом имени приложения, имени приложения (клиента) и ИД клиента необходимо создать [новый секрет клиента.](/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret) Секрет клиента будет отображаться только один раз. Помните, & хранить секрет клиента надежно. Используйте ID клиента и секрет клиента при настройке нового подключения в Microsoft Search.
 
 Чтобы добавить зарегистрированное приложение в базу данных Azure SQL, необходимо:
 
@@ -66,7 +66,7 @@ instructions.-->
 - Добавление пользователя в роль, запуская команду "exec sp_addrolemember db_datareader", [имя приложения]" или "ALTER ROLE db_datareader ADD MEMBER [имя приложения]"
 
 >[!NOTE]
->Чтобы отослать доступ к любому приложению, зарегистрированным в Azure Active Directory, перенапослать документацию Azure об удалении [зарегистрированного приложения.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app)
+>Чтобы отослать доступ к любому приложению, зарегистрированным в Azure Active Directory, перенапослать документацию Azure об удалении [зарегистрированного приложения.](/azure/active-directory/develop/quickstart-remove-app)
 
 ### <a name="connection-settings"></a>Параметры подключения
 
@@ -77,7 +77,7 @@ instructions.-->
 
 Для соединитетеля SQL Azure необходимо указать только имя сервера или IP-адрес, к который необходимо подключиться. Соедините SQL Azure поддерживает проверку подлинности Azure Active Directory Open ID connect (OIDC) для подключения к базе данных.
 
-Для обеспечения безопасности можно настроить правила брандмауэра IP для SQL или базы данных Azure. Чтобы узнать больше о настройке правил брандмауэра IP, обратитесь к документации по [правилам брандмауэра IP.](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure) Добавьте следующие диапазоны IP-адресов клиента в параметры брандмауэра.
+Для обеспечения безопасности можно настроить правила брандмауэра IP для SQL или базы данных Azure. Чтобы узнать больше о настройке правил брандмауэра IP, обратитесь к документации по [правилам брандмауэра IP.](/azure/azure-sql/database/firewall-configure) Добавьте следующие диапазоны IP-адресов клиента в параметры брандмауэра.
 
 | Region | Диапазон IP |
 | ------------ | ------------ |
@@ -115,17 +115,17 @@ instructions.-->
 
 ### <a name="supported-data-types"></a>Поддерживаемые типы данных
 
-В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL Azure SQL Azure. В таблице также кратко приводится тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединители Microsoft Graph, поддерживаемые типами данных для индексации, переслать документацию по [типам ресурсов свойств.](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties&preserve-view=true)
+В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL Azure SQL Azure. В таблице также кратко приводится тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединители Microsoft Graph, поддерживаемые типами данных для индексации, переслать документацию по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
-| Category | Тип исходных данных | Тип индексации данных |
+| Категория | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
 | дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Точные числимые | bigint <br> int <br> smallint <br> tinyint | int64 |
 | Точные числимые | bit | boolean |
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
-| Строки символов Юникод | nchar <br> nvarchar <br> ntext | string |
-| Другие типы данных | uniqueidentifier | string |
+| Строки символов Юникод | nchar <br> nvarchar <br> ntext | String |
+| Другие типы данных | uniqueidentifier | String |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 
@@ -174,14 +174,14 @@ instructions.-->
 
 ## <a name="step-4-assign-property-labels"></a>Шаг 4. Назначение меток свойств
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
 ## <a name="step-5-manage-schema"></a>Шаг 5. Управление схемой
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
@@ -191,13 +191,13 @@ instructions.-->
 
 ## <a name="step-7-choose-refresh-settings"></a>Шаг 7. Выбор параметров обновления
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
 ## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
 
-Следуйте общим [инструкциям установки](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
