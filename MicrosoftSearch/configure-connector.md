@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор установки соединители Graph корпорацией Майкрософт
-ms.openlocfilehash: 5c674f6b9253af1145be983e5713f65be1c2b022
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 169e78fd4a0148d8bb4e52968b2efd785045806e
+ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031380"
+ms.locfileid: "51042586"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -202,6 +202,6 @@ RETRIEVE | Только свойства, которые можно получи
 
 Чтобы узнать, применяются ли другие ограничения к этому конкретному соединитектору Graph, см. в специальной информации для источника данных.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-После публикации подключения необходимо настроить страницу результатов поиска. Подробнее о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](#next-steps-customize-the-search-results-page)
+После публикации подключения необходимо настроить страницу результатов поиска. Подробнее о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](customize-search-page.md)

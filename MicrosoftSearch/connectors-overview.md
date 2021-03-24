@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители Microsoft Graph для microsoft Search
-ms.openlocfilehash: 2d49471c703b765f6e99324f39dbe730f6dea814
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 77f145f58cf06e49f88af25bcb4d28cfa7d2bd56
+ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031659"
+ms.locfileid: "51042577"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -124,7 +124,7 @@ To create a **connection** to a data source, admins need authenticated access to
 
 ## <a name="how-do-i-customize-search-results"></a>Как настроить результаты поиска?
 
-Следующим шагом является настройка результатов поиска, как рекомендуется в этой статье Как настроить и [настроить результаты поиска?](#how-do-i-customize-and-configure-search-results). Дополнительные информацию о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](./configure-connector.md#next-steps-customize-the-search-results-page)
+Следующим шагом является настройка результатов поиска, как рекомендуется в этой статье Как настроить и [настроить результаты поиска?](#how-do-i-customize-and-configure-search-results). Дополнительные информацию о настройке результатов поиска см. в странице [Настройка страницы результатов поиска.](customize-search-page.md)
 
 ## <a name="what-are-the-connector-limitations"></a>Какие ограничения имеют соединители?
 
