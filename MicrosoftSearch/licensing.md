@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Требования к лицензиям и цены для соединители Microsoft Graph для предварительного просмотра для Microsoft Search
-ms.openlocfilehash: efee543ff864b72e39df228ac2c577d911ff31e4
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 23eed2c107b8b0ee04d772b3d2a77fb5db9c1902
+ms.sourcegitcommit: 62cb7b8c6a311760cc728f2c70a9a22ca76e977e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508781"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408708"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -38,7 +38,7 @@ ms.locfileid: "50508781"
 
 ## <a name="entitlement-built-into-microsoft-365-or-office-365-e5-licenses"></a>Права, встроенные в лицензии Microsoft 365 или Office 365 E5
 
-Тип лицензии Microsoft 365 E5 или Office 365 E5 включает право на 500 элементов квоты индекса, которая рассчитывается в зависимости от квоты организации на прием контента из соединителов Graph.
+Тип лицензии Microsoft 365 E5 или Office 365 E5 включает право на 500 элементов квоты индекса, которая рассчитывается в зависимости от квоты организации на прием контента из соединителов Graph. Обратите внимание, что это не входит в Microsoft 365 A5 или Office 365 A5.
 
 Например, если в вашей организации имеется 100 лицензий Microsoft 365 E5, то в организации имеется 100 x 500 = 50 000 элементов на сумму квоты индекса соединителов Graph.
 
