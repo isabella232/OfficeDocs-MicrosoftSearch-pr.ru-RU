@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: 75dd6193308f52e7bfbb787d8f8dc27def834751
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: c6104383698203fde48d217506da57941efa680f
+ms.sourcegitcommit: 0aca0a5c9152b1b5e8345c91edadfae0b30f57c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031650"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587742"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -116,7 +116,10 @@ ms.locfileid: "51031650"
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>ШАГ 3. Просмотр вертикали после включения
 
-После включить вертикаль может потребоваться некоторое время, прежде чем вы сможете просмотреть его. Если вы не хотите ждать после включения, вы можете применить **cacheClear=true** к URL-адресу [в SharePoint](https://sharepoint.com/) и [Office,](https://office.com) чтобы сразу просмотреть вертикаль. Для [Bing](https://bing.com)приложение **&=uncachedVerticals** в URL-адрес вертикальной работы для немедленного просмотра вертикали.
+После в включить вертикаль, это займет несколько часов, прежде чем вы сможете просмотреть его. Если вы не хотите ждать после включения, вы можете применить **cacheClear=true** к URL-адресу [в SharePoint](https://sharepoint.com/) и [Office,](https://office.com) чтобы сразу просмотреть вертикаль. Для [Bing](https://bing.com)приложение **&=uncachedVerticals** в URL-адрес вертикальной работы для немедленного просмотра вертикали. 
+
+> [!NOTE]
+> Добавленные вертикали не будут видны в [SharePoint](https://sharepoint.com/) и [Office](https://office.com) при просмотре в мобильных веб-браузерах.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
@@ -128,6 +131,6 @@ ms.locfileid: "51031650"
 | Я не вижу макет результатов, хотя создал его. | Это занимает несколько минут, так как эти параметры обычно кэшировали. Подождите несколько минут и попробуйте еще раз.        |
 | Я не вижу источников контента на странице вертикального или типа результатов. | Убедитесь, что вы настроили соединители и проиндексировали данные.   |
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Настройка макета результатов](customize-results-layout.md)
