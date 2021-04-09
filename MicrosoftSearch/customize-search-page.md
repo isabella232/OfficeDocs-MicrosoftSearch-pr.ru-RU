@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: c6104383698203fde48d217506da57941efa680f
-ms.sourcegitcommit: 0aca0a5c9152b1b5e8345c91edadfae0b30f57c8
+ms.openlocfilehash: e5c4ab8d507e0e6096a5b9d52dc0e818faebefb6
+ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587742"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51639856"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -40,6 +40,9 @@ ms.locfileid: "51587742"
 Если вы точно назначит как можно больше семантических меток, этот опыт будет улучшен. Можно добавить семантические метки при определении схемы и прогоне.
 
 [Дополнительные](configure-connector.md#step-5-assign-property-labels) сведения о создании и управлении семантическими метами.
+
+> [!NOTE]
+> Несколько подключений в вертикали в настоящее время находятся в предварительном просмотре. Дополнительные сведения о предварительной версии см. в [дополнительных сведениях о функции предварительного просмотра соединители.](connectors-overview.md#what-are-the-preview-features)
 
 ### <a name="things-you-should-know"></a>Все, что вы должны знать
 
