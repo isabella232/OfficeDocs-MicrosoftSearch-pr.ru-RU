@@ -14,16 +14,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Просмотр отчетов об использовании Microsoft Search
-ms.openlocfilehash: 8e46b1bdc2143dd3f7c53643e3ee89446a18cbbf
-ms.sourcegitcommit: 74356701eac9d5deccd01b142e7e6fb083cd3871
+ms.openlocfilehash: 17645d86e315538305a28bad51ea1a41dcc37dcb
+ms.sourcegitcommit: d62849b00f2b65b493ab54be50c3e7c94430f057
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656783"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754667"
 ---
 # <a name="microsoft-search-usage-reports"></a>Отчеты об использовании поиска Майкрософт
 
 Отчеты об использовании поиска позволяют получить больше понимания того, как работает поиск в организации. Сведения, полученные из этих отчетов, помогут вам удобо найти контент и принять меры, которые сделают поиск более полезным и приятным для пользователей. [](./make-content-easy-to-find.md)
+
+> [!IMPORTANT]
+> Отчеты об использовании microsoft Search в настоящее время находятся в предварительном просмотре
 
 Отчеты об использовании Microsoft [Search](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) включают графики и таблицы, созданные из поисковых запросов, выполненных из дома SharePoint и Office.com полей поиска. Вы можете видеть данные за последние 31 день, день или месяц за предыдущий год. Эти отчеты просто развертываются, поэтому на накопление исторических данных необходимо время.
 
