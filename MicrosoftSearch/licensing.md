@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Требования к лицензиям и цены для соединители Microsoft Graph для предварительного просмотра для Microsoft Search
-ms.openlocfilehash: 23eed2c107b8b0ee04d772b3d2a77fb5db9c1902
-ms.sourcegitcommit: 62cb7b8c6a311760cc728f2c70a9a22ca76e977e
+ms.openlocfilehash: a7236f647e6513508e50519f9c6b1af166a3b2d9
+ms.sourcegitcommit: 2a178850c521189a221879151faa7b3b0aff95d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408708"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51905531"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -38,9 +38,15 @@ ms.locfileid: "51408708"
 
 ## <a name="entitlement-built-into-microsoft-365-or-office-365-e5-licenses"></a>Права, встроенные в лицензии Microsoft 365 или Office 365 E5
 
-Тип лицензии Microsoft 365 E5 или Office 365 E5 включает право на 500 элементов квоты индекса, которая рассчитывается в зависимости от квоты организации на прием контента из соединителов Graph. Обратите внимание, что это не входит в Microsoft 365 A5 или Office 365 A5.
+Следующие лицензии включают право на 500 элементов квоты индекса, которая рассчитывается в соответствии с квотой организации на прием контента из соединителов Graph:
+
+* Microsoft 365 E5 или Office 365 E5
+* [Microsoft Viva Темы](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
 
 Например, если в вашей организации имеется 100 лицензий Microsoft 365 E5, то в организации имеется 100 x 500 = 50 000 элементов на сумму квоты индекса соединителов Graph.
+
+<!---Comment requested in PR#143--->
+Обратите внимание, что Microsoft 365 A5 или Office 365 A5 не включают это право.
 
 ## <a name="purchase-of-add-on-index-quota"></a>Покупка квоты индекса надстройки
 Чтобы приобрести дополнительные квоты соединителов Graph, связывайтесь со своим менеджером учетных записей Майкрософт или выполните следующие действия:
