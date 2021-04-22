@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Списки всех соединители Microsoft Graph для поиска Майкрософт
-ms.openlocfilehash: e3d28aa9db3053fc47b03304e211956e366b6aa9
-ms.sourcegitcommit: 2a178850c521189a221879151faa7b3b0aff95d2
+ms.openlocfilehash: c5eaa19f599598066929b8c45da47a5ac3426928
+ms.sourcegitcommit: 2a24caf029caa97feeabaf7345aebaf28de4b2d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51905612"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51928581"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Галерея соединители Microsoft Graph
 
@@ -1688,7 +1688,7 @@ ba [Insight](https://www.bainsight.com/)
 
 ---
 
-### <a name="notes"></a>Заметки
+### <a name="notes"></a>Примечания
 
 by [Raytion](https://www.raytion.com/)
 
@@ -2198,9 +2198,9 @@ by [Raytion](https://www.raytion.com/)
 
 by [Accenture](https://www.accenture.com/)
 
+Соединители Service Now будут обход контента из ServiceNow.
 
-
-[Дополнительные сведения]()
+[Дополнительные сведения](https://contentanalytics.digital.accenture.com/display/aspire40/ServiceNow+Connector)
 
    :::column-end:::
 
@@ -2220,9 +2220,9 @@ by [Accenture](https://www.accenture.com/)
 
 ba [Insight](https://www.bainsight.com/)
 
+ Соединитель ServiceNow обеспечивает безопасность исходных систем и обеспечивает полный и дополнительный обход, поэтому у пользователей всегда есть последняя доступная для них информация.
 
-
-[Дополнительные сведения]()
+[Дополнительные сведения](https://www.bainsight.com/connectors/servicenow-connector-sharepoint-azure-elasticsearch)
 
 :::column-end:::
 :::column span="":::
