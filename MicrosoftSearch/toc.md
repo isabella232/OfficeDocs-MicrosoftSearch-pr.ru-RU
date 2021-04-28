@@ -16,7 +16,7 @@
 ## [Коллекция соединителей](connectors-gallery.md)
 ## Настройка соединителей от Майкрософт
 ### [Обзор процесса настройки](configure-connector.md)
-### [Настройка агента соединителя Graph (предварительная версия)](on-prem-agent.md)
+### [Настройка агента соединителя Graph](on-prem-agent.md)
 ### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
 ### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
 ### Сведения о соединителях
@@ -26,7 +26,7 @@
 #### [Корпоративные веб-сайты](enterprise-web-connector.md)
 #### [Файловый ресурс](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
-#### [Oracle SQL (предварительная версия)](OracleSQL-connector.md)
+#### [Oracle SQL](OracleSQL-connector.md)
 #### [Salesforce (предварительная версия)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## Управление подключениями
