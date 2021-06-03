@@ -1,5 +1,5 @@
 ---
-title: Соединители SQL Azure и Microsoft SQL Graph для Microsoft Search
+title: Соединители SQL Azure SQL Microsoft Graph для Microsoft Search
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,31 +12,31 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Настройка соединиттеля Azure SQL Microsoft SQL Graph для Microsoft Search.
-ms.openlocfilehash: 81951dab058a14d687f81f7611ee624b079f0822
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Настройка соединитетеля Azure SQL Microsoft SQL Graph microsoft Search.
+ms.openlocfilehash: 29474c731c489c9e9b75f2456d25e4ff43aae4eb
+ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031407"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52720982"
 ---
 <!---Previous ms.author: vivg --->
 
-# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Соединители SQL Azure и Microsoft SQL Graph
+# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Соединители SQL Azure SQL Microsoft Graph серверов
 
-Соединители SQL Microsoft или Azure SQL Graph позволяют организации обнаруживть и индексировать данные из локальной SQL Server базы данных или базы данных, которая SQL экземпляре Azure в облаке.
-Индексы соединиттеля Graph заданы контентом в Microsoft Search. Чтобы поддерживать индекс в курсе исходных данных, он поддерживает периодические полные и дополнительные обходы. С помощью SQL соединители можно также ограничить доступ к результатам поиска для определенных пользователей.
+Соединители microsoft SQL или Azure SQL Graph позволяют организации обнаруживть и индексировать данные из локальной SQL Server базы данных или базы данных, которая содержится в экземпляре Azure SQL в облаке.
+Индексы соедините Graph указанного контента в Microsoft Search. Чтобы поддерживать индекс в курсе исходных данных, он поддерживает периодические полные и дополнительные обходы. С помощью SQL соединители можно также ограничить доступ к результатам поиска для определенных пользователей.
 
 > [!NOTE]
-> Ознакомьтесь [**со статьей Настройка соединиттеля Graph,**](configure-connector.md) чтобы понять общие инструкции по настройке соединитений Graph.
+> Ознакомьтесь [**с статьей Настройка Graph соединители,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
 
-Эта статья для всех, кто настраивает, запускает и отслеживает соединители Azure SQL Microsoft SQL Graph. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединители Azure SQL и Microsoft SQL Graph. В этой статье также [](#limitations) содержатся сведения об ограничениях для сервера Microsoft SQL и соединители Azure SQL.
+Эта статья для всех, кто настраивает, запускает и отслеживает SQL Azure и SQL сервер Graph соединители. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединители SQL Azure SQL microsoft Graph. В этой статье также [](#limitations) содержатся сведения об ограничениях для сервера Microsoft SQL и соединители Azure SQL.
 
 ## <a name="before-you-get-started"></a>Перед началом работы
 
-### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Установка агента соединителя Graph (требуется только для локального соединителя SQL microsoft)
+### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Установите агент Graph соединителя (требуется только для локального соединителя SQL microsoft)
 
-Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент соединителя Graph. Дополнительные дополнительные данные см. в [дополнительных подробной](on-prem-agent.md) информации об установке агента соединителя Graph.  
+Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент Graph соединителя. Дополнительные [Graph](on-prem-agent.md) см. в Graph агенте соединителя.  
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
 
@@ -52,13 +52,13 @@ instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
 
-### <a name="register-an-app-for-azure-sql-connector-only"></a>Регистрация приложения (только SQL Azure)
+### <a name="register-an-app-for-azure-sql-connector-only"></a>Регистрация приложения (только для SQL Azure)
 
-Для соедините SQL Azure необходимо зарегистрировать приложение в Azure Active Directory, чтобы позволить приложению Microsoft Search получать доступ к данным для индексации. Чтобы узнать больше о регистрации приложения, обратитесь к документации Microsoft Graph о том, как [зарегистрировать приложение.](/graph/auth-register-app-v2)
+Для соедините SQL Azure необходимо зарегистрировать приложение в Azure Active Directory, чтобы позволить приложению Microsoft Search получать доступ к данным для индексации. Чтобы узнать больше о регистрации приложения, Graph документацию microsoft Graph о [регистрации приложения.](/graph/auth-register-app-v2)
 
 После завершения регистрации приложения и с учетом имени приложения, имени приложения (клиента) и ИД клиента необходимо создать [новый секрет клиента.](/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret) Секрет клиента будет отображаться только один раз. Помните, & хранить секрет клиента надежно. Используйте ID клиента и секрет клиента при настройке нового подключения в Microsoft Search.
 
-Чтобы добавить зарегистрированное приложение в базу данных Azure SQL, необходимо:
+Чтобы добавить зарегистрированные приложения в База данных SQL Azure, необходимо:
 
 - Войдите в DB SQL Azure
 - Откройте новое окно запроса
@@ -66,20 +66,20 @@ instructions.-->
 - Добавление пользователя в роль, запуская команду "exec sp_addrolemember db_datareader", [имя приложения]" или "ALTER ROLE db_datareader ADD MEMBER [имя приложения]"
 
 >[!NOTE]
->Чтобы отослать доступ к любому приложению, зарегистрированным в Azure Active Directory, перенапослать документацию Azure об удалении [зарегистрированного приложения.](/azure/active-directory/develop/quickstart-remove-app)
+>Чтобы отослать доступ к любому приложению, зарегистрированным в Azure Active Directory, обратитесь к документации Azure об удалении [зарегистрированного приложения.](/azure/active-directory/develop/quickstart-remove-app)
 
 ### <a name="connection-settings"></a>Параметры подключения
 
-Чтобы подключить соединители SQL Microsoft к источнику данных, необходимо настроить сервер базы данных, который необходимо пройти, и агент на преме. Затем вы можете подключиться к базе данных с помощью требуемого метода проверки подлинности.
+Чтобы подключить соединители SQL Microsoft к источнику данных, необходимо настроить сервер базы данных, который необходимо пройти, и агент по предварительной записи. Затем вы можете подключиться к базе данных с помощью требуемого метода проверки подлинности.
 
 > [!NOTE] 
 > Ваша база данных должна работать SQL версии 2008 или более поздней версии для подключения SQL microsoft SQL сервера.
 
-Для соединитетеля SQL Azure необходимо указать только имя сервера или IP-адрес, к который необходимо подключиться. Соедините SQL Azure поддерживает проверку подлинности Azure Active Directory Open ID connect (OIDC) для подключения к базе данных.
+Для соединители SQL Azure необходимо указать только имя сервера или IP-адрес, к который необходимо подключиться. Соедините SQL Azure поддерживает проверку подлинности Azure Active Directory подключения open ID (OIDC) для подключения к базе данных.
 
 Для обеспечения безопасности можно настроить правила брандмауэра IP для SQL или базы данных Azure. Чтобы узнать больше о настройке правил брандмауэра IP, обратитесь к документации по [правилам брандмауэра IP.](/azure/azure-sql/database/firewall-configure) Добавьте следующие диапазоны IP-адресов клиента в параметры брандмауэра.
 
-| Region | Диапазон IP |
+| Регион | Диапазон IP |
 | ------------ | ------------ |
 | NAM | 52.250.92.252/30, 52.224.250.216/30 |
 | EUR | 20.54.41.208/30, 51.105.159.88/30 |
@@ -115,7 +115,7 @@ instructions.-->
 
 ### <a name="supported-data-types"></a>Поддерживаемые типы данных
 
-В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL Azure SQL Azure. В таблице также кратко приводится тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединители Microsoft Graph, поддерживаемые типами данных для индексации, переслать документацию по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
+В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL и Azure SQL. В таблице также обобщает тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединителах Microsoft Graph поддерживаемых типах данных для индексации, обратитесь к документации по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
 | Категория | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
@@ -124,8 +124,8 @@ instructions.-->
 | Точные числимые | bit | boolean |
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
-| Строки символов Юникод | nchar <br> nvarchar <br> ntext | String |
-| Другие типы данных | uniqueidentifier | String |
+| Строки символов Юникод | nchar <br> nvarchar <br> ntext | Строка |
+| Другие типы данных | uniqueidentifier | Строка |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 
@@ -159,7 +159,7 @@ instructions.-->
 Следующие типы ID поддерживаются для использования в качестве acLs:
 
 - **Имя основного пользователя (UPN).** Имя пользователя —имя пользователя в формате адресов электронной почты. UpN (например: john.doe@domain.com) состоит из имени пользователя (имя логотипа), сепаратора (символ @) и доменного имени (суффикс UPN).
-- **Azure Active Directory (AAD) ID.** В Azure AD каждый пользователь или группа имеет объектный ИД, который выглядит как 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'.
+- **Azure Active Directory (AAD)** ID. В Azure AD каждый пользователь или группа имеет объектный ИД, который выглядит как 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'.
 - Идентификатор безопасности **Active Directory (AD).** В локальной установке AD каждый пользователь и группа имеют уникальный идентификатор безопасности, похожий на S-1-1-5-21-3878594291-2115959936-132693609-65242.'
 
 ![Параметры разрешений поиска для настройки списков управления доступом](media/MSSQL-ACL2.png)
@@ -207,15 +207,19 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md).-->
 
-<!---## Troubleshooting-->
+## <a name="troubleshooting"></a>Устранение неполадок
 
-<!---Insert troubleshooting recommendations for this data source-->
+Ниже приводится распространенная ошибка, наблюдаемая при настройке соединитетеля, и его возможная причина.
+
+| Шаг конфигурации | Сообщение об ошибке | Возможная причина(ы) |
+| ------------ | ------------ | ------------ |
+| Полный обход | `Error from database server: A transport level error has occurred when receiving results from the server.` | Эта ошибка возникает из-за проблем с сетью. Рекомендуется проверить сетевые журналы с помощью [сетевого монитора Microsoft](https://www.microsoft.com/download/details.aspx?id=4865) и связаться с службой поддержки клиентов Майкрософт. |
 
 ## <a name="limitations"></a>Ограничения
 
 Соединители SQL имеют эти ограничения в выпуске предварительного просмотра:
 
 - Соедините SQL Microsoft: локальной базе данных необходимо запустить SQL версии сервера 2008 или более поздней версии.
-- Подписка на M365 и подписка Azure (SQL база данных Azure) должны лежать в том же Azure Active Directory.
-- AcLs поддерживаются только с помощью основного имени пользователя (UPN), Azure Active Directory (Azure AD) или active Directory Security.
+- Подписка на M365 и подписка Azure (размещение базы данных Azure SQL) должны быть в одном Azure Active Directory.
+- AcLs поддерживаются только с помощью основного имени пользователя (UPN), Azure Active Directory (Azure AD) или Active Directory Security.
 - Индексация богатого контента внутри столбцов баз данных не поддерживается. Примерами такого контента являются HTML, JSON, XML, blobs и размыва документов, которые существуют в качестве ссылок внутри столбцов базы данных.
