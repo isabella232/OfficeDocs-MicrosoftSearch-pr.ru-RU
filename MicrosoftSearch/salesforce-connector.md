@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля salesforce Graph Microsoft Search
-ms.openlocfilehash: d4d19c05f82ddb28c4dc3e6719bf8ea8d7284cc3
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+ms.openlocfilehash: 7d73454fb909db24514c969f34158e3f2be5e34c
+ms.sourcegitcommit: 6cffa2d29448be9a22514e7b4c3009c522af0860
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720991"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52774092"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -131,7 +131,7 @@ ms.locfileid: "52720991"
 
 В этом видео вы можете увидеть процесс проверки подлинности в экземпляре Salesforce, синхронизировать свои удостоверения Azure Active Directory с удостоверениями Azure Active Directory и применить соответствующие обрезки безопасности для элементов Salesforce.
 
-> [!VIDEO https://www.youtube.com/watch?v=SZYiFxZMKcM]
+> [!VIDEO https://www.youtube-nocookie.com/embed/SZYiFxZMKcM]
 
 ## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
 
