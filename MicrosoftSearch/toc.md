@@ -11,29 +11,32 @@
 ## [Расположения](manage-locations.md)
 ## [Power BI](manage-powerbi.md)
 ## [Вопросы и ответы](manage-qas.md)
-# Соединители
-## [Обзор](connectors-overview.md)
-## [Коллекция соединителей](connectors-gallery.md)
-## Настройка соединителей от Майкрософт
-### [Обзор процесса настройки](configure-connector.md)
-### [Настройка агента соединителя Graph](on-prem-agent.md)
-### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
-### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
-### Сведения о соединителях
-#### [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
-#### [Azure DevOps (предварительная версия)](azure-devops-connector.md)
-#### [Azure SQL и Microsoft SQL Server](MSSQL-connector.md)
-#### [Корпоративные веб-сайты](enterprise-web-connector.md)
-#### [Файловый ресурс](fileshare-connector.md)
-#### [MediaWiki](mediawiki-connector.md)
-#### [Oracle SQL](OracleSQL-connector.md)
-#### [Salesforce (предварительная версия)](salesforce-connector.md)
-#### [ServiceNow](servicenow-connector.md)
-## Управление подключениями
-### [Мониторинг подключений](manage-connector.md)
-### [Просмотр сведений о подключении и ошибок](connector-details-errors.md)
-## [Лицензирование](licensing.md)
-## [Условия использования](terms-of-use.md)
+# Источники данных
+## Соединители Graph
+### [Обзор](connectors-overview.md)
+### [Коллекция соединителей](connectors-gallery.md)
+### Настройка соединителей от Майкрософт
+#### [Обзор процесса настройки](configure-connector.md)
+#### [Настройка агента соединителя Graph](on-prem-agent.md)
+#### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
+#### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
+#### Сведения о соединителях
+##### [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
+##### [Azure DevOps (предварительная версия)](azure-devops-connector.md)
+##### [Azure SQL и Microsoft SQL Server](MSSQL-connector.md)
+##### [Корпоративные веб-сайты](enterprise-web-connector.md)
+##### [Файловый ресурс](fileshare-connector.md)
+##### [MediaWiki](mediawiki-connector.md)
+##### [Oracle SQL](OracleSQL-connector.md)
+##### [Salesforce (предварительная версия)](salesforce-connector.md)
+##### [ServiceNow](servicenow-connector.md)
+### Управление подключениями
+#### [Мониторинг подключений](manage-connector.md)
+#### [Просмотр сведений о подключении и ошибок](connector-details-errors.md)
+### [Лицензирование](licensing.md)
+### [Условия использования](terms-of-use.md)
+## Соединители федерации
+### [Dynamics 365](manage-dynamics365.md)
 # Настройка
 ## [Управление вертикалями и типами результатов](customize-search-page.md)
 ## [Управление макетами результатов поиска](customize-results-layout.md)
