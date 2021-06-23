@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: mssearch
 localization_priority: Normal
 description: Управление тем, как контент Dynamics 365 отображается в результатах поиска
-ms.openlocfilehash: 8818d2e6a412feb167c67f465f485b23e868a12a
-ms.sourcegitcommit: be989950a7b63281c2348cfd9e6cc13e79b7c067
+ms.openlocfilehash: 5f642bcb026358e57258e5e736fc263616fc4b05
+ms.sourcegitcommit: f07a2e578b6c9ed5a1a3b22266cca371782870a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53021857"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53067935"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Динамический поиск федерации 365 (предварительный просмотр)
 
@@ -51,7 +51,9 @@ Microsoft Dynamics 365 — это линейка интеллектуальны�
 
 :::image type="content" alt-text="Снимок экрана страницы подробно в Dynamics 365" source="media/dynamics365/dynamics365-detail-page.png" lightbox="media/dynamics365/dynamics365-detail-page.png":::
 
-Независимо от того, где пользователи начинают поиск, их опыт будет последовательным и позволит им быстро найти наиболее релевантные результаты Dynamics 365. Ознакомьтесь с [видеороликом Microsoft Build 2021](https://youtu.be/TH9QUkQoEJM) для демонстрации.
+Независимо от того, где пользователи начинают поиск, их опыт будет последовательным и позволит им быстро найти наиболее релевантные результаты Dynamics 365. Ознакомьтесь с видеороликом Microsoft Build 2021 для демонстрации.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4P83t]
 
 ## <a name="supported-query-patterns"></a>Поддерживаемые шаблоны запросов
 
