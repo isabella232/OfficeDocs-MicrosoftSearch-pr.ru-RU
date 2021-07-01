@@ -1,5 +1,5 @@
 ---
-title: Соединители Graph salesforce для поиска в Microsoft Search
+title: Соедините Graph salesforce для Поиск (Майкрософт)
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,19 +12,19 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Настройка соединитетеля salesforce Graph Microsoft Search
-ms.openlocfilehash: 7d73454fb909db24514c969f34158e3f2be5e34c
-ms.sourcegitcommit: 6cffa2d29448be9a22514e7b4c3009c522af0860
+description: Настройка соединитетеля salesforce Graph для Поиск (Майкрософт)
+ms.openlocfilehash: 4bef771538934722deaa5deac3959f21246e4529
+ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52774092"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230937"
 ---
 <!---Previous ms.author: rusamai --->
 
 # <a name="salesforce-graph-connector-preview"></a>Соединители Graph Salesforce (предварительный просмотр)
 
-Соединитетельный Graph Salesforce позволяет организации индексировать объекты Contacts, Opportunities, Leads и Accounts в экземпляре Salesforce. После настройки соединители и индекса контента из Salesforce конечные пользователи могут искать эти элементы из любого клиента Microsoft Search.
+Соединитетельный Graph Salesforce позволяет организации индексировать объекты Contacts, Opportunities, Leads и Accounts в экземпляре Salesforce. После настройки соединители и индекса контента из Salesforce конечные пользователи могут искать эти элементы из любого Поиск (Майкрософт) клиента.
 
 > [!NOTE]
 > Ознакомьтесь [**с статьей Установка Graph,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
@@ -77,9 +77,9 @@ ms.locfileid: "52774092"
   > [!div class="mx-imgBorder"]
   > ![Выберите политику маркера обновления с именем "Маркер обновления действителен до отзыва"](media/salesforce-connector/oauthpolicies.png)
 
-Теперь вы можете использовать [центр администрирования M365](https://admin.microsoft.com/) для завершения остальной части процесса установки Graph соединители.
+Теперь вы можете использовать [центр Microsoft 365 Admin](https://admin.microsoft.com/) для завершения остальной части процесса установки Graph соединители.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центр администрирования Microsoft 365
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -150,7 +150,7 @@ ms.locfileid: "52774092"
 Соединители Salesforce поддерживает только расписание обновления для полного обхода в настоящее время.
 
 >[!IMPORTANT]
->Полный обход находит удаленные объекты и пользователей, которые ранее синхронизировались с индексом Microsoft Search.
+>Полный обход находит удаленные объекты и пользователей, которые ранее синхронизировались с индексом Поиск (Майкрософт).
 
 Рекомендуемое расписание — одна неделя для полного обхода.
 
@@ -178,7 +178,7 @@ ms.locfileid: "52774092"
     - Тип
     - Название
     - AccountId
-    - Имя учетной записи
+    - AccountName
     - AccountUrl
     - AccountOwner
     - AccountOwnerUrl

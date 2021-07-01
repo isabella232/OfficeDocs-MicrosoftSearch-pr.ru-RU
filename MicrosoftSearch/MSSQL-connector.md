@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: 1cc28561d7572c3a554f1cf93b582b4787414f48
-ms.sourcegitcommit: a8867bbdfa8c5fd3debde8e6b2bba4f79768e3f6
+ms.openlocfilehash: 0f8501e36754235b43846b80d60d4b0156a504b9
+ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52955621"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230919"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -30,7 +30,7 @@ ms.locfileid: "52955621"
 > [!NOTE]
 > Ознакомьтесь [**с статьей Настройка Graph соединители,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
 
-Эта статья для всех, кто настраивает, запускает и отслеживает соединители Azure SQL Microsoft SQL Server Graph. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединители SQL и Microsoft SQL Server Graph Azure. В этой статье также [](#limitations) содержатся сведения об ограничениях для соединители Microsoft SQL Server и Azure SQL.
+Эта статья для всех, кто настраивает, запускает и отслеживает SQL Azure SQL сервер Graph соединители. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединители SQL Azure SQL microsoft Graph. В этой статье также [](#limitations) содержатся сведения об ограничениях для сервера Microsoft SQL и соединители Azure SQL.
 
 ## <a name="before-you-get-started"></a>Перед началом работы
 
@@ -220,6 +220,7 @@ To learn more about how to create your verticals and MRTs, see [Search results p
 Соединители SQL имеют эти ограничения в выпуске предварительного просмотра:
 
 - Microsoft SQL Server: локальной базе данных необходимо запустить SQL Server версии 2008 или более поздней версии.
+
 - Подписка Microsoft 365 Azure (база данных Azure SQL) должна лежать в одном Azure Active Directory.
 - AcLs поддерживаются только с помощью основного имени пользователя (UPN), Azure Active Directory (Azure AD) или Active Directory Security.
 - Индексация богатого контента внутри столбцов баз данных не поддерживается. Примерами такого контента являются HTML, JSON, XML, blobs и размыва документов, которые существуют в качестве ссылок внутри столбцов базы данных.
