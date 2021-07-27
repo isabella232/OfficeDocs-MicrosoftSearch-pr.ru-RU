@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: 0f8501e36754235b43846b80d60d4b0156a504b9
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
+ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230919"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590264"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,10 @@ ms.locfileid: "53230919"
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Установка Graph соединителя (требуется только для локального Microsoft SQL Server соединителя)
 
-Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент Graph соединителя. Дополнительные [Graph](on-prem-agent.md) см. в Graph агенте соединителя.  
+Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент Graph соединителя. Дополнительные [Graph](on-prem-agent.md) см. в Graph агенте соединителя.
+
+>[!NOTE]
+>Если вы Windows проверку подлинности при настройке соединителя Microsoft SQL Server Graph, пользователю, с которым вы пытаетесь войти, необходимо иметь права на интерактивный логотип на компьютер, на котором установлен агент Graph соединителя. Перенаправление документации по [управлению политиками logon](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) для проверки прав на логотип.
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центр администрирования Microsoft 365
 
@@ -121,11 +124,11 @@ instructions.-->
 | ------------ | ------------ | ------------ |
 | дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Точные числимые | bigint <br> int <br> smallint <br> tinyint | int64 |
-| Точные числимые | bit | boolean |
+| Точные числимые | bit | логический |
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
-| Строки символов Юникод | nchar <br> nvarchar <br> ntext | string |
-| Другие типы данных | uniqueidentifier | string |
+| Строки символов Юникод | nchar <br> nvarchar <br> ntext | строка |
+| Другие типы данных | uniqueidentifier | строка |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 
@@ -220,7 +223,6 @@ To learn more about how to create your verticals and MRTs, see [Search results p
 Соединители SQL имеют эти ограничения в выпуске предварительного просмотра:
 
 - Microsoft SQL Server: локальной базе данных необходимо запустить SQL Server версии 2008 или более поздней версии.
-
 - Подписка Microsoft 365 Azure (база данных Azure SQL) должна лежать в одном Azure Active Directory.
 - AcLs поддерживаются только с помощью основного имени пользователя (UPN), Azure Active Directory (Azure AD) или Active Directory Security.
 - Индексация богатого контента внутри столбцов баз данных не поддерживается. Примерами такого контента являются HTML, JSON, XML, blobs и размыва документов, которые существуют в качестве ссылок внутри столбцов базы данных.

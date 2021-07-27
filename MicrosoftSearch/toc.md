@@ -18,8 +18,8 @@
 ### Настройка соединителей от Майкрософт
 #### [Обзор процесса настройки](configure-connector.md)
 #### [Настройка агента соединителя Graph](on-prem-agent.md)
-#### [Сопоставление удостоверений, которыми не управляет Azure AD (предварительная версия)](map-non-aad.md)
-#### [Сопоставление удостоверений Azure AD (предварительная версия)](map-aad.md)
+#### [Сопоставление удостоверений, которыми не управляет Azure AD](map-non-aad.md)
+#### [Сопоставление удостоверений Azure AD](map-aad.md)
 #### Сведения о соединителях
 ##### [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
 ##### [Azure DevOps (предварительная версия)](azure-devops-connector.md)
@@ -28,7 +28,7 @@
 ##### [Файловый ресурс](fileshare-connector.md)
 ##### [MediaWiki](mediawiki-connector.md)
 ##### [Oracle SQL](OracleSQL-connector.md)
-##### [Salesforce (предварительная версия)](salesforce-connector.md)
+##### [Salesforce](salesforce-connector.md)
 ##### [ServiceNow](servicenow-connector.md)
 ### Управление подключениями
 #### [Мониторинг подключений](manage-connector.md)

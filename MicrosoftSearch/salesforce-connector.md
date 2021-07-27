@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля salesforce Graph для Поиск (Майкрософт)
-ms.openlocfilehash: 4bef771538934722deaa5deac3959f21246e4529
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: b0b3ba0e41c0e28cac15f4fed491ac8507aa0e59
+ms.sourcegitcommit: 8270e4271b1eeb57b988ea5265e5b6d9d6ef64a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230937"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529383"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="salesforce-graph-connector-preview"></a>Соединители Graph Salesforce (предварительный просмотр)
+# <a name="salesforce-graph-connector"></a>Соединители Graph Salesforce
 
-Соединитетельный Graph Salesforce позволяет организации индексировать объекты Contacts, Opportunities, Leads и Accounts в экземпляре Salesforce. После настройки соединители и индекса контента из Salesforce конечные пользователи могут искать эти элементы из любого Поиск (Майкрософт) клиента.
+Соединитетельный Graph Salesforce позволяет организации индексировать объекты Contacts, Opportunities, Leads, Cases и Accounts в экземпляре Salesforce. После настройки соединители и индекса контента из Salesforce конечные пользователи могут искать эти элементы из любого Поиск (Майкрософт) клиента.
 
 > [!NOTE]
 > Ознакомьтесь [**с статьей Установка Graph,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
@@ -105,13 +105,20 @@ ms.locfileid: "53230937"
 Убедитесь, что подключение было успешным путем поиска зеленого баннера с надписью "Подключение успешно", как покажите на скриншоте ниже.
 
   > [!div class="mx-imgBorder"]
-  > ![Снимок экрана успешного входа. Зеленый баннер с надписью "Подключение успешно" расположен в поле для URL-адреса экземпляра Salesforce](media/salesforce-connector/sf5.png)
+  > ![Снимок экрана успешного входа. Зеленый баннер с надписью "Подключение успешно" расположен в поле для URL-адреса экземпляра Salesforce](media/salesforce-connector/salesforce-connector-connection-settings.png)
 
-## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями на поиск
+## <a name="step-4-select-properties"></a>Шаг 4. Выбор свойств
+
+Выберите объекты Salesforce, которые необходимо обходить соединителе и включить в результаты поиска. Если выбран контакт, автоматически будет выбрана учетная запись.
+
+>[!NOTE]
+>Если для профиля установлено полевой уровень безопасности (FLS), соединителер не будет гнать это поле для профилей в этой организации Salesforce. В результате пользователи не смогут искать значения для этих полей и не будут показываться в результатах.
+
+## <a name="step-5-manage-search-permissions"></a>Шаг 5. Управление разрешениями на поиск
 
 Необходимо выбрать, какие пользователи будут видеть результаты поиска из этого источника данных. Если вы разрешаете видеть результаты поиска только определенным пользователям Azure Active Directory (Azure AD) или Non-Azure AD, убедитесь, что вы на карте удостоверений.
 
-### <a name="step-4a-select-permissions"></a>Шаг 4.a. Выбор разрешений
+### <a name="step-5a-select-permissions"></a>Шаг 5.a. Выбор разрешений
 
 Вы можете выбрать для получения списков управления доступом (ACLs) из экземпляра Salesforce или разрешить всем в вашей организации видеть результаты поиска из этого источника данных. AcLs могут включать Azure Active Directory (AAD) удостоверений (пользователей, которые являются федеративами от Azure AD до Salesforce), удостоверений нелазурной AD (местных пользователей Salesforce, которые имеют соответствующие удостоверения в Azure AD) или обоих.
 
@@ -123,7 +130,7 @@ ms.locfileid: "53230937"
 
 Если вы решили гнать ACL из экземпляра Salesforce и выбрали "non-AAD" для типа удостоверений, см. в примере Map [your non-Azure AD Identitys](map-non-aad.md) для инструкций по сопоставлению удостоверений.
 
-### <a name="step-4b-map-aad-identities"></a>Шаг 4.b. Идентификаторы AAD
+### <a name="step-5b-map-aad-identities"></a>Шаг 5.b. Идентификаторы map AAD
 
 Если вы решили гнать ACL из экземпляра Salesforce и выбрали AAD для типа удостоверений, см. в примере Map [your Azure AD Identitys](map-aad.md) для инструкций по сопоставлению удостоверений. Подробнее о том, как настроить SSO Azure AD для Salesforce, см. в этом [руководстве.](/azure/active-directory/saas-apps/salesforce-tutorial)
 
@@ -133,11 +140,11 @@ ms.locfileid: "53230937"
 
 > [!VIDEO https://www.youtube-nocookie.com/embed/SZYiFxZMKcM]
 
-## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
+## <a name="step-6-assign-property-labels"></a>Шаг 6. Назначение меток свойств
 
 Вы можете назначить свойству источника для каждой метки, выбрав из меню параметры. Хотя этот шаг не является обязательным, наличие некоторых меток свойств повысит релевантность поиска и обеспечит лучшие результаты поиска для конечных пользователей. По умолчанию некоторые метки, такие как "Title", "URL", "CreatedBy" и "LastModifiedBy", уже назначены исходные свойства.
 
-## <a name="step-6-manage-schema"></a>Шаг 6. Управление схемой
+## <a name="step-7-manage-schema"></a>Шаг 7. Управление схемой
 
 Можно выбрать, какие исходные свойства следует проиндексировать, чтобы они были в результатах поиска. Мастер подключения по умолчанию выбирает схему поиска на основе набора исходных свойств. Вы можете изменить его, выбрав флажки для каждого свойства и атрибута на странице схемы поиска. Атрибуты схемы поиска включают поиск, запрос, извлечение и уточнение.
 Уточнение позволяет определить свойства, которые впоследствии можно использовать в качестве настраиваемой переработчики или фильтры в опытом поиска.  
@@ -145,7 +152,7 @@ ms.locfileid: "53230937"
 > [!div class="mx-imgBorder"]
 > ![Выберите схему для каждого свойства источника. Параметры: Запрос, Поиск, Извлечение и Уточнение](media/salesforce-connector/sf9.png)
 
-## <a name="step-7-set-the-refresh-schedule"></a>Шаг 7. Настройка расписания обновления
+## <a name="step-8-set-the-refresh-schedule"></a>Шаг 8. Установите расписание обновления
 
 Соединители Salesforce поддерживает только расписание обновления для полного обхода в настоящее время.
 
@@ -154,9 +161,15 @@ ms.locfileid: "53230937"
 
 Рекомендуемое расписание — одна неделя для полного обхода.
 
-## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
+## <a name="step-9-review-connection"></a>Шаг 9. Просмотр подключения
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
+
+>[!TIP]
+>**Тип результата по умолчанию**
+>* Соединителю Salesforce автоматически регистрируется тип [результатов](./customize-search-page.md#step-2-create-the-result-types) после публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3.
+>* Вы можете управлять типом результатов, переходя на типы [**результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) в [Центр администрирования Microsoft 365.](https://admin.microsoft.com) Тип результатов по умолчанию будет называться `ConnectionId` "По умолчанию". Например, если у вас есть id подключения, макет результатов будет `Salesforce` назван: "SalesforceDefault"
+>* Кроме того, при необходимости можно создать собственный тип результатов.
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
@@ -176,7 +189,7 @@ ms.locfileid: "53230937"
     - MobilePhone
     - Электронная почта
     - Тип
-    - Название
+    - Title
     - AccountId
     - AccountName
     - AccountUrl
