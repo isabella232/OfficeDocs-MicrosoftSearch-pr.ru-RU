@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
-ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
+ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590264"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533512"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,7 @@ ms.locfileid: "53590264"
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Установка Graph соединителя (требуется только для локального Microsoft SQL Server соединителя)
 
-Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент Graph соединителя. Дополнительные [Graph](on-prem-agent.md) см. в Graph агенте соединителя.
+Чтобы получить доступ к локальной сторонней информации, необходимо установить и настроить агент Graph соединителя. Дополнительные [Graph](graph-connector-agent.md) см. в Graph агенте соединителя.
 
 >[!NOTE]
 >Если вы Windows проверку подлинности при настройке соединителя Microsoft SQL Server Graph, пользователю, с которым вы пытаетесь войти, необходимо иметь права на интерактивный логотип на компьютер, на котором установлен агент Graph соединителя. Перенаправление документации по [управлению политиками logon](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) для проверки прав на логотип.
@@ -82,7 +82,7 @@ instructions.-->
 
 Для обеспечения безопасности можно настроить правила брандмауэра IP для вашей SQL Server или базы данных. Чтобы узнать больше о настройке правил брандмауэра IP, обратитесь к документации по [правилам брандмауэра IP.](/azure/azure-sql/database/firewall-configure) Добавьте следующие диапазоны IP-адресов клиента в параметры брандмауэра.
 
-| Регион | Диапазон IP |
+| Region | Диапазон IP |
 | ------------ | ------------ |
 | NAM | 52.250.92.252/30, 52.224.250.216/30 |
 | EUR | 20.54.41.208/30, 51.105.159.88/30 |
@@ -127,8 +127,8 @@ instructions.-->
 | Точные числимые | bit | логический |
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
-| Строки символов Юникод | nchar <br> nvarchar <br> ntext | строка |
-| Другие типы данных | uniqueidentifier | строка |
+| Строки символов Юникод | nchar <br> nvarchar <br> ntext | string |
+| Другие типы данных | uniqueidentifier | string |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 

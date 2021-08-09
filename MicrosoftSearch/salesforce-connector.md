@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля salesforce Graph для Поиск (Майкрософт)
-ms.openlocfilehash: b0b3ba0e41c0e28cac15f4fed491ac8507aa0e59
-ms.sourcegitcommit: 8270e4271b1eeb57b988ea5265e5b6d9d6ef64a6
+ms.openlocfilehash: f63dacd4e1c7da7d8eac53bc04bcbd108182df132c2e1fa61bdc2ffd0a549d2b
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53529383"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532725"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -181,7 +181,7 @@ ms.locfileid: "53529383"
 - Существует известная ошибка в API Salesforce, Graph соединительщика, где частные значения по умолчанию для лид-клиентов в настоящее время не чтются.  
 - Если для профиля установлено полевой уровень безопасности (FLS), соединителер Graph не будет гнать это поле для профилей в этой организации Salesforce. В результате пользователи не смогут искать значения для этих полей и не будут показываться в результатах.  
 - В экране Управление схемой эти общие стандартные имена свойств перечислены один раз, параметры **запроса,** **поиска,** получения и уточнения **и** применяются к всем или нет.
-    - Имя
+    - Name
     - Url
     - Описание
     - Fax
@@ -189,7 +189,7 @@ ms.locfileid: "53529383"
     - MobilePhone
     - Электронная почта
     - Тип
-    - Title
+    - Название
     - AccountId
     - AccountName
     - AccountUrl

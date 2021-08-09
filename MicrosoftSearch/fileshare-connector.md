@@ -1,5 +1,5 @@
 ---
-title: Соединители графа файлов для поиска в Microsoft Search
+title: Соедините Graph для Поиск (Майкрософт)
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -13,28 +13,28 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Настройка соединитетеля графа файлов для поиска в Microsoft Search
-ms.openlocfilehash: 792e853e5d2b7a23835dc031ff4ba4c09d619f9c
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Настройка соединитетеля Graph файла для Поиск (Майкрософт)
+ms.openlocfilehash: af4c3996fdc8ac753404f4b4519175a9054fa18bce3862b0c5841c7bd5369cdd
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031614"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533030"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="file-share-graph-connector"></a>Соединители graph share file
+# <a name="file-share-graph-connector"></a>Соедините Graph файла
 
-Соединитектор File Share Graph позволяет пользователям в организации искать локальное файлообмявательное окно.
+Соединители Graph файла позволяют пользователям в организации искать локальное Windows файл.
 
 > [!NOTE]
-> Ознакомьтесь [**с статьей Настройка соединиттеля Graph,**](configure-connector.md) чтобы понять общий процесс установки соединители Graph.
+> Ознакомьтесь [**с статьей Установка Graph,**](configure-connector.md) чтобы понять общий Graph соединители.
 
 ## <a name="before-you-get-started"></a>Перед началом работы
 
-### <a name="install-the-graph-connector-agent"></a>Установка агента соединителя Graph
+### <a name="install-the-graph-connector-agent"></a>Установка агента Graph соединителя
 
-Чтобы индексировать ваши акции файлов Windows, необходимо установить и зарегистрировать агент соединителя Graph. Дополнительные дополнительные данные см. в [дополнительных подробной](on-prem-agent.md) информации об установке агента соединителя Graph.  
+Чтобы индексировать Windows файл, необходимо установить и зарегистрировать агент Graph соединителя. Дополнительные [Graph](graph-connector-agent.md) см. в Graph агенте соединителя.  
 
 ### <a name="content-requirements"></a>Требования к контенту
 
@@ -46,7 +46,7 @@ ms.locfileid: "51031614"
 
 Максимальный размер поддерживаемых файлов — 100 МБ. Файлы, которые превышают 100 МБ, не индексироваться. Максимальное ограничение размера после обработки — 4 МБ. Обработка прекращается, когда размер файла достигает 4 МБ. Поэтому некоторые фразы, присутствующие в файле, могут не работать для поиска.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центр администрирования Microsoft 365
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -58,7 +58,7 @@ ms.locfileid: "51031614"
 
 ## <a name="step-3-configure-the-connection-settings"></a>Шаг 3. Настройка параметров подключения
 
-На странице **Подключение к источнику данных** выберите **файл** и укажет имя, код подключения и описание. На следующей странице укажете путь к файлу и выберите ранее установленный агент соединиттеля Graph. Введите учетные данные учетной записи [пользователя Microsoft Windows](https://microsoft.com/windows) с доступом к всем файлам в файле.
+На странице **Подключение** для источника данных  выберите файл и укай имя, код подключения и описание. На следующей странице укажете путь к файлу и выберите ранее установленный агент Graph соединители. Введите учетные данные для [учетной](https://microsoft.com/windows) записи Windows Microsoft с доступом к всем файлам в файле.
 
 ### <a name="preserve-last-access-time"></a>Сохранение последнего времени доступа
 

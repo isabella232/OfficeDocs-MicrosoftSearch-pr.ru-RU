@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
-ms.openlocfilehash: 346bf3bf2da10178a8bd19390920db2d9de2629e
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 7ad9ff2a0fde5ad5d84a7a51785767fd2e5d21df6654a76b09e9796917a92a0f
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534197"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   
@@ -42,11 +42,11 @@ ms.locfileid: "51031758"
 4. Примените полученный объект групповой политики, привязав его к нужному домену.
 
 
-## <a name="google-chrome-on-windows-10-version-1507-or-later"></a>Google Chrome в Windows 10, Версии 1507 или более поздней версии
+## <a name="google-chrome-on-windows-10-version-1507-or-later"></a>Google Chrome на Windows 10 версии 1507 или более поздней версии
 
 Пользователи не смогут сменить поисковую систему по умолчанию после установки этой политики.
   
-Chrome поставляется с собственным набором параметров групповой политики, которые можно скачать в виде ADMX-файла из [google Chrome Enterprise Help.](https://support.google.com/chrome/a/answer/187202)
+Chrome поставляется со своим собственным набором параметров групповой политики, которые можно скачать в виде файла ADMX из [Google Chrome Enterprise Help](https://support.google.com/chrome/a/answer/187202).
   
 Скопируйте файл шаблона в центральный магазин файлов ADMX на контроллере домена. Дополнительные сведения см. в Domain-Based [GPOs с помощью ADMX Files.](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29) Центральный магазин контроллера — это папка со следующей конвенцией именования: **%systemroot%\sysvol \\<\> \policies\PolicyDefinitions**
   

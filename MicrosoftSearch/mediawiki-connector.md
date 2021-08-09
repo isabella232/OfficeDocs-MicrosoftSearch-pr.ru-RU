@@ -1,5 +1,5 @@
 ---
-title: Соединитель MediaWiki Graph для microsoft Search
+title: Соединитель mediaWiki Graph для Поиск (Майкрософт)
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,30 +12,30 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Настройка соединитетеля MediaWiki Graph для поиска в Microsoft Search
-ms.openlocfilehash: 5922cf76aa112430f9f6e857066acd054182058c
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Настройка соединитетеля mediaWiki Graph для Поиск (Майкрософт)
+ms.openlocfilehash: fff24ce918e3eab6a50d78977749a030ef17d0aef235e6d98e02bdf54fc63a0c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031695"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532698"
 ---
 <!---Previous ms.author: monaray --->
 
-# <a name="mediawiki-graph-connector"></a>Соединитель MediaWiki Graph
+# <a name="mediawiki-graph-connector"></a>Соединитель Graph MediaWiki
 
-Соединитель MediaWiki Graph позволяет организации обнаруживть и индексировать данные из вики-сайта, созданного с помощью программного обеспечения MediaWiki. Этот соединитатель индексирует указанное содержимое в Microsoft Search и поддерживает периодические обходы, чтобы поддерживать индекс в курсе.
+Соединитель MediaWiki Graph позволяет организации обнаруживть и индексировать данные из вики-сайта, созданного с помощью программного обеспечения MediaWiki. Этот соединитатель индексирует указанное содержимое в Поиск (Майкрософт) и поддерживает периодические обходы, чтобы поддерживать индекс в курсе.
 
 > [!NOTE]
-> Ознакомьтесь [**с статьей Настройка соединиттеля Graph,**](configure-connector.md) чтобы понять общие инструкции по настройке соединитений Graph.
+> Ознакомьтесь [**с статьей Установка Graph,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
 
-Эта статья для всех, кто настраивает, запускает и контролирует соединитель Диаграммы MediaWiki. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединитеку MediaWiki Graph. В этой статье также содержатся сведения об [ограничениях.](#limitations)
+Эта статья для всех, кто настраивает, запускает и контролирует соединитель Graph MediaWiki. Он дополняет общий процесс установки и показывает инструкции, применимые только к соединитестру Graph MediaWiki. В этой статье также содержатся сведения об [ограничениях.](#limitations)
 
 <!---## Before you get started-->
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центр администрирования Microsoft 365
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -85,6 +85,6 @@ ms.locfileid: "51031695"
 Соединитель MediaWiki имеет эти ограничения в выпуске предварительного просмотра:
 
 * Поддерживает только облачные вики.
-* Поддерживает только Basic или OAuth 2.0 с помощью Azure Active Directory или Проверки подлинности Azure.
+* Поддерживает только Basic или OAuth 2.0 с помощью Azure Active Directory или проверки подлинности Azure.
 * Не поддерживает выбор пространства имен для индексации. Индексирует только пространства имен Main, Category и File.
 * Не поддерживает списки управления доступом (ACLs). Таким образом, индексные страницы видны всем пользователям в организации.

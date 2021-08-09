@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps Graph соединители для microsoft Search
+title: Azure DevOps Graph соединители для Поиск (Майкрософт)
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,19 +12,19 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Настройка соединитетеля Azure DevOps Graph microsoft Search
-ms.openlocfilehash: bfe04a022360a968424b673ad03ba05f27c8c333
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+description: Настройка соединитетеля Azure DevOps Graph для Поиск (Майкрософт)
+ms.openlocfilehash: b7c5ab48288fdc421cda87b8afbadf08b8cf42ef023e8f56decd7b5c177c619a
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720955"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533347"
 ---
 <!---Previous ms.author: shgrover --->
 
 # <a name="azure-devops-graph-connector-preview"></a>Azure DevOps Graph (предварительный просмотр)
 
-Соедините Azure DevOps Graph позволяет организации индексировать элементы работы в экземпляре Azure DevOps службы. После настройки соединители и индексации контента из Azure DevOps конечные пользователи могут искать эти элементы в Microsoft Search.
+Соедините Azure DevOps Graph позволяет организации индексировать элементы работы в экземпляре Azure DevOps службы. После настройки соединители и индекса контента из Azure DevOps конечные пользователи могут искать эти элементы в Поиск (Майкрософт).
 
 > [!NOTE]
 > Ознакомьтесь [**с статьей Установка Graph,**](configure-connector.md) чтобы понять общие инструкции Graph соединители.
@@ -38,7 +38,7 @@ ms.locfileid: "52720955"
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в центре администрирования Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Шаг 1. Добавление соединителю Graph в Центр администрирования Microsoft 365
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
@@ -56,7 +56,7 @@ instructions.-->
 
 ### <a name="register-an-app"></a>Регистрация приложения
 
-Зарегистрируйте приложение в Azure DevOps, чтобы приложение Microsoft Search можно было получить доступ к экземпляру. Дополнительные дополнительные Azure DevOps документации о регистрации [приложения.](/azure/devops/integrate/get-started/authentication/oauth?preserve-view=true&view=azure-devops#register-your-app)
+Зарегистрировать приложение в Azure DevOps, чтобы Поиск (Майкрософт) приложение может получить доступ к экземпляру. Дополнительные дополнительные Azure DevOps документации о регистрации [приложения.](/azure/devops/integrate/get-started/authentication/oauth?preserve-view=true&view=azure-devops#register-your-app)
 
 В следующей таблице указаны инструкции по заполняемой форме регистрации приложений:
 
@@ -78,7 +78,7 @@ instructions.-->
 
 ### <a name="connection-settings"></a>Параметры подключения
 
-После регистрации приложения Microsoft Search с Azure DevOps вы можете завершить шаг параметров подключения. Введите имя организации, имя приложения и секрет клиента.
+После регистрации приложения Поиск (Майкрософт) с Azure DevOps, вы можете завершить шаг параметров подключения. Введите имя организации, имя приложения и секрет клиента.
 
 ![Приложение подключения Параметры](media/ADO_Connection_settings_2.png)
 
@@ -120,7 +120,7 @@ instructions.-->
 >[!TIP]
 >**Тип результата по умолчанию**
 >* Соединит Azure DevOps автоматически регистрирует тип результатов [после](./customize-search-page.md#step-2-create-the-result-types) публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3. 
->* Вы можете управлять типом результатов, переходя на типы [**результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) [в центре администрирования Microsoft 365.](https://admin.microsoft.com) Тип результатов по умолчанию будет называться `ConnectionId` "По умолчанию". Например, если у вас есть id подключения, макет результатов будет `AzureDevOps` назван: "AzureDevOpsDefault"
+>* Вы можете управлять типом результатов, переходя на типы [**результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) в [Центр администрирования Microsoft 365.](https://admin.microsoft.com) Тип результатов по умолчанию будет называться `ConnectionId` "По умолчанию". Например, если у вас есть id подключения, макет результатов будет `AzureDevOps` назван: "AzureDevOpsDefault"
 >* Кроме того, при необходимости можно создать собственный тип результатов.
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 

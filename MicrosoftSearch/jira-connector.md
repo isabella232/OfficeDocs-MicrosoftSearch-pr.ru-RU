@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Atlassian Jira Graph для Поиск (Майкрософт)
-ms.openlocfilehash: 55457adf9c507ba9f551732cdb014b48b5df4d9f
-ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
+ms.openlocfilehash: 6023e8ec4539bd37358a3e801ef81947fe9f87ff38736344347d5634d0527753
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533692"
 ---
 # <a name="atlassian-jira-graph-connector-preview"></a>Соединитатель Atlassian Jira Graph (предварительный просмотр)
 
