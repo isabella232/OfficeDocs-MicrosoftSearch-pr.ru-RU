@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители microsoft Graph для Поиск (Майкрософт)
-ms.openlocfilehash: a7f2fe8b5278df9368c3036895450a74ad7eae8a644aedc147fb16dd0efdd46e
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 42bcdfbd8d2b00a54a1fa73c41331bb36cc90e3c903ad52cb7b37888a4fb317e
+ms.sourcegitcommit: cd773596e613bf9a8d64990807c1078d8953cda1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533185"
+ms.lasthandoff: 08/08/2021
+ms.locfileid: "57801961"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -103,7 +103,7 @@ To create a **connection** to a data source, admins need authenticated access to
 * [Azure DevOps соединители](azure-devops-connector.md)
 * [Соединители salesforce](salesforce-connector.md)
 * [Соединитель ServiceNow с](servicenow-connector.md) разрешениями поиска с использованием исходных acLs
-* [Управление кластером результатов](result-cluster.md)
+* [Управление пользовательскими фильтрами](custom-filters.md)
 * [Несколько подключений в вертикали](customize-search-page.md#multiple-connections-in-a-vertical)
 
 ## <a name="how-do-i-customize-and-configure-search-results"></a>Как настроить и настроить результаты поиска?
