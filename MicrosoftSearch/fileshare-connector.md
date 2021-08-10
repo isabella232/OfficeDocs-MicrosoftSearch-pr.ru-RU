@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Настройка соединитетеля Graph файла для Поиск (Майкрософт)
-ms.openlocfilehash: af4c3996fdc8ac753404f4b4519175a9054fa18bce3862b0c5841c7bd5369cdd
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 387a04c435045d620f8e35aa9fbdd37e23da32a61489d0102dc7bda09920e980
+ms.sourcegitcommit: 07d04a81d30b04d1f7e3c556bd711dc7efd710d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533030"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57823018"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -64,7 +64,27 @@ ms.locfileid: "54533030"
 
 При попытке подключения обхода файла обновляется поле "время последнего доступа" в метаданных. Если вы зависите от этого поля для любых решений архивации и резервного копирования и не хотите обновлять его при доступе к нему соединителя, вы можете настроить этот параметр на странице **Расширенные параметры.**
 
-## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями на поиск
+## <a name="step-4-limits-for-file-indexing"></a>Шаг 4. Ограничения для индексации файлов
+
+При настройке соединения с файлами у администратора будет возможность ограничить индексацию файлов и папок. Это можно сделать несколькими способами:
+
+#### <a name="based-on-file-types"></a>На основе типов файлов
+
+Индексация только текстового контента этих форматов: DOC, DOCM, DOCX, DOTX, EML, HTML, MHT, MHTML, MSG, NWS, OBD, OBT, ODP, ODS, ODT, ONE, PDF, POT, PPS, PPT, PPTM, PPTM, TPTX, TXT, XLB, XLC, XLSB, XLS, XLSX, XLXM, XML, XPS. Для мультимедийных файлов и файлов, которые не относятся к этому формату, индексация только метаданных.
+
+#### <a name="based-on-last-modified-date-or-number-of-days-since-last-modification"></a>На основе последней измененной даты или числа дней с момента последней модификации
+
+#### <a name="full-network-path-of-filefolder-or-regular-expression-to-limit-indexing"></a>Полный сетевой путь файла/папки или регулярного выражения для ограничения индексации 
+
+В сетевом пути используйте символ побега \\ () перед специальными символами, как \\ . Пример. Для пути CONTOSO FILE SHAREDFOLDER правильный способ ввода \\ \\ \\ \\ — \\ \\ \\ \\ CONTOSO \\ \\ FILE \\ \\ SHAREDFOLDER
+
+Правила написания регулярных выражений можно найти [здесь](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)
+
+Администратор также будет иметь возможность сделать исключение из правила ограничения. Приоритет правила исключения будет вытеметь правила ограничения. Аналогичным образом исключение можно определить путем предоставления пути папки и файла для элементов, которые мы хотим включить в индексацию.
+
+![Ограничения и исключения](media/file-connector/ExclusionRule.png)
+
+## <a name="step-5-manage-search-permissions"></a>Шаг 5. Управление разрешениями на поиск
 
 Вы можете ограничить разрешение на поиск любого файла на основе списков управления доступом к share или списков управления доступом к новой системе доступа NTFS, выбрав нужный вариант на странице Управление разрешениями на **поиск.** Учетные записи и группы пользователей, указанные в этих списках управления доступом, должны управляться службой Active Directory (AD). Если вы используете любую другую систему управления учетными записями пользователей, вы можете выбрать параметр "все", который позволяет пользователям искать все файлы без каких-либо ограничений доступа. Однако, когда пользователи пытаются открыть файл, применяются элементы управления доступом, установленные в источнике.
 
@@ -74,22 +94,22 @@ ms.locfileid: "54533030"
 
 ![Advanced_sharing](media/file-connector/file-advanced-sharing.png)
 
-## <a name="step-5-assign-property-labels"></a>Шаг 5. Назначение меток свойств
+## <a name="step-6-assign-property-labels"></a>Шаг 6. Назначение меток свойств
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-6-manage-schema"></a>Шаг 6. Управление схемой
+## <a name="step-7-manage-schema"></a>Шаг 7. Управление схемой
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-7-choose-refresh-settings"></a>Шаг 7. Выбор параметров обновления
+## <a name="step-8-choose-refresh-settings"></a>Шаг 8. Выбор параметров обновления
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-8-review-connection"></a>Шаг 8. Просмотр подключения
+## <a name="step-9-review-connection"></a>Шаг 9. Просмотр подключения
 
 Следуйте общим [инструкциям установки](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
