@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Настройка соединитетеля oracle SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: 5c45998796a606c61f1fa4a63693fe7a32bb8da7a5267bd1456452ed4872dc84
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 21585d1d60e5dcd73a45a3ccda151fbb144e85eb
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533449"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236020"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -95,8 +95,8 @@ ms.locfileid: "54533449"
 | Тип данных номеров с плавающей точкой | NUMBER (p,s) <br> FLOAT (p) | double |
 | Тип данных даты | DATE <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
 | Тип данных символов | CHAR (n) <br> VARCHAR <br> VARCHAR2 <br> LONG <br> CLOB <br> NCLOB | string |
-| Тип данных символов Юникод | NCHAR <br> NVARCHAR | string |
-| Тип данных RowID | ROWID <br> UROWID | string |
+| Тип данных символов Юникод | NCHAR <br> NVARCHAR | строка |
+| Тип данных RowID | ROWID <br> UROWID | строка |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 

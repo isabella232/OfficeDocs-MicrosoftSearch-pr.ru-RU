@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533512"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236034"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -124,11 +124,11 @@ instructions.-->
 | ------------ | ------------ | ------------ |
 | дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Точные числимые | bigint <br> int <br> smallint <br> tinyint | int64 |
-| Точные числимые | bit | логический |
+| Точные числимые | bit | boolean |
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
 | Строки символов Юникод | nchar <br> nvarchar <br> ntext | string |
-| Другие типы данных | uniqueidentifier | string |
+| Другие типы данных | uniqueidentifier | строка |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Создание и обновление закладки и способы массовой редактирования результатов закладки для Поиск (Майкрософт)
-ms.openlocfilehash: 1362082bf33bd4a30ff2ae76e2fa05a3ccd8962c4ef5f5cb15f41fc183d0c4b9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: ed46583d857d97fa28773b64401ae4f85f88650a
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533808"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235957"
 ---
 # <a name="manage-bookmarks"></a>Управление закладками
 
@@ -54,11 +54,7 @@ ms.locfileid: "54533808"
 - **Проект.** Закладки, сохраненные в качестве черновиков, недоступны для пользователей. Используйте этот статус, если вы или другие заинтересованные стороны хотите просмотреть или обновить закладки перед их публикацией.
 - **Запланированные**: закладки, которые будут опубликованы в указанную дату и время.
 
-Вы можете использовать расширение браузера Поиск (Майкрософт) создателя контента, чтобы легко добавлять закладки. Чтобы установить расширение браузера, перейдите на сайт, который необходимо добавить в качестве закладки, и нажмите кнопку Добавить в расширение.
-Установите расширение для Edge и Chrome:
-
-- Для Chromium Edge или Chrome: перейдите в [веб-магазин Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и добавьте расширение.
-- Для устаревшего edge: [перейдите](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) в Microsoft Store и добавьте расширение.
+Вы можете использовать расширение браузера Поиск (Майкрософт) создателя контента, чтобы легко добавлять закладки. Просто перейдите на сайт, который нужно добавить в качестве закладки, и нажмите кнопку Добавить в расширении. Чтобы установить расширение для Microsoft Edge Или Google Chrome, перейдите в веб-магазин [Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) и добавьте его в браузер.
 
 ### <a name="import-sharepoint-results"></a>Результаты SharePoint импорта
 
