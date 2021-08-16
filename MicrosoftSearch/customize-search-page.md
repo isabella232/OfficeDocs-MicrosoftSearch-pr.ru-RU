@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Добавление вертикали поиска и настройка результатов поиска
-ms.openlocfilehash: 0bcb8d8588edf44d4291802d1d9c73b75fd6bf327b19f9a9b1ef0555baca38ad
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 440b9afbbeb4c4cd86b2b9f67443e644c36ce042
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533068"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58340081"
 ---
 # <a name="customize-the-search-results-page"></a>Настройка страницы результатов поиска
 
@@ -39,7 +39,7 @@ ms.locfileid: "54533068"
 Вертикаль поиска теперь может поверхность результатов из нескольких источников соединителя. Это обеспечивает большую гибкость при разработке страницы результатов поиска. Существующий административный опыт вертикальной установки позволяет выбрать несколько подключений в шаге "Источник контента".
 Если вы точно назначит как можно больше семантических меток, этот опыт будет улучшен. Можно добавить семантические метки при определении схемы и прогоне.
 
-[Дополнительные](configure-connector.md#step-5-assign-property-labels) сведения о создании и управлении семантическими метами.
+[Дополнительные](configure-connector.md#step-6-assign-property-labels) сведения о создании и управлении семантическими метами.
 
 > [!NOTE]
 > Несколько подключений в вертикали в настоящее время находятся в предварительном просмотре. Дополнительные сведения о предварительной версии см. в [дополнительных сведениях о функции предварительного просмотра соединители.](connectors-overview.md#what-are-the-preview-features)
@@ -180,9 +180,9 @@ KQL также поддерживает использование [](#profile-q
 
 | #         | Синтаксис |  Возвращено значение  |
 | --------- | ------ | --- |
-| 1    | MyProperty:{Profile.emails.address}  |   "Megan.Bowen@contoso.com"  |
+| 1     | MyProperty:{Profile.emails.address}  |   "Megan.Bowen@contoso.com"  |
 | 2 | MyProperty:{Profile.emails}   |    {Profile.emails} Это не решится, так как сообщения электронной почты являются объектом.|
-| 3    | {? MyProperty:{Profile.emails}}  |  Это не решится, так как сообщения электронной почты являются объектом. The "?" оператор игнорирует переменные запроса, которые не решаются. Эта переменная будет удалена при дальнейшей стеке запросов.   |
+| 3     | {? MyProperty:{Profile.emails}}  |  Это не решится, так как сообщения электронной почты являются объектом. The "?" оператор игнорирует переменные запроса, которые не решаются. Эта переменная будет удалена при дальнейшей стеке запросов.   |
 | 4  | {&#124;MyProperty: {Profile.emails.source.Type}}    |  ((MyProperty:"official") OR (MyProperty:"non-official") OR (MyProperty:"personal"))    |
 
 > [!NOTE]
