@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Агент on-prem
-ms.openlocfilehash: b6303b71910dc300ba5297fde155e538452ef99d
-ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
+ms.openlocfilehash: a27b5225d6a9f804d9122fbb237adb453eaf34ba
+ms.sourcegitcommit: 7148807ee9c857bd900916bed24176892a7d1d66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58340099"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58363244"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Агент соедините Graph Microsoft
 
@@ -141,15 +141,17 @@ Export-PfxCertificate -Cert $certificatePath -FilePath ($filePath + '.pfx') -Pas
 
 6. Щелкните правой кнопкой мыши на сертификате и выберите **параметр "Управление** закрытыми  >  **ключами"** всеми задачами.
 
-7. В диалоговом окантове разрешений выберите параметр добавить. В диалоговом окне выбора пользователя напишите: **NT Service\GcaHostService** и нажмите **кнопку ОК**. Не нажимайте **кнопку Check Names.**
+7. В диалоговом окантове разрешений выберите параметр добавить. Оно всплывет в новом окне. Выберите параметр "Расположения" в нем. Выберите машину, на которой установлен агент в списке показанных местоположений, и нажмите **кнопку ОК.**
 
-8. Щелкните кнопку окей в диалоговом окантовке разрешений. Машина агента теперь настроена для агента для создания маркеров с помощью сертификата.
+8. В диалоговом окне выбора пользователя напишите: **NT Service\GcaHostService** и нажмите **кнопку ОК**. Не нажимайте **кнопку Check Names.**
+
+9. Щелкните кнопку окей в диалоговом окантовке разрешений. Машина агента теперь настроена для агента для создания маркеров с помощью сертификата.
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
 ### <a name="installation-failure"></a>Сбой установки
 
-Если установка не работает, проверьте журналы установки, запущенные: msiexec /i <path to msi> "\GcaInstaller.msi" /L*V <destination path> "\install.log". Если ошибки не разрешаемы, MicrosoftGraphConnectorsFeedback@service.microsoft.com поддержку с журналами.
+Если установка сбой, проверьте журналы установки, запуская: msiexec /i "< путь к msi >\GcaInstaller.msi" /L*V "< путь назначения >\install.log". Если ошибки не разрешаемы, MicrosoftGraphConnectorsFeedback@service.microsoft.com поддержку с журналами.
 
 ### <a name="registration-failure"></a>Сбой регистрации
 
