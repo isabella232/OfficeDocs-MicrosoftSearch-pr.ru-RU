@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: mssearch
 localization_priority: Normal
 description: Управление тем, как контент Dynamics 365 отображается в результатах поиска
-ms.openlocfilehash: 65d6d27028f46751270cb3a50a154063de4fbab72d917f94aa8925693ac9ea2b
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: d2874febe39abf68653fa82d6a50121ebd1a357b
+ms.sourcegitcommit: fbe565b1a8994425b4f7ff0114a69044659e3892
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533654"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380036"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Динамический поиск федерации 365 (предварительный просмотр)
 
@@ -25,7 +25,7 @@ ms.locfileid: "54533654"
 * Данные, которые не могут оставить границы системы
 * Конфиденциальные данные, хранимые на преме, которые организация не хочет индексировать в облаке
 
-Данные, полученные с помощью федератного поискового подключения, не индексированы в Поиск (Майкрософт). Кроме того, с помощью встроенных соединителеров от Microsoft легко настроить федераированные подключения к поискам. Наш соединитатель Dynamics 365 в настоящее время находится в предварительном режиме. Если вы заинтересованы в присоединении к предварительному просмотру, дайте нам знать в [aka.ms/D365FederationSearchPreview](https://aka.ms/D365FederationSearchPreview).
+Данные, полученные с помощью федератного поискового подключения, не индексированы в Поиск (Майкрософт). Кроме того, с помощью встроенных соединителеров от Microsoft легко настроить федераированные подключения к поискам. Наш соединитатель Dynamics 365 в настоящее время находится в предварительном режиме. Если вы заинтересованы в присоединении к предварительному просмотру, дайте нам знать в [aka.ms/D365FederationSearchPreview](https://aka.ms/D365FederationSearchPreview). Сроки выпуска см. в [Поиск (Майкрософт) Roadmap.](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Search)
 
 ## <a name="dynamics-365-federation-connector"></a>Соединители федерации Dynamics 365
 
