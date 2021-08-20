@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: f80e3e1b86a120981c4dafd95715c00cd766f5e9
+ms.sourcegitcommit: 17cc660ec51bea11ab65f62655584c65c84a1d79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58236034"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406948"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -75,14 +75,15 @@ instructions.-->
 
 Чтобы подключить Microsoft SQL Server к источнику данных, необходимо настроить сервер базы данных, который вам нужен, и агент на преме. Затем вы можете подключиться к базе данных с помощью требуемого метода проверки подлинности.
 
-> [!NOTE] 
-> Ваша база данных должна работать SQL Server версии 2008 или более поздней версии для подключения Microsoft SQL Server соединители.
+> [!NOTE]
+> - Ваша база данных должна работать SQL Server версии 2008 или более поздней версии для подключения Microsoft SQL Server соединители.
+> - Соедините SQL Azure позволяет использовать только экземпляр Azure SQL в том же клиенте, что и Microsoft 365. [](/azure/active-directory/develop/quickstart-create-new-tenant) Поток данных между клиентами не поддерживается.
 
 Для соединители SQL Azure необходимо указать только имя сервера или IP-адрес, к который необходимо подключиться. Соедините SQL Azure поддерживает проверку подлинности Azure Active Directory подключения open ID (OIDC) для подключения к базе данных.
 
 Для обеспечения безопасности можно настроить правила брандмауэра IP для вашей SQL Server или базы данных. Чтобы узнать больше о настройке правил брандмауэра IP, обратитесь к документации по [правилам брандмауэра IP.](/azure/azure-sql/database/firewall-configure) Добавьте следующие диапазоны IP-адресов клиента в параметры брандмауэра.
 
-| Region | Диапазон IP |
+| Регион | Диапазон IP-адресов |
 | ------------ | ------------ |
 | NAM | 52.250.92.252/30, 52.224.250.216/30 |
 | EUR | 20.54.41.208/30, 51.105.159.88/30 |
@@ -104,6 +105,8 @@ instructions.-->
 В этом примере демонстрируется выбор пяти столбцов данных, которые удерживают данные для поиска: OrderId, OrderTitle, OrderDesc, CreatedDateTime и IsDeleted. Чтобы установить разрешения представления для каждого ряда данных, можно дополнительно выбрать эти столбцы ACL: AllowedUsers, AllowedGroups, DeniedUsers и DeniedGroups. Все эти столбцы данных также имеют параметры **Запрос,** **Поиск** или **Извлечение**.
 
 Выберите столбцы данных, как показано в этом примере запроса: `SELECT OrderId, OrderTitle, OrderDesc, AllowedUsers, AllowedGroups, DeniedUsers, DeniedGroups, CreatedDateTime, IsDeleted`
+
+Обратите внимание, SQL соединители не позволяют имена столбцов с неальфамиными символами в пункте SELECT. Удалите любые символы без альфа-цифр из имен столбцов с помощью псевдонима. Пример : SELECT *column_name* AS *columnName*
 
 Чтобы управлять доступом к результатам поиска, в запросе можно указать один или несколько столбцов ACL. Соединитель SQL позволяет управлять доступом на уровне записи. Вы можете выбрать один и тот же контроль доступа для всех записей в таблице. Если сведения ACL хранятся в отдельной таблице, может потребоваться присоединиться к этим таблицам в запросе.
 
@@ -128,7 +131,7 @@ instructions.-->
 | Примерная числовая | float <br> real | double |
 | Строка символов | char <br> varchar <br> text | string |
 | Строки символов Юникод | nchar <br> nvarchar <br> ntext | string |
-| Другие типы данных | uniqueidentifier | строка |
+| Другие типы данных | uniqueidentifier | string |
 
 Для любого другого типа данных, который в настоящее время не поддерживается напрямую, столбец должен быть явно отлит в поддерживаемый тип данных.
 
@@ -217,6 +220,7 @@ To learn more about how to create your verticals and MRTs, see [Search results p
 | Шаг конфигурации | Сообщение об ошибке | Возможная причина(ы) |
 | ------------ | ------------ | ------------ |
 | Полный обход | `Error from database server: A transport level error has occurred when receiving results from the server.` | Эта ошибка возникает из-за проблем с сетью. Рекомендуется проверить сетевые журналы с помощью [сетевого монитора Microsoft](https://www.microsoft.com/download/details.aspx?id=4865) и связаться с службой поддержки клиентов Майкрософт. |
+| Полный обход | `Column column_name returned from full crawl SQL query contains non-alphanumeric character` | Не-альфанумерные символы (например, подчеркивает) не допускаются в столбцах в пункте SELECT. Используйте псевдонимы, чтобы переименовать столбцы и удалить неальфамимерные символы (пример - SELECT column_name AS columnName). |
 
 ## <a name="limitations"></a>Ограничения
 
