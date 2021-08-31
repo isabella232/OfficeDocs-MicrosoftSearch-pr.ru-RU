@@ -6,18 +6,18 @@ manager: tonytha
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Функция "Планы этажей" в Поиск (Майкрософт) помогает пользователям находить людей, офисы и другие удобства в здании.
-ms.openlocfilehash: 6cbba6d764fd3904d251fa53fd96c3a66a6aed6b
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: beeef26cc7413da654cc3ab01d92aa6cdc74e5cb
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470026"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702024"
 ---
 # <a name="manage-floor-plans"></a>Управление планами этажей
 

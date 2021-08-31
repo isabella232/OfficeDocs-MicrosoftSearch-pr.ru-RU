@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Просмотрите и действовать на основе отзывов пользователей в Поиск (Майкрософт)
-ms.openlocfilehash: 8b512f0bbfe5c72ff1a7a2296b0b76c5430e082f
-ms.sourcegitcommit: 2f5868e50caa9743d298188003a24545b5078c5b
+ms.openlocfilehash: 37ea70862cd4881170288339427f5ab1f150bf31
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58528986"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702015"
 ---
 # <a name="managing-user-feedback"></a>Управление отзывами пользователей
 

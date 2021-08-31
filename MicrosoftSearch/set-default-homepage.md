@@ -6,19 +6,19 @@ manager: shohara
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Узнайте, как установить Bing в качестве домашней страницы по умолчанию для организации при использовании Поиска (Майкрософт).
-ms.openlocfilehash: 745e4a81e4b53ff88b612cd19295cb89dc041ddc
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 34820952c9b964d4add58ca40d8c79de7c968daa
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701447"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469945"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Настройка Bing.com в качестве домашней страницы по умолчанию
 
