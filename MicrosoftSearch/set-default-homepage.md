@@ -6,19 +6,19 @@ manager: shohara
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Узнайте, как установить Bing в качестве домашней страницы по умолчанию для организации при использовании Поиска (Майкрософт).
-ms.openlocfilehash: 1ec0ffc097324b3c2d985f6eada4fb3fa3b079b7caab9d6af0e4073c4d91b562
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 745e4a81e4b53ff88b612cd19295cb89dc041ddc
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534167"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701447"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Настройка Bing.com в качестве домашней страницы по умолчанию
 
@@ -85,7 +85,7 @@ ms.locfileid: "54534167"
     
 5. Нажмите клавишу **F8**, чтобы отключить все параметры перед выполнение любой настройки. Экран должен выглядеть примерно так: 
     
-    ![Диалоговое окно свойств Internet Explorer 10](media/2fd55755-5007-4e33-a795-c42ce2fcef4a.jpg)
+    ![Internet Explorer 10 Диалоговое окно Свойства.](media/2fd55755-5007-4e33-a795-c42ce2fcef4a.jpg)
   
 6. Нажмите клавишу **F6** в параметрах домашней страницы и введите `https://www.bing.com/business?form=BFBSPR`
     

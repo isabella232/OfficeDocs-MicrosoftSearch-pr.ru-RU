@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка Enterprise веб Graph соединители для Поиск (Майкрософт)
-ms.openlocfilehash: 002a1504915c2c882492c894595e39598c692bcf
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 2be52bc83718c2450ad91444a6176f5f63c03890
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235931"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469981"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -51,7 +51,7 @@ ms.locfileid: "58235931"
 
 Чтобы подключиться к источнику данных, заполните корневой URL-адрес веб-сайта, выберите источник обхода и тип проверки подлинности, который вы хотите использовать: None, Basic Authentication или OAuth 2.0 с [помощью Azure Active Directory (Azure AD).](/azure/active-directory/) После получения этих сведений выберите тест-подключение для проверки параметров.
 
-### <a name="url"></a>URL-адрес
+### <a name="url"></a>URL
 
 Используйте поле URL-адресов, чтобы указать корень веб-сайта, который необходимо обходить. Соединителя веб-сайтов предприятия будет использовать этот URL-адрес в качестве отправной точки и следовать всем ссылкам из этого URL-адреса для обхода.
 
@@ -64,7 +64,7 @@ ms.locfileid: "58235931"
 Если веб-сайт содержит динамическое содержимое, например веб-страницы, которые живут в системах управления контентом, таких как Confluence или Unily, вы можете включить динамический обходной обход. Чтобы включить его, выберите **Включить обход для динамических сайтов.** Сканер будет ждать отрисовки динамического контента перед началом обхода.
 
 > [!div class="mx-imgBorder"]
-> ![Снимок экрана Параметры подключения для Enterprise соединители](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
+> ![Снимок экрана Параметры области Enterprise веб-соединители.](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
 
 Помимо контрольного окна доступны три необязательных поля:
 
@@ -83,7 +83,7 @@ ms.locfileid: "58235931"
 
 Для локального веб-сайтов выберите  Агент в режиме обхода и в поле **On-prem Agent** выберите агент соединительных Graph, который был установлен и настроен ранее.  
 
-### <a name="authentication"></a>Проверка подлинности
+### <a name="authentication"></a>Аутентификация
 
 Для базовой проверки подлинности требуется имя пользователя и пароль. Создайте эту учетную запись бота с помощью [Центр администрирования Microsoft 365.](https://admin.microsoft.com)
 

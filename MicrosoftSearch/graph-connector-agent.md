@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Агент on-prem
-ms.openlocfilehash: a27b5225d6a9f804d9122fbb237adb453eaf34ba
-ms.sourcegitcommit: 7148807ee9c857bd900916bed24176892a7d1d66
+ms.openlocfilehash: 4b9dddba7741388f2e6c96510e5f41b196def330
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58363244"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469963"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Агент соедините Graph Microsoft
 
@@ -123,7 +123,7 @@ Export-PfxCertificate -Cert $certificatePath -FilePath ($filePath + '.pfx') -Pas
 
 3. Откройте **регистрацию приложения** и **выберите сертификаты и секреты** из области навигации. Скопируйте отпечатки сертификатов.
 
-:::image type="content" alt-text="Список сертификатов thumbrint при выборе сертификатов и секретов в левой области" source="media/onprem-agent/certificates.png" lightbox="media/onprem-agent/certificates.png":::
+:::image type="content" alt-text="Список сертификатов thumbrint при выборе сертификатов и секретов в левой области." source="media/onprem-agent/certificates.png" lightbox="media/onprem-agent/certificates.png":::
 
 ##### <a name="step-3-assign-the-certificate-to-the-agent"></a>Шаг 3. Назначение сертификата агенту
 

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка соединитетеля salesforce Graph для Поиск (Майкрософт)
-ms.openlocfilehash: f63dacd4e1c7da7d8eac53bc04bcbd108182df132c2e1fa61bdc2ffd0a549d2b
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: ea8de1b33787e9c08e50e99ace0afaa83e75394d
+ms.sourcegitcommit: be5dcc7005447d6139e39d86211c7ec4cd5dd907
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532725"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58639582"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -75,7 +75,7 @@ ms.locfileid: "54532725"
     - Для политики обновления маркеров выберите маркер **Обновления, допустимый до отзыва**
 
   > [!div class="mx-imgBorder"]
-  > ![Выберите политику маркера обновления с именем "Маркер обновления действителен до отзыва"](media/salesforce-connector/oauthpolicies.png)
+  > ![Выберите политику маркера обновления с именем "Маркер обновления действителен до отзыва".](media/salesforce-connector/oauthpolicies.png)
 
 Теперь вы можете использовать [центр Microsoft 365 Admin](https://admin.microsoft.com/) для завершения остальной части процесса установки Graph соединители.
 
@@ -150,7 +150,7 @@ ms.locfileid: "54532725"
 Уточнение позволяет определить свойства, которые впоследствии можно использовать в качестве настраиваемой переработчики или фильтры в опытом поиска.  
 
 > [!div class="mx-imgBorder"]
-> ![Выберите схему для каждого свойства источника. Параметры: Запрос, Поиск, Извлечение и Уточнение](media/salesforce-connector/sf9.png)
+> ![Выберите схему для каждого свойства источника. Параметры: Запрос, Поиск, Извлечение и Уточнение.](media/salesforce-connector/sf9.png)
 
 ## <a name="step-8-set-the-refresh-schedule"></a>Шаг 8. Установите расписание обновления
 
@@ -167,7 +167,7 @@ ms.locfileid: "54532725"
 
 >[!TIP]
 >**Тип результата по умолчанию**
->* Соединителю Salesforce автоматически регистрируется тип [результатов](./customize-search-page.md#step-2-create-the-result-types) после публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3.
+>* Соединителю Salesforce автоматически регистрируется тип [результатов](./customize-search-page.md#step-2-create-result-types) после публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3.
 >* Вы можете управлять типом результатов, переходя на типы [**результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) в [Центр администрирования Microsoft 365.](https://admin.microsoft.com) Тип результатов по умолчанию будет называться `ConnectionId` "По умолчанию". Например, если у вас есть id подключения, макет результатов будет `Salesforce` назван: "SalesforceDefault"
 >* Кроме того, при необходимости можно создать собственный тип результатов.
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -181,7 +181,7 @@ ms.locfileid: "54532725"
 - Существует известная ошибка в API Salesforce, Graph соединительщика, где частные значения по умолчанию для лид-клиентов в настоящее время не чтются.  
 - Если для профиля установлено полевой уровень безопасности (FLS), соединителер Graph не будет гнать это поле для профилей в этой организации Salesforce. В результате пользователи не смогут искать значения для этих полей и не будут показываться в результатах.  
 - В экране Управление схемой эти общие стандартные имена свойств перечислены один раз, параметры **запроса,** **поиска,** получения и уточнения **и** применяются к всем или нет.
-    - Name
+    - Имя
     - Url
     - Описание
     - Fax

@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
-ms.openlocfilehash: f80e3e1b86a120981c4dafd95715c00cd766f5e9
-ms.sourcegitcommit: 17cc660ec51bea11ab65f62655584c65c84a1d79
+ms.openlocfilehash: ae953d55de4a4f5e8afc32cc6b55f6e0b32e2811
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406948"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701438"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -98,7 +98,7 @@ instructions.-->
 > [!Tip]
 > Чтобы получить все необходимые столбцы, можно присоединиться к нескольким таблицам.
 
-![Сценарий, показывающий свойства OrderTable и AclTable с примерами](media/MSSQL-fullcrawl.png)
+![Скрипт, показывающий orderTable и AclTable с примерными свойствами.](media/MSSQL-fullcrawl.png)
 
 ### <a name="select-data-columns-required-and-acl-columns-optional"></a>Выбор столбцов данных (обязательно) и столбцов ACL (необязательный)
 
@@ -117,13 +117,13 @@ instructions.-->
 - **DeniedUsers.** В этом столбце указан  список пользователей, которые не имеют доступа к результатам поиска. В следующем примере пользователи john@contoso.com и keith@contoso.com не имеют доступа к записи с OrderId = 13, в то время как все остальные имеют доступ к этой записи.
 - **DeniedGroups.** В этом столбце указывается  группа пользователей, у которых нет доступа к результатам поиска. В следующем примере группы engg-team@contoso.com и pm-team@contoso.com не имеют доступа к записи с OrderId = 15, в то время как все остальные имеют доступ к этой записи.  
 
-![Пример данных, показывающих свойства OrderTable и AclTable с примерными свойствами](media/MSSQL-ACL1.png)
+![Пример данных, показывающих orderTable и AclTable с примерными свойствами.](media/MSSQL-ACL1.png)
 
 ### <a name="supported-data-types"></a>Поддерживаемые типы данных
 
 В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL и Azure SQL. В таблице также обобщает тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединителах Microsoft Graph поддерживаемых типах данных для индексации, обратитесь к документации по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
-| Категория | Тип исходных данных | Тип индексации данных |
+| Category | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
 | дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Точные числимые | bigint <br> int <br> smallint <br> tinyint | int64 |
@@ -146,7 +146,7 @@ instructions.-->
 
 В конфигурации, показанной на следующем изображении, `CreatedDateTime` находится выбранный столбец водяного знака. Чтобы получить первую партию строк, укажите тип данных столбца водяного знака. В этом случае тип данных `DateTime` .
 
-![Конфигурация столбца водяного знака](media/MSSQL-watermark.png)
+![Конфигурация столбца водяного знака.](media/MSSQL-watermark.png)
 
 Первый запрос получает первое число строк **N** с помощью: "CreatedDateTime > 1 января 1753 г. 00:00:00" (min value of DateTime data type). После получения первой партии максимальное значение возвращается в пакете в качестве контрольной точки, если строки сортироваться в порядке `CreatedDateTime` восходящей. Пример: 1 марта 2019 г. 03:00:00. Затем следующая партия **строк N** извлекается с помощью "CreatedDateTime > 1 марта 2019 г. 03:00:00" в запросе.
 
@@ -154,7 +154,7 @@ instructions.-->
 
 Чтобы исключить из индексации мягкие удаленные строки в базе данных, укажите имя и значение столбца с мягким удалением, указывав на удаление строки.
 
-![Мягкие параметры удаления: "Мягкий столбец удаления" и "Значение столбца мягкого удаления, которое указывает на удаленную строку"](media/MSSQL-softdelete.png)
+![Мягкие параметры удаления: "Мягкий столбец удаления" и "Значение столбца мягкого удаления, которое указывает на удаленную строку".](media/MSSQL-softdelete.png)
 
 ### <a name="full-crawl-manage-search-permissions"></a>Полный обход: управление разрешениями поиска
 
@@ -168,7 +168,7 @@ instructions.-->
 - **Azure Active Directory (AAD)** ID. В Azure AD каждый пользователь или группа имеет объектный ИД, который выглядит как 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'.
 - Идентификатор безопасности **Active Directory (AD).** В локальной установке AD каждый пользователь и группа имеют уникальный идентификатор безопасности, похожий на S-1-1-5-21-3878594291-2115959936-132693609-65242.'
 
-![Параметры разрешений поиска для настройки списков управления доступом](media/MSSQL-ACL2.png)
+![Параметры разрешений поиска для настройки списков управления доступом.](media/MSSQL-ACL2.png)
 
 ## <a name="step-3b-incremental-crawl-optional"></a>Шаг 3b. Дополнительный обход (необязательный)
 

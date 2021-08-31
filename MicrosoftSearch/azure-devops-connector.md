@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Настройка соединитетеля Azure DevOps Graph для Поиск (Майкрософт)
-ms.openlocfilehash: b7c5ab48288fdc421cda87b8afbadf08b8cf42ef023e8f56decd7b5c177c619a
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: fcf381a92ef397f900b300ca667fa80067a6672a
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533347"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701393"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -66,7 +66,7 @@ instructions.-->
 | Имя приложения     | Уникальное значение, которое идентифицирует приложение, авторизуя его.    | Поиск (Майкрософт)     |
 | Веб-сайт приложения  | URL-адрес приложения, который запрашивает доступ к экземпляру Azure DevOps во время установки соединителя. (Обязательно).  | https://<span>gcs.office.</span> com/
 | URL-адрес вызова авторизации        | Необходимый URL-адрес вызова, на который перенаправляется сервер авторизации. | https://<span>gcs.office.</span> com/v1.0/admin/oauth/callback|
-| Разрешенные области | Область доступа для приложения | Выберите следующие области: Identity (чтение), Work Items (read), Variable Groups (чтение), Project и team (чтение), Graph (чтение)|
+| Разрешенные области | Область доступа для приложения | Выберите следующие области: Identity (чтение), Work Items (read), Variable Groups (чтение), Project и team (чтение), Graph (чтение), Аналитика (чтение)|
 
 >[!IMPORTANT]
 >Разрешенные области, выбранные для приложения, должны соответствовать тем областьм, которые указаны выше. Если вы опустить одну из разрешенных областей в списке или добавить другую область, авторизация не будет работать.
@@ -80,7 +80,7 @@ instructions.-->
 
 После регистрации приложения Поиск (Майкрософт) с Azure DevOps, вы можете завершить шаг параметров подключения. Введите имя организации, имя приложения и секрет клиента.
 
-![Приложение подключения Параметры](media/ADO_Connection_settings_2.png)
+![Приложение подключения Параметры.](media/ADO_Connection_settings_2.png)
 
 ### <a name="configure-data-select-projects-and-fields"></a>Настройка данных: выбор проектов и полей
 
@@ -90,11 +90,11 @@ instructions.-->
 
 Если вы выбираете отдельные проекты, индексировать будут только элементы работы в этих проектах.
 
-![Настройка данных](media/ADO_Configure_data.png)
+![Настройка данных.](media/ADO_Configure_data.png)
 
 Далее выберите, в каких полях необходимо подключение для индексации и предварительного просмотра данных в этих полях перед началом.
 
-![Выбор свойств](media/ADO_choose_properties.png)
+![Выберите свойства.](media/ADO_choose_properties.png)
 
 ## <a name="step-4-manage-search-permissions"></a>Шаг 4. Управление разрешениями на поиск
 
@@ -119,15 +119,19 @@ instructions.-->
 
 >[!TIP]
 >**Тип результата по умолчанию**
->* Соединит Azure DevOps автоматически регистрирует тип результатов [после](./customize-search-page.md#step-2-create-the-result-types) публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3. 
+>* Соединит Azure DevOps автоматически регистрирует тип результатов [после](./customize-search-page.md#step-2-create-result-types) публикации соединителю. Тип результатов использует динамически созданный [макет результатов](./customize-results-layout.md) на основе полей, выбранных в шаге 3. 
 >* Вы можете управлять типом результатов, переходя на типы [**результатов**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) в [Центр администрирования Microsoft 365.](https://admin.microsoft.com) Тип результатов по умолчанию будет называться `ConnectionId` "По умолчанию". Например, если у вас есть id подключения, макет результатов будет `AzureDevOps` назван: "AzureDevOpsDefault"
 >* Кроме того, при необходимости можно создать собственный тип результатов.
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
-<!---## Troubleshooting-->
-<!---Insert troubleshooting recommendations for this data source-->
+## <a name="troubleshooting"></a>Устранение неполадок
+Ниже приводится распространенная ошибка, наблюдаемая при настройке соединитетеля, и его возможная причина.
+
+| Шаг конфигурации | Сообщение об ошибке | Возможная причина(ы) |
+| ------------ | ------------ | ------------ |
+|  | `The account associated with the connector doesn't have permission to access the item.` | Зарегистрированные приложения не имеют необходимых областей OAuth. (Примечание . 8/31/2021 было введено новое требование области OAuth 'Analytics:read')  |
 
 <!---## Limitations-->
 <!---Insert limitations for this data source-->

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Функция "Планы этажей" в Поиск (Майкрософт) помогает пользователям находить людей, офисы и другие удобства в здании.
-ms.openlocfilehash: 6ca32db0afafe328d872b87c2ba7ebf5bee40148ae8aea089e097a3b6ec4dedf
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 6cbba6d764fd3904d251fa53fd96c3a66a6aed6b
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533758"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470026"
 ---
 # <a name="manage-floor-plans"></a>Управление планами этажей
 
@@ -43,7 +43,7 @@ ms.locfileid: "54533758"
 
 |**Текстовые метки, включая метки комнат**|**Текстовые метки, но без меток комнат**|**Нет текстовых меток**|
 |:-----:|:-----:|:-----:|
-|![floorplans-textandroomlabels.png](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
+|![floorplans-textandroomlabels.png.](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
 
 Сведения о просмотре и обновлении файлов DWG см. в разделе [FaQ.](#frequently-asked-questions)
 
@@ -54,7 +54,7 @@ ms.locfileid: "54533758"
 Добавление или обновление расположения офисов для каждого пользователя в организации. Вы можете изменить расположение офиса в [](https://admin.microsoft.com) профиле пользователя в Центр администрирования Microsoft 365 или изменить в локальном Active Directory, чтобы синхронизироваться с Azure Active Directory. *PhysicalDeliveryOfficeName* — это поле, которое используется для расположения офиса. Если метки комнаты не включают номера этажей, см. в faq для советов.
 
 В этом примере офис Allan находится в комнате 1173 на этаже 1 здания 2.
-![floorplans-userlestview.png](media/floorplans-userlistview.png)
+![floorplans-userlestview.png.](media/floorplans-userlistview.png)
 
 > [!NOTE]
 > Чтобы увидеть обновленные расположения офисов при поиске планов этажей, необходимо обновить расположения офисов не менее **чем для 10 человек** на каждом этаже.
@@ -63,13 +63,13 @@ ms.locfileid: "54533758"
 
 Используйте **Поиск (Майкрософт),** чтобы найти пользователя и убедиться, что его расположение в офисе отображаются правильно. Если вы только что обновили расположения, может потребоваться до **72** часов, пока обновления будут отображаться в результатах поиска.
 
-![floorplans-peoplecard.png](media/floorplans-peoplecard.png)
+![floorplans-peoplecard.png.](media/floorplans-peoplecard.png)
 
 ### <a name="step-5-add-building-locations"></a>Шаг 5. Добавление расположения зданий
 
 Для определения зданий [в планах floor](manage-locations.md) используются "Расположения". В [Центр администрирования Microsoft 365](https://admin.microsoft.com)перейдите в [**Пункты**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)расположения, а затем выберите **Добавить**. Введите имя, адрес и ключевые слова для здания. Добавьте столько зданий, сколько вам нужно.
 
-![floorplans-locations.png](media/floorplans-locations.png)
+![floorplans-locations.png.](media/floorplans-locations.png)
 
 Дополнительные сведения о расположениях см. в [материале Управление расположениями](manage-locations.md)
 
@@ -79,7 +79,7 @@ ms.locfileid: "54533758"
 
 В [центре администрирования](https://admin.microsoft.com)перейдите к [**планам Floor**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)и выберите Начало **работы.** Если вы не видите это уведомление, этот шаг уже завершен для вашей организации
 
-![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
+![floorplans_hydrationstep.png.](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Шаг 7: Upload планы этажей
 
@@ -99,13 +99,13 @@ ms.locfileid: "54533758"
 > [!NOTE]
 > **Публикация планов этажа занимает 48 часов.** После этого пользователи увидят результаты плана этажа, аналогичные ниже, при поиске офиса сотрудника.
 
-![floorplans-officelocation.png](media/floorplans-officelocation.png)
+![floorplans-officelocation.png.](media/floorplans-officelocation.png)
 
 ### <a name="step-8-optional-specify-location-patterns"></a>Шаг 8. (Необязательный) Укажите шаблоны расположения
 
 После отправки плана этажа текстовые метки будут сравниваться с расположениями офисов в профилях пользователей. Если совпадений меньше 10, появится экран **Шаблоны расположения.** Шаблоны расположения используются для извлечения информации о полу, крыле и помещении из расположения офиса.
 
-![floorplans-locationpattern.png](media/floorplans-locationpattern.png)
+![floorplans-locationpattern.png.](media/floorplans-locationpattern.png)
 
 Требуется только помещение, пол и крыло необязательны, и вы можете пропустить расположение по мере необходимости.
 
@@ -166,6 +166,6 @@ ms.locfileid: "54533758"
 
 Например, файл DWG, который включает номера комнат, но не номера этажей, может выглядеть примерно так:
 
-![floorplans-nofloors.png](media/floorplans-nofloors.png)
+![floorplans-nofloors.png.](media/floorplans-nofloors.png)
 
 Расположение офиса в профиле пользователя должно быть 2/1175, где "2" является строительным кодом, "1" — это номер пола, а номер комнаты — "175".

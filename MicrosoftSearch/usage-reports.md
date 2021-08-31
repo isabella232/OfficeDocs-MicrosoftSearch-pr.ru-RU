@@ -8,18 +8,18 @@ ms.service: mssearch
 audience: Admin
 ms.audience: Admin
 ms.date: 07/02/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Обзор Поиск (Майкрософт) отчетов об использовании
-ms.openlocfilehash: 9798cdaf0f88ca2f247bb8d10fce526f07adbabc1bbe5566eaddfc071346f751
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533120"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701456"
 ---
 # <a name="microsoft-search-usage-reports"></a>Поиск (Майкрософт) Отчеты об использовании
 
@@ -33,7 +33,7 @@ ms.locfileid: "54533120"
 Предыдущая версия этой страницы включала данные из поисковых запросов, выполненных только для Поиск (Майкрософт) в Bing на Bing.com. Эти данные теперь интегрированы в эти отчеты; вы все еще можете увидеть старую страницу, щелкнув ссылку в нижней части страницы, чтобы просмотреть Bing и распределение **впечатлений.** Эта ссылка и старая страница будут удалены в ближайшее время.
 
 > [!div class="mx-imgBorder"]
-> ![Панель мониторинга отчетов об использовании поиска](media/usage-reports/usage_reports_v2.png)
+> ![Панель мониторинга отчетов об использовании поиска.](media/usage-reports/usage_reports_v2.png)
 
 ## <a name="overview-of-search-reports"></a>Обзор отчетов о поиске
 

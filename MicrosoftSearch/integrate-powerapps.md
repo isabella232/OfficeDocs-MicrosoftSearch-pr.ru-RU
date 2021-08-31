@@ -6,19 +6,19 @@ manager: kellis
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 description: Включай приложения на основе браузера в результаты закладки для Поиск (Майкрософт)
-ms.openlocfilehash: 4571862919c2f8bd92f1756a70baef908eaa0eade649e6890c1ba56d314398c2
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 55df0d6d6d39742548db497ed77f530b6a591895
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532960"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702105"
 ---
 # <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Интеграция Power Apps в Поиск (Майкрософт) закладки
    
@@ -26,7 +26,7 @@ ms.locfileid: "54532960"
   
 ## <a name="what-are-power-apps"></a>Что такое Power Apps?
 
-[Power Apps](https://products.office.com/business/microsoft-powerapps) — это служба, которая позволяет создавать бизнес-приложения, которые работают в браузере или на телефоне или планшете без необходимости кодирования. Дополнительные сведения
+[Power Apps](https://products.office.com/business/microsoft-powerapps) — это служба, которая позволяет создавать бизнес-приложения, которые работают в браузере или на телефоне или планшете без необходимости кодирования. Дополнительные сведения:
   
 - [Интерактивное обучение](/learn/browse/?products=powerapps)
     

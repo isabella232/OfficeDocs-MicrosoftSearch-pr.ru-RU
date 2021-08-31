@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Защита данных и конечных пользователей вашей компании при предоставлении сведений уполномоченным пользователям с Поиск (Майкрософт) в Bing
-ms.openlocfilehash: 181a06ecb9c009d03c71e3e7f8ecfc7d675faa659967bc6a6c1560513a45a5ac
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: bf3629b2508c705d19e3b7b772c6f3672063a6f1
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532680"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701861"
 ---
 # <a name="security-and-privacy-for-microsoft-search-in-bing"></a>Безопасность и конфиденциальность для Поиск (Майкрософт) в Bing
 

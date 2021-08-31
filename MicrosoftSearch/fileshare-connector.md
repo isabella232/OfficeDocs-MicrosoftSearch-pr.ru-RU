@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Настройка соединитетеля Graph файла для Поиск (Майкрософт)
-ms.openlocfilehash: 71bcc86c2a1bf2f3d20693028ce006812aa170b5
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: b91f10704b536ecc3a62c492ef23ba8745c4dcf8
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235904"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469954"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -82,7 +82,7 @@ ms.locfileid: "58235904"
 
 Администратор также будет иметь возможность сделать исключение из правила ограничения. Приоритет правила исключения будет вытеметь правила ограничения. Аналогичным образом исключение можно определить путем предоставления пути папки и файла для элементов, которые мы хотим включить в индексацию.
 
-![Ограничения и исключения](media/file-connector/ExclusionRule.png)
+![Ограничения и исключения.](media/file-connector/ExclusionRule.png)
 
 ## <a name="step-5-manage-search-permissions"></a>Шаг 5. Управление разрешениями на поиск
 
@@ -92,7 +92,7 @@ ms.locfileid: "58235904"
 
 Вы можете выбрать ALS share только в том случае, если предоставленный путь к совместной информации следует формату пути UNC. Вы можете создать путь в формате UNC, переехав в раздел "Расширенный общий доступ" в разделе "Общий доступ".
 
-![Advanced_sharing](media/file-connector/file-advanced-sharing.png)
+![Advanced_sharing.](media/file-connector/file-advanced-sharing.png)
 
 ## <a name="step-6-assign-property-labels"></a>Шаг 6. Назначение меток свойств
 

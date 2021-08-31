@@ -6,18 +6,18 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: С помощью адаптивных карт создайте макет для просмотра настраиваемых результатов поиска
-ms.openlocfilehash: 79c10236bf2eb797afb99b1c7e78925e7cc2361a5fe7d4f695eb739eaed13532
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 44808d1dba8d765ba67fcd0c3dcf6f186a0b774c
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533958"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702187"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Создание макета для настройки результатов поиска

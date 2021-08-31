@@ -6,18 +6,18 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Сведения о кластере результатов соединители
-ms.openlocfilehash: c90cc98415be6a42d32b646894cb04305ecb6542
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: f815c52681a7fc2027b587be980b5e9125e04917
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235900"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701933"
 ---
 # <a name="graph-connectors-result-cluster"></a>Graph кластер результатов соединители
 
@@ -41,7 +41,7 @@ ms.locfileid: "58235900"
 
 Кластеры результатов отображаются в середине страницы в вертикальной области All. Например, ниже отображается кластер результатов из вертикали MediaWiki.
 
-![Пример кластера результатов MediaWiki](media/result-cluster/result-cluster-example.png)
+![Пример кластера результатов MediaWiki.](media/result-cluster/result-cluster-example.png)
 
 ## <a name="result-clusters-default-settings"></a>Параметры кластеров результатов по умолчанию
   

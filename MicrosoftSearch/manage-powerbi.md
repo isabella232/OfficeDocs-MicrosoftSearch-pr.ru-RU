@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Управление Power BI отчетов и данных в результатах поиска
-ms.openlocfilehash: a9148ab621703d89ddbe0f225ac2b0697748d8a2e85ffe96cec1763e04deeda9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 951b1849cd3c9f60e93c98bde189eef85680b372
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533625"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470260"
 ---
 # <a name="manage-power-bi-answers"></a>Управление Power BI ответами
 
@@ -42,13 +42,13 @@ ms.locfileid: "54533625"
 
 Замените в вышеперечисленных примерах сведениями о продажах, использовании, емкости, 2021, Q1 и других, чтобы увидеть соответствующие результаты из `<topic>` Power BI.
 
-:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Снимок экрана SERP с Power BI и вертикальными" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Снимок экрана SERP с Power BI ответами и вертикалью." border="true":::
 
 ## <a name="turn-power-bi-search-on-or-off"></a>Включить Power BI или отключить
 
 Power BI по умолчанию для организации включены результаты. Администратор Power BI может отключить их в любое время. На портале Power BI администратора перейдите к настройкам  клиента и отключим глобальный поиск по Power BI. Дополнительные дополнительные ссылки см. в Power BI администрирования на [портале администрирования.](/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview)
 
-:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Снимок экрана параметра для Power BI ответов или отключения" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Снимок экрана параметра, Power BI включить или отключить ответы." border="true":::
 
 > [!NOTE]
 > При использовании Поиск (Майкрософт) поисковый запрос и результаты, возвращенные из Power BI, могут обрабатываться в регионе или географии, которые отличаются от Power BI данных клиента.
