@@ -1,0 +1,81 @@
+## YamlMime:Hub
+title: Поиск (Майкрософт) документации администратора
+summary: Управление Поиск (Майкрософт) повышения производительности путем предоставления более релевантных результатов поиска для вашей организации.
+metadata:
+  title: Поиск (Майкрософт) документации
+  description: 'Поиск (Майкрософт) повышает производительность и экономит время, доставляя более релевантные результаты поиска для организации.'
+  ms.service: mssearch
+  ms.topic: landing-page
+  author: jeffkizn
+  ms.author: jeffkizn
+  ms.date: 05/29/2020
+highlightedContent:
+  items:
+    - title: Узнайте о Поиск (Майкрософт)
+      itemType: overview
+      url: 'https://resources.techcommunity.microsoft.com/microsoft-search/'
+    - title: Поиск (Майкрософт) дорожная карта
+      itemType: reference
+      url: 'https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Search'
+    - title: Ресурсы по внедрению
+      itemType: get-started
+      url: 'https://resources.techcommunity.microsoft.com/microsoft-search/#adoption'
+    - title: Поиск (Майкрософт) на YouTube
+      itemType: video
+      url: 'https://www.youtube.com/channel/UC-d4Q5pvRf6IVJuWY8wpAFw/'
+additionalContent:
+  sections:
+    - title: Администрирование
+      items:
+        - title: Поиск (Майкрософт) администратора
+          links:
+            - text: Общий обзор
+              url: overview-microsoft-search.md
+            - text: Настройка Поиска (Майкрософт)
+              url: setup-microsoft-search.md
+            - text: Вопросы и ответы
+              url: faqs.md
+        - title: Получить представление от пользователей
+          links:
+            - text: Отчеты об использовании поиска
+              url: usage-reports.md
+            - text: Просмотр отзывов пользователей
+              url: manage-feedback.md
+        - title: Предоставление ответов
+          links:
+            - text: Управление закладками
+              url: manage-bookmarks.md
+            - text: Управление аббревиатурами
+              url: manage-acronyms.md
+            - text: Управление планами этажей
+              url: manage-floorplans.md
+            - text: Управление расположениями
+              url: manage-locations.md
+            - text: Управление Power BI
+              url: manage-powerbi.md
+            - text: Управление Q&A
+              url: manage-qas.md
+        - title: Управление источниками данных
+          links:
+            - text: Graph Обзор соединители
+              url: connectors-overview.md
+            - text: Соединители Graph установки
+              url: configure-connector.md
+            - text: Управление соединитеями Федерации
+              url: manage-dynamics365.md
+        - title: Настройка пользовательского пользовательского интерфейса
+          links:
+            - text: Управление вертикалями и типами результатов
+              url: customize-search-page.md
+            - text: Настройка макета SERP
+              url: customize-results-layout.md
+            - text: Управление фильтрами
+              url: custom-filters.md
+            - text: Управление кластерами результатов
+              url: result-cluster.md
+        - title: Клиенты поиска
+          links:
+            - text: Понять Поиск (Майкрософт) в SharePoint
+              url: get-started-search-in-sharepoint-online.md
+            - text: Понять Поиск (Майкрософт) в Bing
+              url: security-for-search.md
