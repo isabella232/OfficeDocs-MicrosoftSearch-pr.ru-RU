@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители microsoft Graph для Поиск (Майкрософт)
-ms.openlocfilehash: e1aea93c927d933a63c3eb0456bb18d3f99e9291
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 0d0a1a89edfbcba0fed167c8b3f7bb2166da9439
+ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702214"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923146"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -71,7 +71,7 @@ To create a **connection** to a data source, admins need authenticated access to
 * [MediaWiki](mediawiki-connector.md)
 * [Файловый ресурс](fileshare-connector.md)
 * [Oracle SQL](OracleSQL-connector.md)
-* [Salesforce (предварительная версия)](salesforce-connector.md)
+* [Salesforce ](salesforce-connector.md)
 * [ServiceNow](servicenow-connector.md)
 
 В [галерее соедините](https://www.microsoft.com/microsoft-search/connectors) Graph Microsoft содержится краткое описание каждого из этих соединитетелей. Если вы готовы подключить один из этих источников данных к вашему клиенту, обязательно ознакомьтесь с обзором установки и другими статьями в разделе Установки в разделе Microsoft, которые применяются к источнику данных. [](configure-connector.md)
@@ -101,8 +101,6 @@ To create a **connection** to a data source, admins need authenticated access to
 Набор соединители и функции в предварительном просмотре включают в себя:
 
 * [Azure DevOps соединители](azure-devops-connector.md)
-* [Соединители salesforce](salesforce-connector.md)
-* [Соединитель ServiceNow с](servicenow-connector.md) разрешениями поиска с использованием исходных acLs
 * [Управление пользовательскими фильтрами](custom-filters.md)
 * [Несколько подключений в вертикали](customize-search-page.md#multiple-connections-in-a-vertical)
 
