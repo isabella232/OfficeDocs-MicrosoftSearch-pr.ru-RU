@@ -8,18 +8,18 @@ ms.service: mssearch
 audience: Admin
 ms.audience: Admin
 ms.date: 07/02/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Обзор Поиск (Майкрософт) отчетов об использовании
-ms.openlocfilehash: b20045fc3cec609a1c2ad5e3e51655f1f2f24986
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470393"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973734"
 ---
 # <a name="microsoft-search-usage-reports"></a>Поиск (Майкрософт) Отчеты об использовании
 

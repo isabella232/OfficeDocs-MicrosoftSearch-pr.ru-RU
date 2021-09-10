@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Создание и обновление ответов на аббревиатуры в Поиск (Майкрософт)
 ms.openlocfilehash: b7b3272ba98bbce7d43562811389df0a35e9f7a2
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702069"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973710"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Управление ответами на аббревиатуры в Поиск (Майкрософт)
 

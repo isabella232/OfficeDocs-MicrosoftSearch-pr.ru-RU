@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Юридические условия и условия для Graph соединители общедоступный предварительный просмотр Поиск (Майкрософт)
 ms.openlocfilehash: 5230048ad0eb52353621dbfcecc74fd8f4d2f0a6
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701897"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973589"
 ---
 <!---Previous ms.author: anfowler --->
 

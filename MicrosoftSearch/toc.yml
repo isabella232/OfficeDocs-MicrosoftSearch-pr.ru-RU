@@ -4,6 +4,8 @@
       href: overview-microsoft-search.md
     - name: Настройка
       href: setup-microsoft-search.md
+    - name: Управление доступом к файлам и сайтам
+      href: manage-access-files-sites.md
     - name: Вопросы и ответы
       href: faqs.md
 - name: Аналитика
@@ -54,6 +56,10 @@
                   href: azure-devops-connector.md
                 - name: Azure SQL и Microsoft SQL Server
                   href: MSSQL-connector.md
+                - name: Облако слияния (предварительный просмотр)
+                  href: confluence-cloud-connector.md
+                - name: Jira Cloud (предварительный просмотр)
+                  href: jira-connector.md
                 - name: Корпоративные веб-сайты
                   href: enterprise-web-connector.md
                 - name: Файловый ресурс
@@ -64,8 +70,10 @@
                   href: OracleSQL-connector.md
                 - name: Salesforce
                   href: salesforce-connector.md
-                - name: ServiceNow
-                  href: servicenow-connector.md
+                - name: Каталог ServiceNow (предварительный просмотр)
+                  href: servicenow-catalog-connector.md
+                - name: ServiceNow Knowledge
+                  href: servicenow-knowledge-connector.md
         - name: Управление подключениями
           items:
             - name: Мониторинг подключений
@@ -78,7 +86,7 @@
           href: terms-of-use.md
     - name: Соединители федерации
       items:
-        - name: "Dynamics\_365"
+        - name: Dynamics 365
           href: manage-dynamics365.md
 - name: Настройка
   items:

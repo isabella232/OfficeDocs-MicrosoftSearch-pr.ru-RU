@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Защита данных и конечных пользователей вашей компании при предоставлении сведений уполномоченным пользователям с Поиск (Майкрософт) в Bing
 ms.openlocfilehash: bf3629b2508c705d19e3b7b772c6f3672063a6f1
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701861"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973586"
 ---
 # <a name="security-and-privacy-for-microsoft-search-in-bing"></a>Безопасность и конфиденциальность для Поиск (Майкрософт) в Bing
 

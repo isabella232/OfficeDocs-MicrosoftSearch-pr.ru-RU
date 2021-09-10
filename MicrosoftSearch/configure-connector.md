@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие сведения о настройке соединители Graph от Майкрософт
-ms.openlocfilehash: 3b8ae9068b445e09f2df95fb5b29feb5ec3af74b
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 95a2640652bd1289962c888be4ba771629806a6b
+ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701879"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973607"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -63,7 +63,7 @@ ms.locfileid: "58701879"
 3. Выберите **+Add**, а затем выберите источник данных по вашему выбору из меню доступных вариантов.
 
    > [!div class="mx-imgBorder"]
-   > ![Доступные источники данных: ADLS Gen2, Enterprise веб-сайты, сервер Microsoft SQL, Azure SQL, база данных Oracle SQL, ServiceNow, файл share, Azure DevOps и MediaWiki.](media/add-connector.png)
+   > ![Доступные источники данных: ADLS Gen2, Enterprise веб-сайты, сервер Microsoft SQL, Azure SQL, база данных Oracle SQL, ServiceNow Knowledge, Каталог ServiceNow, файл share, Azure DevOps и MediaWiki.](media/add-connector.png)
 
 > [!NOTE]
 > Вы можете добавить не более десяти подключений Graph каждого клиента.
@@ -97,7 +97,7 @@ ID подключения создает неявные свойства для 
 
 Некоторые соединители, [такие как Microsoft SQL](MSSQL-connector.md) и Azure Data Lake служба хранилища [Gen2,](azure-data-lake-connector.md) поддерживают Azure Active Directory [(Azure AD).](/azure/active-directory/)
 
-Другие соединители, [такие как](azure-devops-connector.md) [ServiceNow,](servicenow-connector.md)Azure DevOps и [Salesforce,](salesforce-connector.md) поддерживают синхронизацию пользователей и групп, не в том что касается Azure AD.  
+Другие соединители, такие как [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog,](servicenow-catalog-connector.md) [Azure DevOps](azure-devops-connector.md)и [Salesforce,](salesforce-connector.md) поддерживают синхронизацию пользователей и групп, не в том что касается Azure AD.  
 
 Выбор всех пользователей позволяет всем в вашей организации видеть результаты поиска из этого источника данных.
 

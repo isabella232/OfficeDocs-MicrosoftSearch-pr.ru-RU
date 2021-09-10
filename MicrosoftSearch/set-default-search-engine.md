@@ -6,19 +6,19 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
-ms.openlocfilehash: 8689c839f2d31ba3a55f4ff4d19d0a7637295493
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: 5feef972d5c61c9cefba6981084e005271b39f15
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470344"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973705"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   

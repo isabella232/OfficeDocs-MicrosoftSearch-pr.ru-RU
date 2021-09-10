@@ -6,24 +6,24 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Действия по картографии удостоверений, не внося в AAD
-ms.openlocfilehash: bece23677f07f10d40471fb6ec27c2d96e7018fb
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: f433da10347ef59acf7675ec65da8acbd7f0f347
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470308"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973535"
 ---
 # <a name="map-your-non-azure-ad-identities"></a>Map your non-Azure AD Identities  
 
 В этой статье вы сможете с помощью этапов сопоставления удостоверений не Azure AD с идентификаторами Azure AD, чтобы люди из списка управления доступом (ACL) с идентификаторами, не входив в Azure AD, могли видеть результаты поиска соединителя.
 
-Эти действия имеют отношение только к администраторам поиска, которые настраивают соединители [ServiceNow](servicenow-connector.md) или [Salesforce](salesforce-connector.md) корпорацией Майкрософт с разрешениями на поиск для "Только люди с доступом к этому источнику данных" и типом удостоверений "Non-AAD".
+Эти действия имеют отношение только к администраторам поиска, которые настраивают соединители "Облако [confluence",](confluence-cloud-connector.md) [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog](servicenow-catalog-connector.md) или [Salesforce](salesforce-connector.md) корпорацией Майкрософт с разрешениями на поиск для "Только для людей с доступом к этому источнику данных" и типа удостоверений "Non-AAD".
 
 >[!NOTE]
 >Если вы устанавливаете соединители Salesforce и выбираете только людей с доступом к этому источнику данных и типу **AAD** удостоверений на экране разрешений поиска, обратитесь к статье [Map your Azure AD Identitys](map-aad.md) для действий по картографии удостоверений Azure AD.   
@@ -44,9 +44,9 @@ ms.locfileid: "58470308"
 
 ### <a name="2-select-non-azure-ad-user-properties-to-map"></a>2. Выберите свойства пользователей, не в Azure AD, для картографии
 
-Для применения регулярных выражений можно выбрать свойства, которые не являются Azure AD, извлекаемые из источника данных. Дополнительные сведения о том, где найти эти свойства в источнике данных, см. на страницах [ServiceNow](servicenow-connector.md) и [Salesforce.](salesforce-connector.md)  
+Для применения регулярных выражений можно выбрать свойства, которые не являются Azure AD, извлекаемые из источника данных. Дополнительные сведения о том, где найти эти свойства в источнике данных, см. на страницах [Confluence Cloud,](confluence-cloud-connector.md) [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog](servicenow-catalog-connector.md) и [Salesforce.](salesforce-connector.md)  
 
-Вы можете выбрать свойство пользователя, не относяное к Azure AD, из отсеки и предоставить регулярное выражение, применяемого к этим значениям свойств пользователя. Дополнительные данные о регулярных выражениях см. в справке [о регулярных выражениях.]( https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)  
+Вы можете выбрать свойство пользователя, не относяное к Azure AD, из отсеки и предоставить регулярное выражение, применяемого к этим значениям свойств пользователя.
 
 Ниже приведены примеры регулярных выражений и их выходов, применяемых к примеру строки: 
 

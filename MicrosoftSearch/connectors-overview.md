@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители microsoft Graph для Поиск (Майкрософт)
-ms.openlocfilehash: 0d0a1a89edfbcba0fed167c8b3f7bb2166da9439
-ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
+ms.openlocfilehash: 006ab3f56eb4976b44904e5191ae8fd256c8d5de
+ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58923146"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973604"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -67,12 +67,15 @@ To create a **connection** to a data source, admins need authenticated access to
 * [Azure Data Lake Storage 2-го поколения](azure-data-lake-connector.md)
 * [Azure DevOps](azure-devops-connector.md)
 * [Azure SQL и Microsoft SQL Server](MSSQL-connector.md)
+* [Облако слияния (предварительный просмотр)](confluence-cloud-connector.md)
 * [Корпоративные веб-сайты](enterprise-web-connector.md)
 * [MediaWiki](mediawiki-connector.md)
 * [Файловый ресурс](fileshare-connector.md)
 * [Oracle SQL](OracleSQL-connector.md)
-* [Salesforce ](salesforce-connector.md)
-* [ServiceNow](servicenow-connector.md)
+* [Salesforce](salesforce-connector.md)
+* [ServiceNow Knowledge](servicenow-knowledge-connector.md)
+* [Каталог ServiceNow (предварительный просмотр)](servicenow-catalog-connector.md)
+
 
 В [галерее соедините](https://www.microsoft.com/microsoft-search/connectors) Graph Microsoft содержится краткое описание каждого из этих соединитетелей. Если вы готовы подключить один из этих источников данных к вашему клиенту, обязательно ознакомьтесь с обзором установки и другими статьями в разделе Установки в разделе Microsoft, которые применяются к источнику данных. [](configure-connector.md)
 
@@ -101,6 +104,8 @@ To create a **connection** to a data source, admins need authenticated access to
 Набор соединители и функции в предварительном просмотре включают в себя:
 
 * [Azure DevOps соединители](azure-devops-connector.md)
+* [Соединителю облака confluence](confluence-cloud-connector.md)
+* [Соединители каталога ServiceNow](servicenow-catalog-connector.md)
 * [Управление пользовательскими фильтрами](custom-filters.md)
 * [Несколько подключений в вертикали](customize-search-page.md#multiple-connections-in-a-vertical)
 

@@ -9,11 +9,11 @@ ms.service: mssearch
 ms.localizationpriority: medium
 description: Создайте собственную страницу результатов поиска для сайта SharePoint Online
 ms.openlocfilehash: df99287dbdd9a82c1a8bc66b39e67a37fcb22da8
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702205"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973824"
 ---
 # <a name="create-a-custom-search-results-page-in-sharepoint-online"></a>Создание настраиваемой страницы результатов поиска в SharePoint Online
 

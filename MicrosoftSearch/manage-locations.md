@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Со временем может потребоваться обновление состояния и содержимого расположения, чтобы обеспечить его релевантность. 
 ms.openlocfilehash: 0c93e29c8c899a4b70a30cf97354cf00fc19667f
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701997"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973721"
 ---
 # <a name="manage-locations"></a>Управление расположениями
 
