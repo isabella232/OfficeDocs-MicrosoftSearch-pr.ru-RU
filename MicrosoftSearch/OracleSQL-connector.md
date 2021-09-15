@@ -15,11 +15,11 @@ search.appverid:
 ROBOTS: NoIndex
 description: Настройка соединитетеля oracle SQL Graph для Поиск (Майкрософт).
 ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973583"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376126"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -89,7 +89,7 @@ ms.locfileid: "58973583"
 
 В приведенной ниже таблице приведены типы данных, поддерживаемые соединитетелем Oracle SQL. В таблице также обобщает тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединителах Microsoft Graph поддерживаемых типах данных для индексации, обратитесь к документации по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
-| Category | Тип исходных данных | Тип индексации данных |
+| Категория | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
 | Тип данных номеров | NUMBER (p,0) | int64 (для p <= 18) <br> двойной (для p > 18) |
 | Тип данных номеров с плавающей точкой | NUMBER (p,s) <br> FLOAT (p) | double |

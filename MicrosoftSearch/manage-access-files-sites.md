@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Обзор того, как администраторы могут обеспечить доступ к сайтам и файлам в организации.
 ms.openlocfilehash: c19442e1d89ddfe65a772213a8b0225ca680d699
-ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973841"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376100"
 ---
 # <a name="manage-access-to-files-and-sites"></a>Управление доступом к файлам и сайтам
 

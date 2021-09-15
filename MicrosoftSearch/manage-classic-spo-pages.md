@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Использование Поиск (Майкрософт) на классических SharePoint страницах
 ms.openlocfilehash: 5b9c40da63ccf3b28cf2d61282763d3d4f62f867
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973828"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376097"
 ---
 # <a name="classic-pages-and-microsoft-search"></a>Классические страницы и Поиск (Майкрософт)
 

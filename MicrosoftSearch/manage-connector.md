@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Управление соединитетелями Graph Майкрософт для Поиск (Майкрософт).
 ms.openlocfilehash: dd82114ff6aa651b57ce1941685840906ecf7318
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973574"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334589"
 ---
 # <a name="monitor-your-connections"></a>Мониторинг подключений
 
@@ -30,7 +30,7 @@ ms.locfileid: "58973574"
 
 Для каждого типа [соединитетеля Центр администрирования Microsoft 365](https://admin.microsoft.com) поддерживает операции, показанные в следующей таблице:
 
-Эксплуатация | Соединители Graph от Майкрософт | Соединители партнер или Graph
+Операция | Соединители Graph от Майкрософт | Соединители партнер или Graph
 --- | --- | ---
 Добавление подключения | :heavy_check_mark: (См. [обзор установки)](configure-connector.md) | :x: (Обратитесь к партнеру или настраиваемой соединители администратора UX)
 Удаление подключения | :heavy_check_mark: | :heavy_check_mark:
@@ -64,7 +64,7 @@ ms.locfileid: "58973574"
 Состояние | Уровни использования квот
 --- | --- 
 Normal | 0-79%
-Высокая | 80-89%
+Высокий | 80-89%
 критический. | 90%-99%
 Full | 100 %
 

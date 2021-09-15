@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Создавайте закладки, расположения и вопросы с ответами, чтобы упростить поиск контента вашей организации.
 ms.openlocfilehash: 77b6507c7643e6cf2176f37a9a2cf0def1c640ba
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973726"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376105"
 ---
 # <a name="make-content-easy-to-find"></a>Упрощение поиска контента
 

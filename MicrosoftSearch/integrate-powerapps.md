@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 description: Включай приложения на основе браузера в результаты закладки для Поиск (Майкрософт)
 ms.openlocfilehash: 55df0d6d6d39742548db497ed77f530b6a591895
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973742"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376169"
 ---
 # <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Интеграция Power Apps в Поиск (Майкрософт) закладки
    

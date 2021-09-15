@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Настройка соединитетеля Azure SQL и Microsoft SQL Graph для Поиск (Майкрософт).
 ms.openlocfilehash: ae953d55de4a4f5e8afc32cc6b55f6e0b32e2811
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973598"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376127"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -123,7 +123,7 @@ instructions.-->
 
 В приведенной ниже таблице SQL типы данных, поддерживаемые в соединитчиках MS SQL и Azure SQL. В таблице также обобщает тип индексации данных для поддерживаемого SQL типа данных. Дополнительные сведения о соединителах Microsoft Graph поддерживаемых типах данных для индексации, обратитесь к документации по [типам ресурсов свойств.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
-| Category | Тип исходных данных | Тип индексации данных |
+| Категория | Тип исходных данных | Тип индексации данных |
 | ------------ | ------------ | ------------ |
 | дата и время; | date <br> datetime <br> datetime2 <br> smalldatetime | datetime |
 | Точные числимые | bigint <br> int <br> smallint <br> tinyint | int64 |

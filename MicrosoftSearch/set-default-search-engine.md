@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Узнайте, как настроить Bing в вашей организации в качестве поисковой системы по умолчанию с использованием Поиска (Майкрософт).
 ms.openlocfilehash: 5feef972d5c61c9cefba6981084e005271b39f15
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973705"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376264"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Установка Bing в качестве поисковой системы по умолчанию
   

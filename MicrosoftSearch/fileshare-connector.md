@@ -15,11 +15,11 @@ search.appverid:
 ROBOTS: NoIndex
 description: Настройка соединитетеля Graph файла для Поиск (Майкрософт)
 ms.openlocfilehash: 874b522cb54288b531cbbc63e12f232a8a68939e
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973580"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59376186"
 ---
 <!---Previous ms.author: rusamai --->
 
