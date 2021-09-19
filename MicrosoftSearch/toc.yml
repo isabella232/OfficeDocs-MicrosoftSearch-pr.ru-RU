@@ -114,6 +114,8 @@
           href: security-for-search.md
         - name: Добавление поля поиска на сайте интрасети
           href: add-a-search-box-to-your-intranet-site.md
+        - name: Выберите учебный или рабочий поиск (предварительный просмотр)
+          href: select-work-school-search-experience.md
         - name: Настройка Microsoft Edge в качестве браузера по умолчанию
           href: /deployedge/edge-default-browser
         - name: Установка Bing в качестве поисковой системы по умолчанию
