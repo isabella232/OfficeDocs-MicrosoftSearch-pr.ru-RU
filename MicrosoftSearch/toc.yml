@@ -110,6 +110,8 @@
           href: manage-classic-spo-pages.md
     - name: Поиск (Майкрософт) в Bing
       items:
+        - name: Обзор
+          href: overview-microsoft-search-bing.md
         - name: Безопасность и конфиденциальность
           href: security-for-search.md
         - name: Добавление поля поиска на сайте интрасети
