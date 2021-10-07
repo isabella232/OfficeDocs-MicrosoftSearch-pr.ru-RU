@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор Поиск (Майкрософт) отчетов об использовании
-ms.openlocfilehash: 3f6b35ddbd08d4c709ce8b8b9125caa1a6517bae
-ms.sourcegitcommit: df898c1616c7c89e819cf2900a08a319af12f8cc
+ms.openlocfilehash: 1f2afa6e2c7691aa3284ae017913827761981529
+ms.sourcegitcommit: ca6f0488b842e7fc0d98c7b84b2b8bc5817d3e7b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59940651"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224870"
 ---
 # <a name="microsoft-search-usage-reports"></a>Поиск (Майкрософт) Отчеты об использовании
 
@@ -28,7 +28,7 @@ ms.locfileid: "59940651"
 > [!IMPORTANT]
 > Поиск (Майкрософт) отчеты об использовании в настоящее время находятся в предварительной версии
 
-Отчеты [Поиск (Майкрософт)](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) использования включают графики и таблицы, созданные из поисковых запросов, выполненных из SharePoint Home, Office.com и Поиск (Майкрософт) в Bing поисковых ящиках. Вы можете видеть данные за последние 31 день, день или месяц за предыдущий год. Эти отчеты просто развертываются, поэтому на накопление исторических данных необходимо время.
+В [Поиск (Майкрософт)](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) отчеты об использовании включаются графики и таблицы, созданные из поисковых запросов, выполненных из SharePoint Home (сайт с URL-адресом, заканчивающийся в /SharePoint.aspx), Office.com и Поиск (Майкрософт) в Bing поисковых ящиках. Вы можете видеть данные за последние 31 день, день или месяц за предыдущий год. Эти отчеты просто развертываются, поэтому на накопление исторических данных необходимо время.
 
 > [!div class="mx-imgBorder"]
 > ![Панель мониторинга отчетов об использовании поиска.](media/usage-reports/usage_reports_v2.png)
