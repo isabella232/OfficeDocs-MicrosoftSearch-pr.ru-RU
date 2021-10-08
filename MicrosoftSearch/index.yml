@@ -65,8 +65,10 @@ additionalContent:
               url: manage-dynamics365.md
         - title: Настройка пользовательского пользовательского интерфейса
           links:
-            - text: Управление вертикалями и типами результатов
-              url: customize-search-page.md
+            - text: Управление вертикалями
+              url: manage-verticals.md
+            - text: Управление типами результатов
+              url: manage-result-types.md
             - text: Настройка макета SERP
               url: customize-results-layout.md
             - text: Управление фильтрами

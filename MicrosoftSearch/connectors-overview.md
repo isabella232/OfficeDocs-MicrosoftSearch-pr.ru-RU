@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор соединители microsoft Graph для Поиск (Майкрософт)
-ms.openlocfilehash: 006ab3f56eb4976b44904e5191ae8fd256c8d5de
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: 2dec2d17479368bc6d85c0a5bd275461a4114800
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59376229"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238397"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -76,7 +76,6 @@ To create a **connection** to a data source, admins need authenticated access to
 * [ServiceNow Knowledge](servicenow-knowledge-connector.md)
 * [Каталог ServiceNow (предварительный просмотр)](servicenow-catalog-connector.md)
 
-
 В [галерее соедините](https://www.microsoft.com/microsoft-search/connectors) Graph Microsoft содержится краткое описание каждого из этих соединитетелей. Если вы готовы подключить один из этих источников данных к вашему клиенту, обязательно ознакомьтесь с обзором установки и другими статьями в разделе Установки в разделе Microsoft, которые применяются к источнику данных. [](configure-connector.md)
 
 ### <a name="microsoft-graph-connectors-by-our-partners"></a>Соединители Graph Майкрософт нашими партнерами
@@ -113,7 +112,7 @@ To create a **connection** to a data source, admins need authenticated access to
 
 Существует множество способов настройки и настройки результатов поиска. Дополнительные статьи см. в следующих статьях:
 
-* [Управление вертикалями и типами результатов](customize-search-page.md)
+* [Управление вертикалями](manage-verticals.md) [и типами результатов](manage-result-types.md)
 * [Управление макетами результатов поиска](customize-results-layout.md)
 * [Управление кластером результатов](result-cluster.md)
 * [Управление пользовательскими фильтрами](custom-filters.md)

@@ -1,128 +1,131 @@
-- name: Планирование Поиска (Майкрософт)
-  items:
-    - name: Обзор
-      href: overview-microsoft-search.md
-    - name: Настройка
-      href: setup-microsoft-search.md
-    - name: Управление доступом к файлам и сайтам
-      href: manage-access-files-sites.md
-    - name: Вопросы и ответы
-      href: faqs.md
-- name: Аналитика
-  items:
-    - name: Просмотр отчетов об использовании
-      href: usage-reports.md
-    - name: Управление отзывами
-      href: manage-feedback.md
-- name: Предоставление ответов
-  items:
-    - name: Планирование контента
-      href: plan-your-content.md
-    - name: Акронимы
-      href: manage-acronyms.md
-    - name: Закладки
-      href: manage-bookmarks.md
-    - name: Планы этажей
-      href: manage-floorplans.md
-    - name: Locations
-      href: manage-locations.md
-    - name: Power BI
-      href: manage-powerbi.md
-    - name: Вопросы и ответы
-      href: manage-qas.md
-- name: Источники данных
-  items:
-    - name: Соединители Graph
-      items:
-        - name: Обзор
-          href: connectors-overview.md
-        - name: Коллекция соединителей
-          href: connectors-gallery.md
-        - name: Настройка соединителей от Майкрософт
-          items:
-            - name: Обзор процесса настройки
-              href: configure-connector.md
-            - name: Настройка агента соединителя Graph
-              href: graph-connector-agent.md
-            - name: 'Сопоставление удостоверений, которыми не управляет Azure AD'
-              href: map-non-aad.md
-            - name: Сопоставление удостоверений Azure AD
-              href: map-aad.md
-            - name: Сведения о соединителях
-              items:
-                - name: Azure Data Lake Storage 2-го поколения
-                  href: azure-data-lake-connector.md
-                - name: Azure DevOps (предварительная версия)
-                  href: azure-devops-connector.md
-                - name: Azure SQL и Microsoft SQL Server
-                  href: MSSQL-connector.md
-                - name: Облако слияния (предварительный просмотр)
-                  href: confluence-cloud-connector.md
-                - name: Jira Cloud (предварительный просмотр)
-                  href: jira-connector.md
-                - name: Корпоративные веб-сайты
-                  href: enterprise-web-connector.md
-                - name: Файловый ресурс
-                  href: fileshare-connector.md
-                - name: MediaWiki
-                  href: mediawiki-connector.md
-                - name: Oracle SQL
-                  href: OracleSQL-connector.md
-                - name: Salesforce
-                  href: salesforce-connector.md
-                - name: Каталог ServiceNow (предварительный просмотр)
-                  href: servicenow-catalog-connector.md
-                - name: ServiceNow Knowledge
-                  href: servicenow-knowledge-connector.md
-        - name: Управление подключениями
-          items:
-            - name: Мониторинг подключений
-              href: manage-connector.md
-            - name: Просмотр сведений о подключении и ошибок
-              href: connector-details-errors.md
-        - name: Лицензирование
-          href: licensing.md
-        - name: Условия использования
-          href: terms-of-use.md
-    - name: Соединители федерации
-      items:
-        - name: Dynamics 365
-          href: manage-dynamics365.md
-- name: Настройка
-  items:
-    - name: Управление вертикалями и типами результатов
-      href: customize-search-page.md
-    - name: Управление макетами результатов поиска
-      href: customize-results-layout.md
-    - name: Управление кластерами результатов
-      href: result-cluster.md
-    - name: Управление фильтрами
-      href: custom-filters.md
-    - name: Поиск (Майкрософт) в SharePoint
-      items:
-        - name: Обзор
-          href: get-started-search-in-sharepoint-online.md
-        - name: Создание настраиваемой страницы результатов поиска
-          href: create-search-results-pages.md
-        - name: Управление настройками поля поиска
-          href: manage-spo-search-box.md
-        - name: Использование Поиск (Майкрософт) на классических страницах
-          href: manage-classic-spo-pages.md
-    - name: Поиск (Майкрософт) в Bing
-      items:
-        - name: Обзор
-          href: overview-microsoft-search-bing.md
-        - name: Безопасность и конфиденциальность
-          href: security-for-search.md
-        - name: Добавление поля поиска на сайте интрасети
-          href: add-a-search-box-to-your-intranet-site.md
-        - name: Выберите учебный или рабочий поиск (предварительный просмотр)
-          href: select-work-school-search-experience.md
-        - name: Настройка Microsoft Edge в качестве браузера по умолчанию
-          href: /deployedge/edge-default-browser
-        - name: Установка Bing в качестве поисковой системы по умолчанию
-          href: set-default-search-engine.md
-        - name: Настройка Bing.com в качестве домашней страницы по умолчанию
-          href: set-default-homepage.md
-        - name: Руководство по внедрению среди пользователей
-          href: user-adoption-guide.md
+items:
+  - name: Планирование Поиска (Майкрософт)
+    items:
+      - name: Обзор
+        href: overview-microsoft-search.md
+      - name: Настройка
+        href: setup-microsoft-search.md
+      - name: Управление доступом к файлам и сайтам
+        href: manage-access-files-sites.md
+      - name: Вопросы и ответы
+        href: faqs.md
+  - name: Аналитика
+    items:
+      - name: Просмотр отчетов об использовании
+        href: usage-reports.md
+      - name: Управление отзывами
+        href: manage-feedback.md
+  - name: Предоставление ответов
+    items:
+      - name: Планирование контента
+        href: plan-your-content.md
+      - name: Акронимы
+        href: manage-acronyms.md
+      - name: Закладки
+        href: manage-bookmarks.md
+      - name: Планы этажей
+        href: manage-floorplans.md
+      - name: Locations
+        href: manage-locations.md
+      - name: Power BI
+        href: manage-powerbi.md
+      - name: Вопросы и ответы
+        href: manage-qas.md
+  - name: Источники данных
+    items:
+      - name: Соединители Graph
+        items:
+          - name: Обзор
+            href: connectors-overview.md
+          - name: Коллекция соединителей
+            href: connectors-gallery.md
+          - name: Настройка соединителей от Майкрософт
+            items:
+              - name: Обзор процесса настройки
+                href: configure-connector.md
+              - name: Настройка агента соединителя Graph
+                href: graph-connector-agent.md
+              - name: 'Сопоставление удостоверений, которыми не управляет Azure AD'
+                href: map-non-aad.md
+              - name: Сопоставление удостоверений Azure AD
+                href: map-aad.md
+              - name: Сведения о соединителях
+                items:
+                  - name: Azure Data Lake Storage 2-го поколения
+                    href: azure-data-lake-connector.md
+                  - name: Azure DevOps (предварительная версия)
+                    href: azure-devops-connector.md
+                  - name: Azure SQL и Microsoft SQL Server
+                    href: MSSQL-connector.md
+                  - name: Облако слияния (предварительный просмотр)
+                    href: confluence-cloud-connector.md
+                  - name: Jira Cloud (предварительный просмотр)
+                    href: jira-connector.md
+                  - name: Корпоративные веб-сайты
+                    href: enterprise-web-connector.md
+                  - name: Файловый ресурс
+                    href: fileshare-connector.md
+                  - name: MediaWiki
+                    href: mediawiki-connector.md
+                  - name: Oracle SQL
+                    href: OracleSQL-connector.md
+                  - name: Salesforce
+                    href: salesforce-connector.md
+                  - name: Каталог ServiceNow (предварительный просмотр)
+                    href: servicenow-catalog-connector.md
+                  - name: ServiceNow Knowledge
+                    href: servicenow-knowledge-connector.md
+          - name: Управление подключениями
+            items:
+              - name: Мониторинг подключений
+                href: manage-connector.md
+              - name: Просмотр сведений о подключении и ошибок
+                href: connector-details-errors.md
+          - name: Лицензирование
+            href: licensing.md
+          - name: Условия использования
+            href: terms-of-use.md
+      - name: Соединители федерации
+        items:
+          - name: Dynamics 365
+            href: manage-dynamics365.md
+  - name: Настройка
+    items:
+      - name: Управление вертикалями
+        href: manage-verticals.md
+      - name: Управление типами результатов
+        href: manage-result-types.md
+      - name: Управление макетами результатов поиска
+        href: customize-results-layout.md
+      - name: Управление кластерами результатов
+        href: result-cluster.md
+      - name: Управление фильтрами
+        href: custom-filters.md
+      - name: Поиск (Майкрософт) в SharePoint
+        items:
+          - name: Обзор
+            href: get-started-search-in-sharepoint-online.md
+          - name: Создание настраиваемой страницы результатов поиска
+            href: create-search-results-pages.md
+          - name: Управление настройками поля поиска
+            href: manage-spo-search-box.md
+          - name: Использование Поиск (Майкрософт) на классических страницах
+            href: manage-classic-spo-pages.md
+      - name: Поиск (Майкрософт) в Bing
+        items:
+          - name: Обзор
+            href: overview-microsoft-search-bing.md
+          - name: Безопасность и конфиденциальность
+            href: security-for-search.md
+          - name: Добавление поля поиска на сайте интрасети
+            href: add-a-search-box-to-your-intranet-site.md
+          - name: Выберите учебный или рабочий поиск (предварительный просмотр)
+            href: select-work-school-search-experience.md
+          - name: Настройка Microsoft Edge в качестве браузера по умолчанию
+            href: /deployedge/edge-default-browser
+          - name: Установка Bing в качестве поисковой системы по умолчанию
+            href: set-default-search-engine.md
+          - name: Настройка Bing.com в качестве домашней страницы по умолчанию
+            href: set-default-homepage.md
+          - name: Руководство по внедрению среди пользователей
+            href: user-adoption-guide.md
